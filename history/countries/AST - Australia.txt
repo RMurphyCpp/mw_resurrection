@@ -1,0 +1,224 @@
+﻿capital = 285
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+
+    set_politics = {
+
+	    parties = {
+		    democratic_center = { 
+			    popularity = 51
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 49
+			    banned = no				
+		    }
+	    }
+	
+	    ruling_party = democratic_center
+	    last_election = "1998.11.10"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+	    democratic_traditions
+    }
+    #############LAST ENTRY IS USED FIRST#############	
+    create_country_leader = {
+    	name = "John Howard"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ASTG1.dds"
+    	expire = "2007.12.3"
+    	ideology = centrer_right
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2001.10.7 = {
+    create_country_leader = {
+    	name = "Kim Beazley"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ASTNHSOC1.dds"
+    	expire = "2006.12.4"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+    create_country_leader = {
+    	name = "John Howard"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ASTG1.dds"
+    	expire = "2007.12.3"
+    	ideology = centrer_right
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+    create_country_leader = {
+    	name = "John Howard"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ASTG1.dds"
+    	expire = "2007.12.3"
+    	ideology = centrer_right
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2008.8.7 = {
+    set_politics = {
+
+	    parties = {
+		    democratic_center = { 
+			    popularity = 48
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 53
+			    banned = no				
+		    }
+		
+		}
+	
+	    ruling_party = democratic_socialism
+	    last_election = "2007.11.24"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Kevin Rudd"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ASTG2.dds"
+    	expire = "2007.12.3"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+    set_politics = {
+
+	    parties = {
+		    democratic_center = { 
+			    popularity = 50
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 50			
+		    }
+		
+		}
+	
+	    ruling_party = democratic_socialism
+	    last_election = "2007.11.24"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Julia Gillard"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ASTG3.dds"
+    	expire = "2013.6.27"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+    create_country_leader = {
+    	name = "Julia Gillard"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ASTG3.dds"
+    	expire = "2013.6.27"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+    create_country_leader = {
+    	name = "Julia Gillard"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ASTG3.dds"
+    	expire = "2013.6.27"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+    set_politics = {
+
+	    parties = {
+		    democratic_center = { 
+			    popularity = 55
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 46			
+		    }
+			
+		    democratic_green = {
+			    popularity = 4			
+		    }			
+		
+		}
+	
+	    ruling_party = democratic_socialism
+	    last_election = "2013.9.7"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Christine Milne"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ASTNHGRE1.dds"
+    	expire = "2020.12.3"
+    	ideology = green
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {
+    	name = "Kevin Rudd"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ASTG2.dds"
+    	expire = "2020.12.3"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {
+    	name = "Tony Abbott"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ASTG4.dds"
+    	expire = "2015.9.15"
+    	ideology = centrer_right
+    	traits = {
+    		#
+    	}
+    }
+}

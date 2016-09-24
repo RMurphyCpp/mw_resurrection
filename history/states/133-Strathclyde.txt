@@ -1,0 +1,26 @@
+state={
+	id=133
+	name="STATE_133" # Lanark
+	manpower = 2257723
+	state_category = city
+
+	history={
+		owner = ENG
+		add_core_of = ENG
+		add_claim_by = SCO
+		
+		victory_points = {
+			3273 8 #Glasgow
+		}
+		
+		buildings = {
+			#hmnb clyde
+			6395 = {
+				naval_base = 4
+			}
+		}
+	}
+	provinces={
+		3273 6320 6350 6385 6395 9237 9350 11218 
+	}
+}

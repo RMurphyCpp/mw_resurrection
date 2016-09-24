@@ -1,0 +1,3 @@
+color = { 056  010  085 }
+graphical_culture = Generic
+graphical_culture_2d = eastern_european_2d	 

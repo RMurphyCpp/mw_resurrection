@@ -1,0 +1,134 @@
+﻿capital = 112
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+	
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 20
+		    }
+
+		    democratic_socialism = {
+			    popularity = 75			
+		    }
+		
+		    military = {
+			    popularity = 5
+		    }
+	    }
+	
+	    ruling_party = democratic_socialism
+	    last_election = "1996.3.5"
+	    election_frequency = 60
+	    elections_allowed = yes
+    }
+    add_ideas = {
+		european_union_member
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Jorge Sampaio"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "PORH1.dds"
+    	expire = "2006.3.9"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }	
+}
+
+2001.10.7 = {
+    create_country_leader = {
+    	name = "Jorge Sampaio"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "PORH1.dds"
+    	expire = "2006.3.9"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+    create_country_leader = {
+    	name = "Jorge Sampaio"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "PORH1.dds"
+    	expire = "2006.3.9"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2008.8.7 = {
+    create_country_leader = {
+    	name = "Aníbal Cavaco Silva"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "PORH2.dds"
+    	expire = "2016.3.9"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+    create_country_leader = {
+    	name = "Aníbal Cavaco Silva"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "PORH2.dds"
+    	expire = "2016.3.9"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+    create_country_leader = {
+    	name = "Aníbal Cavaco Silva"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "PORH2.dds"
+    	expire = "2016.3.9"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+    create_country_leader = {
+    	name = "Aníbal Cavaco Silva"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "PORH2.dds"
+    	expire = "2016.3.9"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+    create_country_leader = {
+    	name = "Aníbal Cavaco Silva"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "PORH2.dds"
+    	expire = "2016.3.9"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}

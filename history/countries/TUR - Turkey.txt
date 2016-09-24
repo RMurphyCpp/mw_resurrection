@@ -1,0 +1,207 @@
+﻿capital = 49
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+
+	set_country_flag = muslim_country
+	add_opinion_modifier = { target = ARM modifier = historical_riverly }	
+	give_guarantee = NCY
+
+    set_politics = {
+
+	    parties = {
+		    democratic_socialism = {
+			    popularity = 40			
+		    }
+		
+		    democratic_nationalism = {
+			    popularity = 45
+		    }
+		
+		    sunni_islam = { 
+			    popularity = 10		
+		    }
+
+		    moderate_islam = { 
+			    popularity = 5		
+		    }			
+	    }
+	
+	    ruling_party = democratic_socialism
+	    last_election = "1999.4.18"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+	    democratic_traditions
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Bülent Ecevit"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "TURG1.dds"
+    	expire = "2002.11.18"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2001.10.7 = {
+    create_country_leader = {
+    	name = "Bülent Ecevit"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "TURG1.dds"
+    	expire = "2002.11.18"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_socialism = {
+			    popularity = 40			
+		    }
+		
+		    moderate_islam = {
+			    popularity = 54
+		    }
+		
+		    sunni_islam = { 
+			    popularity = 4		
+		    }
+	    }
+	
+	    ruling_party = moderate_islam
+	    last_election = "2002.11.3"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Recep Tayyip Erdoğan"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "TURH4.dds"
+    	expire = "2014.8.28"
+    	ideology = islam_moderate
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2008.8.7 = {
+    set_politics = {
+
+	    parties = {
+		    democratic_socialism = {
+			    popularity = 36			
+		    }
+		
+		    moderate_islam = {
+			    popularity = 60
+		    }
+		
+		    sunni_islam = { 
+			    popularity = 4		
+		    }
+	    }
+	
+	    ruling_party = moderate_islam
+	    last_election = "2007.7.22"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Recep Tayyip Erdoğan"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "TURH4.dds"
+    	expire = "2014.8.28"
+    	ideology = islam_moderate
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+    create_country_leader = {
+    	name = "Recep Tayyip Erdoğan"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "TURH4.dds"
+    	expire = "2014.8.28"
+    	ideology = islam_moderate
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+    create_country_leader = {
+    	name = "Recep Tayyip Erdoğan"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "TURH4.dds"
+    	expire = "2014.8.28"
+    	ideology = islam_moderate
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_socialism = {
+			    popularity = 36			
+		    }
+		
+		    moderate_islam = {
+			    popularity = 60
+		    }
+		
+		    sunni_islam = { 
+			    popularity = 4		
+		    }
+	    }
+	
+	    ruling_party = moderate_islam
+	    last_election = "2011.6.12"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Recep Tayyip Erdoğan"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "TURH4.dds"
+    	expire = "2014.8.28"
+    	ideology = islam_moderate
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+    create_country_leader = {
+    	name = "Recep Tayyip Erdoğan"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "TURH4.dds"
+    	expire = "2014.8.28"
+    	ideology = islam_moderate
+    	traits = {
+    		#
+    	}
+    }
+}

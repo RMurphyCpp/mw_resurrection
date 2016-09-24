@@ -1,0 +1,76 @@
+﻿capital = 527
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+
+	add_opinion_modifier = { target = USA modifier = historical_riverly }	
+	
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 5
+			    banned = yes				
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 10
+			    banned = yes			
+		    }
+		
+		    communism = {
+			    popularity = 85	
+		    }
+	    }
+	
+	    ruling_party = communism
+	    last_election = "1996.3.5"
+	    election_frequency = 48
+	    elections_allowed = no
+    }
+    add_ideas = {
+		eternal_president
+		juche
+		korean_schism_prk
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Kim Jong-il"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "PRKH1.dds"
+    	expire = "2012.4.11"
+    	ideology = marxism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+    create_country_leader = {
+    	name = "Kim Jong-un"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "PRKH2.dds"
+    	expire = "2020.3.9"
+    	ideology = marxism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+    create_country_leader = {
+    	name = "Kim Jong-un"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "PRKH2.dds"
+    	expire = "2020.3.9"
+    	ideology = marxism
+    	traits = {
+    		#
+    	}
+    }
+}

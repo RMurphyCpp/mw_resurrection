@@ -1,0 +1,1238 @@
+focus_tree = {
+
+	id = gen_focus
+	
+	country = {
+		factor = 1
+	}
+	
+	default = yes
+	reset_on_civilwar = no
+	
+	#Industrial focus
+	focus = {
+		id = GEN_Industry
+		icon = GFX_goal_generic_political_pressure
+		available = {
+			NOT = {  has_country_flag = no_free_building_slots }
+		}
+		
+		x = 3
+		y = 1
+		cost = 20
+		completion_reward = {
+		
+			#free slot if statement
+			if = {
+				limit = {
+				#Only added civilian because you can always build civilian
+					any_owned_state = {
+							free_building_slots = {
+								building = industrial_complex #military, civ is industrial_complex
+								size < 1
+								include_locked = yes
+							}
+					}
+				}
+				
+				set_country_flag = no_free_building_slots
+				
+			}
+		
+			#dockyard clause
+			if = {
+				limit = {
+						NOT = {  has_country_flag = no_free_building_slots }
+						any_owned_state = {
+							free_building_slots = {
+								building = dockyard
+								size > 0
+								include_locked = yes
+							}
+						}
+						any_owned_state = {
+							is_coastal = yes
+						}
+				}
+				
+				random_owned_state = {
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+								building = dockyard
+								size > 0
+								include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+					
+				}
+				
+			}
+		
+		
+			#Military clause
+			
+			if = {
+					limit = {
+							NOT = {  has_country_flag = no_free_building_slots }
+							any_owned_state = {
+								free_building_slots = {
+									building = arms_factory #military, civ is industrial_complex
+									size > 0
+									include_locked = yes
+								}
+							}
+					}
+					
+					random_owned_state = {
+						limit = {
+							free_building_slots = {
+									building = arms_factory
+									size > 0
+									include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+						
+					}
+					
+				}
+			
+			
+			#Civilian clause
+			
+			if = {
+					limit = {
+							NOT = {  has_country_flag = no_free_building_slots }
+							any_owned_state = {
+								free_building_slots = {
+									building = industrial_complex #military, civ is industrial_complex
+									size > 0
+									include_locked = yes
+								}
+							}
+					}
+					
+					random_owned_state = {
+						limit = {
+							free_building_slots = {
+									building = industrial_complex
+									size > 0
+									include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+						
+					}
+					
+				}
+			
+		}
+	
+	}
+	
+	#Military tree focus
+	focus = {
+		id = GEN_Industry_Military
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = GEN_Industry }
+		available = {
+			NOT = {  has_country_flag = no_free_building_slots }
+		}
+		
+		x = 1
+		y = 2
+		cost = 20
+		completion_reward = {
+		
+			#free slot if statement
+				if = {
+					limit = {
+						NOT = {  has_country_flag = no_free_building_slots }
+						#Only added civilian because you can always build civilian
+						any_owned_state = {
+								free_building_slots = {
+									building = arms_factory #military, civ is industrial_complex
+									size < 1
+									include_locked = yes
+								}
+						}
+					}
+					
+					set_country_flag = no_free_building_slots
+					
+				}
+		
+			#Military clause
+			
+			if = {
+					limit = {
+							NOT = {  has_country_flag = no_free_building_slots }
+							any_owned_state = {
+								free_building_slots = {
+									building = arms_factory #military, civ is industrial_complex
+									size > 0
+									include_locked = yes
+								}
+							}
+					}
+					
+					random_owned_state = {
+						limit = {
+							free_building_slots = {
+									building = arms_factory
+									size > 0
+									include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+						
+					}
+					
+				}
+				
+				
+			
+			
+		}
+	
+	}
+	
+	focus = {
+		id = GEN_Industry_Military_2
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = GEN_Industry_Military }
+		available = {
+			NOT = {  has_country_flag = no_free_building_slots }
+		}
+		
+		x = 1
+		y = 3
+		cost = 20
+		completion_reward = {
+		
+			#free slot if statement
+			if = {
+				limit = {
+					NOT = {  has_country_flag = no_free_building_slots }
+					#Only added civilian because you can always build civilian
+					any_owned_state = {
+							free_building_slots = {
+								building = industrial_complex #military, civ is industrial_complex
+								size < 1
+								include_locked = yes
+							}
+					}
+				}
+				
+				set_country_flag = no_free_building_slots
+				
+			}
+		
+			#Military clause
+			
+			if = {
+					limit = {
+							NOT = {  has_country_flag = no_free_building_slots }
+							any_owned_state = {
+								free_building_slots = {
+									building = arms_factory #military, civ is industrial_complex
+									size > 0
+									include_locked = yes
+								}
+							}
+					}
+					
+					random_owned_state = {
+						limit = {
+							free_building_slots = {
+									building = arms_factory
+									size > 0
+									include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+						
+					}
+					
+				}
+			
+			
+		}
+	
+	}
+	
+	
+	focus = {
+		id = GEN_Industry_Military_3
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = GEN_Industry_Military_2 }
+		available = {
+			NOT = {  has_country_flag = no_free_building_slots }
+		}
+		
+		x = 1
+		y = 4
+		cost = 20
+		completion_reward = {
+		
+			#free slot if statement
+			if = {
+				limit = {
+					NOT = {  has_country_flag = no_free_building_slots }
+					#Only added civilian because you can always build civilian
+					any_owned_state = {
+							free_building_slots = {
+								building = arms_factory #military, civ is industrial_complex
+								size < 1
+								include_locked = yes
+							}
+					}
+				}
+				
+				set_country_flag = no_free_building_slots
+				
+			}
+		
+			#Military clause
+			
+			if = {
+					limit = {
+							NOT = {  has_country_flag = no_free_building_slots }
+							any_owned_state = {
+								free_building_slots = {
+									building = arms_factory #military, civ is industrial_complex
+									size > 0
+									include_locked = yes
+								}
+							}
+					}
+					
+					random_owned_state = {
+						limit = {
+							free_building_slots = {
+									building = arms_factory
+									size > 1
+									include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 2
+						add_building_construction = {
+							type = arms_factory
+							level = 2
+							instant_build = yes
+						}
+						
+					}
+					
+				}
+			
+			
+		}
+	
+	}
+	
+	focus = {
+		id = GEN_Industry_Military_4
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = GEN_Industry_Military_3 }
+		available = {
+			NOT = {  has_country_flag = no_free_building_slots }
+		}
+		
+		x = 1
+		y = 5
+		cost = 20
+		completion_reward = {
+		
+			#free slot if statement
+			if = {
+				limit = {
+					NOT = {  has_country_flag = no_free_building_slots }
+					#Only added civilian because you can always build civilian
+					any_owned_state = {
+							free_building_slots = {
+								building = arms_factory #military, civ is industrial_complex
+								size < 1
+								include_locked = yes
+							}
+					}
+				}
+				
+				set_country_flag = no_free_building_slots
+				
+			}
+		
+			#Military clause
+			
+			if = {
+					limit = {
+							NOT = {  has_country_flag = no_free_building_slots }
+							any_owned_state = {
+								free_building_slots = {
+									building = arms_factory #military, civ is industrial_complex
+									size > 0
+									include_locked = yes
+								}
+							}
+					}
+					
+					random_owned_state = {
+						limit = {
+							free_building_slots = {
+									building = arms_factory
+									size > 1
+									include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 2
+						add_building_construction = {
+							type = arms_factory
+							level = 2
+							instant_build = yes
+						}
+						
+					}
+					
+				}
+			
+			
+		}
+	
+	}
+	
+	focus = {
+		id = GEN_Industry_Military_5
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = GEN_Industry_Military_4 }
+		available = {
+			NOT = {  has_country_flag = no_free_building_slots }
+		}
+		
+		x = 1
+		y = 6
+		cost = 20
+		completion_reward = {
+		
+			#free slot if statement
+			if = {
+				limit = {
+					NOT = {  has_country_flag = no_free_building_slots }
+					#Only added civilian because you can always build civilian
+					any_owned_state = {
+							free_building_slots = {
+								building = arms_factory #military, civ is industrial_complex
+								size < 0
+								include_locked = yes
+							}
+					}
+				}
+				
+				set_country_flag = no_free_building_slots
+				
+			}
+		
+			#Military clause
+			
+			if = {
+					limit = {
+							NOT = {  has_country_flag = no_free_building_slots }
+							any_owned_state = {
+								free_building_slots = {
+									building = arms_factory #military, civ is industrial_complex
+									size > 0
+									include_locked = yes
+								}
+							}
+					}
+					
+					random_owned_state = {
+						limit = {
+							free_building_slots = {
+									building = arms_factory
+									size > 0
+									include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 2
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+						
+					}
+					
+				}
+			
+			
+		}
+	
+	}
+	
+	
+	
+	#Civilian tree focus
+	focus = {
+		id = GEN_Industry_Civilian
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = GEN_Industry }
+		available = {
+			NOT = {  has_country_flag = no_free_building_slots }
+		}
+		
+		x = 3
+		y = 2
+		cost = 20
+		completion_reward = {
+		
+			#free slot if statement
+				if = {
+					limit = {
+						NOT = {  has_country_flag = no_free_building_slots }
+						#Only added civilian because you can always build civilian
+						any_owned_state = {
+								free_building_slots = {
+									building = industrial_complex #military, civ is industrial_complex
+									size < 1
+									include_locked = yes
+								}
+						}
+					}
+					
+					set_country_flag = no_free_building_slots
+					
+				}
+		
+			#Military clause
+			
+			if = {
+					limit = {
+							NOT = {  has_country_flag = no_free_building_slots }
+							any_owned_state = {
+								free_building_slots = {
+									building = industrial_complex #military, civ is industrial_complex
+									size > 0
+									include_locked = yes
+								}
+							}
+					}
+					
+					random_owned_state = {
+						limit = {
+							free_building_slots = {
+									building = industrial_complex
+									size > 0
+									include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+						
+					}
+					
+				}
+				
+				
+			
+			
+		}
+	
+	}
+	
+	
+	focus = {
+		id = GEN_Industry_Civilian_2
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = GEN_Industry_Civilian }
+		available = {
+			NOT = {  has_country_flag = no_free_building_slots }
+		}
+		
+		x = 3
+		y = 3
+		cost = 20
+		completion_reward = {
+		
+			#free slot if statement
+				if = {
+					limit = {
+						NOT = {  has_country_flag = no_free_building_slots }
+						#Only added civilian because you can always build civilian
+						any_owned_state = {
+								free_building_slots = {
+									building = industrial_complex #military, civ is industrial_complex
+									size < 1
+									include_locked = yes
+								}
+						}
+					}
+					
+					set_country_flag = no_free_building_slots
+					
+				}
+		
+			#Military clause
+			
+			if = {
+					limit = {
+							NOT = {  has_country_flag = no_free_building_slots }
+							any_owned_state = {
+								free_building_slots = {
+									building = industrial_complex #military, civ is industrial_complex
+									size > 0
+									include_locked = yes
+								}
+							}
+					}
+					
+					random_owned_state = {
+						limit = {
+							free_building_slots = {
+									building = industrial_complex
+									size > 0
+									include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+						
+					}
+					
+				}
+				
+				
+			
+			
+		}
+	
+	}
+	
+	focus = {
+		id = GEN_Industry_Civilian_3
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = GEN_Industry_Civilian_2 }
+		available = {
+			NOT = {  has_country_flag = no_free_building_slots }
+		}
+		
+		x = 3
+		y = 4
+		cost = 20
+		completion_reward = {
+		
+			#free slot if statement
+				if = {
+					limit = {
+						NOT = {  has_country_flag = no_free_building_slots }
+						#Only added civilian because you can always build civilian
+						any_owned_state = {
+								free_building_slots = {
+									building = industrial_complex #military, civ is industrial_complex
+									size < 1
+									include_locked = yes
+								}
+						}
+					}
+					
+					set_country_flag = no_free_building_slots
+					
+				}
+		
+			#Military clause
+			
+			if = {
+					limit = {
+							NOT = {  has_country_flag = no_free_building_slots }
+							any_owned_state = {
+								free_building_slots = {
+									building = industrial_complex #military, civ is industrial_complex
+									size > 0
+									include_locked = yes
+								}
+							}
+					}
+					
+					random_owned_state = {
+						limit = {
+							free_building_slots = {
+									building = industrial_complex
+									size > 0
+									include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+						
+					}
+					
+				}
+				
+				
+			
+			
+		}
+	
+	}
+	
+	focus = {
+		id = GEN_Industry_Civilian_4
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = GEN_Industry_Civilian_3 }
+		available = {
+			NOT = {  has_country_flag = no_free_building_slots }
+		}
+		
+		x = 3
+		y = 5
+		cost = 20
+		completion_reward = {
+		
+			#free slot if statement
+				if = {
+					limit = {
+						NOT = {  has_country_flag = no_free_building_slots }
+						#Only added civilian because you can always build civilian
+						any_owned_state = {
+								free_building_slots = {
+									building = industrial_complex #military, civ is industrial_complex
+									size < 1
+									include_locked = yes
+								}
+						}
+					}
+					
+					set_country_flag = no_free_building_slots
+					
+				}
+		
+			#Military clause
+			
+			if = {
+					limit = {
+							NOT = {  has_country_flag = no_free_building_slots }
+							any_owned_state = {
+								free_building_slots = {
+									building = industrial_complex #military, civ is industrial_complex
+									size > 1
+									include_locked = yes
+								}
+							}
+					}
+					
+					random_owned_state = {
+						limit = {
+							free_building_slots = {
+									building = industrial_complex
+									size > 1
+									include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 2
+							instant_build = yes
+						}
+						
+					}
+					
+				}
+				
+				
+			
+			
+		}
+	
+	}
+	
+	focus = {
+		id = GEN_Industry_Civilian_5
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = GEN_Industry_Civilian_4 }
+		available = {
+			NOT = {  has_country_flag = no_free_building_slots }
+		}
+		
+		x = 3
+		y = 6
+		cost = 20
+		completion_reward = {
+		
+			#free slot if statement
+				if = {
+					limit = {
+						NOT = {  has_country_flag = no_free_building_slots }
+						#Only added civilian because you can always build civilian
+						any_owned_state = {
+								free_building_slots = {
+									building = industrial_complex #military, civ is industrial_complex
+									size < 1
+									include_locked = yes
+								}
+						}
+					}
+					
+					set_country_flag = no_free_building_slots
+					
+				}
+		
+			#Military clause
+			
+			if = {
+					limit = {
+							NOT = {  has_country_flag = no_free_building_slots }
+							any_owned_state = {
+								free_building_slots = {
+									building = industrial_complex #military, civ is industrial_complex
+									size > 0
+									include_locked = yes
+								}
+							}
+					}
+					
+					random_owned_state = {
+						limit = {
+							free_building_slots = {
+									building = industrial_complex
+									size > 0
+									include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+						
+					}
+					
+				}
+				
+				
+			
+			
+		}
+	
+	}
+	
+	
+	
+	#Naval tree focus
+	focus = {
+		id = GEN_Industry_Naval
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = GEN_Industry }
+		available = {
+			NOT = {  has_country_flag = no_free_building_slots }
+		}
+		
+		x = 5
+		y = 2
+		cost = 20
+		completion_reward = {
+		
+			#free slot if statement
+				if = {
+					limit = {
+						NOT = {  has_country_flag = no_free_building_slots }
+						#Only added civilian because you can always build civilian
+						any_owned_state = {
+								free_building_slots = {
+									building = industrial_complex #military, civ is industrial_complex
+									size < 1
+									include_locked = yes
+								}
+						}
+					}
+					
+					set_country_flag = no_free_building_slots
+					
+				}
+		
+			#Military clause
+			
+			if = {
+					limit = {
+							NOT = {  has_country_flag = no_free_building_slots }
+							any_owned_state = {
+								free_building_slots = {
+									building = dockyard #military, civ is industrial_complex
+									size > 0
+									include_locked = yes
+								}
+							}
+							any_owned_state = {
+								is_coastal = yes
+							}
+					}
+					
+					random_owned_state = {
+						limit = {
+							is_coastal = yes
+							free_building_slots = {
+									building = industrial_complex
+									size > 0
+									include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = dockyard
+							level = 1
+							instant_build = yes
+						}
+						
+					}
+					
+				}
+				
+				
+			
+			
+		}
+	
+	}
+	
+	
+	focus = {
+		id = GEN_Industry_Naval_2
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = GEN_Industry_Naval }
+		available = {
+			NOT = {  has_country_flag = no_free_building_slots }
+		}
+		
+		x = 5
+		y = 3
+		cost = 20
+		completion_reward = {
+		
+			#free slot if statement
+				if = {
+					limit = {
+						NOT = {  has_country_flag = no_free_building_slots }
+						#Only added civilian because you can always build civilian
+						any_owned_state = {
+								free_building_slots = {
+									building = industrial_complex #military, civ is industrial_complex
+									size < 1
+									include_locked = yes
+								}
+						}
+					}
+					
+					set_country_flag = no_free_building_slots
+					
+				}
+		
+			#Military clause
+			
+			if = {
+					limit = {
+							NOT = {  has_country_flag = no_free_building_slots }
+							any_owned_state = {
+								free_building_slots = {
+									building = dockyard #military, civ is industrial_complex
+									size > 0
+									include_locked = yes
+								}
+							}
+							any_owned_state = {
+								is_coastal = yes
+							}
+					}
+					
+					random_owned_state = {
+						limit = {
+							is_coastal = yes
+							free_building_slots = {
+									building = industrial_complex
+									size > 0
+									include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = dockyard
+							level = 1
+							instant_build = yes
+						}
+						
+					}
+					
+				}
+				
+				
+			
+			
+		}
+	
+	}
+	
+	focus = {
+		id = GEN_Industry_Naval_3
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = GEN_Industry_Naval_2 }
+		available = {
+			NOT = {  has_country_flag = no_free_building_slots }
+		}
+		
+		x = 5
+		y = 4
+		cost = 20
+		completion_reward = {
+		
+			#free slot if statement
+				if = {
+					limit = {
+						NOT = {  has_country_flag = no_free_building_slots }
+						#Only added civilian because you can always build civilian
+						any_owned_state = {
+								free_building_slots = {
+									building = industrial_complex #military, civ is industrial_complex
+									size < 1
+									include_locked = yes
+								}
+						}
+					}
+					
+					set_country_flag = no_free_building_slots
+					
+				}
+		
+			#Military clause
+			
+			if = {
+					limit = {
+							NOT = {  has_country_flag = no_free_building_slots }
+							any_owned_state = {
+								free_building_slots = {
+									building = dockyard #military, civ is industrial_complex
+									size > 0
+									include_locked = yes
+								}
+							}
+							any_owned_state = {
+								is_coastal = yes
+							}
+					}
+					
+					random_owned_state = {
+						limit = {
+							is_coastal = yes
+							free_building_slots = {
+									building = dockyard
+									size > 1
+									include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = dockyard
+							level = 2
+							instant_build = yes
+						}
+						
+					}
+					
+				}
+				
+				
+			
+			
+		}
+	
+	}
+	
+	focus = {
+		id = GEN_Industry_Naval_4
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = GEN_Industry_Naval_3 }
+		available = {
+			NOT = {  has_country_flag = no_free_building_slots }
+		}
+		
+		x = 5
+		y = 5
+		cost = 20
+		completion_reward = {
+		
+			#free slot if statement
+				if = {
+					limit = {
+						NOT = {  has_country_flag = no_free_building_slots }
+						#Only added civilian because you can always build civilian
+						any_owned_state = {
+								free_building_slots = {
+									building = industrial_complex #military, civ is industrial_complex
+									size < 1
+									include_locked = yes
+								}
+						}
+					}
+					
+					set_country_flag = no_free_building_slots
+					
+				}
+		
+			#Military clause
+			
+			if = {
+					limit = {
+							NOT = {  has_country_flag = no_free_building_slots }
+							any_owned_state = {
+								free_building_slots = {
+									building = dockyard #military, civ is industrial_complex
+									size > 0
+									include_locked = yes
+								}
+							}
+							any_owned_state = {
+								is_coastal = yes
+							}
+					}
+					
+					random_owned_state = {
+						limit = {
+							is_coastal = yes
+							free_building_slots = {
+									building = dockyard
+									size > 1
+									include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = dockyard
+							level = 2
+							instant_build = yes
+						}
+						
+					}
+					
+				}
+				
+				
+			
+			
+		}
+	
+	}
+	
+	focus = {
+		id = GEN_Industry_Naval_5
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = GEN_Industry_Naval_4 }
+		available = {
+			NOT = {  has_country_flag = no_free_building_slots }
+		}
+		
+		x = 5
+		y = 6
+		cost = 20
+		completion_reward = {
+		
+			#free slot if statement
+				if = {
+					limit = {
+						NOT = {  has_country_flag = no_free_building_slots }
+						#Only added civilian because you can always build civilian
+						any_owned_state = {
+								free_building_slots = {
+									building = industrial_complex #military, civ is industrial_complex
+									size < 1
+									include_locked = yes
+								}
+						}
+					}
+					
+					set_country_flag = no_free_building_slots
+					
+				}
+		
+			#Military clause
+			
+			if = {
+					limit = {
+							NOT = {  has_country_flag = no_free_building_slots }
+							any_owned_state = {
+								free_building_slots = {
+									building = dockyard #military, civ is industrial_complex
+									size > 0
+									include_locked = yes
+								}
+							}
+							any_owned_state = {
+								is_coastal = yes
+							}
+					}
+					
+					random_owned_state = {
+						limit = {
+							is_coastal = yes
+							free_building_slots = {
+									building = dockyard
+									size > 0
+									include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = dockyard
+							level = 1
+							instant_build = yes
+						}
+						
+					}
+					
+				}
+				
+				
+			
+			
+		}
+	
+	}
+	
+	
+}

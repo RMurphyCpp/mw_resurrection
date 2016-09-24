@@ -1,0 +1,403 @@
+﻿#Iraq War Events
+
+add_namespace = usa_iraq
+add_namespace = usa_iran
+add_namespace = usa_cuba
+add_namespace = usa_nk
+add_namespace = usa
+
+country_event = {
+	id = usa_iraq.1		#State union address: https://www.youtube.com/watch?v=MHA-0EmkoC8
+	title = usa_iraq.1.t 
+	desc = usa_iraq.1.d
+	picture = GFX_mwm_event_usa_iraq_1
+	
+	major = yes #for bigger event frame
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa_iraq.1.a
+		
+		#IRQ = {
+			#SANCTIONS PLACEHOLDER
+		#}
+	}
+	
+	
+}
+
+country_event = {
+	id = usa_iraq.2		#iraq dossier
+	title = usa_iraq.2.t 
+	desc = usa_iraq.2.d
+	picture = GFX_mwm_event_cia_logo_small
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa_iraq.2.a
+		
+	}
+	
+	option = {
+		name = usa_iraq.2.b
+		USA = { set_country_flag = iraq_intelligence_questioned}
+	}
+	
+	
+}
+
+country_event = {
+	id = usa_iraq.3		#iraqi freedom
+	title = usa_iraq.3.t 
+	desc = usa_iraq.3.d
+	picture = GFX_mwm_event_usa_iraq_3
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa_iraq.3.a
+		#TODO Add effects for iraq event
+		#Temporary effect until expanded upon
+		USA = {
+			declare_war_on = {
+				target = IRQ
+				type = install_democracy
+			}
+		}
+	}
+	
+	
+}
+
+##iran Events##
+
+country_event = {
+	id = usa_iran.1
+	title = usa_iran.1.t
+	desc = usa_iran.1.d
+	picture = GFX_mwm_event_usa_iran_1
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa_iran.1.a
+		
+		#TODO add UN sanctions
+		#IRQ = {
+			#SANCTIONS PLACEHOLDER
+		#}
+	}
+	
+	
+}
+
+country_event = {
+	id = usa_iran.2		#UN resolution 1696
+	title = usa_iran.2.t 
+	desc = usa_iran.2.d
+	picture = GFX_mwm_event_no_image
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa_iran.2.a
+		##TODO add UN resolution 1696
+	}
+	
+	
+}
+
+country_event = {
+	id = usa_iran.3		# OP Ajax
+	title = usa_iran.3.t 
+	desc = usa_iran.3.d
+	picture = GFX_mwm_event_no_image
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa_iran.3.a
+		USA = {
+			declare_war_on = {
+				target = PER
+				type = install_democracy
+			}
+		}
+	}
+	
+	
+}
+
+##cuba Events##
+
+country_event = {
+	id = usa_cuba.1		#
+	title = usa_cuba.1.t 
+	desc = usa_cuba.1.d
+	picture = GFX_mwm_event_no_image
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa_cuba.1.a
+	}
+	
+	
+}
+
+country_event = {
+	id = usa_cuba.2		#cuba dossier
+	title = usa_cuba.2.t 
+	desc = usa_cuba.2.d
+	picture = GFX_mwm_event_no_image
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa_cuba.2.a
+		
+	}
+	
+	
+}
+
+country_event = {
+	id = usa_cuba.3		#No fly zone
+	title = usa_cuba.3.t 
+	desc = usa_cuba.3.d
+	picture = GFX_mwm_event_no_image
+	
+	is_triggered_only = yes
+	
+	major = yes
+	
+	option = {
+		name = usa_cuba.3.a
+		##TODO add no fly zone event which will add  for cuba ie:
+		#CUB = { country_event = xxxxx.x }
+	}
+	
+	
+}
+
+
+country_event = {
+	id = usa_cuba.4		#choose type of op
+	title = usa_cuba.4.t 
+	desc = usa_cuba.4.d
+	picture = GFX_mwm_event_no_image
+	
+	is_triggered_only = yes
+	
+	major = yes
+	
+	option = {
+		name = usa_cuba.4.a
+		USA = {
+			add_ideas = major_terrorism_attack
+			declare_war_on = {
+				target = CUB
+				type = install_democracy
+			}
+		}
+		ai_chance = { factor = 50 }
+		
+		#consequences
+		hidden_effect = {
+			USA = {
+				country_event = { days = 730 id = usa.1 }
+			}
+		}
+	}
+	
+	option = {
+		name = usa_cuba.4.b
+		USA = {
+			add_ideas = illegal_war
+			declare_war_on = {
+				target = CUB
+				type = install_democracy
+			}
+		}
+		ai_chance = { factor = 50 }
+	}
+	
+	
+}
+
+##NK Events##
+
+country_event = {
+	id = usa_nk.1		#nk one
+	title = usa_nk.1.t 
+	desc = usa_nk.1.d
+	picture = GFX_mwm_event_no_image
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa_nk.1.a
+	}
+	
+	
+}
+
+country_event = {
+	id = usa_nk.2		#cuba dossier
+	title = usa_nk.2.t 
+	desc = usa_nk.2.d
+	picture = GFX_mwm_event_no_image
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa_nk.2.a
+		
+	}
+	
+	
+}
+
+country_event = {
+	id = usa_nk.3		#cuba freedom
+	title = usa_nk.3.t 
+	desc = usa_nk.3.d
+	picture = GFX_mwm_event_no_image
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa_nk.3.a
+		USA = {
+			declare_war_on = {
+				target = CUB
+				type = install_democracy
+			}
+		}
+	}
+	
+	
+}
+
+##Political events
+
+country_event = {
+	id = usa.1	
+	title = usa.1.t 
+	desc = usa.1.d
+	picture = GFX_mwm_event_usa_1
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa.1.a
+		add_ideas = constitutional_crisis
+		
+		hidden_effect = {
+			country_event = { days = 120 id = usa.2 }
+		}
+	}
+	
+	
+}
+
+
+country_event = {
+	id = usa.2	
+	title = usa.2.t 
+	desc = usa.2.d
+	picture = GFX_mwm_event_usa_2
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa.2.a
+		remove_ideas = constitutional_crisis
+		hold_election = USA
+	}
+	
+	option = {
+		name = usa.2.b
+		
+		country_event = { days = 45 id = usa.3 }
+	}
+	
+	
+	
+}
+
+
+country_event = {
+	id = usa.3	
+	title = usa.3.t 
+	desc = usa.3.d
+	picture = GFX_mwm_event_usa_3
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa.3.a
+		remove_ideas = constitutional_crisis
+	}
+	
+	
+	
+}
+
+country_event = {
+	id = usa.4	
+	title = usa.4.t 
+	desc = usa.4.d
+	picture = GFX_mwm_event_usa_3
+	
+	major = yes
+	
+	trigger = {
+		OR = {
+			CUB = { has_government = democratic_conservative }
+			CUB = { has_government = democratic_liberal }
+			CUB = { has_government = democratic_center }
+			CUB = { has_government = democratic_green }
+			CUB = { has_government = democratic_socialism }
+		}
+		OR = {
+			USA = { controls_state = 315 }
+		}
+	}
+	
+	mean_time_to_happen = { days = 14 }
+	
+	option = {
+		name = usa.4.a
+		remove_ideas = illegal_war
+	}
+	
+	
+	
+}

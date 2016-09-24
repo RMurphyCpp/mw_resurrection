@@ -1,0 +1,21 @@
+state={
+	id=748
+	name="STATE_748"
+	
+	state_category = town		
+	
+	history={
+		owner = RWD
+		add_core_of = RWD
+		
+		victory_points = {
+			9962 5 
+		}		
+	}
+	
+	provinces={
+		9962 
+	}
+	manpower=500
+	buildings_max_level_factor=1
+}

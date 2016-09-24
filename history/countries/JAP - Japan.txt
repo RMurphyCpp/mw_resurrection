@@ -1,0 +1,203 @@
+﻿capital = 282
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+
+	add_opinion_modifier = { target = CHC modifier = historical_riverly }	
+	
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 60
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 40			
+		    }
+	    }
+	
+	    ruling_party = democratic_conservative
+	    last_election = "1996.6.25"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+	    article_nine_jap
+		industrial_powerhouse_jap
+		chrysanthemum_throne
+		democratic_traditions
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Yukio Hatoyama"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "JAPNHSOC1.dds"
+    	expire = "2003.6.25"
+    	ideology = socialism	
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {
+    	name = "Keizo Obuchi"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "JAPG1.dds"
+    	expire = "2000.6.25"
+    	ideology = conservatism	
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2001.10.7 = {
+    create_country_leader = {
+    	name = "Junichirō Koizumi"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "JAPG3.dds"
+    	expire = "2000.4.5"
+    	ideology = conservatism	
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+    create_country_leader = {
+    	name = "Yoshiro Mori"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "JAPG2.dds"
+    	expire = "2006.9.26"
+    	ideology = conservatism	
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2008.8.7 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 60
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 40			
+		    }
+	    }
+	
+	    ruling_party = democratic_conservative
+	    last_election = "2005.9.11"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Yasuo Fukuda"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "JAPG4.dds"
+    	expire = "2006.9.24"
+    	ideology = conservatism	
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 40
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 60			
+		    }
+	    }
+	
+	    ruling_party = democratic_socialism
+	    last_election = "2009.8.30"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Naoto Kan"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "JAPG5.dds"
+    	expire = "2011.9.2"
+    	ideology = socialism	
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+    create_country_leader = {
+    	name = "Naoto Kan"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "JAPG5.dds"
+    	expire = "2011.9.2"
+    	ideology = socialism	
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 60
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 40			
+		    }
+	    }
+	
+	    ruling_party = democratic_conservative
+	    last_election = "2012.12.16"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Shinzo Abe"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "JAPG6.dds"
+    	expire = "2020.9.26"
+    	ideology = conservatism	
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+    create_country_leader = {
+    	name = "Shinzo Abe"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "JAPG6.dds"
+    	expire = "2020.9.26"
+    	ideology = conservatism	
+    	traits = {
+    		#
+    	}
+    }
+}

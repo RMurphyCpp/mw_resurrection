@@ -1,0 +1,15 @@
+state={
+	id=744
+	name="STATE_744"
+	
+	state_category = rural	
+	history={
+		owner = VIE
+		add_core_of = VIE
+	}
+	provinces={
+		1285 1300 1328 1396 1400 1423 1605 4284 4334 4341 4363 4401 4405 7271 7303 7331 7380 10162 10232 12109 12133 12176 12204 12232 
+	}
+	manpower=200
+	buildings_max_level_factor=1
+}

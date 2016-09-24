@@ -1,0 +1,900 @@
+#USA tree for modern warfare mod by Murphy
+focus_tree = {
+
+
+	id = usa_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = USA
+		}
+	}
+	
+	default = no
+	
+	###Iraq focus tree###
+	
+	focus = {
+		id = USA_Iraq_Focus
+		icon = GFX_goal_generic_political_pressure
+		available = {
+			country_exists = IRQ
+			IRQ = { has_government = autocracy}
+		}
+		
+		x = 6
+		y = 0
+		cost = 20
+		completion_reward = {
+			country_event = usa_iraq.1 #TODO news event added. gfx and revision required
+		}
+	}
+	
+	##Military line##
+	focus = {
+		id = USA_Iraq_Mil_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_Iraq_Focus }
+		mutually_exclusive = { focus = USA_Iraq_Diplo_Focus}
+		available = {
+			country_exists = IRQ
+			IRQ = { has_government = autocracy}
+		}
+		
+		x = 8
+		y = 1
+		cost = 20
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = USA_Iraq_Mil_Case_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_Iraq_Mil_Focus }
+		available = {
+			country_exists = IRQ
+			IRQ = { has_government = autocracy}
+		}
+		
+		x = 8
+		y = 2
+		cost = 20
+		completion_reward = {
+			country_event = usa_iraq.2 #TODO news event added. gfx and revision required
+		}
+	}
+	
+	focus = {
+		id = USA_Iraq_Mil_UN_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_Iraq_Mil_Case_Focus }
+		available = {
+			country_exists = IRQ
+			IRQ = { has_government = autocracy}
+			NOT = { has_country_flag = iraq_intelligence_questioned }
+		}
+		
+		x = 8
+		y = 3
+		cost = 20
+		completion_reward = {
+			#TODO UN Resolution PLACEHOLDER
+		}
+	}
+	
+	focus = {
+		id = USA_Iraq_Mil_Iraqi_Freedom_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_Iraq_Mil_Case_Focus }
+		available = {
+			country_exists = IRQ
+			IRQ = { has_government = autocracy}
+			NOT = { has_country_flag = iraq_intelligence_questioned }
+		}
+		
+		x = 10
+		y = 3
+		cost = 20
+		completion_reward = {
+			country_event = usa_iraq.3 #TODO war event added. gfx and revision required
+		}
+	}
+	
+	focus = {
+		id = USA_Iraq_Mil_UN_OP_Focus	#UN Backed Military Action
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_Iraq_Mil_UN_Focus }
+		available = {
+			country_exists = IRQ
+			IRQ = { has_government = autocracy}
+			NOT = { has_country_flag = iraq_intelligence_questioned }
+		}
+		
+		x = 8
+		y = 4
+		cost = 20
+		completion_reward = {
+			#TODO UN Resolution PLACEHOLDER
+		}
+	}
+	
+	##Diplomatic line##
+	focus = {
+		id = USA_Iraq_Diplo_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_Iraq_Focus }
+		available = {
+			country_exists = IRQ
+			IRQ = { has_government = autocracy}
+		}
+		
+		x = 5
+		y = 1
+		cost = 20
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = USA_Iraq_Diplo_Eco_1_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_Iraq_Diplo_Focus }
+		available = {
+			country_exists = IRQ
+			IRQ = { has_government = autocracy}
+		}
+		
+		x = 5
+		y = 2
+		cost = 20
+		completion_reward = {
+			##TODO UN Sanctions##
+		}
+	}
+	
+	focus = {
+		id = USA_Iraq_Diplo_Eco_2_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_Iraq_Diplo_Eco_1_Focus }
+		available = {
+			country_exists = IRQ
+			IRQ = { has_government = autocracy}
+		}
+		
+		x = 5
+		y = 3
+		cost = 20
+		completion_reward = {
+			##TODO UN Sanctions##
+		}
+	}
+	
+	focus = {
+		id = USA_Iraq_Diplo_Eco_3_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_Iraq_Diplo_Eco_2_Focus }
+		available = {
+			country_exists = IRQ
+			IRQ = { has_government = autocracy}
+		}
+		
+		x = 5
+		y = 4
+		cost = 20
+		completion_reward = {
+			##TODO UN Sanctions##
+		}
+	}
+	
+	focus = {
+		id = USA_Iraq_Diplo_Eco_4_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_Iraq_Diplo_Eco_3_Focus }
+		available = {
+			country_exists = IRQ
+			IRQ = { has_government = autocracy}
+		}
+		
+		x = 5
+		y = 5
+		cost = 20
+		completion_reward = {
+			##TODOUN Sanctions##
+		}
+	}
+	##Military Sanctions##
+	focus = {
+		id = USA_Iraq_Diplo_Mil_1_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_Iraq_Diplo_Focus }
+		available = {
+			country_exists = IRQ
+			IRQ = { has_government = autocracy}
+		}
+		
+		x = 3
+		y = 2
+		cost = 20
+		completion_reward = {
+			##TODO UN Sanctions##
+		}
+	}
+	
+	focus = {
+		id = USA_Iraq_Diplo_Mil_2_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_Iraq_Diplo_Mil_1_Focus }
+		available = {
+			country_exists = IRQ
+			IRQ = { has_government = autocracy}
+		}
+		
+		x = 3
+		y = 3
+		cost = 20
+		completion_reward = {
+			##TODO UN Sanctions##
+		}
+	}
+	
+	focus = {
+		id = USA_Iraq_Diplo_Mil_3_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_Iraq_Diplo_Mil_2_Focus }
+		available = {
+			country_exists = IRQ
+			IRQ = { has_government = autocracy}
+		}
+		
+		x = 3
+		y = 4
+		cost = 20
+		completion_reward = {
+			##TODO UN Sanctions##
+		}
+	}
+	
+	###Iran focus tree###
+	
+	focus = {
+		id = USA_Iran_Focus
+		icon = GFX_goal_generic_political_pressure
+		available = {
+			country_exists = PER
+			PER = { has_government = shia_islam}
+		}
+		
+		x = 16
+		y = 0
+		cost = 20
+		completion_reward = {
+			country_event = usa_iran.1 #TODO news event added but plain. gfx, revision and localisation required
+		}
+	}
+	
+	##Military line##
+	focus = {
+		id = USA_Iran_Mil_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_Iran_Focus }
+		mutually_exclusive = { focus = USA_Iran_Diplo_Focus}
+		available = {
+			country_exists = PER
+			PER = { has_government = shia_islam}
+		}
+		
+		x = 18
+		y = 1
+		cost = 20
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = USA_Iran_Mil_Case_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_Iran_Mil_Focus }
+		available = {
+			country_exists = PER
+			PER = { has_government = shia_islam}
+		}
+		
+		x = 18
+		y = 2
+		cost = 20
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = USA_Iran_Mil_UN_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_Iran_Mil_Case_Focus }
+		available = {
+			country_exists = PER
+			PER = { has_government = shia_islam}
+			NOT = { has_country_flag = iran_intelligence_questioned }
+		}
+		
+		x = 18
+		y = 3
+		cost = 20
+		completion_reward = {
+			country_event = usa_iran.2
+		}
+	}
+	
+	
+	focus = {
+		id = USA_Iran_Mil_UN_OP_Focus	#UN Backed Military Action
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_Iran_Mil_UN_Focus }
+		available = {
+			country_exists = PER
+			PER = { has_government = shia_islam}
+			NOT = { has_country_flag = Iran_intelligence_questioned }
+		}
+		
+		x = 18
+		y = 4
+		cost = 20
+		completion_reward = {
+			country_event = usa_iran.3
+		}
+	}
+	
+	##Diplomatic line##
+	focus = {
+		id = USA_Iran_Diplo_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_Iran_Focus }
+		available = {
+			country_exists = PER
+			PER = { has_government = shia_islam}
+		}
+		
+		x = 15
+		y = 1
+		cost = 20
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = USA_Iran_Diplo_Eco_1_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_Iran_Diplo_Focus }
+		available = {
+			country_exists = PER
+			PER = { has_government = shia_islam}
+		}
+		
+		x = 15
+		y = 2
+		cost = 20
+		completion_reward = {
+			##TODO UN Sanctions##
+		}
+	}
+	
+	focus = {
+		id = USA_Iran_Diplo_Eco_2_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_Iran_Diplo_Eco_1_Focus }
+		available = {
+			country_exists = PER
+			PER = { has_government = shia_islam}
+		}
+		
+		x = 15
+		y = 3
+		cost = 20
+		completion_reward = {
+			##TODO UN Sanctions##
+		}
+	}
+	
+	focus = {
+		id = USA_Iran_Diplo_Eco_3_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_Iran_Diplo_Eco_2_Focus }
+		available = {
+			country_exists = PER
+			PER = { has_government = shia_islam}
+		}
+		
+		x = 15
+		y = 4
+		cost = 20
+		completion_reward = {
+			##TODO UN Sanctions##
+		}
+	}
+	
+	##Military Sanctions##
+	focus = {
+		id = USA_Iran_Diplo_Mil_1_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_Iran_Diplo_Focus }
+		available = {
+			country_exists = PER
+			PER = { has_government = shia_islam}
+		}
+		
+		x = 13
+		y = 2
+		cost = 20
+		completion_reward = {
+			##TODO UN Sanctions##
+		}
+	}
+	
+	focus = {
+		id = USA_Iran_Diplo_Mil_2_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_Iran_Diplo_Mil_1_Focus }
+		available = {
+			country_exists = PER
+			PER = { has_government = shia_islam}
+		}
+		
+		x = 13
+		y = 3
+		cost = 20
+		completion_reward = {
+			##TODO UN Sanctions##
+		}
+	}
+	
+	focus = {
+		id = USA_Iran_Diplo_Mil_3_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_Iran_Diplo_Mil_2_Focus }
+		available = {
+			country_exists = PER
+			PER = { has_government = shia_islam}
+		}
+		
+		x = 13
+		y = 4
+		cost = 20
+		completion_reward = {
+			##TODO UN Sanctions##
+		}
+	}
+	
+		###Cuba focus tree###
+	
+	focus = {
+		id = USA_Cuba_Focus
+		icon = GFX_goal_generic_political_pressure
+		available = {
+			country_exists = CUB
+			CUB = { has_government = communism}
+		}
+		
+		x = 24
+		y = 0
+		cost = 20
+		completion_reward = {
+			country_event = usa_cuba.1 
+		}
+	}
+	
+	##Military line##
+	focus = {
+		id = USA_Cuba_Mil_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_Cuba_Focus }
+		mutually_exclusive = { focus = USA_Cuba_Diplo_Focus}
+		available = {
+			country_exists = CUB
+			CUB = { has_government = communism}
+		}
+		
+		x = 26
+		y = 1
+		cost = 20
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = USA_Cuba_Mil_UN_Res_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_Cuba_Mil_Focus }
+		available = {
+			country_exists = CUB
+			CUB = { has_government = communism}
+		}
+		
+		x = 26
+		y = 2
+		cost = 20
+		completion_reward = {
+			country_event = usa_cuba.2 #TODO Add news event
+			#TODO UN Resolution PLACEHOLDER
+		}
+	}
+	
+	focus = {
+		id = USA_Cuba_Mil_No_Fly_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_Cuba_Mil_UN_Res_Focus }
+		available = {
+			country_exists = CUB
+			CUB = { has_government = communism}
+			NOT = { has_country_flag = Cuba_intelligence_questioned }
+		}
+		
+		x = 26
+		y = 3
+		cost = 20
+		completion_reward = {
+			country_event = usa_cuba.3
+		}
+	}
+	
+	
+	focus = {
+		id = USA_Cuba_Mil_UN_OP_Focus	#UN Backed Military Action
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_Cuba_Mil_No_Fly_Focus }
+		available = {
+			country_exists = CUB
+			CUB = { has_government = communism}
+			NOT = { has_country_flag = Cuba_intelligence_questioned }
+		}
+		
+		x = 26
+		y = 4
+		cost = 20
+		completion_reward = {
+			country_event = usa_cuba.4 #TODO Military Action Event
+		}
+	}
+	
+	##Diplomatic line##
+	focus = {
+		id = USA_Cuba_Diplo_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_Cuba_Focus }
+		available = {
+			country_exists = CUB
+			CUB = { has_government = communism}
+		}
+		
+		x = 23
+		y = 1
+		cost = 20
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = USA_Cuba_Diplo_Eco_1_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_Cuba_Diplo_Focus }
+		available = {
+			country_exists = CUB
+			CUB = { has_government = communism}
+		}
+		
+		x = 23
+		y = 2
+		cost = 20
+		completion_reward = {
+			##TODO UN Sanctions##
+		}
+	}
+	
+	focus = {
+		id = USA_Cuba_Diplo_Eco_2_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_Cuba_Diplo_Eco_1_Focus }
+		available = {
+			country_exists = CUB
+			CUB = { has_government = communism}
+		}
+		
+		x = 23
+		y = 3
+		cost = 20
+		completion_reward = {
+			##TODO UN Sanctions##
+		}
+	}
+	
+	focus = {
+		id = USA_Cuba_Diplo_Eco_3_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_Cuba_Diplo_Eco_2_Focus }
+		available = {
+			country_exists = CUB
+			CUB = { has_government = communism}
+		}
+		
+		x = 23
+		y = 4
+		cost = 20
+		completion_reward = {
+			##TODO UN Sanctions##
+		}
+	}
+	
+	##Military Sanctions##
+	focus = {
+		id = USA_Cuba_Diplo_Mil_1_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_Cuba_Diplo_Focus }
+		available = {
+			country_exists = CUB
+			CUB = { has_government = communism}
+		}
+		
+		x = 21
+		y = 2
+		cost = 20
+		completion_reward = {
+			##TODO UN Sanctions##
+		}
+	}
+	
+	focus = {
+		id = USA_Cuba_Diplo_Mil_2_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_Cuba_Diplo_Mil_1_Focus }
+		available = {
+			country_exists = CUB
+			CUB = { has_government = communism}
+		}
+		
+		x = 21
+		y = 3
+		cost = 20
+		completion_reward = {
+			##TODO UN Sanctions##
+		}
+	}
+	
+	focus = {
+		id = USA_Cuba_Diplo_Mil_3_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_Cuba_Diplo_Mil_2_Focus }
+		available = {
+			country_exists = CUB
+			CUB = { has_government = communism}
+		}
+		
+		x = 21
+		y = 4
+		cost = 20
+		completion_reward = {
+			##TODO UN Sanctions##
+		}
+	}
+	
+		###North Korea focus tree###
+	
+	focus = {
+		id = USA_NK_Focus
+		icon = GFX_goal_generic_political_pressure
+		available = {
+			country_exists = PRK
+			PRK = { has_government = communism}
+		}
+		
+		x = 32
+		y = 0
+		cost = 20
+		completion_reward = {
+			country_event = usa_nk.1 #TODO Add news event
+		}
+	}
+	
+	##Military line##
+	focus = {
+		id = USA_NK_Mil_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_NK_Focus }
+		mutually_exclusive = { focus = USA_NK_Diplo_Focus}
+		available = {
+			country_exists = PRK
+			PRK = { has_government = communism}
+		}
+		
+		x = 34
+		y = 1
+		cost = 20
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = USA_NK_Mil_Case_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_NK_Mil_Focus }
+		available = {
+			country_exists = PRK
+			PRK = { has_government = communism}
+		}
+		
+		x = 34
+		y = 2
+		cost = 20
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = USA_NK_Mil_UN_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_NK_Mil_Case_Focus }
+		available = {
+			country_exists = PRK
+			PRK = { has_government = communism}
+			NOT = { has_country_flag = NK_intelligence_questioned }
+		}
+		
+		x = 34
+		y = 3
+		cost = 20
+		completion_reward = {
+			country_event = usa_nk.2 #TODO Add news event
+		}
+	}
+	
+	
+	focus = {
+		id = USA_NK_Mil_UN_OP_Focus	#UN Backed Military Action
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_NK_Mil_UN_Focus }
+		available = {
+			country_exists = PRK
+			PRK = { has_government = communism}
+			NOT = { has_country_flag = NK_intelligence_questioned }
+		}
+		
+		x = 34
+		y = 4
+		cost = 20
+		completion_reward = {
+			country_event = usa_nk.3
+		}
+	}
+	
+	##Diplomatic line##
+	focus = {
+		id = USA_NK_Diplo_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_NK_Focus }
+		available = {
+			country_exists = PRK
+			PRK = { has_government = communism}
+		}
+		
+		x = 31
+		y = 1
+		cost = 20
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = USA_NK_Diplo_Eco_1_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_NK_Diplo_Focus }
+		available = {
+			country_exists = PRK
+			PRK = { has_government = communism}
+		}
+		
+		x = 31
+		y = 2
+		cost = 20
+		completion_reward = {
+			##TODO UN Sanctions##
+		}
+	}
+	
+	focus = {
+		id = USA_NK_Diplo_Eco_2_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_NK_Diplo_Eco_1_Focus }
+		available = {
+			country_exists = PRK
+			PRK = { has_government = communism}
+		}
+		
+		x = 31
+		y = 3
+		cost = 20
+		completion_reward = {
+			##TODO UN Sanctions##
+		}
+	}
+	
+	focus = {
+		id = USA_NK_Diplo_Eco_3_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_NK_Diplo_Eco_2_Focus }
+		available = {
+			country_exists = PRK
+			PRK = { has_government = communism}
+		}
+		
+		x = 31
+		y = 4
+		cost = 20
+		completion_reward = {
+			##TODO UN Sanctions##
+		}
+	}
+	
+	##Military Sanctions##
+	focus = {
+		id = USA_NK_Diplo_Mil_1_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_NK_Diplo_Focus }
+		available = {
+			country_exists = PRK
+			PRK = { has_government = communism}
+		}
+		
+		x = 29
+		y = 2
+		cost = 20
+		completion_reward = {
+			##TODO UN Sanctions##
+		}
+	}
+	
+	focus = {
+		id = USA_NK_Diplo_Mil_2_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_NK_Diplo_Mil_1_Focus }
+		available = {
+			country_exists = PRK
+			PRK = { has_government = communism}
+		}
+		
+		x = 29
+		y = 3
+		cost = 20
+		completion_reward = {
+			##TODO UN Sanctions##
+		}
+	}
+	
+	focus = {
+		id = USA_NK_Diplo_Mil_3_Focus	
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = USA_NK_Diplo_Mil_2_Focus }
+		available = {
+			country_exists = PRK
+			PRK = { has_government = communism}
+		}
+		
+		x = 29
+		y = 4
+		cost = 20
+		completion_reward = {
+			##TODO UN Sanctions##
+		}
+	}
+	
+}

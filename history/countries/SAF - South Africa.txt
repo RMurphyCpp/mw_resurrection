@@ -1,0 +1,150 @@
+﻿capital = 681
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 10
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 90				
+		    }
+	    }
+	
+	    ruling_party = democratic_socialism
+	    last_election = "1996.3.5"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Thabo Mbekia"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "SAFH1.dds"
+    	expire = "2008.9.24"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }	
+}
+
+2001.10.7 = {
+
+    set_politics = {
+	    ruling_party = democratic_socialism
+	    last_election = "2000.12.10"
+	    election_frequency = 60
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Thabo Mbekia"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "SAFH1.dds"
+    	expire = "2008.9.24"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+    create_country_leader = {
+    	name = "Thabo Mbekia"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "SAFH1.dds"
+    	expire = "2008.9.24"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2008.8.7 = {
+
+    set_politics = {
+	    ruling_party = democratic_socialism
+	    last_election = "2004.12.12"
+	    election_frequency = 60
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Thabo Mbekia"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "SAFH1.dds"
+    	expire = "2008.9.24"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+    set_politics = {	
+	    ruling_party = democratic_socialism
+	    last_election = "2009.12.6"
+	    election_frequency = 60
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Kgalema Motlanthe"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "SAFH2.dds"
+    	expire = "2009.5.9"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+    create_country_leader = {
+    	name = "Jacob Zuma"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "SAFH3.dds"
+    	expire = "2020.5.9"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+    create_country_leader = {
+    	name = "Jacob Zuma"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "SAFH3.dds"
+    	expire = "2020.5.9"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+    create_country_leader = {
+    	name = "Jacob Zuma"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "SAFH3.dds"
+    	expire = "2020.5.9"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}

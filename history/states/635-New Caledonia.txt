@@ -1,0 +1,27 @@
+state={
+	id=635
+	name="STATE_635"
+	resources={
+		chromium=178.000
+	}
+	
+	state_category = small_island
+	history={
+		owner = FRA
+		add_core_of = FRA
+		add_claim_by = NEW
+		
+		buildings = {
+			air_base = 1
+			
+			1263 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces={
+		1263 4231 4268 7264 10160 12132 
+	}
+	manpower=51876
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,23 @@
+state={
+	id=687
+	name="STATE_687"
+	manpower = 309000
+	
+	state_category = town
+	
+	resources={
+		
+	}
+	history={
+		owner = GUY
+		add_core_of = GUY
+		
+		victory_points = {
+			4982 10 
+		}		
+	}
+	
+	provinces={
+		4982 8107 12716 
+	}
+}

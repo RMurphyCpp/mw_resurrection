@@ -1,0 +1,58 @@
+﻿capital = 267
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+
+	set_country_flag = muslim_country	
+	add_opinion_modifier = { target = SOV modifier = historical_riverly }	
+	
+    set_politics = {
+
+	    parties = {
+		    military = {
+			    popularity = 65			
+		    }
+		
+		    communism = {
+			    popularity = 5	
+		    }
+		
+		    fundamentalist_islam = { 
+			    popularity = 30		
+		    }
+	    }
+	
+	    ruling_party = military
+	    last_election = "1996.3.5"
+	    election_frequency = 48
+	    elections_allowed = no
+    }
+    add_ideas = {
+	    an_iron_fist
+    }
+    #############LAST ENTRY IS USED FIRST#############	
+    create_country_leader = {
+    	name = "Ahmad Shah Massoud"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ISAH1.dds"
+    	expire = "2001.9.9"
+    	ideology = militarism
+    	traits = {
+    	}
+    }
+}
+
+2001.10.7 = {
+    create_country_leader = {
+    	name = "Burhanuddin Rabbani"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ISAH2.dds"
+    	expire = "2001.12.31"
+    	ideology = nationalism
+    	traits = {
+    		#
+    	}
+    }
+}

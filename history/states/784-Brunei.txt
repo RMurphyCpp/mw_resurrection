@@ -1,0 +1,26 @@
+state={
+	id=784
+	name="STATE_784"
+	manpower = 400000
+	state_category = town
+	#resources={
+	#	oil=4
+	#}
+	
+	history=
+	{
+		owner = BRU
+		add_core_of = BRU
+		
+		victory_points = { 7371 10}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 4
+			7371 = { naval_base = 1}
+		}
+	}
+	provinces={ 7371 }
+	
+}

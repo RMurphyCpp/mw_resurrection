@@ -1,0 +1,265 @@
+﻿capital = 43
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+	
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 52
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 50			
+		    }		
+	    }
+	
+	    ruling_party = democratic_conservative
+	    last_election = "1998.4.21"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Viktor Orbán"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "HUNG1.dds"
+    	expire = "2020.5.27"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2001.10.7 = {
+    create_country_leader = {
+    	name = "Viktor Orbán"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "HUNG1.dds"
+    	expire = "2020.5.27"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 41
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 42			
+		    }
+		
+		    democratic_liberal = {
+			    popularity = 6
+		    }
+			
+		    democratic_center = { 
+			    popularity = 3		
+		    }			
+		
+		    fascism = { 
+			    popularity = 5		
+		    }
+	    }
+	
+	    ruling_party = democratic_socialism
+	    last_election = "2002.4.21"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Péter Medgyessy"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "HUNG2.dds"
+    	expire = "2004.9.29"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+2004.1.1 = {
+    add_ideas = {
+		european_union_member
+    }
+}
+2008.8.7 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 41
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 42			
+		    }
+		
+		    democratic_liberal = {
+			    popularity = 6
+		    }
+			
+		    democratic_center = { 
+			    popularity = 3		
+		    }			
+		
+		    fascism = { 
+			    popularity = 5		
+		    }
+	    }
+	
+	    ruling_party = democratic_socialism
+	    last_election = "2006.4.23"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Ferenc Gyurcsány"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "HUNG3.dds"
+    	expire = "2009.4.14"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 53
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 20			
+		    }
+		
+		    democratic_liberal = {
+			    popularity = 6
+		    }
+			
+		    democratic_center = { 
+			    popularity = 3		
+		    }			
+		
+		    fascism = { 
+			    popularity = 5		
+		    }
+	    }
+	
+	    ruling_party = democratic_socialism
+	    last_election = "2002.4.21"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Viktor Orbán"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "HUNG1.dds"
+    	expire = "2020.5.27"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+    create_country_leader = {
+    	name = "Viktor Orbán"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "HUNG1.dds"
+    	expire = "2020.5.27"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+    create_country_leader = {	
+    	name = "Viktor Orbán"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "HUNG1.dds"
+    	expire = "2020.5.27"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 45
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 26			
+		    }
+		
+		    democratic_liberal = {
+			    popularity = 6
+		    }
+			
+		    democratic_center = { 
+			    popularity = 3		
+		    }			
+
+		    democratic_nationalism = { 
+			    popularity = 20		
+		    }
+
+		    democratic_green = { 
+			    popularity = 5		
+		    }
+			
+		    fascism = { 
+			    popularity = 5		
+		    }
+	    }
+	
+	    ruling_party = democratic_socialism
+	    last_election = "2002.4.21"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Viktor Orbán"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "HUNG1.dds"
+    	expire = "2020.5.27"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}

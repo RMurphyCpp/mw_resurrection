@@ -1,0 +1,53 @@
+﻿capital = 448
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.6
+    set_technology = {}
+
+	set_country_flag = muslim_country	
+	add_opinion_modifier = { target = USA modifier = historical_riverly }
+	add_opinion_modifier = { target = ISR modifier = historical_riverly }	
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 5			
+			
+		    }
+			
+		    moderate_islam = { 
+			    popularity = 5			
+			
+		    }			
+
+		    autocracy = {
+			    popularity = 60		
+		    }
+
+		    fundamentalist_islam = { 
+			    popularity = 30		
+		    }
+	    }
+	
+	    ruling_party = autocracy
+	    last_election = "1996.3.5"
+	    election_frequency = 48
+	    elections_allowed = no
+    }
+    add_ideas = {
+	    an_iron_fist
+    }
+    #############LAST ENTRY IS USED FIRST#############	
+    create_country_leader = {
+    	name = "Muammar Gaddafi"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "LBYH1.dds"
+    	expire = "2011.1.1"
+    	ideology = dictatorship
+    	traits = {
+    		#
+    	}
+    }
+}

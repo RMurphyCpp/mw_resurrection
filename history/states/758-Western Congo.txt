@@ -1,0 +1,21 @@
+state={
+	id=758
+	name="STATE_758"
+	
+	state_category = town
+	
+	history={
+		owner = CNG
+		add_core_of = CNG
+		
+		victory_points = {
+			8193 10 
+		}		
+	}
+	
+	provinces={
+		3109 6008 8193 12975 
+	}
+	manpower=200
+	buildings_max_level_factor=1
+}

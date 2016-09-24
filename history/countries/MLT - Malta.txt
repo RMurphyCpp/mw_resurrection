@@ -1,0 +1,156 @@
+﻿capital = 116
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 60
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 40			
+		    }
+	    }
+	
+	    ruling_party = democratic_conservative
+	    last_election = "1996.3.5"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+	    democratic_traditions
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Eddie Fenech Adami"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "MLTG1.dds"
+    	expire = "2004.3.23"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2001.10.7 = {
+    create_country_leader = {
+    	name = "Eddie Fenech Adami"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "MLTG1.dds"
+    	expire = "2004.3.23"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+    create_country_leader = {
+    	name = "Eddie Fenech Adami"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "MLTG1.dds"
+    	expire = "2004.3.23"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2004.1.1 = {
+    add_ideas = {
+		european_union_member
+    }
+}
+
+2008.8.7 = {
+    create_country_leader = {
+    	name = "Lawrence Gonzi"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "MLTG2.dds"
+    	expire = "2004.3.23"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+    create_country_leader = {
+    	name = "Lawrence Gonzi"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "MLTG2.dds"
+    	expire = "2004.3.23"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+    create_country_leader = {
+    	name = "Lawrence Gonzi"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "MLTG2.dds"
+    	expire = "2004.3.23"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 40
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 60			
+		    }
+	    }
+	
+	    ruling_party = democratic_socialism
+	    last_election = "1996.3.5"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Joseph Muscat"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "MLTG3.dds"
+    	expire = "2004.3.23"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+    create_country_leader = {
+    	name = "Joseph Muscat"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "MLTG3.dds"
+    	expire = "2004.3.23"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}

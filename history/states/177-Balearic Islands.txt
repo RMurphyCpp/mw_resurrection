@@ -1,0 +1,20 @@
+state=
+{
+	id=177
+	name="STATE_177"
+	manpower = 365500
+	
+	state_category = city
+	
+	history={
+		owner = SPA
+		add_core_of = SPA
+		
+		victory_points = {
+			9793 5 
+		}		
+	}
+	provinces=
+	{
+7114 9793 9845 	}
+}

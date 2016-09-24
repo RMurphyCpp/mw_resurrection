@@ -1,0 +1,54 @@
+ideas = {
+	country = {
+		the_beaver_nation = {
+			
+			allowed = {
+				original_tag = CAN
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.15
+			}
+		}
+	
+		canadian_multiculturalism = {
+			
+			allowed = {
+				original_tag = CAN
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				unity_factor = 0.1
+			}
+		}
+
+		canadaian_mounted_police = {
+			
+			allowed = {
+				original_tag = CAN
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				enemy_partisan_effect = -0.2
+			}
+		}
+	}
+}

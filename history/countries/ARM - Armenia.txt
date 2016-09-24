@@ -1,0 +1,57 @@
+﻿capital = 230
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+	
+	add_opinion_modifier = { target = AZB modifier = historical_riverly }
+	add_opinion_modifier = { target = TUR modifier = historical_riverly }	
+	
+	SOV = { add_to_faction = ARM }
+	give_guarantee = NGK
+
+    set_politics = {
+
+	    parties = {
+		    democratic_nationalism = { 
+			    popularity = 84
+			
+		    }
+
+		    democratic_liberal = {
+			    popularity = 6
+			    banned = no				
+		    }
+		
+		    communism = {
+			    popularity = 0
+			    banned = no	
+		    }
+		
+		    fascism = { 
+			    popularity = 10
+			    banned = no			
+		    }
+	    }
+	
+	    ruling_party = democratic_nationalism
+	    last_election = "1996.3.5"
+	    election_frequency = 48
+	    elections_allowed = no
+    }
+    add_ideas = {
+	    an_iron_fist
+    }
+    #############LAST ENTRY IS USED FIRST#############	
+    create_country_leader = {
+    	name = "Authoritarian_Leader"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "Portrait_Albania_King_Zog.dds"
+    	expire = "1965.1.1"
+    	ideology = nationalism
+    	traits = {
+    		#
+    	}
+    }
+}

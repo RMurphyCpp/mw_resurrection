@@ -1,0 +1,14 @@
+state={
+	id=552
+	name="STATE_552"
+	manpower = 26539
+	
+	state_category = wasteland
+	history={
+		owner = SUD
+		add_core_of = SUD
+	}
+	provinces={
+		4138 4961 7987 8103 10900 12836 
+	}
+}

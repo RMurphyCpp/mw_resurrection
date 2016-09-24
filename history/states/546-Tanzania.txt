@@ -1,0 +1,19 @@
+state={
+	id=546
+	name="STATE_546"
+	
+	state_category = rural
+	history={
+		owner = TNZ
+		add_core_of = TNZ
+		
+		victory_points = {
+			5180 10 
+		}		
+	}
+	provinces={
+		2176 2196 2206 2281 2308 4171 5180 5224 8144 8182 8183 8201 8205 10845 10932 10988 11017 12911 12944 12967 
+	}
+	manpower=5299000
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,50 @@
+###Event pics index for modern warfare mod. File made by Murphy
+##news frame (major = yes)  pic size 397x153
+##others 210x176 (I think)
+
+spriteTypes = {
+	
+	spriteType = {
+		name = GFX_mwm_event_no_image #no image generic pic
+		texturefile = "gfx/event_pictures/no_image.dds"
+	}
+	
+	spriteType = {
+		name = GFX_mwm_event_usa_iraq_1 #2002 state union address
+		texturefile = "gfx/event_pictures/usa.iraq.1.dds"
+	}
+	
+	spriteType = {
+		name = GFX_mwm_event_cia_logo_small #cia small logo
+		texturefile = "gfx/event_pictures/cia_event_small.dds"
+	}
+	
+	spriteType = {
+		name = GFX_mwm_event_usa_iraq_3 #iraqi freedom pic
+		texturefile = "gfx/event_pictures/usa.iraq.3.dds"
+	}
+	
+	##USA Iran
+	
+	spriteType = {
+		name = GFX_mwm_event_usa_iran_1 #2003 state union address
+		texturefile = "gfx/event_pictures/usa.iran.1.dds"
+	}
+	
+	##USA political
+	
+	spriteType = {
+		name = GFX_mwm_event_usa_1 
+		texturefile = "gfx/event_pictures/usa.1.dds"
+	}
+	
+	spriteType = {
+		name = GFX_mwm_event_usa_2 
+		texturefile = "gfx/event_pictures/usa.2.dds"
+	}
+	
+	spriteType = {
+		name = GFX_mwm_event_usa_3 
+		texturefile = "gfx/event_pictures/usa.3.dds"
+	}
+}

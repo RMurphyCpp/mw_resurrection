@@ -1,0 +1,3 @@
+graphical_culture = Generic
+color = { 30  30  30 }
+graphical_culture_2d = eastern_european_2d	 

@@ -1,0 +1,20 @@
+state={
+	id=743
+	name="STATE_743"
+	state_category = metropolis
+	
+	history={
+		owner = SGP
+		add_core_of = SGP
+		
+		victory_points = {
+			12299 10 
+		}		
+	}
+	
+	provinces={
+		12299 
+	}
+	manpower=4000000
+	buildings_max_level_factor=1
+}

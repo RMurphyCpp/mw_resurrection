@@ -1,0 +1,166 @@
+﻿capital = 111
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+
+    set_politics = {
+
+	    parties = {
+		    democratic_liberal = { 
+			    popularity = 31
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 33			
+		    }
+		
+		    democratic_center = {
+			    popularity = 28
+		    }
+		
+		    democratic_green = { 
+			    popularity = 7			
+		    }
+	    }
+	
+	    ruling_party = democratic_socialism
+	    last_election = "1999.3.21"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+		european_union_member
+	    democratic_traditions
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Paavo Lipponen"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "FING1.dds"
+    	expire = "2003.4.17"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }	
+}
+
+2001.10.7 = {
+    create_country_leader = {
+    	name = "Paavo Lipponen"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "FING1.dds"
+    	expire = "2003.4.17"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+    create_country_leader = {
+    	name = "Paavo Lipponen"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "FING1.dds"
+    	expire = "2003.4.17"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2008.8.7 = {
+    set_politics = {
+
+	    parties = {
+		    democratic_liberal = { 
+			    popularity = 19
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 35			
+		    }
+		
+		    democratic_center = {
+			    popularity = 37
+		    }
+		
+		    democratic_green = { 
+			    popularity = 7			
+		    }
+	    }
+	
+	    ruling_party = democratic_conservative
+	    last_election = "2003.3.16"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Matti Vanhanen"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "FING3.dds"
+    	expire = "2010.6.22"
+    	ideology = centrer_right
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+    create_country_leader = {
+    	name = "Mari Kiviniemi"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "FING4.dds"
+    	expire = "2011.6.22"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+    create_country_leader = {
+    	name = "Mari Kiviniemi"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "FING4.dds"
+    	expire = "2011.6.22"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+    create_country_leader = {	
+    	name = "Jyrki Katainen"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "FING5.dds"
+    	expire = "2020.6.22"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+    create_country_leader = {
+    	name = "Jyrki Katainen"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "FING5.dds"
+    	expire = "2020.6.22"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}

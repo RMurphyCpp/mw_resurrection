@@ -1,0 +1,190 @@
+﻿capital = 202
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+	
+    set_politics = {
+
+	    parties = {
+		    communism = {
+			    popularity = 40
+		    }
+		
+		    democratic_nationalism = { 
+			    popularity = 60		
+		    }
+	    }
+	
+	    ruling_party = democratic_nationalism
+	    last_election = "1999.10.31"
+	    election_frequency = 60
+	    elections_allowed = yes
+    }
+    add_ideas = {
+		united_nations_non_permanent_member	
+	    fragile_democracy
+		post_soviet_trauma_ukr
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Leonid Kuchma"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "UKRH1.dds"
+    	expire = "2004.12.26"
+    	ideology = nationalism
+    	traits = {
+    		#
+    	}
+    }	
+}
+
+2001.10.7 = {
+    create_country_leader = {
+    	name = "Leonid Kuchma"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "UKRH1.dds"
+    	expire = "2004.12.26"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+    create_country_leader = {
+    	name = "Leonid Kuchma"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "UKRH1.dds"
+    	expire = "2004.12.26"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2008.8.7 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_liberal = {
+			    popularity = 60
+		    }
+		
+		    democratic_nationalism = { 
+			    popularity = 40		
+		    }
+	    }
+	
+	    ruling_party = democratic_liberal
+	    last_election = "2004.12.26"
+	    election_frequency = 60
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Viktor Yushchenko"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "UKRH2.dds"
+    	expire = "2010.11.21"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+    set_politics = {
+
+	    parties = {
+		    democratic_liberal = {
+			    popularity = 40
+		    }
+		
+		    democratic_nationalism = { 
+			    popularity = 60		
+		    }
+	    }
+	
+	    ruling_party = democratic_nationalism
+	    last_election = "2004.12.26"
+	    election_frequency = 60
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Yulia Tymoshenko"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "UKRG3.dds"
+    	expire = "2014.11.21"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {
+    	name = "Viktor Yanukovych"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "UKRH3.dds"
+    	expire = "2014.11.21"
+    	ideology = nationalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+    create_country_leader = {
+    	name = "Viktor Yanukovych"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "UKRH3.dds"
+    	expire = "2014.11.21"
+    	ideology = nationalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+    create_country_leader = {
+    	name = "Viktor Yanukovych"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "UKRH3.dds"
+    	expire = "2014.11.21"
+    	ideology = nationalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_liberal = {
+			    popularity = 70
+		    }
+		
+		    democratic_nationalism = { 
+			    popularity = 30		
+		    }
+	    }
+    }
+    create_country_leader = {
+    	name = "Oleksandr Turchynov"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "UKRH4.dds"
+    	expire = "2016.11.21"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}

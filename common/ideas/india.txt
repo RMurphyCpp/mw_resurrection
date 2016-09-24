@@ -1,0 +1,58 @@
+ideas = {
+	country = {
+		the_ghandi_legacy = {
+			
+			allowed = {
+				original_tag = IND
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				unity_factor = 0.1
+			}
+		}
+	}
+	
+	country = {
+		lecence_raj = {
+			
+			allowed = {
+				original_tag = IND
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.10
+			}
+		}
+	}
+	
+	country = {
+		hindu_nationalism = {
+			
+			allowed = {
+				original_tag = IND
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				unity_factor = -0.1
+			}
+		}
+	}	
+}

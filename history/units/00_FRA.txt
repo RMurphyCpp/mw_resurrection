@@ -1,0 +1,36 @@
+﻿#French OOB for modern warfare mod
+division_template = {
+	
+	name = "Brigade blindée"
+	
+	regiments = { #120 Leclerc
+		heavy_tank = { x = 0 y = 0}
+		heavy_tank = { x = 0 y = 1}
+		heavy_tank = { x = 1 y = 0}
+		heavy_tank = { x = 1 y = 1}
+		
+		mechanized = { x = 2 y = 0}
+		mechanized = { x = 2 y = 1}
+		mechanized = { x = 2 y = 2}
+		mechanized = { x = 2 y = 3}
+		mechanized = { x = 2 y = 4}
+		
+		mechanized = { x = 2 y = 0}
+		mechanized = { x = 2 y = 1}
+		mechanized = { x = 2 y = 2}
+		mechanized = { x = 2 y = 3}
+		mechanized = { x = 2 y = 4}
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0}
+		signals = { x = 0 y = 1}
+	}
+	
+}
+
+division_template = {
+
+	name = ""
+
+}

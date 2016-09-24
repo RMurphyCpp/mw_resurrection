@@ -1,0 +1,85 @@
+bookmarks = {
+	bookmark = {
+		name = "Y2K_NAME"
+		desc = "Y2K_DESC"
+		date = 2000.1.1.12
+		picture = "GFX_select_date_2000"
+		default_country = "USA"
+	
+		FRA = {
+			history = FRA_BLITZKRIEG_DESC
+			ideology = democratic_conservative
+			ideas={
+				european_union_member			
+				liberty_equality_fraternity
+				french_laisite			
+			}
+		}
+		GER = {
+			history = GER_BLITZKRIEG_DESC
+			ideology = democratic_conservative
+			ideas={
+				european_union_member			
+				a_dark_past
+				pacifism_germany
+				german_work_ethic			
+			}
+		}
+		ENG = {
+			history = ENG_BLITZKRIEG_DESC
+			ideology = democratic_conservative
+			ideas={
+				european_union_member			
+				city_of_london
+				magna_carta
+				the_union_jack			
+			}
+			
+		}		
+		USA = {
+			history = USA_BLITZKRIEG_DESC
+			ideology = democratic_conservative
+			ideas={
+				un_permanent_member
+				petro_dollar
+				land_of_the_free			
+			}
+		}		
+		SOV = {
+			history = SOV_BLITZKRIEG_DESC
+			ideology = democratic_conservative
+			ideas={
+				bleeding_russian_bear
+				ashes_of_empire
+				mother_russia				
+			}
+		}
+		CHC = {
+			history = ITA_BLITZKRIEG_DESC
+			ideology = communism
+			ideas={
+				the_dragon_awakes
+				chinese_economic_reform
+				corporate_communism
+			}			
+		}		
+		JAP = {
+			history = JAP_BLITZKRIEG_DESC
+			ideology = democratic_conservative
+			ideas={
+				article_nine_jap
+				industrial_powerhouse_jap
+				chrysanthemum_throne			
+			}			
+		}
+
+		"---"={
+			history = "OTHER_BLITZKRIEG_DESC"
+		}
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

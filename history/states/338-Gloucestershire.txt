@@ -1,0 +1,20 @@
+state={
+	id=338
+	name="STATE_338"
+	manpower = 1800615
+	resources={
+		steel=16
+	}
+	state_category = city
+	history={
+		owner = ENG
+		add_core_of = ENG		
+		
+		victory_points = {
+			3369 2 
+		}
+	}
+	provinces={
+		3369 6221 6351 6378 9484 11471 
+	}
+}

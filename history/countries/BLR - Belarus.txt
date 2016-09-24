@@ -1,0 +1,54 @@
+﻿capital = 206
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+	
+	SOV = { add_to_faction = BLR }	
+
+    set_politics = {
+
+	    parties = {
+		    autocracy = { 
+			    popularity = 84
+			
+		    }
+
+		    democratic_liberal = {
+			    popularity = 6
+			    banned = no				
+		    }
+		
+		    communism = {
+			    popularity = 0
+			    banned = no	
+		    }
+		
+		    fascism = { 
+			    popularity = 10
+			    banned = no			
+		    }
+	    }
+	
+	    ruling_party = autocracy
+	    last_election = "1996.3.5"
+	    election_frequency = 48
+	    elections_allowed = no
+    }
+    add_ideas = {
+	    an_iron_fist
+		post_soviet_trauma_blr		
+    }
+    #############LAST ENTRY IS USED FIRST#############	
+    create_country_leader = {
+    	name = "Alexander Lukashenko"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "BLRH1.dds"
+    	expire = "2030.1.1"
+    	ideology = dictatorship
+    	traits = {
+    		#
+    	}
+    }
+}

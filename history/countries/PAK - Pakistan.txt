@@ -1,0 +1,193 @@
+﻿capital = 440
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+
+	set_country_flag = muslim_country	
+	
+    set_politics = {
+
+	    parties = {
+		    democratic_socialism = { 
+			    popularity = 40
+			
+		    }
+
+		    moderate_islam = {
+			    popularity = 50			
+		    }
+			
+		    fundamentalist_islam = {
+			    popularity = 10			
+		    }			
+	    }
+	
+	    ruling_party = moderate_islam
+	    last_election = "1997.10.10"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Zafarullah Khan Jamali"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "PAKG1.dds"
+    	expire = "2004.6.26"
+    	ideology = islam_moderate
+    	traits = {
+    		#
+    	}
+    }	
+}
+
+2001.10.7 = {
+    create_country_leader = {
+    	name = "Zafarullah Khan Jamali"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "PAKG1.dds"
+    	expire = "2004.6.26"
+    	ideology = islam_moderate
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+    set_politics = {
+	    ruling_party = moderate_islam
+	    last_election = "2002.10.10"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Zafarullah Khan Jamali"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "PAKG1.dds"
+    	expire = "2004.6.26"
+    	ideology = islam_moderate
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2008.8.7 = {
+    set_politics = {
+
+	    parties = {
+		    democratic_socialism = { 
+			    popularity = 40
+			
+		    }
+
+		    moderate_islam = {
+			    popularity = 50			
+		    }
+			
+		    fundamentalist_islam = {
+			    popularity = 10			
+		    }			
+	    }
+	
+	    ruling_party = democratic_socialism
+	    last_election = "2008.2.18"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Yousaf Raza Gillani"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "PAKG5.dds"
+    	expire = "2012.6.19"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+    set_politics = {
+
+	    parties = {
+		    democratic_socialism = { 
+			    popularity = 50
+			
+		    }
+
+		    moderate_islam = {
+			    popularity = 40			
+		    }
+			
+		    fundamentalist_islam = {
+			    popularity = 10			
+		    }			
+	    }
+	
+	    ruling_party = democratic_socialism
+	    last_election = "2008.2.18"
+	    election_frequency = 48
+	    elections_allowed = no
+    }
+    create_country_leader = {
+    	name = "Yousaf Raza Gillani"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "PAKG4.dds"
+    	expire = "2012.6.19"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+
+    set_politics = {
+	    ruling_party = military
+	    last_election = "2008.2.18"
+	    election_frequency = 48
+	    elections_allowed = no
+    }
+    create_country_leader = {
+    	name = "Pervez Musharraf"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "PAKH2.dds"
+    	expire = "2012.6.19"
+    	ideology = militarism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+    create_country_leader = {
+    	name = "Pervez Musharraf"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "PAKH2.dds"
+    	expire = "2012.6.19"
+    	ideology = militarism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+    create_country_leader = {
+    	name = "Pervez Musharraf"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "PAKH2.dds"
+    	expire = "2012.6.19"
+    	ideology = militarism
+    	traits = {
+    		#
+    	}
+    }
+}

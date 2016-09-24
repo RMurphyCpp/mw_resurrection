@@ -1,0 +1,14 @@
+on_actions = {
+	on_new_term_election = {
+		random_events = {
+			100 = election.1
+			100 = election.2
+			100 = election.4
+			100 = election.6
+			100 = election.8
+			100 = election.10
+			100 = election.12
+			100 = election.14			
+		}
+	}
+}

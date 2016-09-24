@@ -1,0 +1,21 @@
+state={
+	id=760
+	name="STATE_760"
+	
+	state_category = town	
+	
+	history={
+		owner = BEN
+		add_core_of = BEN
+		
+		victory_points = {
+			10919 10 
+		}		
+	}
+	
+	provinces={
+		10919 12762 12874 
+	}
+	manpower=200
+	buildings_max_level_factor=1
+}

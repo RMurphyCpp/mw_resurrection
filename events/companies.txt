@@ -1,0 +1,81 @@
+﻿###########################
+# Test Events
+###########################
+
+add_namespace = company
+
+# Hidden Opinion Modifier Removal Event
+country_event = {
+	id = company.1
+	title = company.1.t
+	desc = company.1.d
+	
+	is_triggered_only = yes
+	hidden = yes
+
+	immediate = {	
+		remove_opinion_modifier = {
+			target = ROOT modifier = tank_contract_initiator 
+		}
+	}
+}
+
+country_event = {
+	id = company.2
+	title = company.1.t
+	desc = company.1.d
+	
+	is_triggered_only = yes
+	hidden = yes
+
+	immediate = {	
+		remove_opinion_modifier = {
+			target = ROOT modifier = ship_contract_initiator 
+		}
+	}
+}
+
+country_event = {
+	id = company.3
+	title = company.1.t
+	desc = company.1.d
+	
+	is_triggered_only = yes
+	hidden = yes
+
+	immediate = {	
+		remove_opinion_modifier = {
+			target = ROOT modifier = air_contract_initiator 
+		}
+	}
+}
+
+country_event = {
+	id = company.4
+	title = company.1.t
+	desc = company.1.d
+	
+	is_triggered_only = yes
+	hidden = yes
+
+	immediate = {	
+		remove_opinion_modifier = {
+			target = ROOT modifier = equipment_contract_initiator 
+		}
+	}
+}
+
+country_event = {
+	id = company.6
+	title = company.1.t
+	desc = company.1.d
+	
+	is_triggered_only = yes
+	hidden = yes
+
+	immediate = {	
+		remove_opinion_modifier = {
+			target = ROOT modifier = civilian_contract_initiator 
+		}
+	}
+}

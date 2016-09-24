@@ -1,0 +1,225 @@
+﻿###########################
+# Election Events
+###########################
+add_namespace = election
+# Generic Election Events
+country_event = {
+	id = election.1 	#Conservative Victory
+	title = generic_election_lose_title
+	desc = generic_election_lose_desc
+	picture = GFX_report_event_gathering_protest
+	
+	is_triggered_only = yes
+
+	trigger = {
+		OR = {
+		NOT = { has_government = democratic_conservative democratic_conservative > 0.5 }		
+		NOT = { has_government = democratic_nationalism democratic_nationalism > 0.5 }
+		NOT = { has_government = democratic_center democratic_center > 0.5 }
+		NOT = { has_government = democratic_liberal democratic_liberal > 0.5 }
+		NOT = { has_government = democratic_green democratic_green > 0.5 }
+		NOT = { has_government = democratic_socialism democratic_socialism > 0.5 }
+		NOT = { has_government = moderate_islam moderate_islam > 0.5 }
+		}
+	}
+	
+	option = {
+		name = generic_election_lose_a
+		if = {
+			limit = { democratic_conservative > 0.5 }
+			set_politics = {
+			ruling_party = democratic_conservative			
+			elections_allowed = yes			
+			}
+		}
+		if = {
+			limit = { democratic_center > 0.5 }
+			set_politics = {
+			ruling_party = democratic_center			
+			elections_allowed = yes			
+			}
+		}
+		if = {
+			limit = { democratic_liberal > 0.5 }
+			set_politics = {
+			ruling_party = democratic_liberal			
+			elections_allowed = yes			
+			}
+		}
+		if = {
+			limit = { democratic_green > 0.5 }
+			set_politics = {
+			ruling_party = democratic_green			
+			elections_allowed = yes			
+			}
+		}
+		if = {
+			limit = { democratic_socialism > 0.5 }
+			set_politics = {
+			ruling_party = democratic_socialism			
+			elections_allowed = yes			
+			}
+		}
+		if = {
+			limit = { moderate_islam > 0.5 }
+			set_politics = {
+			ruling_party = moderate_islam			
+			elections_allowed = yes			
+			}
+		}		
+	}	
+}
+
+country_event = {
+	id = election.2 	#Conservative remain in power
+	title = generic_election_stay_title
+	desc = generic_election_stay_desc
+	picture = GFX_report_event_gathering_protest
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_government = democratic_conservative
+		democratic_conservative > 0.5
+	}
+	
+	option = {
+		name = generic_election_stay_a
+		add_popularity = {
+			ideology = democratic_conservative
+			popularity = 0.05
+		}		
+	}
+}
+
+country_event = {
+	id = election.4 	#Reactionery remain in power
+	title = generic_election_stay_title
+	desc = generic_election_stay_desc
+	picture = GFX_report_event_gathering_protest
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_government = democratic_nationalism
+		democratic_nationalism > 0.5
+	}
+	
+	option = {
+		name = generic_election_stay_a
+		add_popularity = {
+			ideology = democratic_nationalism
+			popularity = 0.05
+		}		
+	}
+}
+
+country_event = {
+	id = election.6 	#Center remain in power
+	title = generic_election_stay_title
+	desc = generic_election_stay_desc
+	picture = GFX_report_event_gathering_protest
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_government = democratic_center
+		democratic_center > 0.5
+	}
+	
+	option = {
+		name = generic_election_stay_a
+		add_popularity = {
+			ideology = democratic_center
+			popularity = 0.05
+		}		
+	}
+}
+
+country_event = {
+	id = election.8 	#Liberal remain in power
+	title = generic_election_stay_title
+	desc = generic_election_stay_desc
+	picture = GFX_report_event_gathering_protest
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_government = democratic_liberal
+		democratic_liberal > 0.5
+	}
+	
+	option = {
+		name = generic_election_stay_a
+		add_popularity = {
+			ideology = democratic_liberal
+			popularity = 0.05
+		}		
+	}
+}
+
+country_event = {
+	id = election.10 	#Green remain in power
+	title = generic_election_stay_title
+	desc = generic_election_stay_desc
+	picture = GFX_report_event_gathering_protest
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_government = democratic_green
+		democratic_green > 0.5
+	}
+	
+	option = {
+		name = generic_election_stay_a
+		add_popularity = {
+			ideology = democratic_green
+			popularity = 0.05
+		}		
+	}
+}
+
+country_event = {
+	id = election.12 	#Socialist remain in power
+	title = generic_election_stay_title
+	desc = generic_election_stay_desc
+	picture = GFX_report_event_gathering_protest
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_government = democratic_socialism
+		democratic_socialism > 0.5
+	}
+	
+	option = {
+		name = generic_election_stay_a
+		add_popularity = {
+			ideology = democratic_socialism
+			popularity = 0.05
+		}		
+	}
+}
+
+country_event = {
+	id = election.14	#Moderate Islam remain in power
+	title = generic_election_stay_title
+	desc = generic_election_stay_desc
+	picture = GFX_report_event_gathering_protest
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_government = moderate_islam
+		moderate_islam > 0.5
+	}
+	
+	option = {
+		name = generic_election_stay_a
+		add_popularity = {
+			ideology = moderate_islam
+			popularity = 0.05
+		}		
+	}
+}

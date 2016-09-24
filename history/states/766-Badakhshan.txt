@@ -1,0 +1,22 @@
+state={
+	id=766
+	name="STATE_766"
+	
+	state_category = rural
+	
+	history={
+		owner = AFG
+		add_core_of = AFG
+		add_core_of = IEA
+		
+		victory_points = {
+			12314 6
+		}		
+	}
+	
+	provinces={
+		7519 10781 10826 12314 12653 
+	}
+	manpower=10781
+	buildings_max_level_factor=1
+}

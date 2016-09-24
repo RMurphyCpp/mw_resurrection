@@ -1,0 +1,194 @@
+ideas = {
+
+	media_freedom_laws = {
+		law = yes
+		mw_state_media = {
+			
+			available = {			
+				OR = {
+				has_government = democratic_nationalism				
+				has_government = communism
+				has_government = new_nazism
+				has_government = fascism
+				has_government = autocracy
+				has_government = military
+				has_government = sunni_islam
+				has_government = shia_islam
+				has_government = fundamentalist_islam
+				}			
+			}
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+				drift_defence_factor = 0.25
+				political_power_factor = 0.25	
+				justify_war_goal_time = -0.25
+				foreign_subversive_activites = -0.25
+			}		
+			
+			allowed_to_remove = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		mw_tight_media_control = {
+			
+			available = {
+				OR = {
+				has_government = democratic_nationalism				
+				has_government = communism
+				has_government = new_nazism
+				has_government = fascism
+				has_government = autocracy
+				has_government = military
+				has_government = sunni_islam
+				has_government = shia_islam
+				has_government = fundamentalist_islam
+				}			
+			}
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+				drift_defence_factor = 0.20
+				political_power_factor = 0.20
+				justify_war_goal_time = -0.20
+				foreign_subversive_activites = -0.20
+			}			
+			
+			allowed_to_remove = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		mw_loose_media_control = {
+
+			available = {	
+				OR = {
+				has_government = democratic_nationalism
+				has_government = military
+				}
+			}
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+				drift_defence_factor = 0.10
+				political_power_factor = 0.10	
+				justify_war_goal_time = -0.10
+				foreign_subversive_activites = -0.10	
+			}			
+			
+			allowed_to_remove = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		mw_harrased_media = {
+			
+			available = {					
+				OR = {
+				has_government = democratic_nationalism
+				has_government = military
+				}
+			}
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+				drift_defence_factor = -0.10
+				political_power_factor = 0.05
+				justify_war_goal_time = -0.05
+				foreign_subversive_activites = -0.05			
+			}			
+			
+			allowed_to_remove = {
+			}
+			
+			cancel_if_invalid = no
+		}		
+		
+		mw_cencored_media = {
+			
+			available = {	
+				OR = {
+				has_government = democratic_nationalism
+				has_government = military
+				has_war = yes
+				}
+			}
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+				drift_defence_factor = -0.05
+				political_power_factor = 0.10
+				justify_war_goal_time = 0.10
+				foreign_subversive_activites = -0.10
+			}			
+			
+			allowed_to_remove = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		mw_free_media = {
+
+			available = {
+				hidden_trigger = {
+					OR = { 
+					has_idea = mw_fully_granted_liberties
+					has_idea = mw_partial_granted_liberties 
+					}
+				}
+				custom_trigger_tooltip =  { tooltip = "Must have law 'Fully Granted Liberties' or 'Partial Granted Liberties'" }				
+				OR = {			
+				has_government = democratic_conservative
+				has_government = democratic_center
+				has_government = democratic_liberal
+				has_government = democratic_green
+				has_government = democratic_socialism
+				has_government = moderate_islam
+				}			
+			}
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+				unity_factor = 0.15 			
+				drift_defence_factor = -0.10
+				political_power_factor = -0.10
+				justify_war_goal_time = -0.10
+				foreign_subversive_activites = 0.10			
+			}			
+			
+			allowed_to_remove = {
+			}
+			
+			cancel_if_invalid = yes
+		}
+	}
+}

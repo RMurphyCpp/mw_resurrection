@@ -1,0 +1,62 @@
+#bookmarks = {
+#	bookmark = {
+#		name = "EUROMAIDAN_REVOLUTION_NAME"
+#		desc = "EUROMAIDAN_REVOLUTION_DESC"
+#		date = 2014.4.7
+#		picture = "GFX_select_date_2010"
+#		default_country = "UKR"
+#	
+#		POL = {
+#			history = FRA_BLITZKRIEG_DESC
+#			ideology = democratic_conservative
+#			ideas={
+#			}
+#		}
+#		GER = {
+#			history = GER_BLITZKRIEG_DESC
+#			ideology = democratic_conservative
+#			ideas={
+#			}
+#		}
+#		USA = {
+#			history = ENG_BLITZKRIEG_DESC
+#			ideology = democratic_conservative
+#			ideas={
+#			}
+#			
+#		}		
+#		UKR = {
+#			history = USA_BLITZKRIEG_DESC
+#			ideology = democratic_conservative
+#			ideas={
+#			}
+#		}		
+#		DPR = {
+#			history = ITA_BLITZKRIEG_DESC
+#			ideology = communism
+#			ideas={
+#			}			
+#		}
+#		LPR = {
+#			history = SOV_BLITZKRIEG_DESC
+#			ideology = democratic_conservative
+#			ideas={			
+#			}
+#		}		
+#		SOV = {
+#			history = JAP_BLITZKRIEG_DESC
+#			ideology = democratic_conservative
+#			ideas={
+#			}			
+#		}
+#
+#		"---"={
+#			history = "OTHER_BLITZKRIEG_DESC"
+#		}
+#
+#		effect = {
+#			randomize_weather = 12345 # <- Obligatory in every bookmark !
+#			#123 = { rain_light = yes }
+#		}
+#	}
+#}

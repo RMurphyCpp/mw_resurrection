@@ -1,0 +1,27 @@
+state={
+	id=754
+	name="STATE_754"
+	
+	state_category = city
+	
+	history={
+		owner = ABK
+		add_core_of = GEO
+		
+		victory_points = {
+			11647 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 2			
+			air_base = 2
+		}
+    }
+	
+	provinces={
+		9663 11617 11647 
+	}
+	manpower=600
+	buildings_max_level_factor=1
+}

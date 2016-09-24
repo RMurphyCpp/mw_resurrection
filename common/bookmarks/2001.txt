@@ -1,0 +1,62 @@
+bookmarks = {
+	bookmark = {
+		name = "AFGINAVASION_NAME"
+		desc = "AFGINAVASION_DESC"
+		date = 2001.10.7
+		picture = "GFX_select_date_2001"
+		default_country = "USA"
+	
+		AST = {
+			history = FRA_BLITZKRIEG_DESC
+			ideology = democratic_conservative
+			ideas={
+			}
+		}
+		ENG = {
+			history = GER_BLITZKRIEG_DESC
+			ideology = democratic_conservative
+			ideas={		
+			}
+		}
+		USA = {
+			history = ENG_BLITZKRIEG_DESC
+			ideology = democratic_conservative
+			ideas={
+			}
+			
+		}		
+		AFG = {
+			history = USA_BLITZKRIEG_DESC
+			ideology = democratic_conservative
+			ideas={
+			}
+		}		
+		IEA = {
+			history = ITA_BLITZKRIEG_DESC
+			ideology = communism
+			ideas={
+			}			
+		}
+		PAK = {
+			history = SOV_BLITZKRIEG_DESC
+			ideology = democratic_conservative
+			ideas={			
+			}
+		}		
+		SAU = {
+			history = JAP_BLITZKRIEG_DESC
+			ideology = democratic_conservative
+			ideas={
+			}			
+		}
+
+		"---"={
+			history = "OTHER_BLITZKRIEG_DESC"
+		}
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

@@ -1,0 +1,148 @@
+﻿capital = 6
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+	
+	set_country_flag = shengen_area
+	
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 33
+			
+		    }
+
+		    democratic_liberal = {
+			    popularity = 47			
+		    }
+		
+		    democratic_socialism = {
+			    popularity = 20	
+		    }
+	    }
+	
+	    ruling_party = democratic_liberal
+	    last_election = "1998.10.4"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+		european_union_member
+	    democratic_traditions
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Guy Verhofstadt"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "BELG1.dds"
+    	expire = "2008.4.20"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2001.10.7 = {
+    create_country_leader = {
+    	name = "Guy Verhofstadt"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "BELG1.dds"
+    	expire = "2008.4.20"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+    create_country_leader = {
+    	name = "Guy Verhofstadt"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "BELG1.dds"
+    	expire = "2008.4.20"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2008.8.7 = {
+    create_country_leader = {
+    	name = "Yves Leterme"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "BELG2.dds"
+    	expire = "2011.12.30"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+	
+2010.12.18 = {
+
+    set_politics = {
+
+	    ruling_party = democratic_conservative
+	    last_election = "1998.10.4"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+	
+    create_country_leader = {
+    	name = "Yves Leterme"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "BELG2.dds"
+    	expire = "2011.12.30"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+    create_country_leader = {
+    	name = "Yves Leterme"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "BELG2.dds"
+    	expire = "2011.12.30"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+    create_country_leader = {
+    	name = "Elio Di Rupo"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "BELG4.dds"
+    	expire = "2020.11.25"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+    create_country_leader = {
+    	name = "Elio Di Rupo"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "BELG4.dds"
+    	expire = "2020.11.25"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}

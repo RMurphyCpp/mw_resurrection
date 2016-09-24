@@ -1,0 +1,202 @@
+﻿capital = 525
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 40
+			
+		    }
+
+		    democratic_liberal = {
+			    popularity = 50			
+		    }
+		
+		    democratic_nationalism = { 
+			    popularity = 9			
+		    }
+			
+		    democratic_socialism = { 
+			    popularity = 1			
+		    }			
+	    }
+	
+	    ruling_party = democratic_liberal
+	    last_election = "1996.4.11"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+	    asian_tiger
+		han_river_miracle		
+		korean_schism
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Kim Dae-jung"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "KORH1.dds"
+    	expire = "2003.2.24"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2001.10.7 = {
+    create_country_leader = {
+    	name = "Kim Dae-jung"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "KORH1.dds"
+    	expire = "2003.2.24"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+
+    set_politics = {
+	    ruling_party = democratic_liberal
+	    last_election = "2000.4.15"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Roh Moo-hyun"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "KORH2.dds"
+    	expire = "2008.2.24"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2008.8.7 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 50
+			
+		    }
+
+		    democratic_liberal = {
+			    popularity = 40			
+		    }
+		
+		    democratic_nationalism = { 
+			    popularity = 9			
+		    }
+			
+		    democratic_socialism = { 
+			    popularity = 1			
+		    }			
+	    }
+	
+	    ruling_party = democratic_conservative
+	    last_election = "2008.4.9"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Lee Myung-bak"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "KORH3.dds"
+    	expire = "2013.2.24"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+    create_country_leader = {
+    	name = "Lee Myung-bak"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "KORH3.dds"
+    	expire = "2013.2.24"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+    create_country_leader = {
+    	name = "Lee Myung-bak"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "KORH3.dds"
+    	expire = "2013.2.24"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 50
+			
+		    }
+
+		    democratic_liberal = {
+			    popularity = 40			
+		    }
+		
+		    democratic_nationalism = { 
+			    popularity = 9			
+		    }
+			
+		    democratic_socialism = { 
+			    popularity = 1			
+		    }			
+	    }
+	
+	    ruling_party = democratic_conservative
+	    last_election = "2008.4.9"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Park Geun-hye"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "KORH4.dds"
+    	expire = "2020.2.24"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+    create_country_leader = {
+    	name = "Park Geun-hye"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "KORH4.dds"
+    	expire = "2020.2.24"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}

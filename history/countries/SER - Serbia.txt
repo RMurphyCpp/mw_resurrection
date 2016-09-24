@@ -1,0 +1,142 @@
+﻿capital = 107
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+	
+	add_opinion_modifier = { target = ALB modifier = historical_riverly }	
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 64
+		    }
+
+		    fascism = {
+			    popularity = 8			
+		    }
+		
+		    democratic_socialism = {
+			    popularity = 11	
+		    }
+		
+		    democratic_nationalism = { 
+			    popularity = 17		
+		    }
+	    }
+	
+	    ruling_party = democratic_conservative
+	    last_election = "2000.12.28"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Tomislav Nikolić"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "SERNHREA1.dds"
+    	expire = "2008.9.5"
+    	ideology = nationalism
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {	#Became PM of Serbia after split from Montenegro
+    	name = "Vojislav Koštunica"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "SRMH2.dds"
+    	expire = "2008.7.7"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2008.8.7 = {
+
+    set_politics = {
+	    ruling_party = democratic_conservative
+	    last_election = "2007.1.21"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Mirko Cvetković"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "SERG1.dds"
+    	expire = "2008.12.2"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+    set_politics = {
+	    ruling_party = democratic_conservative
+	    last_election = "2008.5.11"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Mirko Cvetković"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "SERG1.dds"
+    	expire = "2008.12.2"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+    create_country_leader = {
+    	name = "Mirko Cvetković"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "SERG1.dds"
+    	expire = "2008.12.2"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+    set_politics = {
+	    ruling_party = democratic_socialism
+	    last_election = "2012.5.6"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Ivica Dačić"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "SERG2.dds"
+    	expire = "2014.4.27"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+    create_country_leader = {
+    	name = "Ivica Dačić"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "SERG2.dds"
+    	expire = "2014.4.27"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}

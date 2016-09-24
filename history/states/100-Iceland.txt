@@ -1,0 +1,19 @@
+state={
+	id=100
+	name="STATE_100"
+	manpower = 281205
+	state_category = town
+	
+	history={
+		owner = ICL
+		add_core_of = ICL
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			air_base = 2
+			12674 = { naval_base = 3 }
+		}		
+	}
+	provinces={ 4861 12674 12689 }
+}

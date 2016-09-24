@@ -1,0 +1,215 @@
+﻿capital = 10
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+
+	set_politics = {
+	
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 46
+		    }
+
+		    democratic_socialism = {
+			    popularity = 17			
+		    }
+		
+		    democratic_liberal = {
+			    popularity = 37
+		    }
+	    }
+	
+	    ruling_party = democratic_conservative
+	    last_election = "1997.9.21"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Jarosław Kaczyński"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "POLG5.dds"
+    	expire = "2020.10.19"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {
+    	name = "Jerzy Buzek"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "POLG1.dds"
+    	expire = "2001.10.19"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }	
+}
+
+2001.10.7 = {
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 10
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 41			
+		    }
+		
+		    democratic_liberal = {
+			    popularity = 13
+		    }
+	    }
+	
+	    ruling_party = democratic_conservative
+	    last_election = "2001.9.23"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Leszek Miller"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "POLG2.dds"
+    	expire = "2004.5.2"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+    create_country_leader = {
+    	name = "Leszek Miller"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "POLG2.dds"
+    	expire = "2004.5.2"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+2004.1.1 = {
+    add_ideas = {
+		european_union_member
+    }
+}
+2008.8.7 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 36
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 17			
+		    }
+		
+		    democratic_liberal = {
+			    popularity = 46
+		    }
+	    }
+	
+	    ruling_party = democratic_liberal
+	    last_election = "2007.10.21"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Donald Tusk"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "POLG6.dds"
+    	expire = "2014.9.22"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+    create_country_leader = {
+    	name = "Donald Tusk"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "POLG6.dds"
+    	expire = "2014.9.22"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+    create_country_leader = {
+    	name = "Donald Tusk"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "POLG6.dds"
+    	expire = "2014.9.22"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 42
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 7			
+		    }
+		
+		    democratic_liberal = {
+			    popularity = 51
+		    }
+	    }
+	
+	    ruling_party = democratic_liberal
+	    last_election = "2011.10.9"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Donald Tusk"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "POLG6.dds"
+    	expire = "2014.9.22"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+    create_country_leader = {
+    	name = "Donald Tusk"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "POLG6.dds"
+    	expire = "2014.9.22"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}

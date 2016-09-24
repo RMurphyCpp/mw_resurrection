@@ -1,0 +1,18 @@
+state={
+	id=752
+	name="STATE_752"
+	
+	state_category = rural	
+	
+	history={
+		owner = AZB
+		add_core_of = AZB
+		add_claim_by = ARM
+	}
+	
+	provinces={
+		4660 
+	}
+	manpower=200
+	buildings_max_level_factor=1
+}

@@ -1,0 +1,22 @@
+state={
+	id=594
+	name="STATE_594"
+	manpower = 6550000
+	state_category = town
+	
+	resources={
+		aluminium = 4
+	}
+	history={
+		owner = CHC
+		add_core_of = CHC
+		add_claim_by = TWN
+		
+		victory_points = { 
+			7137 5 
+		}		
+	}
+	provinces={
+		1018 4023 4121 4177 7044 7137 7192 10004 10050 10105 11926 11983 12023 
+	}
+}

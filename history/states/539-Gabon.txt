@@ -1,0 +1,18 @@
+state={
+	id=539
+	name="STATE_539"
+	history={
+		owner = GAB
+		add_core_of = GAB
+		
+		victory_points = {
+			5139 10 
+		}		
+	}
+	provinces={
+		2192 5139 8207 10948 
+	}
+	manpower=2564000
+	buildings_max_level_factor=1
+	state_category="rural"
+}

@@ -1,0 +1,252 @@
+﻿capital = 100
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.9
+    set_technology = {}
+	
+    set_politics = {
+
+	    parties = {
+		    democratic_center = { 
+			    popularity = 41
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 27			
+		    }
+		
+		    democratic_liberal = {
+			    popularity = 19
+		    }
+		
+		    democratic_green = { 
+			    popularity = 13	
+		    }
+	    }
+	
+	    ruling_party = democratic_center
+	    last_election = "1996.3.5"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+	    democratic_traditions
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Davíð Oddsson"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ICLG1.dds"
+    	expire = "2004.9.15"
+    	ideology = centrer_right
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2001.10.7 = {
+    create_country_leader = {
+    	name = "Davíð Oddsson"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ICLG1.dds"
+    	expire = "2004.9.15"
+    	ideology = centrer_right
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_center = { 
+			    popularity = 36
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 33			
+		    }
+		
+		    democratic_liberal = {
+			    popularity = 18
+		    }
+		
+		    democratic_green = { 
+			    popularity = 9	
+		    }
+	    }
+	
+	    ruling_party = democratic_center
+	    last_election = "2003.5.10"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Davíð Oddsson"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ICLG1.dds"
+    	expire = "2004.9.15"
+    	ideology = centrer_right
+    	traits = {
+    		#
+    	}
+    }
+}
+2004.1.1 = {
+    add_ideas = {
+		european_union_member
+    }
+}
+2008.8.7 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_center = { 
+			    popularity = 36
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 33			
+		    }
+		
+		    democratic_liberal = {
+			    popularity = 18
+		    }
+		
+		    democratic_green = { 
+			    popularity = 9	
+		    }
+	    }
+	
+	    ruling_party = democratic_center
+	    last_election = "2007.5.12"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Geir Haarde"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ICLG3.dds"
+    	expire = "2009.4.14"
+    	ideology = centrer_right
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_center = { 
+			    popularity = 24
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 33			
+		    }
+		
+		    democratic_liberal = {
+			    popularity = 18
+		    }
+		
+		    democratic_green = { 
+			    popularity = 22	
+		    }
+	    }
+	
+	    ruling_party = democratic_socialism
+	    last_election = "2009.4.25"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Jóhanna Sigurðardóttir"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ICLG4.dds"
+    	expire = "2013.5.23"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+    create_country_leader = {
+    	name = "Jóhanna Sigurðardóttir"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ICLG4.dds"
+    	expire = "2013.5.23"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_center = { 
+			    popularity = 33
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 13			
+		    }
+		
+		    democratic_liberal = {
+			    popularity = 31
+		    }
+		
+		    democratic_green = { 
+			    popularity = 11	
+		    }
+	    }
+	
+	    ruling_party = democratic_liberal
+	    last_election = "2009.4.25"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {	
+    	name = "Sigmundur Davíð Gunnlaugsson"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ICLG5.dds"
+    	expire = "2016.4.7"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+
+    create_country_leader = {	
+    	name = "Sigmundur Davíð Gunnlaugsson"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ICLG5.dds"
+    	expire = "2016.4.7"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}

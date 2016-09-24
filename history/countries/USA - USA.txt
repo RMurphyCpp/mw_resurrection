@@ -1,0 +1,327 @@
+﻿capital = 361
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+	
+	create_faction = NATO
+	add_to_faction = USA
+	
+	give_guarantee = ISR
+	give_guarantee = KOR
+	give_guarantee = TWN
+	give_guarantee = MAR #Has no army, US is responsible for defense
+	give_guarantee = MIC #Has no army, US is responsible for defense
+	give_guarantee = KWT
+
+	add_opinion_modifier = { target = ENG modifier = historical_friends }
+	add_opinion_modifier = { target = SOV modifier = historical_riverly }
+	add_opinion_modifier = { target = CHC modifier = historical_riverly }	
+	add_opinion_modifier = { target = LBY modifier = historical_riverly }	
+	add_opinion_modifier = { target = PRK modifier = historical_riverly }
+	add_opinion_modifier = { target = VEN modifier = historical_riverly }	
+	add_opinion_modifier = { target = PER modifier = historical_riverly }	
+	add_opinion_modifier = { target = CUB modifier = cuba_embargo }
+	add_opinion_modifier = { target = SAU modifier = us_saudi_mda }
+	add_opinion_modifier = { target = ISR modifier = aipac }
+	add_opinion_modifier = { target = AST modifier = major_non_nato_ally }
+	add_opinion_modifier = { target = EGY modifier = major_non_nato_ally }	
+	add_opinion_modifier = { target = ISR modifier = major_non_nato_ally }
+	add_opinion_modifier = { target = JAP modifier = major_non_nato_ally }
+	add_opinion_modifier = { target = KOR modifier = major_non_nato_ally }
+	add_opinion_modifier = { target = JOR modifier = major_non_nato_ally }
+	add_opinion_modifier = { target = NZL modifier = major_non_nato_ally }
+	add_opinion_modifier = { target = ARG modifier = major_non_nato_ally }	
+	
+	add_to_faction = BEL
+	add_to_faction = CAN
+	add_to_faction = DEN
+	add_to_faction = FRA
+	add_to_faction = ICL
+	add_to_faction = ITA
+	add_to_faction = LUX
+	add_to_faction = HOL
+	add_to_faction = NOR
+	add_to_faction = POR
+	add_to_faction = ENG
+	add_to_faction = GRE
+	add_to_faction = TUR
+	add_to_faction = GER
+	add_to_faction = SPA
+	add_to_faction = CZR
+	add_to_faction = HUN
+	add_to_faction = POL
+	
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 50
+			
+		    }
+
+		    democratic_liberal = {
+			    popularity = 50			
+		    }
+	    }
+	
+	    ruling_party = democratic_liberal
+	    last_election = "1996.11.7"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+		un_permanent_member
+		petro_dollar
+		land_of_the_free
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Matthias Koehl"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "USANHFAS1.dds"
+    	expire = "2020.1.1"
+    	ideology = fascism_ideology
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {
+    	name = "Sam Webb"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "USANHCOM1.dds"
+    	expire = "2020.1.1"
+    	ideology = marxism
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {
+    	name = "George Walker Bush"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "USAH2.dds"
+    	expire = "2009.1.2"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+    create_country_leader = {
+    	name = "Al Gore"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "USANHLIB1.dds"
+    	expire = "2002.1.1"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {
+    	name = "Bill Clinton"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "USAH1.dds"
+    	expire = "2000.1.1"
+    	ideology = liberalism
+		traits = {
+			sex_scandal
+		}
+    }
+}
+
+2001.10.7 = {
+
+    set_politics = {
+	    ruling_party = democratic_conservative
+	    last_election = "2000.11.7"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+	
+    create_country_leader = {
+    	name = "John Kerry"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "USANHLIB2.dds"
+    	expire = "2005.1.1"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {
+    	name = "George Walker Bush"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "USAH2.dds"
+    	expire = "2009.1.20"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+
+    create_country_leader = {
+    	name = "John Kerry"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "USANHLIB2.dds"
+    	expire = "2005.1.1"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+    create_country_leader = {
+    	name = "George Walker Bush"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "USAH2.dds"
+    	expire = "2009.1.20"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+#2004 NATO Enlargment
+2004.3.29 = {
+	add_to_faction = BUL
+	add_to_faction = EST
+	add_to_faction = LAT
+	add_to_faction = LIT
+	add_to_faction = ROM
+	add_to_faction = SLO
+	add_to_faction = SLV
+}
+
+2008.8.7 = {
+
+    set_politics = {
+	    ruling_party = democratic_conservative
+	    last_election = "2004.11.2"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+	
+    create_country_leader = {
+    	name = "Barack Obama"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "USANHLIB2.dds"
+    	expire = "2017.1.1"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+    create_country_leader = {
+    	name = "John McCain"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "USAHNHCON1.dds"
+    	expire = "2012.1.1"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {
+    	name = "George Walker Bush"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "USAH2.dds"
+    	expire = "2009.1.20"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+
+    set_politics = {
+	    ruling_party = democratic_liberal
+	    last_election = "2008.11.4"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+	
+    create_country_leader = {
+    	name = "Mitt Romney"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "USAHNHCON2.dds"
+    	expire = "2017.1.1"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+    create_country_leader = {
+    	name = "Barack Obama"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "USAH3.dds"
+    	expire = "2016.1.20"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+
+    create_country_leader = {
+    	name = "Mitt Romney"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "USAHNHCON2.dds"
+    	expire = "2017.1.1"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+    create_country_leader = {
+    	name = "Barack Obama"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "USAH3.dds"
+    	expire = "2016.1.20"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+
+    set_politics = {
+	    ruling_party = democratic_liberal
+	    last_election = "2012.11.6"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+
+    create_country_leader = {
+    	name = "Barack Obama"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "USAH3.dds"
+    	expire = "2016.1.20"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+
+    create_country_leader = {
+    	name = "Barack Obama"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "USAH3.dds"
+    	expire = "2016.1.20"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}

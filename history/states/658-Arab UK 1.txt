@@ -1,0 +1,30 @@
+state={
+	id=658
+	name="STATE_658"
+	resources={
+		oil = 98
+		aluminium = 50
+	}
+	state_category = metropolis   	
+	
+	history={
+		owner = UAE
+		add_core_of = UAE
+		
+		buildings = {
+			7960 = {
+				
+			}
+		}		
+		
+		victory_points = {
+			7960 10 
+		}		
+	}
+	provinces={
+		2048 7960 8108 10904 
+	}
+	manpower=220000
+	buildings_max_level_factor=1
+	state_category="pastoral"
+}

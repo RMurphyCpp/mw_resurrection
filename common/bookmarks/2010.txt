@@ -1,0 +1,71 @@
+#bookmarks = {
+#	bookmark = {
+#		name = "ARABSPRING_NAME"
+#		desc = "ARABSPRING_DESC"
+#		date = 2010.12.18
+#		picture = "GFX_select_date_2010"
+#		default_country = "TUN"
+#	
+#		YEM = {
+#			history = FRA_BLITZKRIEG_DESC
+#			ideology = democratic_conservative
+#			ideas={
+#			}
+#		}
+#		IRQ = {
+#			history = GER_BLITZKRIEG_DESC
+#			ideology = democratic_conservative
+#			ideas={
+#			}
+#		}
+#		LBY = {
+#			history = ENG_BLITZKRIEG_DESC
+#			ideology = democratic_conservative
+#			ideas={
+#			}
+#			
+#		}		
+#		TUN = {
+#			history = USA_BLITZKRIEG_DESC
+#			ideology = democratic_conservative
+#			ideas={
+#				ingodwestrust
+#				wall_street
+#				land_of_the_free
+#			}
+#		}		
+#		SYR = {
+#			history = ITA_BLITZKRIEG_DESC
+#			ideology = communism
+#			ideas={
+#				the_dragon_awakes
+#				chinese_economic_reform
+#				corporate_communism
+#			}			
+#		}
+#		EGY = {
+#			history = SOV_BLITZKRIEG_DESC
+#			ideology = democratic_conservative
+#			ideas={
+#				bleeding_russian_bear
+#				ashes_of_empire
+#				mother_russia				
+#			}
+#		}		
+#		LEB = {
+#			history = JAP_BLITZKRIEG_DESC
+#			ideology = democratic_conservative
+#			ideas={
+#			}			
+#		}
+#
+#		"---"={
+#			history = "OTHER_BLITZKRIEG_DESC"
+#		}
+#
+#		effect = {
+#			randomize_weather = 12345 # <- Obligatory in every bookmark !
+#			#123 = { rain_light = yes }
+#		}
+#	}
+#}

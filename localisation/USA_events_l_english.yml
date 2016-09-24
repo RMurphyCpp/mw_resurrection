@@ -1,0 +1,74 @@
+﻿l_english:
+#axis of evil
+usa_iraq.1.t:0 "Axis of Evil: Iraq"
+usa_iraq.1.d:0 "The term 'Axis of Evil' was first used by President George W. Bush in his state of the Union address on the 29th of January 2002. The term descibes governments whom he accuses of supporting terrorism and seeking WMDs; Bush would continue to use this term throughout his presidency against governments whom he accused of the latter."
+usa_iraq.1.a:0 "The Free World Stands With Us"
+#the case against iraq
+usa_iraq.2.t:0 "Iraq's WMDs"
+usa_iraq.2.d:0 "A source has given us evidence of Iraq WMD's. Our top military brass are convinced, but what will the public think of this? Questioning it will most certainly weaken the case for invading Iraq."
+usa_iraq.2.a:0 "We must act."
+usa_iraq.2.b:0 "Question its integrity."
+###country flag for event
+iraq_intelligence_questioned:0 "Intelligenced Questioned"
+#Opearation Iraqi Freedom
+usa_iraq.3.t:0 "Operation Iraqi Freedom"
+usa_iraq.3.d:0 "'My fellow citizens, at this hour American and coalition forces are in the early stages of military operations to disarm Iraq, to free its people and to defend the world from grave danger.On my orders, coalition forces have begun striking selected targets of military importance to undermine Saddam Hussein's ability to wage war. These are opening stages of what will be a broad and concerted campaign.' - George W. Bush"
+usa_iraq.3.a:0 "Hoorah!"
+#axis of evil: iran
+usa_iran.1.t:0 "Axis of Evil: Iran"
+usa_iran.1.d:0 "The term 'Axis of Evil' was first used by President George W. Bush in his state of the Union address on the 29th of January 2002. The term descibes governments whome he accuses of supporting terrorism and seeking WMDs; Bush would continue to use this term throughout his presidency against governments whom he accused of the latter."
+usa_iran.1.a:0 "Tyrants!"
+#UN res. 1696
+usa_iran.2.t:0 "UN Resolution 1696"
+usa_iran.2.d:0 "The United Nations Security Council has adopted resolution 1696 by 14 to 1, after expressing concern over the direction of Iran's nuclear programme"
+usa_iran.2.a:0 "Now that's what I'm talking about"
+#Opearation Iraqi Freedom
+usa_iran.3.t:0 "Operation Ajax"
+usa_iran.3.d:0 "On the orders of the President, American forces have begun operations to disarm Iran and to free its people from the tyranic ways in which the government rules."
+usa_iran.3.a:0 "Hoorah!"
+#cuba 
+usa_cuba.1.t:0 "Axis of Evil: Cuba"
+usa_cuba.1.d:0 "The term 'Axis of Evil' was first used by President George W. Bush in his state of the Union address on the 29th of January 2002. The term descibes governments whom he accuses of supporting terrorism and seeking WMDs; Bush would continue to use this term throughout his presidency against governments whom he accused of the latter."
+usa_cuba.1.a:0 "The Cuban People Deserve Better"
+#cuba 
+usa_cuba.2.t:0 "Seek UN Resolution"
+usa_cuba.2.d:0 "We have proposed a UN resolution to the United Nations Security Council. The resolution impose sanctions against the Cuban government."
+usa_cuba.2.a:0 "Good"
+#cuba 
+usa_cuba.3.t:0 "No Fly Zone"
+usa_cuba.3.d:0 "By an overwhelming majority, Congress has voted in favour of a no-fly zone over Cuban airspace. The vote came as tensions between Cuba and the USA have been near breaking point."
+usa_cuba.3.a:0 "This is only the beginning..."
+#cuba
+usa_cuba.4.t:0 "Choose Type of Operation"
+usa_cuba.4.d:0 "At the time of the proposal of Operation Northwoods, communists led by Fidel Castro had recently taken power in Cuba. The operation proposed creating public support for a war against Cuba by blaming it for terrorist acts that would actually be perpetrated by the US Government. The plan was scrapped, but it could be still be used now. By using it, we will increase public support. If we don't use it, we will lose support on a weekly basis."
+usa_cuba.4.a:0 "Operation Northwoods It Is"
+usa_cuba.4.b:0 "Go For The Alternative"
+#nk placeholder
+usa_nk.1.t:0 "Axis of Evil: North Korea"
+usa_nk.1.d:0 "The term 'Axis of Evil' was first used by President George W. Bush in his state of the Union address on the 29th of January 2002. The term descibes governments whom he accuses of supporting terrorism and seeking WMDs; Bush would continue to use this term throughout his presidency against governments whom he accused of the latter."
+usa_nk.1.a:0 "The Korean People Should Be Reunited"
+#nk placeholder
+usa_nk.2.t:0 "Placeholder"
+usa_nk.2.d:0 "Placeholder"
+usa_nk.2.a:0 "Placeholder"
+#nk placeholder
+usa_nk.3.t:0 "Placeholder"
+usa_nk.3.d:0 "Placeholder"
+usa_nk.3.a:0 "Placeholder"
+################################
+usa.1.t:0 "Constitutional Crisis"
+usa.1.d:0 "There has been outrage this morning as a classified paper was leaked online. The paper detailed how the US government perpetrated terrorist attacks in order to justify war with Cuba. Riots have already organised and have caused disruption. Many experts including Steven Hawkings believe this is only the beginning."
+usa.1.a:0 "Damn Internet"
+###
+usa.2.t:0 "Rioters Demand An Election"
+usa.2.d:0 "Rioters are demanding an election. Since the start of this crisis, we have dropped significantly in popularity. If we keep going like this, we risk all our support, which would take a very long time to build up again."
+usa.2.a:0 "Hold An Election"
+usa.2.b:0 "Screw Elections"
+###
+usa.3.t:0 "The Riots Cease"
+usa.3.d:0 "After 6 months of rioting, local residents in New York were glad to see the streets clear of rioters and protesters. Let's hope this is a new beginning for America."
+usa.3.a:0 "Finally"
+###
+usa.4.t:0 "War Protests Cease"
+usa.4.d:0 "The number of protests has gradually gone down since its peak, during the height of the war with Cuba. With troops coming home, and the primary case against the government gone, protests should become fewer and farther between. Let's hope this is a new start for America."
+usa.4.a:0 "This Is A New Start For America"

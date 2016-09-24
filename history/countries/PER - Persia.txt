@@ -1,0 +1,50 @@
+﻿capital = 266
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+
+	set_country_flag = muslim_country	
+	add_opinion_modifier = { target = USA modifier = historical_riverly }
+	add_opinion_modifier = { target = ENG modifier = historical_riverly }
+	add_opinion_modifier = { target = SAU modifier = historical_riverly }
+	add_opinion_modifier = { target = ISR modifier = historical_riverly }	
+
+    set_politics = {
+
+	    parties = {
+		    shia_islam = { 
+			    popularity = 90					
+			
+		    }
+
+		    democratic_conservative = {
+			    popularity = 5			
+		    }
+		
+		    autocracy = {
+			    popularity = 5	
+		    }
+	    }
+	
+	    ruling_party = shia_islam
+	    last_election = "1996.3.5"
+	    election_frequency = 48
+	    elections_allowed = no
+    }
+    add_ideas = {
+	    an_iron_fist
+    }
+    #############LAST ENTRY IS USED FIRST#############	
+    create_country_leader = {
+    	name = "Ali Khamenei"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "IRAH1.dds"
+    	expire = "2020.9.3"
+    	ideology = radical_islam_shia
+    	traits = {
+    		#
+    	}
+    }
+}

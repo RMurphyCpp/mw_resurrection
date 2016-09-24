@@ -1,0 +1,65 @@
+#bookmarks = {
+#	bookmark = {
+#		name = "SOUTHOSSETIAWAR_NAME"
+#		desc = "SOUTHOSSETIAWAR_DESC"
+#		date = 2008.8.7
+#		picture = "GFX_select_date_2008"
+#		default_country = "GEO"
+#	
+#		ABK = {
+#			history = ABK_SOUTHOSSETIAWAR_DESC
+#			ideology = democratic_conservative
+#			ideas={
+#			}
+#		}
+#		SOT = {
+#			history = SOT_SOUTHOSSETIAWAR_DESC
+#			ideology = democratic_conservative
+#			ideas={
+#			}
+#			
+#		}		
+#		SOV = {
+#			history = SOV_SOUTHOSSETIAWAR_DESC
+#			ideology = democratic_conservative
+#			ideas={
+#				bleeding_russian_bear
+#				ashes_of_empire
+#				mother_russia				
+#			}
+#		}		
+#		GEO = {
+#			history = GE_SOUTHOSSETIAWAR_DESC
+#			ideology = communism
+#			ideas={
+#			}			
+#		}
+#		CHC = {
+#			history = CHC_SOUTHOSSETIAWAR_DESC
+#			ideology = democratic_conservative
+#			ideas={
+#				the_dragon_awakes
+#				chinese_economic_reform
+#				corporate_communism
+#			}
+#		}		
+#		USA = {
+#			history = USA_SOUTHOSSETIAWAR_DESC
+#			ideology = democratic_conservative
+#			ideas={
+#				ingodwestrust
+#				wall_street
+#				land_of_the_free
+#			}
+#		}
+#
+#		"---"={
+#			history = "OTHER_BLITZKRIEG_DESC"
+#		}
+#
+#		effect = {
+#			randomize_weather = 12345 # <- Obligatory in every bookmark !
+#			#123 = { rain_light = yes }
+#		}
+#	}
+#}

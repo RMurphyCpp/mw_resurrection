@@ -1,0 +1,20 @@
+ideas = {
+	country = {
+		gazawat = {
+			
+			allowed = {
+				original_tag = CHR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_org_Factor = 0.05
+			}
+		}		
+	}
+}

@@ -1,0 +1,59 @@
+﻿capital = 768
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+
+	set_country_flag = muslim_country	
+	add_named_threat = { threat = 2 name = afghan_civil_War }	
+	
+	declare_war_on = {
+		target = AFG
+		type = annex_everything
+	}	
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 0
+			    banned = yes					
+			
+		    }
+
+		    fascism = {
+			    popularity = 0	
+			    banned = yes				
+		    }
+		
+		    communism = {
+			    popularity = 0
+			    banned = yes				
+		    }
+		
+		    fundamentalist_islam = { 
+			    popularity = 100		
+		    }
+	    }
+	
+	    ruling_party = fundamentalist_islam
+	    last_election = "1996.3.5"
+	    election_frequency = 48
+	    elections_allowed = no
+    }
+    add_ideas = {
+	    an_iron_fist
+    }
+    #############LAST ENTRY IS USED FIRST#############	
+    create_country_leader = {
+    	name = "Mohammed Omar"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "IEAH1.dds"
+    	expire = "2001.12.31"
+    	ideology = radical_islam_pashtunwali
+    	traits = {
+    		#
+    	}
+    }
+}

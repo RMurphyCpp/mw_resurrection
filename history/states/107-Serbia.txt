@@ -1,0 +1,26 @@
+state={
+	id=107
+	name="STATE_107" # Serbia
+	manpower = 1864700
+	state_category = large_city
+	
+	history={
+		owner = SRM
+		add_core_of = SRM
+		add_core_of = SER
+		
+		victory_points = {
+			11586 12
+		}
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			arms_factory = 3
+			air_base = 2
+		}		
+	}	
+	provinces={
+		614 797 3609 3614 3956 3984 6634 6643 9599 11580 11583 11586 11787 
+	}
+}

@@ -1,0 +1,19 @@
+state={
+	id=692
+	name="STATE_692"
+	manpower=76485
+	state_category = small_island
+	
+	history={
+		owner = SLC
+		add_core_of = SLC
+		
+		victory_points = {
+			13009 1 
+		}			
+	}
+	
+	provinces={
+		13009 
+	}
+}

@@ -1,0 +1,201 @@
+﻿capital = 2
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+	
+    set_politics = {
+
+	    parties = {
+		    democratic_socialism = { 
+			    popularity = 45
+			
+		    }
+
+		    democratic_liberal = {
+			    popularity = 43			
+		    }
+
+		    democratic_nationalism = { 
+			    popularity = 10		
+		    }
+			
+		    democratic_conservative = { 
+			    popularity = 2		
+		    }			
+			
+		    communism = {
+			    popularity = 2
+		    }
+	    }
+	
+	    ruling_party = democratic_socialism
+	    last_election = "1996.4.21"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+		european_union_member
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Massimo D'Alema"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ITAG1.dds"
+    	expire = "2000.4.25"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }	
+}
+
+2001.10.7 = {
+
+    set_politics = {
+
+	    ruling_party = democratic_liberal
+	    last_election = "2001.5.13"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Silvio Berlusconi"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ITAG3.dds"
+    	expire = "2011.11.16"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+    create_country_leader = {
+    	name = "Silvio Berlusconi"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ITAG3.dds"
+    	expire = "2011.11.16"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2008.8.7 = {
+
+    set_politics = {
+
+	    parties = {
+		
+		    democratic_center = { 
+			    popularity = 16
+			
+		    }
+			
+		    democratic_socialism = { 
+			    popularity = 37
+			
+		    }
+
+		    democratic_liberal = {
+			    popularity = 47			
+		    }
+	    }
+	
+	    ruling_party = democratic_liberal
+	    last_election = "2008.4.14"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Silvio Berlusconi"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ITAG3.dds"
+    	expire = "2011.11.16"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+    create_country_leader = {
+    	name = "Silvio Berlusconi"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ITAG3.dds"
+    	expire = "2011.11.16"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+    create_country_leader = {
+    	name = "Silvio Berlusconi"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ITAG3.dds"
+    	expire = "2015.11.16"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+
+    set_politics = {
+
+	    parties = {
+		
+		    democratic_center = { 
+			    popularity = 16
+			
+		    }
+			
+		    democratic_socialism = { 
+			    popularity = 37
+			
+		    }
+
+		    democratic_liberal = {
+			    popularity = 47			
+		    }
+	    }
+	
+	    ruling_party = democratic_liberal
+	    last_election = "2013.2.25"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Enrico Letta"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ITAG6.dds"
+    	expire = "2013.4.28"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+    create_country_leader = {
+    	name = "Matteo Renzi"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ITAG7.dds"
+    	expire = "2020.2.22"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}

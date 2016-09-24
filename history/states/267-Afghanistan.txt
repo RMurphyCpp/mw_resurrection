@@ -1,0 +1,33 @@
+state={
+	id=267
+	name="STATE_267"
+	history={
+		owner = AFG
+		add_core_of = AFG
+		add_core_of = IEA
+		
+		victory_points = {
+			10737 10 
+		}
+		victory_points = {
+			12831 2 
+		}
+		
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			arms_factory = 2			
+			air_base = 1
+		}		
+
+		2001.10.7 = {
+			owner = IEA
+		}		
+	}
+	provinces={
+		7916 10737 12769 12831 
+	}
+	manpower=4637140
+	buildings_max_level_factor=1
+	state_category="town"
+}

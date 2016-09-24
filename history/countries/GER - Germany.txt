@@ -1,0 +1,310 @@
+﻿capital = 64
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+	
+	oob = "GER_2000"
+	
+    set_politics = {
+
+	    parties = {
+		    democratic_socialism = { 
+			    popularity = 45
+			
+		    }
+
+		    democratic_conservative = {
+			    popularity = 39		
+		    }
+		
+		    democratic_green = {
+			    popularity = 9
+		    }
+		
+		    democratic_liberal = { 
+			    popularity = 7		
+		    }
+	    }
+	
+	    ruling_party = democratic_socialism
+	    last_election = "1998.9.22"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+		european_union_member
+	    a_dark_past
+		pacifism_germany
+		german_work_ethic
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Udo Voigt"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "GERNHNAZ1.dds"
+    	expire = "2013.11.13"
+    	ideology = nazism
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {
+    	name = "Bettina Jürgensen"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "GERNHCOM1.dds"
+    	expire = "2020.1.1"
+    	ideology = marxism
+    	traits = {
+    		#
+    	}
+    }
+    create_country_leader = {
+    	name = "Joschka Fischer"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "GERNHGRE1.dds"
+    	expire = "2005.1.1"
+    	ideology = green
+    	traits = {
+    		#
+    	}
+    }
+    create_country_leader = {
+    	name = "Guido Westerwelle"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "GERNHLIB1.dds"
+    	expire = "2005.1.1"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {
+    	name = "Edmund Stoiber"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "GERNHCON1.dds"
+    	expire = "2005.1.1"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+    create_country_leader = {
+    	name = "Gerhard Schröder"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "GERG1.dds"
+    	expire = "2005.11.22"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2001.10.7 = {
+
+    create_country_leader = {
+    	name = "Gerhard Schröder"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "GERG1.dds"
+    	expire = "2005.11.22"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+
+    create_country_leader = {
+    	name = "Gerhard Schröder"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "GERG1.dds"
+    	expire = "2005.11.22"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2008.8.7 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_socialism = { 
+			    popularity = 34
+			
+		    }
+
+		    democratic_conservative = {
+			    popularity = 35		
+		    }
+		
+		    democratic_green = {
+			    popularity = 8
+		    }
+		
+		    democratic_liberal = { 
+			    popularity = 9		
+		    }
+	    }
+	
+	    ruling_party = democratic_conservative
+	    last_election = "2005.9.18"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+	
+    create_country_leader = {
+    	name = "Angela Merkel"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "GERG3.dds"
+    	expire = "2016.11.22"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+
+    set_politics = {
+
+	    ruling_party = democratic_conservative
+	    last_election = "2009.9.27"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+	
+    create_country_leader = {
+    	name = "Jürgen Trittin"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "GERNHGRE2.dds"
+    	expire = "2013.1.1"
+    	ideology = green
+    	traits = {
+    		#
+    	}
+    }
+    create_country_leader = {
+    	name = "Frank-Walter Steinmeier"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "GERNHSOC1.dds"
+    	expire = "2013.11.22"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+    create_country_leader = {
+    	name = "Angela Merkel"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "GERG3.dds"
+    	expire = "2016.11.22"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+    create_country_leader = {
+    	name = "Angela Merkel"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "GERG3.dds"
+    	expire = "2005.11.22"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+    create_country_leader = {
+    	name = "Holger Apfel"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "GERNHNAZ2.dds"
+    	expire = "2013.12.19"
+    	ideology = nazism
+    	traits = {
+    		#
+    	}
+    }
+    create_country_leader = {
+    	name = "Angela Merkel"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "GERG3.dds"
+    	expire = "2005.11.22"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+
+    set_politics = {
+	
+	    parties = {
+		    democratic_socialism = { 
+			    popularity = 26
+			
+		    }
+
+		    democratic_conservative = {
+			    popularity = 42		
+		    }
+		
+		    democratic_green = {
+			    popularity = 8
+		    }
+		
+		    democratic_liberal = { 
+			    popularity = 5		
+		    }
+	    }	
+
+	    ruling_party = democratic_conservative
+	    last_election = "2013.9.22"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Udo Pastörs"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "GERNHNAZ3.dds"
+    	expire = "2020.12.19"
+    	ideology = nazism
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {
+    	name = "Peer Steinbrück"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "GERNHSOC3.dds"
+    	expire = "2020.11.22"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+    create_country_leader = {
+    	name = "Angela Merkel"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "GERG3.dds"
+    	expire = "2020.11.22"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}

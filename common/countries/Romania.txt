@@ -1,0 +1,3 @@
+color = { 111  193  190 }
+graphical_culture = Soviet
+graphical_culture_2d = eastern_european_2d	 

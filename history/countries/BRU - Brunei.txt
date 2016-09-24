@@ -1,0 +1,48 @@
+﻿capital = 784
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 15				
+			
+		    }
+
+		  
+		    communism = {
+			    popularity = 5	
+		    }
+		
+				 
+			autocracy = {
+				popularity = 80	
+			}
+			    	
+		    
+	    }
+	
+	    ruling_party = autocracy
+	    last_election = "1996.3.5"
+	    election_frequency = 48
+	    elections_allowed = no
+    }
+    add_ideas = {
+	    an_iron_fist
+    }
+    #############LAST ENTRY IS USED FIRST#############	
+    create_country_leader = {
+    	name = "Hassanal Bolkiah"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "Portrait_Albania_King_Zog.dds"
+    	expire = "2026.7.15"
+    	ideology = monarchism_autocratic
+    	traits = {
+    		#
+    	}
+    }
+}

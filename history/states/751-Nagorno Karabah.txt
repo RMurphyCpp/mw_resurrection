@@ -1,0 +1,21 @@
+state={
+	id=751
+	name="STATE_751"
+	state_category = city
+	
+	history={
+		owner = NGK
+		add_core_of = AZB
+		add_claim_by = ARM
+		
+		victory_points = {
+			9715 5 
+		}		
+	}
+	
+	provinces={
+		1467 1610 9715 
+	}
+	manpower=200
+	buildings_max_level_factor=1
+}

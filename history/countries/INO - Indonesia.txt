@@ -1,0 +1,211 @@
+﻿capital = 335
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+
+	set_country_flag = muslim_country
+	
+    set_politics = {
+
+	    parties = {
+		    moderate_islam = { 
+			    popularity = 54
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 46				
+		    }
+	    }
+	
+	    ruling_party = moderate_islam
+	    last_election = "1999.10.20"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Megawati Sukarnoputri"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "INOH2.dds"
+    	expire = "2004.10.20"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {
+    	name = "Abdurrahman Wahid"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "INOH1.dds"
+    	expire = "2001.7.23"
+    	ideology = islam_moderate
+    	traits = {
+    		#
+    	}
+    }	
+}
+
+2001.10.7 = {
+
+    set_politics = {
+
+	    ruling_party = democratic_socialism
+	    last_election = "1999.10.20"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Megawati Sukarnoputri"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "INOH2.dds"
+    	expire = "2004.10.20"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+
+    set_politics = {
+
+	    parties = {
+		    moderate_islam = { 
+			    popularity = 61
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 39			
+		    }
+	    }
+	
+	    ruling_party = moderate_islam
+	    last_election = "1999.10.20"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Megawati Sukarnoputri"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "INOH2.dds"
+    	expire = "2004.10.20"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2008.8.7 = {
+
+    set_politics = {
+
+	    parties = {
+		    moderate_islam = { 
+			    popularity = 61
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 39			
+		    }
+	    }
+	
+	    ruling_party = moderate_islam
+	    last_election = "2004.9.20"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Susilo Bambang"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "INOH3.dds"
+    	expire = "2014.10.20"
+    	ideology = islam_moderate
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+
+    set_politics = {
+
+	    parties = {
+		    moderate_islam = { 
+			    popularity = 61
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 27			
+		    }
+			
+		    democratic_conservative = {
+			    popularity = 12			
+		    }			
+	    }
+	
+	    ruling_party = moderate_islam
+	    last_election = "2009.7.8"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Susilo Bambang"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "INOH3.dds"
+    	expire = "2014.10.20"
+    	ideology = islam_moderate
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+    create_country_leader = {
+    	name = "Susilo Bambang"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "INOH3.dds"
+    	expire = "2014.10.20"
+    	ideology = islam_moderate
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+    create_country_leader = {
+     	name = "Susilo Bambang"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "INOH3.dds"
+    	expire = "2014.10.20"
+    	ideology = islam_moderate
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+    create_country_leader = {
+     	name = "Susilo Bambang"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "INOH3.dds"
+    	expire = "2014.10.20"
+    	ideology = islam_moderate
+    	traits = {
+    		#
+    	}
+    }
+}

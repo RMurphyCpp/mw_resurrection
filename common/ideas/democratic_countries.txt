@@ -1,0 +1,80 @@
+ideas = {
+
+	country = {
+		democratic_traditions = {
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+			
+			modifier = {
+				drift_defence_factor = 0.25
+			}
+			rule = {
+			}
+		}
+	}
+	country = {
+		an_iron_fist = {
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+			
+			modifier = {
+				drift_defence_factor = 0.1
+			}
+			rule = {
+			}
+		}
+	}	
+	country = {
+		home_of_revolution = {
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+			
+			modifier = {
+				drift_defence_factor = 0.5
+			}
+			rule = {
+			}
+		}
+	}
+	country = {
+		religious_monarchy = {
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+			
+			modifier = {
+				drift_defence_factor = 0.2
+			}
+			rule = {
+			}
+		}
+	}	
+}
+

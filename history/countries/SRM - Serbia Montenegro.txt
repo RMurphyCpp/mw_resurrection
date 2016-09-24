@@ -1,0 +1,135 @@
+﻿capital = 107
+1999.3.11 = { add_named_threat = { threat = 2 name = kosovo_war } }
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.45
+    set_technology = {}
+
+	add_opinion_modifier = { target = USA modifier = historical_riverly }
+	add_opinion_modifier = { target = ENG modifier = historical_riverly }	
+	add_opinion_modifier = { target = ALB modifier = historical_riverly }
+	add_opinion_modifier = { target = SOV modifier = historical_friends }	
+
+    set_politics = {
+
+	    parties = {
+		
+		    democratic_conservative = { 
+			    popularity = 64
+		    }
+
+		    fascism = {
+			    popularity = 8			
+		    }
+		
+		    democratic_socialism = {
+			    popularity = 17	
+		    }
+		
+		    democratic_nationalism = { 
+			    popularity = 11		
+		    }
+	    }
+	
+	    ruling_party = democratic_nationalism
+	    last_election = "1996.12.23"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+	    an_iron_fist
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Tomislav Nikolić"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "SERNHREA1.dds"
+    	expire = "2008.9.5"
+    	ideology = fascism_ideology
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {
+    	name = "Vojislav Koštunica"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "SRMH2.dds"
+    	expire = "2003.12.28"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {
+    	name = "Slobodan Milosevic"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "SRMH1.dds"
+    	expire = "2008.7.7"
+    	ideology = nationalism
+    	traits = {
+			butcher_of_the_balkans
+    	}
+    }
+}
+
+2001.10.7 = {
+
+	remove_ideas = an_iron_fist
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 64
+		    }
+
+		    fascism = {
+			    popularity = 3			
+		    }
+		
+		    democratic_socialism = {
+			    popularity = 25	
+		    }
+		
+		    democratic_nationalism = { 
+			    popularity = 8		
+		    }
+	    }
+	
+	    ruling_party = democratic_conservative
+	    last_election = "2000.12.28"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Vojislav Koštunica"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "SRMH2.dds"
+    	expire = "2008.7.7"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+
+    set_politics = {
+	    ruling_party = democratic_socialism
+	    last_election = "2000.12.28"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Svetozar Marović"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "SRMH3.dds"
+    	expire = "2008.8.7"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}

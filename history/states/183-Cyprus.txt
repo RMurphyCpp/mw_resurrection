@@ -1,0 +1,15 @@
+state= {
+	id=183
+	name="STATE_183"
+	manpower = 347959
+	
+	state_category = city
+	
+	history = {
+		owner = CYP
+		add_claim_by = NCY
+		add_claim_by = TUR
+		add_core_of = CYP
+	}
+	provinces= { 7193 }
+}

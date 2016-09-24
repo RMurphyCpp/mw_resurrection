@@ -1,0 +1,71 @@
+ideas = {
+	country = {
+		article_nine_jap = {
+			
+			allowed = {
+				original_tag = JAP
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conversion_cost_civ_to_mil_factor= 0.7
+			}
+		}
+
+		industrial_powerhouse_jap = {
+			
+			allowed = {
+				original_tag = JAP
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.15
+			}
+		}
+		
+		chrysanthemum_throne = {
+			
+			allowed = {
+				original_tag = JAP
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				unity_factor = 0.1
+			}
+		}
+
+		fukusima_effect = {
+			
+			allowed = {
+				original_tag = JAP
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				unity_factor = -0.1
+			}
+		}		
+	}
+}

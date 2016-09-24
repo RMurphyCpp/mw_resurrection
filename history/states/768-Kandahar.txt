@@ -1,0 +1,29 @@
+state={
+	id=768
+	name="STATE_768"
+	
+	state_category = rural
+	
+	history={
+		owner = IEA
+		add_core_of = AFG
+		add_core_of = IEA
+		
+		victory_points = {
+			5064 9
+		}
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 2
+		}		
+	}
+	
+	provinces={
+		1995 2078 4949 5020 5064 5082 8090 10789 12788 
+	}
+	manpower=500
+	buildings_max_level_factor=1
+}

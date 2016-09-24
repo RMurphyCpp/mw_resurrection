@@ -1,0 +1,47 @@
+﻿capital = 590
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+
+	set_country_flag = muslim_country	
+	SOV = { add_to_faction = KAZ }	
+
+    set_politics = {
+
+	    parties = {
+		    autocracy = { 
+			    popularity = 84
+			
+		    }
+
+		    democratic_conservative = {
+			    popularity = 8			
+		    }
+		
+		    communism = {
+			    popularity = 8
+		    }
+	    }
+	
+	    ruling_party = autocracy
+	    last_election = "1996.3.5"
+	    election_frequency = 48
+	    elections_allowed = no
+    }
+    add_ideas = {
+	    an_iron_fist
+    }
+    #############LAST ENTRY IS USED FIRST#############	
+    create_country_leader = {
+    	name = "Nursultan Nazarbayev"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "KAZH1.dds"
+    	expire = "2030.1.1"
+    	ideology = despotism
+    	traits = {
+    		#
+    	}
+    }
+}

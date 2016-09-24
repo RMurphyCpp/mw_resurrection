@@ -1,0 +1,16 @@
+state=
+{
+	id=188
+	name="STATE_188"
+	manpower = 150000
+	
+	
+	state_category = rural
+	
+	history = {
+		owner = LIT
+	}
+	provinces={
+		3288 	
+	}
+}

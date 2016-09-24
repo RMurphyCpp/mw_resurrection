@@ -1,0 +1,19 @@
+state={
+	id=415
+	name="STATE_415"
+	history={
+		owner = IEA
+		add_core_of = AFG
+		add_core_of = IEA
+		
+		victory_points = {
+			4893 9
+		}		
+	}
+	provinces={
+		1948 2017 2062 2101 4893 8053 10476 12871 
+	}
+	manpower=1632860
+	buildings_max_level_factor=1
+	state_category="rural"
+}

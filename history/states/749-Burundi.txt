@@ -1,0 +1,21 @@
+state={
+	id=749
+	name="STATE_749"
+	
+	state_category = town	
+	
+	history={
+		owner = BRD
+		add_core_of = BRD
+		
+		victory_points = {
+			2220 5 
+		}		
+	}
+	
+	provinces={
+		2220 
+	}
+	manpower=500
+	buildings_max_level_factor=1
+}

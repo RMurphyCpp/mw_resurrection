@@ -1,0 +1,39 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+
+csto_2000 = {
+	enable = {	
+		OR = {
+		tag = ARM
+		tag = BLR
+		tag = KAZ
+		tag = KYG
+		tag = TAJ
+		tag = UZB		
+		}
+		SOV = { is_faction_leader = yes }
+	}
+	abort = {
+		SOV = { is_faction_leader = no }
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "SOV"			
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SOV"			
+		value = 200
+	}	
+}

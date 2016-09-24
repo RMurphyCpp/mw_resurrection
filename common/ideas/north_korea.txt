@@ -1,0 +1,54 @@
+ideas = {
+	country = {
+		eternal_president = {
+			
+			allowed = {
+				original_tag = PRK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 0.1
+			}
+		}
+
+		juche = {
+			
+			allowed = {
+				original_tag = PRK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.15
+			}
+		}
+
+		korean_schism_prk = {
+			
+			allowed = {
+				original_tag = PRK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				unity_factor = -0.1
+			}
+		}		
+	}
+}

@@ -1,0 +1,196 @@
+﻿capital = 336
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+
+	set_country_flag = muslim_country	
+	
+    set_politics = {
+
+	    parties = {
+		    democratic_nationalism = { 
+			    popularity = 56
+		    }
+		
+		    democratic_socialism = { 
+			    popularity = 44		
+		    }
+	    }
+	
+	    ruling_party = democratic_nationalism
+	    last_election = "1999.11.29"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+		united_nations_non_permanent_member
+    }
+    #############LAST ENTRY IS USED FIRST#############
+   create_country_leader = {
+    	name = "Fadzil Noor"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "MLYNHSOC1.dds"
+    	expire = "2004.3.21"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {
+    	name = "Mahathir Mohammad"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "MLYG1.dds"
+    	expire = "2003.10.31"
+    	ideology = nationalism
+    	traits = {
+    		#
+    	}
+    }	
+}
+
+2001.10.7 = {
+    create_country_leader = {
+    	name = "Mahathir Mohammad"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "MLYG1.dds"
+    	expire = "2003.10.31"
+    	ideology = nationalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+    create_country_leader = {
+    	name = "Mahathir Mohammad"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "MLYG1.dds"
+    	expire = "2003.10.31"
+    	ideology = nationalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2008.8.7 = {
+    set_politics = {
+
+	    parties = {
+		    democratic_nationalism = { 
+			    popularity = 51
+		    }
+		
+		    democratic_socialism = { 
+			    popularity = 49		
+		    }
+	    }
+	
+	    ruling_party = democratic_nationalism
+	    last_election = "2008.3.8"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Wan Azizah Wan Ismail"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "MLYNHLIB1.dds"
+    	expire = "2009.4.3"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {
+    	name = "Abdullah Ahmad Badawi"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "MLYG2.dds"
+    	expire = "2009.4.3"
+    	ideology = nationalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+    create_country_leader = {
+    	name = "Najib Razak"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "MLYG3.dds"
+    	expire = "2020.4.3"
+    	ideology = nationalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+    create_country_leader = {
+    	name = "Najib Razak"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "MLYG3.dds"
+    	expire = "2020.4.3"
+    	ideology = nationalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+    create_country_leader = {
+    	name = "Najib Razak"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "MLYG3.dds"
+    	expire = "2020.4.3"
+    	ideology = nationalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+    set_politics = {
+
+	    parties = {
+		    democratic_nationalism = { 
+			    popularity = 49
+		    }
+		
+		    democratic_socialism = { 
+			    popularity = 51		
+		    }
+	    }
+	
+	    ruling_party = democratic_nationalism
+	    last_election = "2013.5.5"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Anwar Ibrahim"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "MLYNHLIB2.dds"
+    	expire = "2020.4.3"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+    create_country_leader = {
+    	name = "Najib Razak"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "MLYG3.dds"
+    	expire = "2020.4.3"
+    	ideology = nationalism
+    	traits = {
+    		#
+    	}
+    }
+}

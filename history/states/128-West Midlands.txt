@@ -1,0 +1,25 @@
+state={
+	id=128
+	name="STATE_128"
+	manpower = 3685235
+	
+	state_category = metropolis
+	resources={
+		steel=48
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		
+		victory_points = {
+			9297 10 	#Birmingham
+		}
+		
+		buildings = {
+			air_base = 1
+		}
+	}
+	provinces={
+		3241 3301 6270 6301 7239 9297 11345 
+	}
+}

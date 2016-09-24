@@ -1,0 +1,18 @@
+state={
+	id=82
+	name="STATE_82"
+	manpower = 941500
+
+	state_category = city
+	history={
+		owner = ROM
+		add_core_of = ROM
+		
+		victory_points = {
+			646 8 
+		}		
+	}
+	provinces={
+		646 662 3649 9606 11592 11608 
+	}
+}

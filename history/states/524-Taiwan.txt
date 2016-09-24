@@ -1,0 +1,27 @@
+state={
+	id=524
+	name="STATE_524"
+	manpower = 22000191
+	state_category = megalopolis
+	
+	history={
+		owner = TWN
+		add_core_of = TWN
+		add_claim_by = CHC
+
+		victory_points = {
+			7186 10 
+		}
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 8
+			air_base = 6
+			7186 = { naval_base = 6 }
+		}		
+	}
+	provinces={
+		1091 1175 4096 7186 7214 9955 11914 11959 12027 12068
+	}
+}

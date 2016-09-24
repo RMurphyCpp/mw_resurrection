@@ -1,0 +1,74 @@
+##bookmarks = {
+##	bookmark = {
+##		name = "IRAQINVASION_NAME"
+##		desc = "IRAQINVASION_DESC"
+##		date = 2003.3.15
+##		picture = "GFX_select_date_2003"
+##		default_country = "USA"
+##	
+##		AST = {
+##			history = FRA_BLITZKRIEG_DESC
+##			ideology = democratic_conservative
+##			ideas={
+##			}
+##		}
+##		ENG = {
+##			history = GER_BLITZKRIEG_DESC
+##			ideology = democratic_conservative
+##			ideas={
+##				city_of_london
+##				magna_carta
+##				the_union_jack			
+##			}
+##		}
+##		KUR = {
+##			history = ENG_BLITZKRIEG_DESC
+##			ideology = democratic_conservative
+##			ideas={
+##			}
+##			
+##		}		
+##		USA = {
+##			history = USA_BLITZKRIEG_DESC
+##			ideology = democratic_conservative
+##			ideas={
+##				ingodwestrust
+##				wall_street
+##				land_of_the_free
+##			}
+##		}		
+##		IRQ = {
+##			history = ITA_BLITZKRIEG_DESC
+##			ideology = communism
+##			ideas={
+##			}			
+##		}
+##		SOV = {
+##			history = SOV_BLITZKRIEG_DESC
+##			ideology = democratic_conservative
+##			ideas={
+##				bleeding_russian_bear
+##				ashes_of_empire
+##				mother_russia				
+##			}
+##		}		
+##		CHC = {
+##			history = JAP_BLITZKRIEG_DESC
+##			ideology = democratic_conservative
+##			ideas={
+##				the_dragon_awakes
+##				chinese_economic_reform
+##				corporate_communism
+##			}			
+##		}
+##
+##		"---"={
+##			history = "OTHER_BLITZKRIEG_DESC"
+##		}
+##
+##		effect = {
+##			randomize_weather = 12345 # <- Obligatory in every bookmark !
+##			#123 = { rain_light = yes }
+##		}
+##	}
+##}

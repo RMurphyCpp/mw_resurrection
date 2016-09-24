@@ -1,0 +1,279 @@
+﻿capital = 219
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+				
+	add_named_threat = { threat = 2 name = second_chechnya_war }
+	add_opinion_modifier = { target = USA modifier = historical_riverly }	
+	add_opinion_modifier = { target = SRM modifier = historical_friends }
+	add_opinion_modifier = { target = SER modifier = historical_friends }	
+	
+	oob = "SOV_2000"	
+	
+	declare_war_on = {
+		target = CHR
+		type = annex_everything
+	}	
+	
+	create_faction = CSTO
+	add_to_faction = SOV
+	
+	give_guarantee = TSN
+
+    set_politics = {
+
+	    parties = {
+		    democratic_nationalism = { 
+			    popularity = 54
+			
+		    }
+
+		    democratic_liberal = {
+			    popularity = 6
+			    banned = no				
+		    }
+		
+		    communism = {
+			    popularity = 30
+			    banned = no	
+		    }
+		
+		    fascism = { 
+			    popularity = 10
+			    banned = no			
+		    }
+	    }
+	
+	    ruling_party = democratic_nationalism
+	    last_election = "1996.3.5"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+		un_permanent_member
+	    bleeding_russian_bear
+		ashes_of_empire
+		mother_russia		
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Vladimir Zhirinovsky"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "RUSHNH1.dds"
+    	expire = "2020.4.3"
+    	ideology = fascism_ideology
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {
+    	name = "Gennady Zyuganov"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "RUSNHCOM1.dds"
+    	expire = "2004.3.14"
+    	ideology = stalinism
+    	traits = {
+    		#
+    	}
+    }
+    create_country_leader = {
+    	name = "Grigory Yavlinsky"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "RUSNHLIB1.dds"
+    	expire = "2004.3.14"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {
+    	name = "Vladimir Putin"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "RUSH1.dds"
+    	expire = "2012.4.3"
+    	ideology = nationalism
+    	traits = {
+    		#
+    	}
+    }
+    create_country_leader = {
+    	name = "Boris Yeltsin"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "RUSH0.dds"
+    	expire = "1999.1.1"
+    	ideology = nationalism
+    	traits = {
+    		#
+    	}
+    }	
+}
+
+2001.10.7 = {
+    create_country_leader = {
+    	name = "Vladimir Putin"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "RUSH1.dds"
+    	expire = "2012.4.3"
+    	ideology = nationalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+    create_country_leader = {
+    	name = "Vladimir Putin"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "RUSH1.dds"
+    	expire = "2012.4.3"
+    	ideology = nationalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2008.8.7 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_nationalism = { 
+			    popularity = 72
+			
+		    }
+
+		    communism = {
+			    popularity = 14
+		    }
+	    }
+	
+	    ruling_party = democratic_nationalism
+	    last_election = "2004.3.14"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+
+    create_country_leader = {
+    	name = "Nikolay Kharitonov"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "RUSNHCOM2.dds"
+    	expire = "2008.3.14"
+    	ideology = stalinism
+    	traits = {
+    		#
+    	}
+    }
+    create_country_leader = {
+    	name = "Dmitry Medvedev"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "RUSH2.dds"
+    	expire = "2020.4.3"
+    	ideology = nationalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+    create_country_leader = {
+    	name = "Dmitry Medvedev"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "RUSH2.dds"
+    	expire = "2020.4.3"
+    	ideology = nationalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+    create_country_leader = {
+    	name = "Dmitry Medvedev"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "RUSH2.dds"
+    	expire = "2020.4.3"
+    	ideology = nationalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_nationalism = { 
+			    popularity = 64
+		    }
+
+		    communism = {
+			    popularity = 17
+		    }
+			
+		    fascism = { 
+			    popularity = 6	
+		    }
+
+		    democratic_socialism = { 
+			    popularity = 4	
+		    }			
+	    }
+	
+	    ruling_party = democratic_nationalism
+	    last_election = "2012.3.4"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+
+    create_country_leader = {
+    	name = "Sergey Mironov"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "RUSNHSOC1.dds"
+    	expire = "2014.1.1"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+    create_country_leader = {
+    	name = "Mikhail Prokhorov"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "RUSNHLIB2.dds"
+    	expire = "2014.1.1"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {
+    	name = "Vladimir Putin"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "Putin2.dds"
+    	expire = "2012.4.3"
+    	ideology = nationalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+    create_country_leader = {
+    	name = "Vladimir Putin"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "Putin2.dds"
+    	expire = "2012.4.3"
+    	ideology = nationalism
+    	traits = {
+    		#
+    	}
+    }
+}

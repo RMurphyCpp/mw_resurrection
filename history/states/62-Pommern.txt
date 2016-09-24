@@ -1,0 +1,14 @@
+state={
+	id=62
+	name="STATE_62"
+	history={
+		owner = GER
+		add_core_of = GER
+	}
+	provinces={
+		349 3207 3312 3340 9388 
+	}
+	manpower=1406221
+	buildings_max_level_factor=1
+	state_category="town"
+}

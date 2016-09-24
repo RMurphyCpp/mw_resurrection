@@ -1,0 +1,26 @@
+state={
+	id=13
+	name="STATE_13"
+	manpower = 730660
+	state_category = city 
+	
+	history={
+		owner = EST
+		add_core_of = EST
+		
+		victory_points = { 3152 10 }
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 2
+			air_base = 4
+			3152 = { naval_base = 3 }
+		}		
+	}
+	
+	
+	provinces={
+		3152 83 185 308 496 567 3074 3174 6201 6381 9079 11127 11291 11426 
+	}
+}

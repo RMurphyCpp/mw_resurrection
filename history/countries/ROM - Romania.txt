@@ -1,0 +1,193 @@
+﻿capital = 46
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 33
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 67			
+		    }
+	    }
+	
+	    ruling_party = democratic_conservative
+	    last_election = "1996.11.17"
+	    election_frequency = 60
+	    elections_allowed = yes
+    }
+    add_ideas = {
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Emil Constantinescu"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ROMH1.dds"
+    	expire = "2000.12.20"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+
+2001.10.7 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 33
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 67			
+		    }
+	    }
+	
+	    ruling_party = democratic_socialism
+	    last_election = "2000.12.10"
+	    election_frequency = 60
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Ion Iliescu"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ROMH2.dds"
+    	expire = "2004.12.20"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+    create_country_leader = {
+    	name = "Ion Iliescu"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ROMH2.dds"
+    	expire = "2004.12.20"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2007.1.1 = {
+    add_ideas = {
+		european_union_member
+    }
+}
+
+2008.8.7 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_liberal = { 
+			    popularity = 51
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 49			
+		    }
+	    }
+	
+	    ruling_party = democratic_liberal
+	    last_election = "2001.12.12"
+	    election_frequency = 60
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Traian Băsescu"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ROMH3.dds"
+    	expire = "2016.3.9"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+    set_politics = {
+
+	    parties = {
+		    democratic_liberal = { 
+			    popularity = 50
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 49			
+		    }
+	    }
+	
+	    ruling_party = democratic_liberal
+	    last_election = "2009.12.6"
+	    election_frequency = 60
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Traian Băsescu"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ROMH3.dds"
+    	expire = "2016.3.9"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+    create_country_leader = {
+    	name = "Traian Băsescu"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ROMH3.dds"
+    	expire = "2016.3.9"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+    create_country_leader = {
+    	name = "Traian Băsescu"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ROMH3.dds"
+    	expire = "2016.3.9"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+    create_country_leader = {
+    	name = "Traian Băsescu"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ROMH3.dds"
+    	expire = "2016.3.9"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}

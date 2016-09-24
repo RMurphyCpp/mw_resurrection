@@ -1,0 +1,21 @@
+state={
+	id=294
+	name="STATE_294"
+	manpower = 369000
+	
+	state_category = town
+	
+	resources={
+	}
+	history={
+		owner = OMN
+		add_core_of = OMN
+		
+		victory_points = {
+			10760 10 
+		}		
+	}
+	provinces={
+		1947 2018 2059 2103 4993 5049 8002 8020 10760 
+	}
+}

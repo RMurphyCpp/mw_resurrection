@@ -1,0 +1,67 @@
+﻿capital = 554
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+
+	set_country_flag = muslim_country	
+	add_opinion_modifier = { target = ISR modifier = historical_riverly }
+	puppet = LEB
+	
+    set_politics = {
+
+	    parties = {
+		
+		    autocracy = { 
+			    popularity = 20				
+			}
+			
+		    moderate_islam = { 
+			    popularity = 10				
+			
+		    }
+
+		    sunni_islam = {
+			    popularity = 25			
+		    }
+		
+		    fundamentalist_islam = {
+			    popularity = 15	
+		    }
+		
+		    shia_islam = { 
+			    popularity = 20		
+		    }
+	    }
+	
+	    ruling_party = autocracy
+	    last_election = "1996.3.5"
+	    election_frequency = 48
+	    elections_allowed = no
+    }
+    add_ideas = {
+	    an_iron_fist
+    }
+    #############LAST ENTRY IS USED FIRST#############	
+    create_country_leader = {
+    	name = "Bashar al-Assad"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "SYRH2.dds"
+    	expire = "2020.6.10"
+    	ideology = dictatorship
+    	traits = {
+    		#
+    	}
+    }
+    create_country_leader = {
+    	name = "Hafez al-Assad"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "SYRH1.dds"
+    	expire = "2000.6.10"
+    	ideology = dictatorship
+    	traits = {
+    		#
+    	}
+    }
+}

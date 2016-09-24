@@ -1,0 +1,37 @@
+ideas = {
+	country = {
+		post_soviet_trauma_ukr = {
+			
+			allowed = {
+				original_tag = UKR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.1
+			}
+		}
+	
+		fragile_democracy = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				drift_defence_factor = -0.10
+			}		
+		}
+	}
+}

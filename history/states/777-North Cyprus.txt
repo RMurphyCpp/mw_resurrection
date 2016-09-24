@@ -1,0 +1,19 @@
+state={
+	id=777
+	name="STATE_777"
+	
+	state_category = city
+	
+	history = {
+		owner = NCY
+		add_claim_by = NCY
+		add_claim_by = TUR
+		add_core_of = CYP
+	}
+	
+	provinces={
+		11984
+	}
+	manpower=347959
+	buildings_max_level_factor=1
+}

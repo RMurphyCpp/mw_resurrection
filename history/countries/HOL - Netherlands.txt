@@ -1,0 +1,279 @@
+﻿capital = 7
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+	
+    set_politics = {
+
+	    parties = {
+		    democratic_socialism = { 
+			    popularity = 39
+			
+		    }
+
+		    democratic_conservative = {
+			    popularity = 25			
+		    }
+		
+		    democratic_center = {
+			    popularity = 18	
+		    }
+		
+		    democratic_liberal = { 
+			    popularity = 9			
+		    }
+
+		    democratic_green = { 
+			    popularity = 7			
+		    }
+
+		    democratic_nationalism = { 
+			    popularity = 2			
+		    }			
+	    }
+	
+	    ruling_party = democratic_socialism
+	    last_election = "1998.5.6"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+		united_nations_non_permanent_member
+		european_union_member
+	    democratic_traditions
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Wim Kok"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "HOLG1.dds"
+    	expire = "2002.7.22"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2001.10.7 = {
+    create_country_leader = {
+    	name = "Wim Kok"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "HOLG1.dds"
+    	expire = "2002.7.22"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+
+   set_politics = {
+
+	    parties = {
+		    democratic_socialism = { 
+			    popularity = 29
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 27			
+		    }
+		
+		    democratic_conservative = {
+			    popularity = 18	
+		    }
+		
+		    democratic_liberal = { 
+			    popularity = 9			
+		    }
+
+		    democratic_green = { 
+			    popularity = 7			
+		    }
+
+		    democratic_nationalism = { 
+			    popularity = 2			
+		    }			
+	    }
+	
+	    ruling_party = democratic_center
+	    last_election = "2003.1.22"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Jan Peter Balkenende"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "HOLG2.dds"
+    	expire = "2010.10.14"
+    	ideology = centrer_right
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2008.8.7 = {
+
+   set_politics = {
+
+	    parties = {
+		    democratic_socialism = { 
+			    popularity = 29
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 27			
+		    }
+		
+		    democratic_conservative = {
+			    popularity = 18	
+		    }
+		
+		    democratic_liberal = { 
+			    popularity = 9			
+		    }
+
+		    democratic_green = { 
+			    popularity = 7			
+		    }
+
+		    democratic_nationalism = { 
+			    popularity = 2			
+		    }			
+	    }
+	
+	    ruling_party = democratic_center
+	    last_election = "2006.11.22"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Jan Peter Balkenende"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "HOLG2.dds"
+    	expire = "2010.10.14"
+    	ideology = centrer_right
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+
+   set_politics = {
+
+	    parties = {
+		    democratic_socialism = {
+			    popularity = 19			
+		    }
+		
+		    democratic_conservative = {
+			    popularity = 20	
+		    }
+		
+		    democratic_center = { 
+			    popularity = 14			
+		    }
+
+		    democratic_green = { 
+			    popularity = 7			
+		    }
+
+		    democratic_nationalism = { 
+			    popularity = 16			
+		    }			
+	    }
+	
+	    ruling_party = democratic_conservative
+	    last_election = "2010.6.9"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Mark Rutte"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "HOLG3.dds"
+    	expire = "2020.6.9"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+    create_country_leader = {
+    	name = "Mark Rutte"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "HOLG3.dds"
+    	expire = "2020.6.9"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+
+   set_politics = {
+
+	    parties = {
+		    democratic_socialism = {
+			    popularity = 25			
+		    }
+		
+		    democratic_conservative = {
+			    popularity = 27	
+		    }
+		
+		    democratic_center = { 
+			    popularity = 14			
+		    }
+
+		    democratic_green = { 
+			    popularity = 7			
+		    }
+
+		    democratic_nationalism = { 
+			    popularity = 10			
+		    }			
+	    }
+	
+	    ruling_party = democratic_conservative
+	    last_election = "2012.9.12"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Mark Rutte"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "HOLG3.dds"
+    	expire = "2020.6.9"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+    create_country_leader = {
+    	name = "Mark Rutte"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "HOLG3.dds"
+    	expire = "2020.6.9"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}

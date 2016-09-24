@@ -1,0 +1,28 @@
+state={
+	id=753
+	name="STATE_753"
+	
+	state_category = town
+	
+	history={
+		owner = SOT
+		add_core_of = GEO
+		
+		victory_points = {
+			9626 5 
+		}
+		
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+		}		
+	}
+	
+	provinces={
+		9626 9632 
+	}
+	manpower=600
+	buildings_max_level_factor=1
+}

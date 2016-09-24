@@ -1,0 +1,197 @@
+﻿capital = 446
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.8
+    set_technology = {}
+
+	set_country_flag = muslim_country	
+    set_politics = {
+
+	    parties = {
+		    fundamentalist_islam = { 
+			    popularity = 30
+			    banned = yes					
+			
+		    }
+
+		    autocracy = {
+			    popularity = 55			
+		    }
+		
+		    military = {
+			    popularity = 10	
+		    }
+		
+		    democratic_liberal = { 
+			    popularity = 5		
+		    }
+	    }
+	
+	    ruling_party = autocracy
+	    last_election = "1996.3.5"
+	    election_frequency = 48
+	    elections_allowed = no
+    }
+    add_ideas = {
+	    an_iron_fist
+    }
+    #############LAST ENTRY IS USED FIRST#############	
+    create_country_leader = {
+    	name = "Hosni Mubarak"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "EGYH1.dds"
+    	expire = "2011.12.11"
+    	ideology = dictatorship
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2001.10.7 = {
+    create_country_leader = {
+    	name = "Hosni Mubarak"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "EGYH1.dds"
+    	expire = "2011.12.11"
+    	ideology = dictatorship
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+    create_country_leader = {
+    	name = "Hosni Mubarak"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "EGYH1.dds"
+    	expire = "2011.12.11"
+    	ideology = dictatorship
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2008.8.7 = {
+    create_country_leader = {
+    	name = "Hosni Mubarak"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "EGYH1.dds"
+    	expire = "2011.12.11"
+    	ideology = dictatorship
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+    create_country_leader = {
+    	name = "Hosni Mubarak"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "EGYH1.dds"
+    	expire = "2011.12.11"
+    	ideology = dictatorship
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+    create_country_leader = {
+    	name = "Hosni Mubarak"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "EGYH1.dds"
+    	expire = "2011.12.11"
+    	ideology = dictatorship
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+
+    set_politics = {
+
+	    parties = {
+		    fundamentalist_islam = { 
+			    popularity = 65
+		    }
+
+		    autocracy = {
+			    popularity = 10			
+		    }
+		
+		    military = {
+			    popularity = 20	
+		    }
+		
+		    democratic_liberal = { 
+			    popularity = 5		
+		    }
+	    }
+	
+	    ruling_party = autocracy
+	    last_election = "1996.3.5"
+	    election_frequency = 48
+	    elections_allowed = no
+    }
+	
+    create_country_leader = {
+    	name = "Mohamed Morsi"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "EGYH4.dds"
+    	expire = "2011.12.11"
+    	ideology = dictatorship
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 30
+			    banned = no					
+			
+		    }
+
+		    fascism = {
+			    popularity = 10			
+		    }
+		
+		    communism = {
+			    popularity = 0	
+		    }
+		
+		    autocracy = { 
+			    popularity = 60		
+		    }
+	    }
+	
+	    ruling_party = fascism
+	    last_election = "1996.3.5"
+	    election_frequency = 48
+	    elections_allowed = no
+    }
+	
+    create_country_leader = {
+    	name = "Adly Mansour"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "EGYH5.dds"
+    	expire = "2014.6.8"
+    	ideology = dictatorship
+    	traits = {
+    		#
+    	}
+    }
+}

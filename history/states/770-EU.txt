@@ -1,0 +1,21 @@
+state={
+	id=770
+	name="STATE_770"
+	
+	state_category = city
+	
+	history={
+		owner = EUU
+		add_core_of = EUU
+		
+		victory_points = {
+			13204 10
+		}
+	}
+	
+	provinces={
+		13204
+	}
+	manpower=1
+	buildings_max_level_factor=1
+}

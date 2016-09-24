@@ -1,0 +1,161 @@
+﻿capital = 8
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 40
+			
+		    }
+
+		    democratic_liberal = {
+			    popularity = 27			
+		    }
+		
+		    democratic_socialism = {
+			    popularity = 22
+		    }
+
+		    democratic_green = {
+			    popularity = 11
+		    }			
+	    }
+	
+	    ruling_party = democratic_conservative
+	    last_election = "1999.6.13"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+		european_union_member
+	    democratic_traditions
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Jean-Claude Juncker"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "LUXG1.dds"
+    	expire = "2013.1.1"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2001.10.7 = {
+    create_country_leader = {
+    	name = "Jean-Claude Juncker"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "LUXG1.dds"
+    	expire = "2013.1.1"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+    create_country_leader = {
+    	name = "Jean-Claude Juncker"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "LUXG1.dds"
+    	expire = "2013.1.1"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2008.8.7 = {
+
+    set_politics = {
+	    ruling_party = democratic_conservative
+	    last_election = "2004.6.13"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Jean-Claude Juncker"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "LUXG1.dds"
+    	expire = "2013.1.1"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+
+    set_politics = {
+	    ruling_party = democratic_conservative
+	    last_election = "2009.6.7"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Jean-Claude Juncker"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "LUXG1.dds"
+    	expire = "2013.1.1"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+    create_country_leader = {
+    	name = "Jean-Claude Juncker"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "LUXG1.dds"
+    	expire = "2013.1.1"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+    create_country_leader = {
+    	name = "Jean-Claude Juncker"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "LUXG1.dds"
+    	expire = "2013.1.1"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+
+    set_politics = {
+	    ruling_party = democratic_liberal
+	    last_election = "2013.10.20"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Xavier Bettel"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "LUXG4.dds"
+    	expire = "2012.12.13"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}

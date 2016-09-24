@@ -1,0 +1,265 @@
+﻿capital = 454
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+	
+	add_opinion_modifier = { target = PER modifier = historical_riverly }
+	add_opinion_modifier = { target = SAU modifier = historical_riverly }
+	add_opinion_modifier = { target = SYR modifier = historical_riverly }
+	add_opinion_modifier = { target = LEB modifier = historical_riverly }	
+	add_opinion_modifier = { target = IRQ modifier = historical_riverly }
+	add_opinion_modifier = { target = LBY modifier = historical_riverly }
+	add_opinion_modifier = { target = SUD modifier = historical_riverly }	
+
+    set_politics = {
+
+	    parties = {
+		    democratic_socialism = { 
+			    popularity = 56
+			
+		    }
+
+		    democratic_conservative = {
+			    popularity = 44			
+		    }
+	    }
+	
+	    ruling_party = democratic_socialism
+	    last_election = "1999.5.17"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+	    democratic_traditions
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Benjamin Netanyahu"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ISRG4.dds"
+    	expire = "2020.12.25"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {
+    	name = "Ehud Barak"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ISRG1.dds"
+    	expire = "2003.3.15"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }	
+}
+
+2001.10.7 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_socialism = { 
+			    popularity = 38
+			
+		    }
+
+		    democratic_conservative = {
+			    popularity = 62			
+		    }
+	    }
+	
+	    ruling_party = democratic_conservative
+	    last_election = "2001.2.6"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Ehud Barak"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ISRG1.dds"
+    	expire = "2003.3.15"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+    create_country_leader = {
+    	name = "Ariel Sharon"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ISRG2.dds"
+    	expire = "2006.12.25"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }	
+}
+
+2003.3.15 = {
+    set_politics = {
+
+	    parties = {
+		    democratic_socialism = { 
+			    popularity = 38
+			
+		    }
+
+		    democratic_conservative = {
+			    popularity = 62			
+		    }
+	    }
+	
+	    ruling_party = democratic_conservative
+	    last_election = "2003.1.28"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Amram Mitzna"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = ""
+    	expire = "2003.3.15"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+    create_country_leader = {
+    	name = "Ariel Sharon"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ISRG2.dds"
+    	expire = "2006.12.25"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2008.8.7 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_socialism = { 
+			    popularity = 38
+			
+		    }
+
+		    democratic_conservative = {
+			    popularity = 62			
+		    }
+	    }
+	
+	    ruling_party = democratic_liberal
+	    last_election = "2006.3.28"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Amir Peretz"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = ""
+    	expire = "2009.3.15"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+    create_country_leader = {
+    	name = "Ehud Olmert"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ISRG3.dds"
+    	expire = "2006.12.25"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_liberal = { 
+			    popularity = 38
+			
+		    }
+
+		    democratic_nationalism = {
+			    popularity = 62			
+		    }
+	    }
+	
+	    ruling_party = democratic_nationalism
+	    last_election = "2006.3.28"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Benjamin Netanyahu"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ISRG4.dds"
+    	expire = "2020.12.25"
+    	ideology = zionism
+    	traits = {
+    		#
+    	}
+    }
+    create_country_leader = {
+    	name = "Ehud Olmert"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ISRG3.dds"
+    	expire = "2006.12.25"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+
+2011.3.15 = {
+    create_country_leader = {
+    	name = "Benjamin Netanyahu"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ISRG4.dds"
+    	expire = "2020.12.25"
+    	ideology = zionism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+    create_country_leader = {
+    	name = "Benjamin Netanyahu"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ISRG4.dds"
+    	expire = "2020.12.25"
+    	ideology = zionism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+    create_country_leader = {
+    	name = "Benjamin Netanyahu"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ISRG4.dds"
+    	expire = "2020.12.25"
+    	ideology = zionism
+    	traits = {
+    		#
+    	}
+    }
+}

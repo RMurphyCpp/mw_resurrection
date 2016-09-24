@@ -1,0 +1,15 @@
+state={
+	id=636
+	name="STATE_636"
+	manpower = 180000
+	
+	state_category = small_island
+	history={
+		owner = FJI
+		add_core_of = FJI
+	}
+	
+	provinces={
+		4286 7302 12159 
+	}
+}

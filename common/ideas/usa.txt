@@ -1,0 +1,509 @@
+ideas = {
+	country = {
+		petro_dollar = {
+			
+			allowed = {
+				original_tag = USA
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				trade_opinion_factor = 0.25
+			}
+		}
+	
+		land_of_the_free = {
+			
+			allowed = {
+				original_tag = USA
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				democratic_conservative_drift = 0.05
+				democratic_liberal_drift = 0.05
+				drift_defence_factor = 0.05
+			}
+		}
+	}
+
+	####### TECH COMPANIES #######
+	tank_manufacturer = {
+	
+		designer = yes	
+	
+		usa_general_motors = { 		#USA
+
+			allowed = {
+				tag = USA
+			}		
+		
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+		}	
+	
+	}
+	
+	naval_manufacturer = {
+	
+		designer = yes	
+	
+		usa_general_dynamics = { 	#USA
+
+			allowed = {
+				tag = USA
+			}		
+		
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { naval_manufacturer }
+		}	
+	
+	}
+	
+	aircraft_manufacturer = {
+	
+		designer = yes
+	
+		usa_boeing = { 		#USA
+
+			allowed = {
+				tag = USA
+			}
+		
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { light_aircraft_manufacturer }
+		}
+		
+		usa_lockheed = {		#USA
+
+			allowed = {
+				tag = USA
+			}
+		
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}
+
+		usa_raytheon = {		#USA
+
+			allowed = {
+				tag = USA
+			}		
+		
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}
+
+		usa_general_electric = {		#USA
+
+			allowed = {
+				tag = USA
+			}		
+		
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}	
+	
+	}
+	
+	materiel_manufacturer = {
+
+		designer = yes
+	
+		usa_colt = { 		#USA
+
+			allowed = {
+				tag = USA
+			}		
+		
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { light_aircraft_manufacturer }
+		}
+	
+	}
+	
+	industrial_concern = {
+	
+		designer = yes
+
+		usa_exxonmobil = { 	#USA
+
+			allowed = {
+				tag = USA
+			}		
+		
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+		}
+		
+		usa_motorola = { 	#USA
+
+			allowed = {
+				tag = USA
+			}		
+		
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+		}	
+	
+	}
+	
+	####### MILITATY STAFF #######
+	army_chief = {
+	
+		eric_shinseki = {
+			
+			allowed = {
+				original_tag = USA
+			}
+
+			traits = { army_chief_morale_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		peter_schoomaker= {
+			
+			
+			allowed = {
+				original_tag = USA
+			}
+
+			traits = { army_chief_drill_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		george_casey = {
+			
+			
+			allowed = {
+				original_tag = USA
+			}
+
+			traits = { army_chief_offensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}	
+	}
+	
+	air_chief = {
+		
+		
+		michael_ryan = {
+			
+			
+			allowed = {
+				original_tag = USA
+			}
+			
+
+			
+			traits = { air_chief_reform_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		john_jumper = {
+			
+			
+			allowed = {
+				original_tag = USA
+			}
+			
+
+			
+			traits = { air_chief_night_operations_2 }
+			# TODO Strategic bombing secondary trait?
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		michael_moseley= {
+			
+			
+			allowed = {
+				original_tag = USA
+			}
+			
+
+			
+			traits = { air_chief_safety_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}	
+	}
+	
+	navy_chief = {
+	
+		vern_clark = {
+			
+			
+			allowed = {
+				original_tag = USA
+			}
+			
+
+			
+			traits = { navy_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		michael_mullen = {
+			
+			
+			allowed = {
+				original_tag = USA
+			}
+			
+
+			
+			traits = { navy_chief_commerce_raiding_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		jonathan_greenert = {
+			
+			
+			allowed = {
+				original_tag = USA
+			}
+			
+
+			
+			traits = { navy_chief_naval_aviation_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}	
+	}
+	
+	high_command = {
+		joseph_votel = {
+			
+			
+			allowed = {
+				original_tag = USA
+			}
+			
+
+			
+			traits = { army_commando_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		wesley_clark= {
+			
+			
+			allowed = {
+				original_tag = USA
+			}
+			
+
+			
+			traits = { army_logistics_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		bantz_craddock= {
+			
+			
+			allowed = {
+				original_tag = USA
+			}
+			
+
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}	
+		
+		eugene_habiger= {
+			
+			
+			allowed = {
+				original_tag = USA
+			}
+			
+
+			
+			traits = { air_strategic_bombing_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		kevin_chilton= {
+			
+			
+			allowed = {
+				original_tag = USA
+			}
+			
+
+			
+			traits = { air_close_air_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		philip_breedlove = {
+			
+			
+			allowed = {
+				original_tag = USA
+			}
+			
+
+			
+			traits = { air_tactical_bombing_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		walter_doran = {
+			
+			
+			allowed = {
+				original_tag = USA
+			}
+			
+
+			
+			traits = { navy_naval_air_defense_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		robert_natter = {
+			
+			
+			allowed = {
+				original_tag = USA
+			}
+			
+
+			
+			traits = { navy_carrier_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		james_mattis = {
+			
+			
+			allowed = {
+				original_tag = USA
+			}
+			
+
+			
+			traits = { navy_amphibious_assault_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}	
+}

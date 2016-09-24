@@ -1,0 +1,175 @@
+﻿capital = 11
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+	
+	add_opinion_modifier = { target = SOV modifier = historical_riverly }	
+
+    set_politics = {
+
+	    parties = {
+
+		    democratic_liberal = {
+			    popularity = 27			
+		    }
+		
+		    democratic_socialism = {
+			    popularity = 30
+		    }
+			
+		    democratic_conservative = { 
+			    popularity = 43
+		    }			
+	    }
+	
+	    ruling_party = democratic_conservative
+	    last_election = "1996.10.8"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Andrius Kubilius"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "LITG1.dds"
+    	expire = "2012.12.13"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }	
+}
+
+2001.10.7 = {
+
+    set_politics = {
+
+	    ruling_party = democratic_conservative
+	    last_election = "2000.10.8"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Algirdas Brazauskas"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "LITG2.dds"
+    	expire = "2012.12.13"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+    create_country_leader = {
+    	name = "Algirdas Brazauskas"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "LITG2.dds"
+    	expire = "2012.12.13"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+2004.1.1 = {
+    add_ideas = {
+		european_union_member
+    }
+}
+2008.8.7 = {
+
+    set_politics = {
+	    ruling_party = democratic_socialism
+	    last_election = "2004.10.24"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Gediminas Kirkilas"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "LITG3.dds"
+    	expire = "2008.12.9"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+    set_politics = {
+	    ruling_party = democratic_socialism
+	    last_election = "2008.10.26"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Gediminas Kirkilas"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "LITG3.dds"
+    	expire = "2008.12.9"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+    create_country_leader = {
+    	name = "Andrius Kubilius"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "LITG1.dds"
+    	expire = "2012.12.13"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+
+    set_politics = {
+	    ruling_party = democratic_conservative
+	    last_election = "2012.10.28"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {	
+    	name = "Algirdas Butkevičius"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "LITG4.dds"
+    	expire = "2012.12.13"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+
+    set_politics = {
+	    ruling_party = democratic_socialism
+	    last_election = "2012.10.28"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Algirdas Butkevičius"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "LITG4.dds"
+    	expire = "2012.12.13"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}

@@ -1,0 +1,248 @@
+﻿capital = 505
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 53
+		    }
+
+		    democratic_socialism = { 
+			    popularity = 42	
+		    }
+	    }
+	
+	    ruling_party = democratic_conservative
+	    last_election = "1998.10.4"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Enéas Carneiro"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "BRANHFAS1.dds"
+    	expire = "2007.5.6"
+    	ideology = fascism_ideology
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {
+    	name = "Luciana Santos"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "BRANHCOM1.dds"
+    	expire = "2020.1.1"
+    	ideology = marxism
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {
+    	name = "Lula da Silva"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "BRAH2.dds"
+    	expire = "2011.1.1"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+    create_country_leader = {
+    	name = "Fernando Henrique Cardoso"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "BRAH1.dds"
+    	expire = "2003.1.1"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }	
+}
+
+2001.10.7 = {
+    create_country_leader = {
+    	name = "Fernando Henrique Cardoso"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "BRAH1.dds"
+    	expire = "2003.1.1"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 39
+		    }
+
+		    democratic_socialism = { 
+			    popularity = 61	
+		    }
+	    }
+	
+	    ruling_party = democratic_socialism
+	    last_election = "2002.10.6"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+
+    create_country_leader = {
+    	name = "José Serra"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "BRANHCON1.dds"
+    	expire = "2008.1.1"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+	
+    create_country_leader = {
+    	name = "Lula da Silva"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "BRAH2.dds"
+    	expire = "2011.1.1"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2008.8.7 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 39
+		    }
+
+		    democratic_socialism = { 
+			    popularity = 61	
+		    }
+	    }
+	
+	    ruling_party = democratic_socialism
+	    last_election = "2006.10.1"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+
+    create_country_leader = {
+    	name = "Geraldo Alckmin"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "BRANHCON2.dds"
+    	expire = "2010.1.1"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+	
+    create_country_leader = {
+    	name = "Lula da Silva"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "BRAH2.dds"
+    	expire = "2011.1.1"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 44
+		    }
+
+		    democratic_socialism = { 
+			    popularity = 57	
+		    }
+	    }
+	
+	    ruling_party = democratic_socialism
+	    last_election = "2010.10.3"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+
+    create_country_leader = {
+    	name = "José Serra"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "BRANHCON1.dds"
+    	expire = "2008.1.1"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+	}
+    create_country_leader = {
+    	name = "Dilma Rousseff"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "BRAH3.dds"
+    	expire = "2016.1.1"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+	}
+}
+
+2011.3.15 = {
+    create_country_leader = {
+    	name = "Dilma Rousseff"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "BRAH3.dds"
+    	expire = "2016.1.1"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+    create_country_leader = {
+    	name = "Dilma Rousseff"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "BRAH3.dds"
+    	expire = "2011.1.1"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+    create_country_leader = {
+    	name = "Dilma Rousseff"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "BRAH3.dds"
+    	expire = "2011.1.1"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}

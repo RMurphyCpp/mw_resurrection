@@ -1,0 +1,198 @@
+﻿capital = 608
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+	
+	add_opinion_modifier = { target = JAP modifier = historical_riverly }
+	add_opinion_modifier = { target = TWN modifier = historical_riverly }
+	add_opinion_modifier = { target = USA modifier = historical_riverly }	
+	give_guarantee = PRK #Sino-North Korean Mutual Aid and Cooperation Friendship Treaty
+	puppet = HNK
+	puppet = MCU
+
+    set_politics = {
+
+	    parties = {
+		    communism = {
+			    popularity = 85	
+		    }
+	    }
+	
+	    ruling_party = communism
+	    last_election = "1993.3.15"
+	    election_frequency = 120
+	    elections_allowed = yes
+    }
+    add_ideas = {
+		un_permanent_member
+		the_dragon_awakes
+		chinese_economic_reform
+		corporate_communism
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "He Luli"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "CHCNHFAS1.dds"
+    	expire = "2008.8.7"
+    	ideology = fascism_ideology
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {
+    	name = "Ding Shisun"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "CHCHNHSOC1.dds"
+    	expire = "2008.8.7"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {
+    	name = "Jiang Zemin"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "CHCH1.dds"
+    	expire = "2003.3.15"
+    	ideology = marxism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2001.10.7 = {
+    create_country_leader = {
+    	name = "Jiang Zemin"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "CHCH1.dds"
+    	expire = "2003.3.15"
+    	ideology = marxism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+    create_country_leader = {
+    	name = "Jiang Zemin"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "CHCH1.dds"
+    	expire = "2003.3.15"
+    	ideology = marxism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2008.8.7 = {
+
+    create_country_leader = {
+    	name = "Zhou Tienong"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "CHCNHFAS2.dds"
+    	expire = "2014.4.7"
+    	ideology = fascism_ideology
+    	traits = {
+    		#
+    	}
+    }
+    create_country_leader = {
+    	name = "Jiang Shusheng"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "CHCHNHSOC2.dds"
+    	expire = "2014.4.7"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+    create_country_leader = {
+    	name = "Hu Jintao"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "CHCH2.dds"
+    	expire = "2013.3.14"
+    	ideology = marxism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+    create_country_leader = {
+    	name = "Hu Jintao"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "CHCH2.dds"
+    	expire = "2013.3.14"
+    	ideology = marxism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+    create_country_leader = {
+    	name = "Hu Jintao"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "CHCH2.dds"
+    	expire = "2013.3.14"
+    	ideology = marxism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+    create_country_leader = {
+    	name = "Xi Jinping"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "CHCH3.dds"
+    	expire = "2013.3.14"
+    	ideology = marxism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+
+    create_country_leader = {
+    	name = "Wan Exiang"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "CHCNHFAS3.dds"
+    	expire = "2020.4.7"
+    	ideology = fascism_ideology
+    	traits = {
+    		#
+    	}
+    }
+    create_country_leader = {
+    	name = "Zhang Baowen"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "CHCHNHSOC3.dds"
+    	expire = "2003.3.15"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+    create_country_leader = {
+    	name = "Xi Jinping"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "CHCH3.dds"
+    	expire = "2013.3.14"
+    	ideology = marxism
+    	traits = {
+    		#
+    	}
+    }
+}

@@ -1,0 +1,20 @@
+state={
+	id=779
+	name="STATE_779"
+	manpower =2457400
+	
+	state_category = large_city
+	
+	history={
+		owner = BOS
+		add_core_of = BOS
+		add_claim_by = RSP		
+		
+		victory_points = {
+			6983 10 
+		}		
+	}	
+	provinces={
+		606 982 6619 6889 6983 9588 9591 11572 11574 11741 11845  
+	}
+}

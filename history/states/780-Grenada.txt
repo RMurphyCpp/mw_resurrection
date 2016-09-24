@@ -1,0 +1,19 @@
+state={
+	id=780
+	name="STATE_780"
+	manpower=37516
+	
+	state_category = small_island
+	
+	history={
+		owner = GRN
+		add_core_of = GRN		
+		
+		victory_points = {
+			6983 1 
+		}		
+	}	
+	provinces={
+		11106
+	}
+}

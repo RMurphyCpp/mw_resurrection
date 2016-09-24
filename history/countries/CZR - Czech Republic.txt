@@ -1,0 +1,187 @@
+﻿capital = 9
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 28
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 33			
+		    }
+		
+		    communism = {
+			    popularity = 11	
+		    }
+	    }
+	
+	    ruling_party = democratic_socialism
+	    last_election = "1998.6.14"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Miloš Zeman"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "CZRG1.dds"
+    	expire = "2002.7.15"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }	
+}
+
+2003.3.15 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 28
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 33			
+		    }
+		
+		    communism = {
+			    popularity = 11	
+		    }
+	    }
+	
+	    ruling_party = democratic_socialism
+	    last_election = "2002.6.3"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Vladimír Špidla"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "CZRG2.dds"
+    	expire = "2004.8.4"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+2004.1.1 = {
+    add_ideas = {
+		european_union_member
+    }
+}
+2008.8.7 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 45
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 42			
+		    }
+		
+		    communism = {
+			    popularity = 13	
+		    }
+	    }
+	
+	    ruling_party = democratic_conservative
+	    last_election = "2006.6.3"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Mirek Topolánek"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "CZRH2.dds"
+    	expire = "2009.5.8"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+
+    set_politics = {
+
+	    ruling_party = democratic_conservative
+	    last_election = "2010.10.26"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Petr Nečas"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "CZRG7.dds"
+    	expire = "2013.7.10"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+    create_country_leader = {
+    	name = "Petr Nečas"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "CZRG7.dds"
+    	expire = "2013.7.10"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+    create_country_leader = {
+    	name = "Petr Nečas"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "CZRG7.dds"
+    	expire = "2013.7.10"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+
+    set_politics = {
+
+	    ruling_party = democratic_socialism
+	    last_election = "2013.10.26"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Bohuslav Sobotka"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "CZRG9.dds"
+    	expire = "2020.3.7"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}

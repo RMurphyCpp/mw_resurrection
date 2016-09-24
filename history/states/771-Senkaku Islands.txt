@@ -1,0 +1,18 @@
+state={
+	id=771
+	name="STATE_771"
+	
+	state_category = tiny_island
+	
+	history={
+		add_claim_by = JAP
+		add_claim_by = TWN
+		add_claim_by = CHC		
+	}
+	
+	provinces={
+		13206
+	}
+	manpower=1
+	buildings_max_level_factor=1
+}

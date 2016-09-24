@@ -1,0 +1,19 @@
+state=
+{
+	id=298
+	name="STATE_298"
+	manpower = 745000
+	
+	state_category = rural
+	
+	resources={
+		rubber=4
+	}
+	history= {
+		owner = LIB
+		add_core_of = LIB
+	}
+	provinces={
+		7959 8006
+	}
+}

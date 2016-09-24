@@ -1,0 +1,83 @@
+ideas = {
+	country = {
+		major_terrorism_attack = {
+			allowed = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				unity_factor = 0.15
+			}
+		}
+		
+		minor_terrorism_attack = {
+			allowed = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				unity_factor = 0.05
+			}
+		}
+		
+		illegal_war = {
+		
+			allowed = {
+				OR = {
+				has_government = democratic_conservative
+				has_government = democratic_liberal
+				has_government = democratic_center
+				has_government = democratic_green
+				has_government = democratic_socialism
+				}
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				unity_weekly = -0.0025 #decreases by 0.25% weekly
+			}
+		}
+		
+		constitutional_crisis = {
+		
+			allowed = {
+				OR = {
+				has_government = democratic_conservative
+				has_government = democratic_liberal
+				has_government = democratic_center
+				has_government = democratic_green
+				has_government = democratic_socialism
+				}
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				unity_weekly = -0.005 #decreases by 0.5% weekly
+				opinion_gain_monthly_factor = -5
+				political_power_factor = -1.5
+			}
+		}
+		
+	}
+
+}

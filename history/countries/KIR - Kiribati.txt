@@ -1,0 +1,101 @@
+﻿capital = 639
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 85
+			
+		    }
+
+		    fascism = {
+			    popularity = 5
+			    banned = no				
+		    }
+		
+		    communism = {
+			    popularity = 5
+			    banned = no	
+		    }
+		
+		    autocracy = { 
+			    popularity = 5
+			    banned = no			
+		    }
+	    }
+	
+	    ruling_party = democratic_conservative
+	    last_election = "1996.3.5"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+	    democratic_traditions
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Democratic_Leader_Nationalism"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "Portrait_Albania_King_Zog.dds"
+    	expire = "1965.1.1"
+    	ideology = nationalism
+    	traits = {
+    		#
+    	}
+    }
+    create_country_leader = {
+    	name = "Democratic_Leader_Socialism"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "Portrait_Albania_King_Zog.dds"
+    	expire = "1965.1.1"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+    create_country_leader = {
+    	name = "Democratic_Leader_Green"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "Portrait_Albania_King_Zog.dds"
+    	expire = "1965.1.1"
+    	ideology = green
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {
+    	name = "Democratic_Leader_Central"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "Portrait_Albania_King_Zog.dds"
+    	expire = "1965.1.1"
+    	ideology = centrer_right
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {
+    	name = "Democratic_Leader_Conservative"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "Portrait_Albania_King_Zog.dds"
+    	expire = "1965.1.1"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {
+    	name = "Democratic_Leader_Liberal"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "Portrait_Albania_King_Zog.dds"
+    	expire = "1965.1.1"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}

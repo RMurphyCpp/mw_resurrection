@@ -1,0 +1,17 @@
+state={
+	id=268
+	name="STATE_268"
+	manpower = 85232
+	state_category = city
+	history={
+		owner = DJI
+		add_core_of = DJI
+		
+		victory_points = {
+			8124 10
+		}		
+	}
+	provinces={
+		4985 8124
+ 	}
+}

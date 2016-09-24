@@ -1,0 +1,131 @@
+ideas = {
+
+	fiscal_policy  = { 
+		law = yes
+		mw_austerity = {
+		
+			available = {
+				num_of_factories < 20			
+			}
+			
+			removal_cost = -1
+			level = 7			
+		
+			modifier = {
+				industrial_capacity_factory = -0.5
+				line_change_production_efficiency_factor = -0.5
+				production_factory_max_efficiency_factor = -0.5
+			}		
+			
+			allowed_to_remove = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		mw_increased_taxtation = {
+		
+			available = {
+				num_of_factories < 30
+			}
+			
+			removal_cost = -1
+			level = 6	
+			
+			modifier = {
+				industrial_capacity_factory = -0.3
+				line_change_production_efficiency_factor = -0.3
+				production_factory_max_efficiency_factor = -0.3				
+			}
+			
+			allowed_to_remove = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		mw_tightly_controlled_spending = {
+			
+			available = {
+				num_of_factories < 40			
+			}
+			
+			removal_cost = -1
+			level = 5
+			
+			modifier = {
+				industrial_capacity_factory = -0.1
+				line_change_production_efficiency_factor = -0.1
+				production_factory_max_efficiency_factor = -0.1
+			}
+			
+			allowed_to_remove = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		mw_balanced_spending_policy = {
+			
+			available = {
+				num_of_factories > 50			
+			}
+			
+			removal_cost = -1
+			level = 5
+			
+			modifier = {
+				industrial_capacity_factory = 0.1
+				line_change_production_efficiency_factor = 0.1
+				production_factory_max_efficiency_factor = 0.1
+			}
+			
+			allowed_to_remove = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		mw_high_government_spending = {		
+			
+			available = {
+				num_of_factories > 50			
+			}
+			
+			removal_cost = -1
+			level = 3
+			
+			modifier = {
+				industrial_capacity_factory = 0.3
+				line_change_production_efficiency_factor = 0.3
+				production_factory_max_efficiency_factor = 0.3
+			}
+			
+			allowed_to_remove = {
+			}
+			
+			cancel_if_invalid = no
+		}		
+		
+		mw_deficit_spending = {
+			
+			available = {
+				num_of_factories > 70			
+			}
+			
+			removal_cost = -1
+			level = 2
+			
+			modifier = {
+				industrial_capacity_factory = 0.5
+				line_change_production_efficiency_factor = 0.5
+				production_factory_max_efficiency_factor = 0.5
+			}
+			
+			allowed_to_remove = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+}

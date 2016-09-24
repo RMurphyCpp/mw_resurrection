@@ -1,0 +1,19 @@
+state={
+	id=742
+	name="STATE_742"
+	state_category = large_city
+	
+	history={
+		owner = TSN
+		add_claim_by = MOL
+		
+		victory_points = {
+			6743 10 
+		}		
+	}
+	provinces={
+		6600 6743 11686 11705 
+	}
+	manpower=200
+	buildings_max_level_factor=1
+}

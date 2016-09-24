@@ -1,0 +1,188 @@
+﻿capital = 141
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+
+	oob = "SWE_2000"
+	
+    set_politics = {
+
+	    parties = {
+		    democratic_liberal = { 
+			    popularity = 42
+		    }
+
+		    democratic_socialism = {
+			    popularity = 51				
+		    }
+			
+		    democratic_green = {
+			    popularity = 7				
+		    }			
+	    }
+	
+	    ruling_party = democratic_socialism
+	    last_election = "1998.9.20"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+		european_union_member	
+	    democratic_traditions
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Göran Persson"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "SWEG1.dds"
+    	expire = "2006.10.6"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }	
+}
+
+2001.10.7 = {
+    create_country_leader = {
+    	name = "Göran Persson"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "SWEG1.dds"
+    	expire = "2006.10.6"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_liberal = { 
+			    popularity = 35
+		    }
+
+		    democratic_socialism = {
+			    popularity = 58				
+		    }
+			
+		    democratic_green = {
+			    popularity = 7				
+		    }			
+	    }
+	
+	    ruling_party = democratic_socialism
+	    last_election = "2002.9.15"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Göran Persson"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "SWEG1.dds"
+    	expire = "2006.10.6"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2008.8.7 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_liberal = { 
+			    popularity = 50
+		    }
+
+		    democratic_socialism = {
+			    popularity = 50				
+		    }
+			
+		    democratic_green = {
+			    popularity = 7				
+		    }			
+	    }
+	
+	    ruling_party = democratic_socialism
+	    last_election = "2006.9.17"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Fredrik Reinfeldt"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "SWEG2.dds"
+    	expire = "2011.12.21"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+
+    set_politics = {
+	    ruling_party = democratic_socialism
+	    last_election = "2010.9.17"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Fredrik Reinfeldt"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "SWEG2.dds"
+    	expire = "2011.12.21"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+    create_country_leader = {
+    	name = "Fredrik Reinfeldt"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "SWEG2.dds"
+    	expire = "2011.12.21"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+    create_country_leader = {
+    	name = "Fredrik Reinfeldt"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "SWEG2.dds"
+    	expire = "2011.12.21"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+    create_country_leader = {
+    	name = "Fredrik Reinfeldt"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "SWEG2.dds"
+    	expire = "2011.12.21"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}

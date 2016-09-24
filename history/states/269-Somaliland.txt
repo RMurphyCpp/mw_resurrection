@@ -1,0 +1,20 @@
+state=
+{
+	id=269
+	name="STATE_269"
+	manpower = 344700
+	
+	state_category = city
+	
+	history={
+		owner = SLL
+		add_core_of = SOM
+		
+		victory_points = {
+			5068 10 
+		}		
+	}
+	provinces={
+		1905 5068 8094 10777 10833 10921 12759 12814
+	}
+}

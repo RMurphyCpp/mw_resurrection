@@ -1,0 +1,20 @@
+ideas = {
+	country = {
+		post_soviet_trauma_blr = {
+			
+			allowed = {
+				original_tag = BLR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conversion_cost_civ_to_mil_factor= 0.7
+			}
+		}
+	}
+}

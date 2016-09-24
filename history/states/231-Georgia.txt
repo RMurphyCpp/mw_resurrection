@@ -1,0 +1,22 @@
+state={
+	id=231
+	name="STATE_231"
+	manpower = 2949413
+	state_category = city
+	
+	history={
+		owner = GEO
+		add_core_of = GEO
+		victory_points = { 1599 10 }
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+			air_base = 3
+		}		
+    }
+	provinces={
+		654 672 772 4605 6436 6674 7554 1530 1599 3653 3656 3658 3667 4534 6669 6671 9702 11609 11599 11664
+	}
+}

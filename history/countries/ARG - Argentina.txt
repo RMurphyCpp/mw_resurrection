@@ -1,0 +1,135 @@
+﻿capital = 278
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+
+    set_politics = {
+
+	    parties = {
+		    democratic_liberal = { 
+			    popularity = 39
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 51			
+		    }
+		
+		    democratic_conservative = {
+			    popularity = 10
+		    }
+	    }
+	
+	    ruling_party = democratic_socialism
+	    last_election = "1999.4.27"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+		united_nations_non_permanent_member
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Fernando de la Rúa"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ARGH1.dds"
+    	expire = "2001.12.21"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }	
+}
+
+2001.10.7 = {
+    create_country_leader = {
+    	name = "Fernando de la Rúa"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ARGH1.dds"
+    	expire = "2001.12.21"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+    create_country_leader = {
+    	name = "Eduardo Duhalde"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ARGH3.dds"
+    	expire = "2003.5.25"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2008.8.7 = {
+    create_country_leader = {
+    	name = "Cristina Fernández"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ARGH5.dds"
+    	expire = "2020.12.10"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+    create_country_leader = {
+    	name = "Cristina Fernández"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ARGH5.dds"
+    	expire = "2020.12.10"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+    create_country_leader = {
+    	name = "Cristina Fernández"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ARGH5.dds"
+    	expire = "2020.12.10"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+    create_country_leader = {
+    	name = "Cristina Fernández"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ARGH5.dds"
+    	expire = "2020.12.10"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+    create_country_leader = {
+    	name = "Cristina Fernández"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ARGH5.dds"
+    	expire = "2020.12.10"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}

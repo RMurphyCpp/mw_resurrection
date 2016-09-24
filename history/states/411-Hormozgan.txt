@@ -1,0 +1,26 @@
+state={
+	id=411
+	name="STATE_411" # Isfahan
+	manpower = 885272
+	state_category = rural
+	
+	resources={
+		oil = 30	
+	}
+
+	history={
+		owner = PER
+		add_core_of = PER
+		
+		victory_points = {
+			2026 9 
+		}
+		victory_points = {
+			5067 4 
+		}		
+
+	}
+	provinces={
+		1963 2026 4928 4983 5067 8031 8074 10828 12756 
+	}
+}

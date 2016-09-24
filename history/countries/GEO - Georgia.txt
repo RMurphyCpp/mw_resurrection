@@ -1,0 +1,158 @@
+﻿capital = 231
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+
+    set_politics = {
+
+	    parties = {
+		    democratic_nationalism = { 
+			    popularity = 82
+			
+		    }
+
+		    communism = {
+			    popularity = 18	
+		    }
+	    }
+	
+	    ruling_party = democratic_nationalism
+	    last_election = "2000.4.9"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+	    democratic_traditions
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Eduard Shevardnadze"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "GEOH1.dds"
+    	expire = "2003.11.23"
+    	ideology = nationalism
+    	traits = {
+    		#
+    	}
+    }	
+}
+
+2001.10.7 = {
+    create_country_leader = {
+    	name = "Eduard Shevardnadze"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "GEOH1.dds"
+    	expire = "2003.11.23"
+    	ideology = nationalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+    create_country_leader = {
+    	name = "Eduard Shevardnadze"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "GEOH1.dds"
+    	expire = "2003.11.23"
+    	ideology = nationalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2008.8.7 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 60
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 7	
+		    }
+			
+		    democratic_center = {
+			    popularity = 9	
+		    }
+			
+		    democratic_liberal = {
+			    popularity = 24	
+		    }			
+	    }
+	
+	    ruling_party = democratic_conservative
+	    last_election = "2008.5.21"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Mikheil Saakashvili"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "GEOH3.dds"
+    	expire = "2003.11.23"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+    create_country_leader = {
+    	name = "Mikheil Saakashvili"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "GEOH3.dds"
+    	expire = "2003.11.23"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+    create_country_leader = {
+    	name = "Mikheil Saakashvili"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "GEOH3.dds"
+    	expire = "2003.11.23"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+    create_country_leader = {
+    	name = "Mikheil Saakashvili"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "GEOH3.dds"
+    	expire = "2003.11.23"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+    create_country_leader = {
+    	name = "Giorgi Margvelashvili"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "GEOH4.dds"
+    	expire = "2020.6.22"
+    	ideology = centrer_left
+    	traits = {
+    		#
+    	}
+    }
+}

@@ -1,0 +1,19 @@
+state={
+	id=66
+	name="STATE_66"
+
+	history={
+		owner = POL
+		add_core_of = POL
+		
+		victory_points = {
+			9570 8 
+		}		
+	}
+	provinces={
+		444 537 552 3283 3438 3473 3485 3510 3545 3572 6236 6462 6534 6595 9387 9470 9570 11478 11517 
+	}
+	manpower=3052726
+	buildings_max_level_factor=1
+	state_category="large_city"
+}

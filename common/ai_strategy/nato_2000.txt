@@ -1,0 +1,59 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+
+nato_2000 = {
+	enable = {
+		OR = {
+		has_government = democratic_conservative
+		has_government = democratic_center
+		has_government = democratic_liberal
+		has_government = democratic_green
+		has_government = democratic_socialism	
+		}	
+		OR = {
+		tag = CZR
+		tag = BEL		
+		tag = CAN
+		tag = DEN
+		tag = ENG
+		tag = FRA
+		tag = GER
+		tag = GRE
+		tag = HOL
+		tag = HUN
+		tag = ICL
+		tag = LUX
+		tag = NOR
+		tag = POL
+		tag = POR
+		tag = SPA
+		tag = TUR
+		tag = CAN
+		tag = ITA		
+		}
+		USA = { is_faction_leader = yes }
+	}
+	abort = {
+		USA = { is_faction_leader = no }
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "USA"			
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "USA"			
+		value = 200
+	}	
+}

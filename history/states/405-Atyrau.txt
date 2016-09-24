@@ -1,0 +1,27 @@
+state={
+	id=405
+	name="STATE_405"
+	state_category = city   
+	
+	history={
+		owner = TAJ
+		add_core_of = TAJ
+		
+		victory_points = {
+			1459 10 
+		}
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 2
+			air_base = 2
+		}		
+	}
+	provinces={
+		1216 1384 1919 4467 4542 4923 7224 8027 10187 10205 10417 11687 12805 12218 12239 12250 
+	}
+	manpower=6275820
+	buildings_max_level_factor=1
+	state_category="city"
+}

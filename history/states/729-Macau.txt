@@ -1,0 +1,27 @@
+state={
+	id=729
+	name="STATE_729"
+	manpower = 431907
+	
+	state_category = large_city
+	
+	history={
+		owner = MCU
+		add_core_of = MCU
+		add_claim_by = CHC
+		add_claim_by = TWN
+		buildings = {
+			4189 = {
+				
+			}
+		}		
+		
+		victory_points = {
+			4189 7 
+		}		
+	}
+	
+	provinces={
+		4189 
+	}
+}

@@ -1,0 +1,175 @@
+﻿capital = 284
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 40
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 60			
+		    }
+	    }
+	
+	    ruling_party = democratic_socialism
+	    last_election = "1999.11.27"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+	    democratic_traditions
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Helen Clark"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "NZLG1.dds"
+    	expire = "2008.11.19"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }	
+}
+
+2001.10.7 = {
+
+    create_country_leader = {
+    	name = "Helen Clark"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "NZLG1.dds"
+    	expire = "2008.11.19"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+
+    set_politics = {
+	    ruling_party = democratic_socialism
+	    last_election = "2002.7.27"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Helen Clark"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "NZLG1.dds"
+    	expire = "2008.11.19"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2008.8.7 = {
+
+    set_politics = {
+	    ruling_party = democratic_socialism
+	    last_election = "2005.9.17"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Helen Clark"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "NZLG1.dds"
+    	expire = "2008.11.19"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 50
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 30
+		    }
+			
+		    democratic_green = {
+			    popularity = 10
+		    }			
+	    }
+	    ruling_party = democratic_conservative
+	    last_election = "2008.11.8"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "John Key"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "NZLG2.dds"
+    	expire = "2020.10.16"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+    create_country_leader = {
+    	name = "John Key"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "NZLG2.dds"
+    	expire = "2020.10.16"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+
+    set_politics = {
+	    ruling_party = democratic_conservative
+	    last_election = "2011.11.26"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "John Key"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "NZLG2.dds"
+    	expire = "2020.10.16"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+    create_country_leader = {
+    	name = "John Key"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "NZLG2.dds"
+    	expire = "2020.10.16"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}

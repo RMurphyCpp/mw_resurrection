@@ -1,0 +1,16 @@
+state={
+	id=75
+	name="STATE_75"
+	manpower = 2598400
+	resources={
+		steel=8
+	}
+	state_category = city
+	history={
+		owner = CZR
+		add_core_of = CZR
+	}
+	provinces={
+		569 3553 3569 6562 6576 6590 11511 
+	}
+}

@@ -1,0 +1,147 @@
+﻿capital = 292
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+
+	set_country_flag = muslim_country
+	add_opinion_modifier = { target = PER modifier = historical_riverly }	
+	add_opinion_modifier = { target = ISR modifier = historical_riverly }	
+	
+    set_politics = {
+
+	    parties = {
+		    sunni_islam = { 
+			    popularity = 75
+			    banned = yes					
+			
+		    }
+
+		    shia_islam = {
+			    popularity = 5	
+			    banned = yes				
+		    }
+		
+		    moderate_islam = {
+			    popularity = 10
+			    banned = yes				
+		    }
+		
+		    fundamentalist_islam = { 
+			    popularity = 10
+			    banned = yes				
+		    }
+	    }
+	
+	    ruling_party = sunni_islam
+	    last_election = "1996.3.5"
+	    election_frequency = 48
+	    elections_allowed = no
+    }
+    add_ideas = {
+	    an_iron_fist
+    }
+    #############LAST ENTRY IS USED FIRST#############	
+    create_country_leader = {
+    	name = "Fahd bin Abdulaziz Al Saud"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "SAUH1.dds"
+    	expire = "2005.8.1"
+    	ideology = radical_islam_sunna
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2001.10.7 = {
+    create_country_leader = {
+    	name = "Fahd bin Abdulaziz Al Saud"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "SAUH1.dds"
+    	expire = "2005.8.1"
+    	ideology = radical_islam_sunna
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+    create_country_leader = {
+    	name = "Fahd bin Abdulaziz Al Saud"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "SAUH1.dds"
+    	expire = "2005.8.1"
+    	ideology = radical_islam_sunna
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2008.8.7 = {
+    create_country_leader = {
+    	name = "Abdullah bin Abdulaziz Al Saud"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "SAUH2.dds"
+    	expire = "2015.1.23"
+    	ideology = radical_islam_sunna
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+    create_country_leader = {
+    	name = "Abdullah bin Abdulaziz Al Saud"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "SAUH2.dds"
+    	expire = "2015.1.23"
+    	ideology = radical_islam_sunna
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+    create_country_leader = {
+    	name = "Abdullah bin Abdulaziz Al Saud"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "SAUH2.dds"
+    	expire = "2015.1.23"
+    	ideology = radical_islam_sunna
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+    create_country_leader = {
+    	name = "Abdullah bin Abdulaziz Al Saud"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "SAUH2.dds"
+    	expire = "2015.1.23"
+    	ideology = radical_islam_sunna
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+    create_country_leader = {
+    	name = "Abdullah bin Abdulaziz Al Saud"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "SAUH2.dds"
+    	expire = "2015.1.23"
+    	ideology = radical_islam_sunna
+    	traits = {
+    		#
+    	}
+    }
+}

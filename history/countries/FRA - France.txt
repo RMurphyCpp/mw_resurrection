@@ -1,0 +1,256 @@
+﻿capital = 16
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+	
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 20
+		    }
+
+		    fascism = {
+			    popularity = 17				
+		    }
+		
+		    communism = {
+			    popularity = 6
+		    }
+			
+		    democratic_green = {
+			    popularity = 5
+		    }
+
+		    democratic_socialism = {
+			    popularity = 16
+		    }			
+	    }
+	
+	    ruling_party = democratic_conservative
+	    last_election = "1996.3.5"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+		un_permanent_member
+		european_union_member
+		fra_foreign_legion		
+	    liberty_equality_fraternity
+		french_laisite
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Jean-Marie Le Pen"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "FRANHFAS1.dds"
+    	expire = "2011.1.15"
+    	ideology = fascism_ideology
+    	traits = {
+    		#
+    	}
+    }
+    create_country_leader = {
+    	name = "Arlette Laguiller"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "FRANHCOM1.dds"
+    	expire = "2004.1.1"
+    	ideology = marxism
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {
+    	name = "Noël Mamère"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "FRANHGRE1.dds"
+    	expire = "2004.1.1"
+    	ideology = green
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {
+    	name = "Lionel Jospin"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "FRANHSOC1.dds"
+    	expire = "2004.1.1"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {
+    	name = "Jacques Chirac"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "FRAH1.dds"
+    	expire = "2007.5.16"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2001.10.7 = {
+
+    create_country_leader = {
+    	name = "Jacques Chirac"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "FRAH1.dds"
+    	expire = "2007.5.16"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+
+    set_politics = {
+
+	    ruling_party = democratic_conservative
+	    last_election = "2002.5.5"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+	
+    create_country_leader = {
+    	name = "Jacques Chirac"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "FRAH1.dds"
+    	expire = "2007.5.16"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2008.8.7 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 53
+		    }
+			
+		    democratic_socialism = {
+			    popularity = 47
+		    }			
+	    }
+	
+	    ruling_party = democratic_conservative
+	    last_election = "2007.3.5"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+
+    create_country_leader = {
+    	name = "Ségolène Royal"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "FRANHSOC2.dds"
+    	expire = "2012.1.1"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+	
+    create_country_leader = {
+    	name = "Nicolas Sarkozy"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "FRAH2.dds"
+    	expire = "2012.5.15"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+    create_country_leader = {
+    	name = "Nicolas Sarkozy"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "FRAH2.dds"
+    	expire = "2012.5.15"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+
+    create_country_leader = {
+    	name = "Marine Le Pen"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "FRANHFAS2.dds"
+    	expire = "2011.1.15"
+    	ideology = fascism_ideology
+    	traits = {
+    		#
+    	}
+    }
+    create_country_leader = {
+    	name = "Nicolas Sarkozy"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "FRAH2.dds"
+    	expire = "2012.5.15"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 49
+		    }
+			
+		    democratic_socialism = {
+			    popularity = 51
+		    }			
+	    }
+	
+	    ruling_party = democratic_socialism
+	    last_election = "2007.3.5"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+	
+    create_country_leader = {
+    	name = "François Hollande"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "FRAH3.dds"
+    	expire = "2020.5.15"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+    create_country_leader = {
+    	name = "François Hollande"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "FRAH3.dds"
+    	expire = "2020.5.15"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}

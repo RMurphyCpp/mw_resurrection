@@ -1,0 +1,852 @@
+#Russian focus tree for MWM mod by Murphy
+focus_tree = {
+
+	id = sov_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SOV
+		}
+	}
+	
+	
+	default = no
+	
+	
+	####################################
+	focus = {
+		id = SOV_European_Focus
+		icon = GFX_goal_generic_political_pressure
+		available = {
+		
+		}
+		
+		x = 17
+		y = 1
+		cost = 20
+		completion_reward = {
+			##TODO add event for russia denouncing the west
+		}
+	}
+	
+	
+	##Caucasus Focus
+	
+	focus = {
+		id = SOV_European_Caucasus_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_European_Focus }
+		available = {
+			OR = { country_exists = GEO } #Georgia
+			OR = { country_exists = SOT } #South Ossetia
+			OR = { country_exists = ABK } #Abkhazia
+			OR = { country_exists = AZB } #Azerbaijan
+			OR = { country_exists = ARM } #Armenia
+		}
+		
+		x = 7
+		y = 2
+		cost = 20
+		completion_reward = {
+			
+		}
+	}
+	
+	###Georgia###
+	
+	focus = {
+		id = SOV_European_Caucasus_Georgia_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_European_Caucasus_Focus }
+		available = {
+			country_exists = GEO #Georgia
+		}
+		
+		x = 2
+		y = 3
+		cost = 20
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_European_Caucasus_Georgia_Negotiate_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_European_Caucasus_Georgia_Focus }
+		available = {
+			country_exists = GEO #Georgia
+		}
+		
+		x = 1
+		y = 4
+		cost = 20
+		completion_reward = {
+			#TODO add negotiation event
+		}
+	}
+	
+	focus = {
+		id = SOV_European_Caucasus_Georgia_UN_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_European_Caucasus_Georgia_Negotiate_Focus }
+		available = {
+			country_exists = GEO #Georgia
+		}
+		
+		x = 1
+		y = 5
+		cost = 20
+		completion_reward = {
+			#TODO add denounciation news event
+		}
+	}
+	
+	focus = {
+		id = SOV_European_Caucasus_Georgia_Military_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_European_Caucasus_Georgia_Focus }
+		available = {
+			country_exists = GEO #Georgia
+		}
+		
+		x = 3
+		y = 4
+		cost = 20
+		completion_reward = {
+			#TODO add war event
+		}
+	}
+	
+	###South Ossetia###
+	
+	focus = {
+		id = SOV_European_Caucasus_South_Ossetia_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_European_Caucasus_Focus }
+		available = {
+			country_exists = SOT #South Ossetia
+		}
+		
+		x = 5
+		y = 3
+		cost = 20
+		completion_reward = {
+			#TODO add war event
+		}
+	}
+	
+	###Abkhazia###
+	
+	focus = {
+		id = SOV_European_Caucasus_Abkhazia_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_European_Caucasus_Focus }
+		available = {
+			country_exists = ABK #Abkhazia
+		}
+		
+		x = 7
+		y = 3
+		cost = 20
+		completion_reward = {
+			#TODO add war event
+		}
+	}
+	
+	###Azerbaijan
+	
+	focus = {
+		id = SOV_European_Caucasus_Azerbaijan_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_European_Caucasus_Focus }
+		available = {
+			country_exists = AZB #Azerbaijan
+		}
+		
+		x = 9
+		y = 3
+		cost = 20
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_European_Caucasus_Azerbaijan_Negotiate_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_European_Caucasus_Azerbaijan_Focus }
+		available = {
+			country_exists = AZB #Azerbaijan
+		}
+		
+		x = 9
+		y = 4
+		cost = 20
+		completion_reward = {
+			#TODO add negotiation event
+		}
+	}
+	
+	focus = {
+		id = SOV_European_Caucasus_Azerbaijan_Military_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_European_Caucasus_Azerbaijan_Negotiate_Focus }
+		available = {
+			country_exists = AZB #Azerbaijan
+		}
+		
+		x = 9
+		y = 5
+		cost = 20
+		completion_reward = {
+			#TODO add news event
+		}
+	}
+	
+	###Armenia Focus###
+	
+	focus = {
+		id = SOV_European_Caucasus_Armenia_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_European_Caucasus_Focus }
+		available = {
+			country_exists = ARM #Armenia
+		}
+		
+		x = 11
+		y = 3
+		cost = 20
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_European_Caucasus_Armenia_Negotiate_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_European_Caucasus_Armenia_Focus }
+		available = {
+			country_exists = ARM #Armenia
+		}
+		
+		x = 11
+		y = 4
+		cost = 20
+		completion_reward = {
+			#TODO add negotiation event 
+		}
+	}
+	
+	focus = {
+		id = SOV_European_Caucasus_Armenia_Military_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_European_Caucasus_Armenia_Negotiate_Focus }
+		available = {
+			country_exists = ARM #Armenia
+		}
+		
+		x = 11
+		y = 5
+		cost = 20
+		completion_reward = {
+			#TODO add war event 
+		}
+	}
+	
+	##Belarus Focus
+	
+	focus = {
+		id = SOV_European_Belarus_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_European_Focus }
+		available = {
+			country_exists = BLR #Belarus
+		}
+		
+		x = 15
+		y = 2
+		cost = 20
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_European_Belarus_Diplomacy_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_European_Belarus_Focus }
+		available = {
+			country_exists = BLR #Belarus
+		}
+		
+		x = 14
+		y = 3
+		cost = 20
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_European_Belarus_Negotiate_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_European_Belarus_Diplomacy_Focus }
+		available = {
+			country_exists = BLR #Belarus
+		}
+		
+		x = 14
+		y = 4
+		cost = 20
+		completion_reward = {
+			#TODO add negotiation event
+		}
+	}
+	
+	focus = {
+		id = SOV_European_Belarus_UN_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_European_Belarus_Diplomacy_Focus }
+		available = {
+			country_exists = BLR #Belarus
+		}
+		
+		x = 14
+		y = 5
+		cost = 20
+		completion_reward = {
+			#TODO add un event
+		}
+	}
+	
+	focus = {
+		id = SOV_European_Belarus_Military_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_European_Belarus_Focus }
+		available = {
+			country_exists = BLR #Belarus
+		}
+		
+		x = 16
+		y = 3
+		cost = 20
+		completion_reward = {
+			#TODO add war event
+		}
+	}
+	
+	##Ukraine Focus
+	
+	focus = {
+		id = SOV_European_Ukraine_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_European_Focus }
+		available = {
+			country_exists = UKR #Ukraine
+		}
+		
+		x = 19
+		y = 2
+		cost = 20
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_European_Ukraine_Diplomacy_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_European_Ukraine_Focus }
+		available = {
+			country_exists = UKR #Ukraine
+		}
+		
+		x = 18
+		y = 3
+		cost = 20
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_European_Ukraine_Negotiate_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_European_Ukraine_Diplomacy_Focus }
+		available = {
+			country_exists = UKR #Ukraine
+		}
+		
+		x = 18
+		y = 4
+		cost = 20
+		completion_reward = {
+			#TODO add negotiation event
+		}
+	}
+	
+	focus = {
+		id = SOV_European_Ukraine_UN_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_European_Ukraine_Negotiate_Focus }
+		available = {
+			country_exists = UKR #Ukraine
+		}
+		
+		x = 18
+		y = 5
+		cost = 20
+		completion_reward = {
+			#TODO add un event
+		}
+	}
+	
+	focus = {
+		id = SOV_European_Ukraine_Military_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_European_Ukraine_Focus }
+		available = {
+			country_exists = UKR #Ukraine
+		}
+		
+		x = 20
+		y = 3
+		cost = 20
+		completion_reward = {
+			#TODO add war event
+		}
+	}
+	
+	
+	##Baltics Focus
+	
+	focus = {
+		id = SOV_European_Baltic_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_European_Focus }
+		available = {
+			OR = { country_exists = EST } #Estonia
+			OR = { country_exists = LAT } #Latvia
+			OR = { country_exists = LIT } #Lithuania
+		}
+		
+		x = 24
+		y = 2
+		cost = 20
+		completion_reward = {
+			
+		}
+	}
+	
+	###Estonia###
+	
+	focus = {
+		id = SOV_European_Baltic_Estonia_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_European_Baltic_Focus }
+		available = {
+			country_exists = EST #Estonia
+		}
+		
+		x = 22
+		y = 3
+		cost = 20
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_European_Baltic_Estonia_Negotiate_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_European_Baltic_Estonia_Focus }
+		available = {
+			country_exists = EST #Estonia
+		}
+		
+		x = 22
+		y = 4
+		cost = 20
+		completion_reward = {
+			#TODO add negotiation event
+		}
+	}
+	
+	focus = {
+		id = SOV_European_Baltic_Estonia_Military_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_European_Baltic_Estonia_Negotiate_Focus }
+		available = {
+			country_exists = EST #Estonia
+		}
+		
+		x = 22
+		y = 5
+		cost = 20
+		completion_reward = {
+			#TODO add war event
+		}
+	}
+	
+	
+	###Latvia###
+	
+	focus = {
+		id = SOV_European_Baltic_Latvia_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_European_Baltic_Focus }
+		available = {
+			country_exists = LAT #Latvia
+		}
+		
+		x = 24
+		y = 3
+		cost = 20
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_European_Baltic_Latvia_Negotiate_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_European_Baltic_Latvia_Focus }
+		available = {
+			country_exists = LAT #Latvia
+		}
+		
+		x = 24
+		y = 4
+		cost = 20
+		completion_reward = {
+			#TODO add negotiation event
+		}
+	}
+	
+	focus = {
+		id = SOV_European_Baltic_Latvia_Military_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_European_Baltic_Latvia_Negotiate_Focus }
+		available = {
+			country_exists = LAT #Latvia
+		}
+		
+		x = 24
+		y = 5
+		cost = 20
+		completion_reward = {
+			#TODO add war event
+		}
+	}
+	
+	
+	###Lithuania###
+	
+	focus = {
+		id = SOV_European_Baltic_Lithuania_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_European_Baltic_Focus }
+		available = {
+			country_exists = LIT #Lithuania
+		}
+		
+		x = 26
+		y = 3
+		cost = 20
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_European_Baltic_Lithuania_Negotiate_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_European_Baltic_Lithuania_Focus }
+		available = {
+			country_exists = LIT #Lithuania
+		}
+		
+		x = 26
+		y = 4
+		cost = 20
+		completion_reward = {
+			#TODO add negotiation event
+		}
+	}
+	
+	focus = {
+		id = SOV_European_Baltic_Lithuania_Military_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_European_Baltic_Lithuania_Negotiate_Focus }
+		available = {
+			country_exists = LIT #Lithuania
+		}
+		
+		x = 26
+		y = 5
+		cost = 20
+		completion_reward = {
+			#TODO add war event
+		}
+	}
+	
+	
+	##Finland##
+	
+	focus = {
+		id = SOV_European_Finland_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_European_Focus }
+		available = {
+			country_exists = FIN #Finland
+			
+		}
+		
+		x = 28
+		y = 2
+		cost = 20
+		completion_reward = {
+			#TODO add war event
+		}
+	}
+	
+	
+	########Asian Front#########
+	
+	focus = {
+		id = SOV_Asian_Focus
+		icon = GFX_goal_generic_political_pressure
+		available = {
+			OR = { country_exists = KAZ } #Kazakhstan
+			OR = { country_exists = UZB } #Uzbekistan
+			OR = { country_exists = KYG } #Kyrgyzstan
+			OR = { country_exists = TAJ } #Tajikistan
+		}
+		
+		x = 34
+		y = 1
+		cost = 20
+		completion_reward = {
+			##TODO add news event
+		}
+	}
+	
+	##Kazakhstan##
+	
+	focus = {
+		id = SOV_Asian_Kazakhstan_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_Asian_Focus }
+		available = {
+			country_exists = KAZ  #Kazakhstan
+			
+		}
+		
+		x = 31
+		y = 2
+		cost = 20
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_Asian_Kazakhstan_Military_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_Asian_Kazakhstan_Focus }
+		available = {
+			country_exists = KAZ  #Kazakhstan
+			
+		}
+		
+		x = 31
+		y = 3
+		cost = 20
+		completion_reward = {
+			#TODO add war event
+		}
+	}
+	
+	focus = {
+		id = SOV_Asian_Kazakhstan_UN_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_Asian_Kazakhstan_Military_Focus }
+		available = {
+			country_exists = KAZ  #Kazakhstan
+			
+		}
+		
+		x = 31
+		y = 4
+		cost = 20
+		completion_reward = {
+			
+		}
+	}
+	
+	
+	##Uzbekistan##
+	
+	focus = {
+		id = SOV_Asian_Uzbekistan_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_Asian_Focus }
+		available = {
+			country_exists = UZB  #Uzbekistan
+			
+		}
+		
+		x = 33
+		y = 2
+		cost = 20
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_Asian_Uzbekistan_Military_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_Asian_Uzbekistan_Focus }
+		available = {
+			country_exists = UZB  #Uzbekistan
+			
+		}
+		
+		x = 33
+		y = 3
+		cost = 20
+		completion_reward = {
+			#TODO add war event
+		}
+	}
+	
+	focus = {
+		id = SOV_Asian_Uzbekistan_UN_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_Asian_Uzbekistan_Military_Focus }
+		available = {
+			country_exists = UZB  #Uzbekistan
+			
+		}
+		
+		x = 33
+		y = 4
+		cost = 20
+		completion_reward = {
+			#TODO add UN event
+		}
+	}
+	
+	
+	##Kyrgyzstan##
+	
+	focus = {
+		id = SOV_Asian_Kyrgyzstan_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_Asian_Focus }
+		available = {
+			country_exists = KYG  #Kyrgyzstan
+			
+		}
+		
+		x = 35
+		y = 2
+		cost = 20
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_Asian_Kyrgyzstan_Military_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_Asian_Kyrgyzstan_Focus }
+		available = {
+			country_exists = KYG  #Kyrgyzstan
+			
+		}
+		
+		x = 35
+		y = 3
+		cost = 20
+		completion_reward = {
+			#TODO add war event
+		}
+	}
+	
+	focus = {
+		id = SOV_Asian_Kyrgyzstan_UN_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_Asian_Kyrgyzstan_Military_Focus }
+		available = {
+			country_exists = KYG  #Kyrgyzstan
+			
+		}
+		
+		x = 35
+		y = 4
+		cost = 20
+		completion_reward = {
+			#TODO add UN event
+		}
+	}
+	
+	##Tajikistan##
+	
+	focus = {
+		id = SOV_Asian_Tajikistan_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_Asian_Focus }
+		available = {
+			country_exists = TAJ  #Tajikistan
+			
+		}
+		
+		x = 37
+		y = 2
+		cost = 20
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_Asian_Tajikistan_Military_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_Asian_Tajikistan_Focus }
+		available = {
+			country_exists = TAJ  #Tajikistan
+			
+		}
+		
+		x = 37
+		y = 3
+		cost = 20
+		completion_reward = {
+			#TODO add war event
+		}
+	}
+	
+	focus = {
+		id = SOV_Asian_Tajikistan_UN_Focus
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_Asian_Tajikistan_Military_Focus }
+		available = {
+			country_exists = TAJ  #Tajikistan
+			
+		}
+		
+		x = 37
+		y = 4
+		cost = 20
+		completion_reward = {
+			#TODO add UN event
+		}
+	}
+	
+}

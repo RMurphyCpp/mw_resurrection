@@ -1,0 +1,62 @@
+#bookmarks = {
+#	bookmark = {
+#		name = "SYRIA_CIVIL_WAR_NAME"
+#		desc = "SYRIA_CIVIL_WAR_DESC"
+#		date = 2011.3.15
+#		picture = "GFX_select_date_2011"
+#		default_country = "FSY"
+#	
+#		LEB = {
+#			history = FRA_BLITZKRIEG_DESC
+#			ideology = democratic_conservative
+#			ideas={
+#			}
+#		}
+#		USA = {
+#			history = GER_BLITZKRIEG_DESC
+#			ideology = democratic_conservative
+#			ideas={
+#			}
+#		}
+#		TUR = {
+#			history = ENG_BLITZKRIEG_DESC
+#			ideology = democratic_conservative
+#			ideas={
+#			}
+#			
+#		}		
+#		FSY = {
+#			history = USA_BLITZKRIEG_DESC
+#			ideology = democratic_conservative
+#			ideas={
+#			}
+#		}		
+#		SYR = {
+#			history = ITA_BLITZKRIEG_DESC
+#			ideology = communism
+#			ideas={
+#			}			
+#		}
+#		SOV = {
+#			history = SOV_BLITZKRIEG_DESC
+#			ideology = democratic_conservative
+#			ideas={				
+#			}
+#		}		
+#		IRQ = {
+#			history = JAP_BLITZKRIEG_DESC
+#			ideology = democratic_conservative
+#			ideas={
+#			}			
+#		}
+#
+#		"---"={
+#			history = "OTHER_BLITZKRIEG_DESC"
+#		}
+#
+#		effect = {
+#			randomize_weather = 12345 # <- Obligatory in every bookmark !
+#			#123 = { rain_light = yes }
+#		}
+#	}
+#}

@@ -1,0 +1,20 @@
+state={
+	id=499
+	name="STATE_499"
+	manpower = 4233900
+	
+	state_category = large_town
+	history={
+		owner = BRA
+		add_core_of = BRA
+		victory_points = {
+			10946 27 	#Salvador
+		}
+		victory_points = {
+			10926 11 	#Feira de Santana
+		}		
+	}
+	provinces={
+		4617 5194 8143 8177 8184 8197 8242 10392 10926 10946 
+	}
+}

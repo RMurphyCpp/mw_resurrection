@@ -1,0 +1,15 @@
+state=
+{
+	id=163
+	name="STATE_163"
+	manpower = 18000
+	
+	state_category = enclave
+	
+	history={
+		owner = CRO
+	} 
+	provinces={	
+		3943 
+	}
+}

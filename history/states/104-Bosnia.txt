@@ -1,0 +1,20 @@
+state={
+	id=104
+	name="STATE_104"
+	manpower =2457400
+	
+	
+	state_category = large_city
+	
+	history={
+		owner = BOS
+		add_core_of = BOS
+		
+		victory_points = {
+			11899 10 
+		}		
+	}	
+	provinces={
+		953 3985 6614 6799 6942 6957 9586 9894 9922 11872 11899 
+	}
+}

@@ -1,0 +1,232 @@
+﻿capital = 110
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+	
+	
+    set_politics = {
+
+	    parties = {
+		
+		    democratic_socialism = {
+			    popularity = 35			
+		    }
+			
+		    democratic_liberal = {
+			    popularity = 25
+		    }			
+			
+		    democratic_conservative = { 
+			    popularity = 40
+		    }
+	    }
+	
+	    ruling_party = democratic_conservative
+	    last_election = "1997.9.15"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+	    democratic_traditions
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Kjell Magne Bondevik"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "NORG1.dds"
+    	expire = "2005.10.17"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }	
+}
+
+2001.10.7 = {
+
+    set_politics = {
+	
+	    parties = {
+		
+		    democratic_socialism = {
+			    popularity = 40			
+		    }
+			
+		    democratic_liberal = {
+			    popularity = 25
+		    }			
+			
+		    democratic_conservative = { 
+			    popularity = 35
+		    }
+	    }
+		
+	    ruling_party = democratic_socialism
+	    last_election = "2001.9.10"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Jens Stoltenberg"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "NORG3.dds"
+    	expire = "2013.10.16"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+
+    set_politics = {
+	
+	    parties = {
+		
+		    democratic_socialism = {
+			    popularity = 35			
+		    }
+			
+		    democratic_liberal = {
+			    popularity = 25
+		    }			
+			
+		    democratic_conservative = { 
+			    popularity = 40
+		    }
+	    }
+		
+	    ruling_party = democratic_conservative
+	    last_election = "2001.9.10"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Kjell Magne Bondevik"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "NORG1.dds"
+    	expire = "2005.10.17"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2008.8.7 = {
+
+    set_politics = {
+	
+	    parties = {
+		
+		    democratic_socialism = {
+			    popularity = 40			
+		    }
+			
+		    democratic_liberal = {
+			    popularity = 25
+		    }			
+			
+		    democratic_conservative = { 
+			    popularity = 35
+		    }
+	    }	
+	    ruling_party = democratic_socialism
+	    last_election = "2005.9.12"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Jens Stoltenberg"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "NORG3.dds"
+    	expire = "2013.10.16"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+
+    set_politics = {
+	    ruling_party = democratic_socialism
+	    last_election = "2009.9.14"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Jens Stoltenberg"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "NORG3.dds"
+    	expire = "2013.10.16"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+    create_country_leader = {
+    	name = "Jens Stoltenberg"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "NORG3.dds"
+    	expire = "2013.10.16"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+    create_country_leader = {
+    	name = "Jens Stoltenberg"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "NORG3.dds"
+    	expire = "2013.10.16"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+    set_politics = {
+	
+	    parties = {
+		
+		    democratic_socialism = {
+			    popularity = 35			
+		    }
+			
+		    democratic_liberal = {
+			    popularity = 25
+		    }			
+			
+		    democratic_conservative = { 
+			    popularity = 40
+		    }
+	    }	
+	    ruling_party = democratic_conservative
+	    last_election = "2013.9.9"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Erna Solberg"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "NORG4.dds"
+    	expire = "2013.10.16"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}

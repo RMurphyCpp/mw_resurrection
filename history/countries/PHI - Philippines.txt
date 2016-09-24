@@ -1,0 +1,164 @@
+﻿capital = 327
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 60
+			
+		    }
+
+		    moderate_islam = {
+			    popularity = 5			
+		    }
+		
+		    democratic_center = {
+			    popularity = 40
+		    }
+		
+		    autocracy = { 
+			    popularity = 5		
+		    }
+	    }
+	
+	    ruling_party = democratic_center
+	    last_election = "1996.3.5"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Joseph Estrada"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "PHIH1.dds"
+    	expire = "2001.1.20"
+    	ideology = centrer_right
+    	traits = {
+    		#
+    	}
+    }	
+}
+
+2001.10.7 = {
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 5
+			
+		    }
+
+		    moderate_islam = {
+			    popularity = 5			
+		    }
+		
+		    democratic_center = {
+			    popularity = 85
+		    }
+		
+		    autocracy = { 
+			    popularity = 5		
+		    }
+	    }
+	
+	    ruling_party = democratic_conservative
+	    last_election = "1996.3.5"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Gloria Macapagal-Arroyo"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "PHIH2.dds"
+    	expire = "2010.6.30"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+    create_country_leader = {
+    	name = "Gloria Macapagal-Arroyo"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "PHIH2.dds"
+    	expire = "2010.6.30"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2008.8.7 = {
+    create_country_leader = {
+    	name = "Gloria Macapagal-Arroyo"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "PHIH2.dds"
+    	expire = "2010.6.30"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+    create_country_leader = {
+    	name = "Benigno Aquino III"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "PHIH3.dds"
+    	expire = "2016.6.19"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+    create_country_leader = {
+    	name = "Benigno Aquino III"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "PHIH3.dds"
+    	expire = "2016.6.19"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+    create_country_leader = {
+    	name = "Benigno Aquino III"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "PHIH3.dds"
+    	expire = "2016.6.19"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+    create_country_leader = {
+    	name = "Benigno Aquino III"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "PHIH3.dds"
+    	expire = "2016.6.19"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}

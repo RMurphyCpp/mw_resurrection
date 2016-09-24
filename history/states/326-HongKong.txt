@@ -1,0 +1,25 @@
+state={
+	id=326
+	name="STATE_326"
+	manpower = 6000665
+	state_category = megalopolis
+	
+	history= {
+		owner = HNK
+		add_core_of = HNK
+		add_claim_by = CHC
+		add_claim_by = TWN	
+		
+		victory_points = { 10062 10 }
+
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 10
+			arms_factory = 2
+			air_base = 4
+		}		
+	}
+	provinces={
+		10062
+	}
+}

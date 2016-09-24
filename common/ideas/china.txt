@@ -1,0 +1,191 @@
+ideas = {
+	country = {
+		the_dragon_awakes = {
+			
+			allowed = {
+				original_tag = CHC
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_org_factor = 0.35
+			}
+		}
+	
+		chinese_economic_reform = {
+			
+			allowed = {
+				original_tag = CHC
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				min_export = 0.10
+			}
+		}
+
+		corporate_communism = {
+			
+			allowed = {
+				original_tag = CHC
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				drift_defence_factor = -0.10
+				democratic_conservative_drift = 0.05
+				democratic_socialism_drift = 0.05
+				democratic_green_drift = 0.05			
+			}
+		}
+		
+		industrial_powerhouse = {
+			
+			allowed = {
+				original_tag = CHC
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				min_export = 0.10
+				production_speed_buildings_factor = 0.05			
+			}
+		}		
+	}
+	
+	tank_manufacturer = {
+	
+		chc_norinco = { 	#China
+
+			allowed = {
+				tag = CHC
+			}
+
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+		}
+	
+	}
+	
+	naval_manufacturer = {
+
+		chc_cssc = { 	#China
+
+			allowed = {
+				tag = CHC
+			}
+
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { naval_manufacturer }
+		}
+	
+	}
+	
+	aircraft_manufacturer = {
+
+		chc_casic = { 	#China
+
+			allowed = {
+				tag = CHC
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+		}
+		
+		chc_chengdu = {		#China	
+		
+			allowed = {
+				tag = CHC
+			}
+	
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}
+	
+	}
+	
+	materiel_manufacturer = {
+
+		chc_norinco_arms = { 	#China
+
+			allowed = {
+				tag = CHC
+			}
+
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+		}	
+	
+	}
+	
+	industrial_concern = {
+
+		chc_petrochina = { 	#China
+
+			allowed = {
+				tag = CHC
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+		}
+	
+	}	
+}

@@ -1,0 +1,22 @@
+state={
+	id=741
+	name="STATE_741"
+	state_category = town	
+	
+	history={
+		owner = UNN
+		add_claim_by = SRM
+		add_claim_by = SER
+		add_claim_by = KOS
+		victory_points = {
+			9874 5 
+		}
+		set_demilitarized_zone = yes		
+	}
+	
+	provinces={
+		6940 9849 9874 
+	}
+	manpower=200
+	buildings_max_level_factor=1
+}

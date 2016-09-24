@@ -1,0 +1,220 @@
+﻿capital = 524
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+
+	add_opinion_modifier = { target = CHC modifier = historical_riverly }
+	
+    set_politics = {
+
+	    parties = {
+
+		    democratic_nationalism = {
+			    popularity = 45		
+		    }
+		
+		    democratic_liberal = { 
+			    popularity = 55		
+		    }
+	    }
+	
+	    ruling_party = democratic_nationalism
+	    last_election = "1996.3.18"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+		tpotp
+	    asian_tiger
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Chen Shui-bian"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "TWNH2.dds"
+    	expire = "2008.5.20"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {
+    	name = "Lee Teng-hui"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "TWNH1.dds"
+    	expire = "2000.5.20"
+    	ideology = nationalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2001.10.7 = {
+
+    set_politics = {
+
+	    parties = {
+
+		    democratic_nationalism = {
+			    popularity = 45		
+		    }
+		
+		    democratic_liberal = { 
+			    popularity = 55		
+		    }
+	    }
+	
+	    ruling_party = democratic_liberal
+	    last_election = "2000.3.18"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Chen Shui-bian"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "TWNH2.dds"
+    	expire = "2008.5.20"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+
+    set_politics = {
+
+	    parties = {
+
+		    democratic_nationalism = {
+			    popularity = 45		
+		    }
+		
+		    democratic_liberal = { 
+			    popularity = 55		
+		    }
+	    }
+	
+	    ruling_party = democratic_liberal
+	    last_election = "2004.3.20"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Chen Shui-bian"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "TWNH2.dds"
+    	expire = "2008.5.20"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2008.8.7 = {
+
+    set_politics = {
+
+	    parties = {
+
+		    democratic_nationalism = {
+			    popularity = 55		
+		    }
+		
+		    democratic_liberal = { 
+			    popularity = 45		
+		    }
+	    }
+	
+	    ruling_party = democratic_nationalism
+	    last_election = "2008.3.22"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Ma Ying-jeou"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "TWNH3.dds"
+    	expire = "2000.5.20"
+    	ideology = nationalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+    create_country_leader = {
+    	name = "Ma Ying-jeou"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "TWNH3.dds"
+    	expire = "2000.5.20"
+    	ideology = nationalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+    create_country_leader = {
+    	name = "Ma Ying-jeou"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "TWNH3.dds"
+    	expire = "2000.5.20"
+    	ideology = nationalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+
+    set_politics = {
+
+	    parties = {
+
+		    democratic_nationalism = {
+			    popularity = 55		
+		    }
+		
+		    democratic_liberal = { 
+			    popularity = 45		
+		    }
+	    }
+	
+	    ruling_party = democratic_nationalism
+	    last_election = "2012.1.14"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Ma Ying-jeou"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "TWNH3.dds"
+    	expire = "2000.5.20"
+    	ideology = nationalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+    create_country_leader = {
+    	name = "Ma Ying-jeou"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "TWNH3.dds"
+    	expire = "2000.5.20"
+    	ideology = nationalism
+    	traits = {
+    		#
+    	}
+    }
+}

@@ -1,0 +1,26 @@
+﻿#Soviet Events by Rory
+
+add_namespace = sov
+
+
+
+country_event = {
+	id = sov.1		#Putin denounces the west
+	title = usa_iraq.1.t 
+	desc = usa_iraq.1.d
+	picture = GFX_mwm_event_usa_iraq_1
+	
+	major = yes #for bigger event frame
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa_iraq.1.a
+		
+		#IRQ = {
+			#SANCTIONS PLACEHOLDER
+		#}
+	}
+	
+	
+}

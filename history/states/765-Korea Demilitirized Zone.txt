@@ -1,0 +1,18 @@
+state={
+	id=765
+	name="STATE_765"
+	
+	state_category = enclave	
+	history={
+		owner = PRK
+		add_core_of = PRK
+		add_claim_by = KOR
+		
+		set_demilitarized_zone = yes
+	}
+	provinces={
+		4004 9981 11958 12040 
+	}
+	manpower=50
+	buildings_max_level_factor=1
+}

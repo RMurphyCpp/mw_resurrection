@@ -1,0 +1,18 @@
+state={
+	id=775
+	name="STATE_775"
+	
+	state_category = city
+	
+	history={
+		owner = PAL
+		add_core_of = PAL
+		add_claim_by = ISR	
+	}
+	
+	provinces={
+		1086
+	}
+	manpower=500
+	buildings_max_level_factor=1
+}

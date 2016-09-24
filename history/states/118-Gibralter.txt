@@ -1,0 +1,25 @@
+state=
+{
+	id=118
+	name="STATE_118"
+	manpower=27495
+	
+	state_category = enclave
+	history={
+		owner = ENG
+		add_core_of = ENG
+		add_claim_by = GRT		
+		add_claim_by = SPA
+		
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			4135 = { naval_base = 5 }
+		}		
+		
+		victory_points = { 4135 10 }
+	}
+	provinces={
+		4135
+	}
+}

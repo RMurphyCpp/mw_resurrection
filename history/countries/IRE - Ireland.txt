@@ -1,0 +1,187 @@
+﻿capital = 113
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 44
+			
+		    }
+
+		    democratic_liberal = {
+			    popularity = 33
+			    banned = no				
+		    }
+		
+		    democratic_socialism = {
+			    popularity = 15
+			    banned = no	
+		    }
+		
+		    democratic_green = { 
+			    popularity = 8
+			    banned = no			
+		    }
+	    }
+	
+	    ruling_party = democratic_conservative
+	    last_election = "1997.6.6"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+		european_union_member
+	    democratic_traditions
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Bertie Ahern"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "IREG1.dds"
+    	expire = "2008.5.7"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }	
+}
+
+2001.10.7 = {
+    create_country_leader = {
+    	name = "Bertie Ahern"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "IREG1.dds"
+    	expire = "2008.5.7"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+
+    set_politics = {
+
+	    ruling_party = democratic_conservative
+	    last_election = "2002.5.17"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Bertie Ahern"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "IREG1.dds"
+    	expire = "2008.5.7"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2008.8.7 = {
+
+    set_politics = {
+
+	    ruling_party = democratic_conservative
+	    last_election = "2007.5.24"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Brian Cowen"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "IREG2.dds"
+    	expire = "2011.3.9"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+    create_country_leader = {
+    	name = "Brian Cowen"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "IREG2.dds"
+    	expire = "2011.3.9"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+
+2011.3.15 = {
+
+    set_politics = {
+	
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 30
+			
+		    }
+
+		    democratic_liberal = {
+			    popularity = 45			
+		    }
+		
+		    democratic_socialism = {
+			    popularity = 20
+		    }
+		
+		    democratic_green = { 
+			    popularity = 5		
+		    }
+	    }	
+
+	    ruling_party = democratic_liberal
+	    last_election = "2011.2.25"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Enda Kenny"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "IREG3.dds"
+    	expire = "2020.3.9"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+    create_country_leader = {	
+    	name = "Enda Kenny"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "IREG3.dds"
+    	expire = "2020.3.9"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+    create_country_leader = {
+    	name = "Enda Kenny"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "IREG3.dds"
+    	expire = "2020.3.9"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}

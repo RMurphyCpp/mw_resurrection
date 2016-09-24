@@ -1,0 +1,51 @@
+﻿capital = 670
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 5
+			    banned = yes				
+			
+		    }
+
+		    fascism = {
+			    popularity = 5
+			    banned = yes			
+		    }
+		
+		    communism = {
+			    popularity = 85	
+		    }
+		
+		    autocracy = { 
+			    popularity = 5
+			    banned = no			
+		    }
+	    }
+	
+	    ruling_party = communism
+	    last_election = "1996.3.5"
+	    election_frequency = 48
+	    elections_allowed = no
+    }
+    add_ideas = {
+
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Communist Leader"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "Portrait_Albania_King_Zog.dds"
+    	expire = "1965.1.1"
+    	ideology = marxism
+    	traits = {
+    		#
+    	}
+    }
+}

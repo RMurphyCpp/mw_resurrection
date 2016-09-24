@@ -1,0 +1,18 @@
+state={
+	id=434
+	name="STATE_434"
+	manpower = 200000
+	
+	state_category = wasteland
+	resources={
+		
+	}
+	history={
+		owner = IND
+		add_core_of = IND
+		add_claim_by = CHC
+	}
+	provinces={
+		1116 1996 10810 12322 12730 
+	}
+}

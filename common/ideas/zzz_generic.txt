@@ -1,0 +1,2246 @@
+ideas = {
+
+	tank_manufacturer = { 
+	
+		designer = yes
+		
+		generic_uralvagonzavod = { 		#Russia
+
+			available = {
+				country_exists = SOV
+				NOT = { has_war_with = SOV }				
+				SOV = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_italy
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = SOV }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = SOV modifier = tank_contract_reciever }
+				reverse_add_opinion_modifier = { target = SOV modifier = tank_contract_reciever }
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = tank_contract_initiator }				
+				country_event = { days = 365 id = company.1 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = tank_contract_initiator }
+			}			
+		
+			cancel_if_invalid = yes		
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+		}
+		
+		generic_fiat = { 		#Italy
+
+			available = {
+				country_exists = ITA
+				NOT = { has_war_with = ITA }				
+				ITA = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_italy
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = ITA }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = ITA modifier = tank_contract_reciever }
+				reverse_add_opinion_modifier = { target = ITA modifier = tank_contract_reciever }
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = tank_contract_initiator }				
+				country_event = { days = 365 id = company.1 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = tank_contract_initiator }
+			}			
+		
+			cancel_if_invalid = yes		
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+		}		
+		
+		generic_rheinmetall = { 	#Germany
+
+			available = {
+				country_exists = GER
+				NOT = { has_war_with = GER }				
+				GER = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_germany
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = GER }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = GER modifier = tank_contract_reciever }
+				reverse_add_opinion_modifier = { target = GER modifier = tank_contract_reciever }
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = tank_contract_initiator }				
+				country_event = { days = 365 id = company.1 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = tank_contract_initiator }
+			}			
+			
+			cancel_if_invalid = yes			
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+		}
+
+		generic_general_motors = { 		#USA
+
+			available = {
+				country_exists = USA
+				NOT = { has_war_with = USA }				
+				USA = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_usa
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = USA }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = USA modifier = tank_contract_reciever }
+				reverse_add_opinion_modifier = { target = USA modifier = tank_contract_reciever }
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = tank_contract_initiator }				
+				country_event = { days = 365 id = company.1 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = tank_contract_initiator }
+			}			
+
+			cancel_if_invalid = yes
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+		}
+
+		generic_norinco = { 	#China
+
+			available = {
+				country_exists = CHC
+				NOT = { has_war_with = CHC }				
+				CHC = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_china
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = CHC }
+			}
+
+			on_add = {
+				add_opinion_modifier = { target = CHC modifier = tank_contract_reciever }
+				reverse_add_opinion_modifier = { target = CHC modifier = tank_contract_reciever }
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = tank_contract_initiator }				
+				country_event = { days = 365 id = company.1 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = tank_contract_initiator }
+			}			
+			
+			cancel_if_invalid = yes
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+		}
+
+		generic_nexter = { 		#France
+
+			available = {
+				country_exists = FRA
+				NOT = { has_war_with = FRA }				
+				FRA = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_france
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = FRA }
+			}
+
+			on_add = {
+				add_opinion_modifier = { target = FRA modifier = tank_contract_reciever }
+				reverse_add_opinion_modifier = { target = FRA modifier = tank_contract_reciever }
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = tank_contract_initiator }				
+				country_event = { days = 365 id = company.1 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = tank_contract_initiator }
+			}			
+			
+			cancel_if_invalid = yes
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+		}
+
+		generic_land_rover = { 		#UK
+
+			available = {
+				country_exists = ENG
+				NOT = { has_war_with = ENG }				
+				ENG = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_uk
+				}
+			}		
+
+			cancel_if_invalid = yes
+			
+			allowed = {
+				NOT = { tag = ENG }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = ENG modifier = tank_contract_reciever }
+				reverse_add_opinion_modifier = { target = ENG modifier = tank_contract_reciever }
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = tank_contract_initiator }				
+				country_event = { days = 365 id = company.1 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = tank_contract_initiator }
+			}			
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+		}		
+	}
+
+	naval_manufacturer = {
+	
+		designer = yes
+	
+		generic_general_dynamics = { 	#USA
+
+			available = {
+				country_exists = USA
+				NOT = { has_war_with = USA }				
+				USA = { has_opinion = { target = ROOT value > -50 } }		
+				custom_trigger_tooltip = {
+					tooltip =  based_in_usa
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = USA }
+			}
+
+			on_add = {
+				add_opinion_modifier = { target = USA modifier = ship_contract_reciever }
+				reverse_add_opinion_modifier = { target = USA modifier = ship_contract_reciever }
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = ship_contract_initiator }
+				country_event = { days = 365 id = company.2 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = ship_contract_initiator }
+			}			
+			
+			cancel_if_invalid = yes
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { naval_manufacturer }
+		}
+		
+		generic_cssc = { 	#China
+
+			available = {
+				country_exists = CHC
+				NOT = { has_war_with = CHC }				
+				CHC = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_china
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = CHC }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = CHC modifier = ship_contract_reciever }
+				reverse_add_opinion_modifier = { target = CHC modifier = ship_contract_reciever }
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = ship_contract_initiator }
+				country_event = { days = 365 id = company.2 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = ship_contract_initiator }
+			}			
+
+			cancel_if_invalid = yes
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { naval_manufacturer }
+		}
+
+		generic_almaz_shipbuilding_company = { 	#Russia
+
+			available = {
+				country_exists = SOV
+				NOT = { has_war_with = SOV }				
+				SOV = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_russia
+				}
+			}		
+
+			cancel_if_invalid = yes
+			
+			allowed = {
+				NOT = { tag = SOV }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = SOV modifier = ship_contract_reciever }
+				reverse_add_opinion_modifier = { target = SOV modifier = ship_contract_reciever }
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = ship_contract_initiator }
+				country_event = { days = 365 id = company.2 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = ship_contract_initiator }
+			}			
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { naval_manufacturer }
+		}
+
+		generic_dcns = { 	#France
+
+			available = {
+				country_exists = FRA
+				NOT = { has_war_with = FRA }				
+				FRA = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_france
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = FRA }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = FRA modifier = ship_contract_reciever }
+				reverse_add_opinion_modifier = { target = FRA modifier = ship_contract_reciever }
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = ship_contract_initiator }
+				country_event = { days = 365 id = company.2 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = ship_contract_initiator }
+			}			
+
+			cancel_if_invalid = yes
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { naval_manufacturer }
+		}
+
+		generic_rolls_royce = { 	#UK
+
+			available = {
+				country_exists = ENG
+				NOT = { has_war_with = ENG }				
+				ENG = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_uk
+				}
+			}		
+
+			cancel_if_invalid = yes
+			
+			allowed = {
+				NOT = { tag = ENG }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = ENG modifier = ship_contract_reciever }
+				reverse_add_opinion_modifier = { target = ENG modifier = ship_contract_reciever }
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = ship_contract_initiator }
+				country_event = { days = 365 id = company.2 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = ship_contract_initiator }
+			}			
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { naval_manufacturer }
+		}
+
+		generic_austal = { 	#Australia
+
+			available = {
+				country_exists = AST
+				NOT = { has_war_with = AST }				
+				AST = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_australia
+				}
+			}		
+
+			cancel_if_invalid = yes
+			
+			allowed = {
+				NOT = { tag = AST }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = AST modifier = ship_contract_reciever }
+				reverse_add_opinion_modifier = { target = AST modifier = ship_contract_reciever }
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = ship_contract_initiator }
+				country_event = { days = 365 id = company.2 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = ship_contract_initiator }
+			}			
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { naval_manufacturer }
+		}		
+	}
+
+	aircraft_manufacturer = {
+	
+		designer = yes
+	
+		generic_boeing = { 		#USA
+
+			available = {
+				country_exists = USA
+				NOT = { has_war_with = USA }				
+				USA = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_usa
+				}
+			}		
+
+			cancel_if_invalid = yes
+			
+			allowed = {
+				NOT = { tag = USA }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = USA modifier = air_contract_reciever }
+				reverse_add_opinion_modifier = { target = USA modifier = air_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = air_contract_initiator }				
+				country_event = { days = 365 id = company.3 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = air_contract_initiator }
+			}			
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { light_aircraft_manufacturer }
+		}
+		
+		generic_lockheed = {		#USA
+			
+			available = {
+				country_exists = USA
+				NOT = { has_war_with = USA }				
+				USA = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_usa
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = USA }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = USA modifier = air_contract_reciever }
+				reverse_add_opinion_modifier = { target = USA modifier = air_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = air_contract_initiator }				
+				country_event = { days = 365 id = company.3 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = air_contract_initiator }
+			}			
+	
+			cancel_if_invalid = yes
+	
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}
+
+		generic_raytheon = {		#USA
+			
+			available = {
+				country_exists = USA
+				NOT = { has_war_with = USA }				
+				USA = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_usa
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = USA }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = USA modifier = air_contract_reciever }
+				reverse_add_opinion_modifier = { target = USA modifier = air_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = air_contract_initiator }				
+				country_event = { days = 365 id = company.3 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = air_contract_initiator }
+			}			
+	
+			cancel_if_invalid = yes
+	
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}
+
+		generic_general_electric = {		#USA
+			
+			available = {
+				country_exists = USA
+				NOT = { has_war_with = USA }				
+				USA = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_usa
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = USA }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = USA modifier = air_contract_reciever }
+				reverse_add_opinion_modifier = { target = USA modifier = air_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = air_contract_initiator }				
+				country_event = { days = 365 id = company.3 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = air_contract_initiator }
+			}			
+	
+			cancel_if_invalid = yes
+	
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}		
+		
+		generic_casic = { 	#China
+
+			available = {
+				country_exists = CHC
+				NOT = { has_war_with = CHC }				
+				CHC = { has_opinion = { target = ROOT value > -50 } }
+			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_china
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = CHC }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = CHC modifier = air_contract_reciever }
+				reverse_add_opinion_modifier = { target = CHC modifier = air_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = air_contract_reciever }				
+				country_event = { days = 365 id = company.3 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = air_contract_initiator }
+			}			
+
+			cancel_if_invalid = yes
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+		}
+		
+		generic_chengdu = {		#China
+			
+			available = {
+				country_exists = CHC
+				NOT = { has_war_with = CHC }				
+				CHC = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_china
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = CHC }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = CHC modifier = air_contract_reciever }
+				reverse_add_opinion_modifier = { target = CHC modifier = air_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = air_contract_reciever }				
+				country_event = { days = 365 id = company.3 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = air_contract_initiator }
+			}			
+	
+			cancel_if_invalid = yes
+	
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}		
+		
+		generic_almaz_antey = {		#Russia
+			
+			available = {
+				country_exists = SOV
+				NOT = { has_war_with = SOV }				
+				SOV = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_russia
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = SOV }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = SOV modifier = air_contract_reciever }
+				reverse_add_opinion_modifier = { target = SOV modifier = air_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = air_contract_reciever }				
+				country_event = { days = 365 id = company.3 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = air_contract_initiator }
+			}			
+
+			cancel_if_invalid = yes
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}
+		
+		generic_mikoyan = {		#Russia
+			
+			available = {
+				country_exists = SOV
+				NOT = { has_war_with = SOV }				
+				SOV = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_russia
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = SOV }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = SOV modifier = air_contract_reciever }
+				reverse_add_opinion_modifier = { target = SOV modifier = air_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = air_contract_reciever }				
+				country_event = { days = 365 id = company.3 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = air_contract_initiator }
+			}			
+	
+			cancel_if_invalid = yes
+	
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}
+
+		generic_sukhoi = {		#Russia
+			
+			available = {
+				country_exists = SOV
+				NOT = { has_war_with = SOV }				
+				SOV = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_russia
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = SOV }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = SOV modifier = air_contract_reciever }
+				reverse_add_opinion_modifier = { target = SOV modifier = air_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = air_contract_reciever }				
+				country_event = { days = 365 id = company.3 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = air_contract_initiator }
+			}			
+	
+			cancel_if_invalid = yes
+	
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}
+
+		generic_eurofighter = {		#European Union
+			
+			available = {
+				country_exists = EUU
+				NOT = { has_war_with = EUU }				
+				EUU = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_eu
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = EUU }
+				has_country_flag = eurofighter_project
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = EUU modifier = air_contract_reciever }
+				reverse_add_opinion_modifier = { target = EUU modifier = air_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = air_contract_reciever }				
+				country_event = { days = 365 id = company.3 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = air_contract_initiator }
+			}			
+	
+			cancel_if_invalid = yes
+	
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}
+
+		generic_airbus = {		#European Union
+			
+			available = {
+				country_exists = EUU
+				NOT = { has_war_with = EUU }				
+				EUU = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_eu
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = EUU }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = EUU modifier = air_contract_reciever }
+				reverse_add_opinion_modifier = { target = EUU modifier = air_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = air_contract_reciever }				
+				country_event = { days = 365 id = company.3 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = air_contract_initiator }
+			}			
+	
+			cancel_if_invalid = yes
+	
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}		
+		
+		generic_chemring_group = {		#UK
+			
+			available = {
+				country_exists = ENG
+				NOT = { has_war_with = ENG }				
+				ENG = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_uk
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = ENG }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = ENG modifier = air_contract_reciever }
+				reverse_add_opinion_modifier = { target = ENG modifier = air_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = air_contract_reciever }				
+				country_event = { days = 365 id = company.3 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = air_contract_initiator }
+			}			
+	
+			cancel_if_invalid = yes
+	
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}
+		
+		generic_bae = {		#UK
+			
+			available = {
+				country_exists = ENG
+				NOT = { has_war_with = ENG }				
+				ENG = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_uk
+				}
+			}			
+		
+			allowed = {
+				NOT = { tag = ENG }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = ENG modifier = air_contract_reciever }
+				reverse_add_opinion_modifier = { target = ENG modifier = air_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = air_contract_reciever }				
+				country_event = { days = 365 id = company.3 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = air_contract_initiator }
+			}			
+	
+			cancel_if_invalid = yes
+	
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}		
+
+		generic_dassault = {		#France
+			
+			available = {
+				country_exists = FRA
+				NOT = { has_war_with = FRA }				
+				FRA = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_france
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = FRA }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = FRA modifier = air_contract_reciever }
+				reverse_add_opinion_modifier = { target = FRA modifier = air_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = air_contract_reciever }				
+				country_event = { days = 365 id = company.3 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = air_contract_initiator }
+			}			
+	
+			cancel_if_invalid = yes
+	
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}
+
+		generic_leonardo = {		#Italy
+			
+			available = {
+				country_exists = ITA
+				NOT = { has_war_with = ITA }				
+				ITA = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_italy
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = ITA }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = ITA modifier = air_contract_reciever }
+				reverse_add_opinion_modifier = { target = ITA modifier = air_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = air_contract_reciever }				
+				country_event = { days = 365 id = company.3 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = air_contract_initiator }
+			}			
+	
+			cancel_if_invalid = yes
+	
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}		
+
+		generic_mitsubishi = {		#Japan
+			
+			available = {
+				country_exists = JAP
+				NOT = { has_war_with = JAP }				
+				JAP = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_japan
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = JAP }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = JAP modifier = air_contract_reciever }
+				reverse_add_opinion_modifier = { target = JAP modifier = air_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = air_contract_reciever }				
+				country_event = { days = 365 id = company.3 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = air_contract_initiator }
+			}			
+	
+			cancel_if_invalid = yes
+	
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}
+		
+		generic_kawasaki = {		#Japan
+			
+			available = {
+				country_exists = JAP
+				NOT = { has_war_with = JAP }				
+				JAP = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_japan
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = JAP }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = JAP modifier = air_contract_reciever }
+				reverse_add_opinion_modifier = { target = JAP modifier = air_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = air_contract_reciever }				
+				country_event = { days = 365 id = company.3 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = air_contract_initiator }
+			}			
+	
+			cancel_if_invalid = yes
+	
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}		
+		
+		generic_iai = {		#Israel
+			
+			available = {
+				country_exists = ISR
+				NOT = { has_war_with = ISR }				
+				ISR = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_israel
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = ISR }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = ISR modifier = air_contract_reciever }
+				reverse_add_opinion_modifier = { target = ISR modifier = air_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = air_contract_reciever }				
+				country_event = { days = 365 id = company.3 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = air_contract_initiator }
+			}			
+	
+			cancel_if_invalid = yes
+	
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}
+
+		generic_rafael = {		#Israel
+			
+			available = {
+				country_exists = ISR
+				NOT = { has_war_with = ISR }				
+				ISR = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_israel
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = ISR }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = ISR modifier = air_contract_reciever }
+				reverse_add_opinion_modifier = { target = ISR modifier = air_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = air_contract_reciever }				
+				country_event = { days = 365 id = company.3 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = air_contract_initiator }
+			}			
+	
+			cancel_if_invalid = yes
+	
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}		
+	}
+
+	materiel_manufacturer = {
+	
+		designer = yes
+	
+		generic_colt = { 		#USA
+
+			available = {
+				country_exists = USA
+				NOT = { has_war_with = USA }				
+				USA = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_usa
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = USA }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = USA modifier = equipment_contract_reciever }
+				reverse_add_opinion_modifier = { target = USA modifier = equipment_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = equipment_contract_initiator }				
+				country_event = { days = 365 id = company.4 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = equipment_contract_initiator }
+			}			
+
+			cancel_if_invalid = yes
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { light_aircraft_manufacturer }
+		}		
+		
+		generic_kalashnikov = { 	#Russia
+
+			available = {
+				country_exists = SOV
+				NOT = { has_war_with = SOV }				
+				SOV = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_russia
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = SOV }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = SOV modifier = equipment_contract_reciever }
+				reverse_add_opinion_modifier = { target = SOV modifier = equipment_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = equipment_contract_initiator }				
+				country_event = { days = 365 id = company.4 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = equipment_contract_initiator }
+			}			
+
+			cancel_if_invalid = yes
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+		}
+		
+		generic_norinco_arms = { 	#China
+
+			available = {
+				country_exists = CHC
+				NOT = { has_war_with = CHC }				
+				CHC = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_china
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = CHC }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = CHC modifier = equipment_contract_reciever }
+				reverse_add_opinion_modifier = { target = CHC modifier = equipment_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = equipment_contract_initiator }				
+				country_event = { days = 365 id = company.4 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = equipment_contract_initiator }
+			}			
+
+			cancel_if_invalid = yes
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+		}		
+		
+		generic_webleyscott = {		#UK
+			
+			available = {
+				country_exists = ENG
+				NOT = { has_war_with = ENG }				
+				ENG = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_uk
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = ENG }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = ENG modifier = equipment_contract_reciever }
+				reverse_add_opinion_modifier = { target = ENG modifier = equipment_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = equipment_contract_initiator }				
+				country_event = { days = 365 id = company.4 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = equipment_contract_initiator }
+			}			
+
+			cancel_if_invalid = yes
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}
+		
+		generic_hk = {		#Germany
+			
+			available = {
+				country_exists = GER
+				NOT = { has_war_with = GER }
+				GER = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_germany
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = GER }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = GER modifier = equipment_contract_reciever }
+				reverse_add_opinion_modifier = { target = GER modifier = equipment_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = equipment_contract_initiator }				
+				country_event = { days = 365 id = company.4 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = equipment_contract_initiator }
+			}			
+
+			cancel_if_invalid = yes
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}
+
+		generic_beretta = {		#Italy
+			
+			available = {
+				country_exists = ITA
+				NOT = { has_war_with = ITA }
+				ITA = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_italy
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = ITA }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = ITA modifier = equipment_contract_reciever }
+				reverse_add_opinion_modifier = { target = ITA modifier = equipment_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = equipment_contract_initiator }				
+				country_event = { days = 365 id = company.4 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = equipment_contract_initiator }
+			}			
+
+			cancel_if_invalid = yes
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}		
+	}
+
+	rocket_manufacturer = {
+	
+		designer = yes
+
+		generic_mbda = { 	#France
+
+			available = {
+				country_exists = FRA
+				NOT = { has_war_with = FRA }				
+				FRA = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_france
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = FRA }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = FRA modifier = civilian_contract_reciever }
+				reverse_add_opinion_modifier = { target = FRA modifier = civilian_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = civilian_contract_initiator }				
+				country_event = { days = 365 id = company.6 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = civilian_contract_initiator }
+			}			
+
+			cancel_if_invalid = yes
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+		}
+
+		generic_lig_nex = { 	#South Korea
+
+			available = {
+				country_exists = KOR
+				NOT = { has_war_with = KOR }				
+				KOR = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_south_korea
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = KOR }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = KOR modifier = civilian_contract_reciever }
+				reverse_add_opinion_modifier = { target = KOR modifier = civilian_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = civilian_contract_initiator }				
+				country_event = { days = 365 id = company.6 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = civilian_contract_initiator }
+			}			
+
+			cancel_if_invalid = yes
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+		}		
+		
+		rafael_missiles = { 	#Israel
+
+			available = {
+				country_exists = ISR
+				NOT = { has_war_with = ISR }				
+				ISR = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_israel
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = ISR }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = ISR modifier = civilian_contract_reciever }
+				reverse_add_opinion_modifier = { target = ISR modifier = civilian_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = civilian_contract_initiator }				
+				country_event = { days = 365 id = company.6 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = civilian_contract_initiator }
+			}			
+
+			cancel_if_invalid = yes
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+		}	
+	}	
+	
+	industrial_concern = {
+	
+		designer = yes
+
+		generic_exxonmobil = { 	#USA
+
+			available = {
+				country_exists = USA
+				NOT = { has_war_with = USA }				
+				USA = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_usa
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = USA }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = USA modifier = civilian_contract_reciever }
+				reverse_add_opinion_modifier = { target = USA modifier = civilian_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = civilian_contract_initiator }				
+				country_event = { days = 365 id = company.6 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = civilian_contract_initiator }
+			}			
+
+			cancel_if_invalid = yes
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+		}
+		
+		generic_motorola = { 	#USA
+
+			available = {
+				country_exists = USA
+				NOT = { has_war_with = USA }				
+				USA = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_usa
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = USA }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = USA modifier = civilian_contract_reciever }
+				reverse_add_opinion_modifier = { target = USA modifier = civilian_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = civilian_contract_initiator }				
+				country_event = { days = 365 id = company.6 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = civilian_contract_initiator }
+			}			
+
+			cancel_if_invalid = yes
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+		}
+
+		generic_petrochina = { 	#China
+
+			available = {
+				country_exists = CHC
+				NOT = { has_war_with = CHC }				
+				CHC = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_saudi_china
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = CHC }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = CHC modifier = civilian_contract_reciever }
+				reverse_add_opinion_modifier = { target = CHC modifier = civilian_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = civilian_contract_initiator }				
+				country_event = { days = 365 id = company.6 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = civilian_contract_initiator }
+			}			
+
+			cancel_if_invalid = yes
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+		}
+
+		generic_lukoil = { 	#Russia
+
+			available = {
+				country_exists = SOV
+				NOT = { has_war_with = SOV }				
+				SOV = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_russia
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = SOV }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = SOV modifier = civilian_contract_reciever }
+				reverse_add_opinion_modifier = { target = SOV modifier = civilian_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = civilian_contract_initiator }				
+				country_event = { days = 365 id = company.6 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = civilian_contract_initiator }
+			}			
+
+			cancel_if_invalid = yes
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+		}
+
+		generic_gazprom = { 	#Russia
+
+			available = {
+				country_exists = SOV
+				NOT = { has_war_with = SOV }				
+				SOV = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_russia
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = SOV }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = SOV modifier = civilian_contract_reciever }
+				reverse_add_opinion_modifier = { target = SOV modifier = civilian_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = civilian_contract_initiator }				
+				country_event = { days = 365 id = company.6 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = civilian_contract_initiator }
+			}			
+
+			cancel_if_invalid = yes
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+		}		
+
+		generic_bp = { 	#United Kingdom
+
+			available = {
+				country_exists = ENG
+				NOT = { has_war_with = ENG }				
+				ENG = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_uk
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = ENG }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = ENG modifier = civilian_contract_reciever }
+				reverse_add_opinion_modifier = { target = ENG modifier = civilian_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = civilian_contract_initiator }				
+				country_event = { days = 365 id = company.6 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = civilian_contract_initiator }
+			}			
+
+			cancel_if_invalid = yes
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+		}
+		
+		total_sa = { 	#France
+
+			available = {
+				country_exists = FRA
+				NOT = { has_war_with = FRA }				
+				FRA = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_france
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = FRA }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = FRA modifier = civilian_contract_reciever }
+				reverse_add_opinion_modifier = { target = FRA modifier = civilian_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = civilian_contract_initiator }				
+				country_event = { days = 365 id = company.6 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = civilian_contract_initiator }
+			}			
+
+			cancel_if_invalid = yes
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+		}
+		
+		generic_petrobras = { 	#Brazil
+
+			available = {
+				country_exists = BRA
+				NOT = { has_war_with = BRA }				
+				BRA = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_brazil
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = BRA }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = BRA modifier = civilian_contract_reciever }
+				reverse_add_opinion_modifier = { target = BRA modifier = civilian_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = civilian_contract_initiator }				
+				country_event = { days = 365 id = company.6 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = civilian_contract_initiator }
+			}			
+
+			cancel_if_invalid = yes
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+		}		
+		
+		generic_siemens = { 	#Germany
+
+			available = {
+				country_exists = GER
+				NOT = { has_war_with = GER }				
+				GER = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_germany
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = GER }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = GER modifier = civilian_contract_reciever }
+				reverse_add_opinion_modifier = { target = GER modifier = civilian_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = civilian_contract_initiator }				
+				country_event = { days = 365 id = company.6 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = civilian_contract_initiator }
+			}			
+
+			cancel_if_invalid = yes
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+		}		
+
+		generic_nokia = { 	#Finland
+
+			available = {
+				country_exists = FIN
+				NOT = { has_war_with = FIN }				
+				FIN = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_finland
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = FIN }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = FIN modifier = civilian_contract_reciever }
+				reverse_add_opinion_modifier = { target = FIN modifier = civilian_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = civilian_contract_initiator }				
+				country_event = { days = 365 id = company.6 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = civilian_contract_initiator }
+			}			
+
+			cancel_if_invalid = yes
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+		}
+
+		generic_aramco = { 	#Saudi Arabia
+
+			available = {
+				country_exists = SAU
+				NOT = { has_war_with = SAU }				
+				SAU = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_saudi_arabia
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = SAU }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = SAU modifier = civilian_contract_reciever }
+				reverse_add_opinion_modifier = { target = SAU modifier = civilian_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = civilian_contract_initiator }				
+				country_event = { days = 365 id = company.6 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = civilian_contract_initiator }
+			}			
+
+			cancel_if_invalid = yes
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+		}
+
+		generic_shell = { 	#Netherlands
+
+			available = {
+				country_exists = HOL
+				NOT = { has_war_with = HOL }				
+				HOL = { has_opinion = { target = ROOT value > -50 } }			
+				custom_trigger_tooltip = {
+					tooltip =  based_in_netherlands
+				}
+			}		
+		
+			allowed = {
+				NOT = { tag = HOL }
+			}
+			
+			on_add = {
+				add_opinion_modifier = { target = HOL modifier = civilian_contract_reciever }
+				reverse_add_opinion_modifier = { target = HOL modifier = civilian_contract_reciever }				
+				hidden_effect = {
+				add_opinion_modifier = { target = ROOT modifier = civilian_contract_initiator }				
+				country_event = { days = 365 id = company.6 }
+				}
+			}
+			
+			allowed_to_remove = {
+				NOT = { has_opinion_modifier = civilian_contract_initiator }
+			}			
+
+			cancel_if_invalid = yes
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { tank_manufacturer }
+		}		
+	}
+	
+	army_chief = {
+		
+		generic_army_chief_off = {
+			
+			allowed = {
+			}
+			
+			traits = { army_chief_offensive_2 }
+		}
+
+		generic_army_chief_def = {
+			
+			allowed = {
+			}
+			
+			traits = { army_chief_defensive_2 }
+		}
+	}
+
+	navy_chief = {		
+
+		generic_navy_chief_decisive_bat = {
+			
+			allowed = {
+			}
+			
+			traits = { navy_chief_decisive_battle_2 }
+		}
+
+		generic_navy_anti_submarine = {
+			
+			allowed = {
+			}
+			
+			traits = { navy_anti_submarine_2 }
+		}
+	}
+
+	air_chief = {
+
+		generic_air_close_air_sup = {
+			
+			allowed = {
+			}
+			
+			traits = { air_close_air_support_2 }
+		}
+	
+		generic_air_chief_all_weather = {
+			
+			allowed = {
+			}
+			
+			traits = { air_chief_all_weather_2 }			
+		}
+	}
+
+	high_command = {
+
+		generic_army_art = {
+			
+			allowed = {
+			}
+			
+			traits = { army_artillery_3 }			
+		}
+		
+		generic_army_log = {
+
+			allowed = {
+			}
+			
+			traits = { army_logistics_2 }			
+		}
+
+		generic_navy_fleet_log = {
+
+			allowed = {
+			}
+			
+			traits = { navy_fleet_logistics_1 }			
+		}
+
+		generic_air_air_combat_trainer = {
+
+			allowed = {
+			}
+			
+			traits = { air_air_combat_training_2 }			
+		}
+	}	
+}

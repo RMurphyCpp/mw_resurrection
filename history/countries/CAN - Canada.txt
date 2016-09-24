@@ -1,0 +1,308 @@
+﻿capital = 276
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+	
+    set_politics = {
+
+	    parties = {
+		    democratic_liberal = { 
+			    popularity = 41
+		    }
+		    democratic_conservative = { 
+			    popularity = 26
+		    }
+		    democratic_nationalism = { 
+			    popularity = 11
+		    }
+		    democratic_socialism = { 
+			    popularity = 9
+		    }			
+	    }
+	
+	    ruling_party = democratic_liberal
+	    last_election = "1997.11.27"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+		united_nations_non_permanent_member
+	    democratic_traditions
+		the_beaver_nation
+		canadian_multiculturalism
+		canadaian_mounted_police		
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Don Andrews"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "CANNHF1.dds"
+    	expire = "2020.1.1"
+    	ideology = fascism_ideology
+    	traits = {
+    		#
+    	}
+    }
+    create_country_leader = {
+    	name = "Miguel Figueroa"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "CANNHC1.dds"
+    	expire = "2020.1.1"
+    	ideology = marxism
+    	traits = {
+    		#
+    	}
+    }
+    create_country_leader = {
+    	name = "Gilles Duceppe"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "CANNHNAT1.dds"
+    	expire = "2003.12.12"
+    	ideology = sepratism
+    	traits = {
+    		#
+    	}
+    }
+    create_country_leader = {
+    	name = "Alexa McDonough"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "CANNHSOC1.dds"
+    	expire = "2003.1.24"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {
+    	name = "Stockwell Day"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "CANNHCON1.dds"
+    	expire = "2003.12.12"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {
+    	name = "Jean Chrétien"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "CANG1.dds"
+    	expire = "2003.12.12"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2001.10.7 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_liberal = { 
+			    popularity = 41
+		    }
+		    democratic_conservative = { 
+			    popularity = 26
+		    }
+		    democratic_nationalism = { 
+			    popularity = 11
+		    }
+		    democratic_socialism = { 
+			    popularity = 9
+		    }			
+	    }
+	
+	    ruling_party = democratic_liberal
+	    last_election = "2000.11.27"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+	
+    create_country_leader = {
+    	name = "Jean Chrétien"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "CANG1.dds"
+    	expire = "2003.12.12"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+
+    create_country_leader = {
+    	name = "Paul Martin"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "CANNHLIB1.dds"
+    	expire = "2008.10.14"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+    create_country_leader = {
+    	name = "Jean Chrétien"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "CANG1.dds"
+    	expire = "2003.12.12"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2008.8.7 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_liberal = { 
+			    popularity = 27
+		    }
+		    democratic_conservative = { 
+			    popularity = 38
+		    }
+		    democratic_nationalism = { 
+			    popularity = 10
+		    }
+		    democratic_socialism = { 
+			    popularity = 19
+		    }
+		    democratic_green = { 
+			    popularity = 7
+		    }			
+	    }
+	
+	    ruling_party = democratic_conservative
+	    last_election = "2006.1.14"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+
+	create_country_leader = {
+    	name = "Elizabeth May"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "CANNHGRE1.dds"
+    	expire = "2008.10.14"
+    	ideology = green
+    	traits = {
+    		#
+    	}
+    }
+    create_country_leader = {
+    	name = "Stéphane Dion"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "CANNHLIB2.dds"
+    	expire = "2009.5.2"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {
+    	name = "Stephen Harper"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "CANG5.dds"
+    	expire = "2016.12.12"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+    create_country_leader = {
+    	name = "Stephen Harper"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "CANG5.dds"
+    	expire = "2016.12.12"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_liberal = { 
+			    popularity = 19
+		    }
+		    democratic_conservative = { 
+			    popularity = 40
+		    }
+		    democratic_nationalism = { 
+			    popularity = 6
+		    }
+		    democratic_socialism = { 
+			    popularity = 31
+		    }
+		    democratic_green = { 
+			    popularity = 4
+		    }			
+	    }
+	
+	    ruling_party = democratic_conservative
+	    last_election = "2006.1.14"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+
+    create_country_leader = {
+    	name = "Michael Ignatieff"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "CANNHLIB3.dds"
+    	expire = "2008.10.14"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }
+    create_country_leader = {
+    	name = "Stephen Harper"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "CANG5.dds"
+    	expire = "2016.12.12"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+    create_country_leader = {
+    	name = "Stephen Harper"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "CANG5.dds"
+    	expire = "2003.12.12"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+    create_country_leader = {
+    	name = "Stephen Harper"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "CANG5.dds"
+    	expire = "2003.12.12"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}

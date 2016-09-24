@@ -1,0 +1,16 @@
+state={
+	id=693
+	name="STATE_693"
+	manpower = 15000
+	
+	state_category = tiny_island
+	history={
+		owner = BHM
+		add_core_of = BHM
+
+	}
+	
+	provinces={
+		1513 10440 
+	}
+}

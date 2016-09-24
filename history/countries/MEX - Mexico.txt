@@ -1,0 +1,172 @@
+﻿capital = 277
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 45
+			
+		    }
+
+		    democratic_center = {
+			    popularity = 38			
+		    }
+		
+		    democratic_socialism = {
+			    popularity = 17
+		    }
+	    }
+	
+	    ruling_party = democratic_center
+	    last_election = "1996.7.2"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+	    democratic_traditions
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Ernesto Zedillo"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "MEXH1.dds"
+    	expire = "2000.11.30"
+    	ideology = centrer_right
+    	traits = {
+    		#
+    	}
+    }	
+}
+
+2001.10.7 = {
+
+    set_politics = {
+	    ruling_party = democratic_conservative
+	    last_election = "2000.7.2"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Vicente Fox"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "MEXH2.dds"
+    	expire = "2006.11.30"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+    create_country_leader = {
+    	name = "Vicente Fox"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "MEXH2.dds"
+    	expire = "2006.11.30"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2008.8.7 = {
+
+    set_politics = {
+	    ruling_party = democratic_conservative
+	    last_election = "2006.7.2"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Felipe Calderón"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "MEXH3.dds"
+    	expire = "2012.11.30"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+    create_country_leader = {
+    	name = "Felipe Calderón"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "MEXH3.dds"
+    	expire = "2012.11.30"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+    create_country_leader = {
+    	name = "Felipe Calderón"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "MEXH3.dds"
+    	expire = "2012.11.30"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 25
+			
+		    }
+
+		    democratic_center = {
+			    popularity = 40			
+		    }
+		
+		    democratic_socialism = {
+			    popularity = 35
+		    }
+	    }
+	
+	    ruling_party = democratic_center
+	    last_election = "2012.7.1"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Enrique Peña Nieto"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "MEXH4.dds"
+    	expire = "2020.11.30"
+    	ideology = centrer_right
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+    create_country_leader = {
+    	name = "Enrique Peña Nieto"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "MEXH4.dds"
+    	expire = "2020.11.30"
+    	ideology = centrer_right
+    	traits = {
+    		#
+    	}
+    }
+}

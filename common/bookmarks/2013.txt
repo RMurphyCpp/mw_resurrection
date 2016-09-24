@@ -1,0 +1,65 @@
+#bookmarks = {
+#	bookmark = {
+#		name = "RISE_OF_ISLAMIC_STATE_NAME"
+#		desc = "RISE_OF_ISLAMIC_STATE_DESC"
+#		date = 2013.4.8
+#		picture = "GFX_select_date_2010"
+#		default_country = "ISS"
+#	
+#		ENG = {
+#			history = FRA_BLITZKRIEG_DESC
+#			ideology = democratic_conservative
+#			ideas={
+#			}
+#		}
+#		USA = {
+#			history = GER_BLITZKRIEG_DESC
+#			ideology = democratic_conservative
+#			ideas={
+#				ingodwestrust
+#				wall_street
+#				land_of_the_free			
+#			}
+#		}
+#		FSY = {
+#			history = ENG_BLITZKRIEG_DESC
+#			ideology = democratic_conservative
+#			ideas={
+#			}
+#			
+#		}		
+#		ISS = {
+#			history = USA_BLITZKRIEG_DESC
+#			ideology = democratic_conservative
+#			ideas={
+#			}
+#		}		
+#		SYR = {
+#			history = ITA_BLITZKRIEG_DESC
+#			ideology = communism
+#			ideas={
+#			}			
+#		}
+#		IRQ = {
+#			history = SOV_BLITZKRIEG_DESC
+#			ideology = democratic_conservative
+#			ideas={			
+#			}
+#		}		
+#		TUR = {
+#			history = JAP_BLITZKRIEG_DESC
+#			ideology = democratic_conservative
+#			ideas={
+#			}			
+#		}
+#
+#		"---"={
+#			history = "OTHER_BLITZKRIEG_DESC"
+#		}
+#
+#		effect = {
+#			randomize_weather = 12345 # <- Obligatory in every bookmark !
+#			#123 = { rain_light = yes }
+#		}
+#	}
+#}

@@ -1,0 +1,19 @@
+state={
+	id=773
+	name="STATE_773"
+	
+	state_category = tiny_island
+	
+	history={
+		owner = CHC
+		add_claim_by = PHI
+		add_claim_by = CHC
+		add_claim_by = TWN		
+	}
+	
+	provinces={
+		13208
+	}
+	manpower=1
+	buildings_max_level_factor=1
+}

@@ -1,0 +1,222 @@
+﻿capital = 47
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {}
+	
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 44
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 43			
+		    }
+		
+		    communism = {
+			    popularity = 8
+		    }
+		
+		    democratic_green = { 
+			    popularity = 5			
+		    }
+	    }
+	
+	    ruling_party = democratic_socialism
+	    last_election = "1996.4.9"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+		european_union_member
+	    democratic_traditions
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Costas Simitis"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "GREG1.dds"
+    	expire = "2004.3.10"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }	
+}
+
+2001.10.7 = {
+    create_country_leader = {
+    	name = "Costas Simitis"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "GREG1.dds"
+    	expire = "2004.3.10"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+
+    create_country_leader = {
+    	name = "Costas Simitis"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "GREG1.dds"
+    	expire = "2004.3.10"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2008.8.7 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 45
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 38			
+		    }
+		
+		    communism = {
+			    popularity = 12
+		    }
+		
+		    democratic_nationalism = { 
+			    popularity = 5			
+		    }
+	    }
+	
+	    ruling_party = democratic_conservative
+	    last_election = "2007.9.16"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "Kostas Karamanlis"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "GREG2.dds"
+    	expire = "2009.10.6"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 32
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 44			
+		    }
+		
+		    communism = {
+			    popularity = 12
+		    }
+		
+		    democratic_nationalism = { 
+			    popularity = 5			
+		    }
+	    }
+	
+	    ruling_party = democratic_socialism
+	    last_election = "2009.10.4"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {
+    	name = "George Papandreou"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "GREG3.dds"
+    	expire = "2011.11.11"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+    create_country_leader = {
+    	name = "George Papandreou"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "GREG3.dds"
+    	expire = "2011.11.11"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 30
+			
+		    }
+
+		    democratic_socialism = {
+			    popularity = 27			
+		    }
+		
+		    communism = {
+			    popularity = 8
+		    }
+		
+		    fascism = { 
+			    popularity = 7			
+		    }
+	    }
+	
+	    ruling_party = democratic_conservative
+	    last_election = "2012.6.17"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    create_country_leader = {	
+    	name = "Antonis Samaras"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "GREG5.dds"
+    	expire = "2013.1.26"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+    create_country_leader = {
+    	name = "Antonis Samaras"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "GREG5.dds"
+    	expire = "2015.1.26"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}

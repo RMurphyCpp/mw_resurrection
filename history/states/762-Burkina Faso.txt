@@ -1,0 +1,21 @@
+state={
+	id=762
+	name="STATE_762"
+	
+	state_category = town	
+	
+	history={
+		owner = BKN
+		add_core_of = BKN
+		
+		victory_points = {
+			10836 10 
+		}		
+	}
+	
+	provinces={
+		2001 7950 7983 8071 10836 12707 12851 
+	}
+	manpower=200
+	buildings_max_level_factor=1
+}
