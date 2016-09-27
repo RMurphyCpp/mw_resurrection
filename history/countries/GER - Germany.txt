@@ -38,6 +38,7 @@
 	    a_dark_past
 		pacifism_germany
 		german_work_ethic
+		ageing_population
     }
     #############LAST ENTRY IS USED FIRST#############
     create_country_leader = {
