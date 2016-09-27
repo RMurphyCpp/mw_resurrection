@@ -87,6 +87,23 @@ ideas = {
 			modifier = {
 				political_power_factor = 0.10
 			}
+		}
+			
+		ageing_population = {
+			
+			allowed = {
+				original_tag = GER
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				MONTHLY_POPULATION = -1.25
+			}
 		}		
 	}
 }
