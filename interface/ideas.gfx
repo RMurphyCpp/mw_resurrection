@@ -3455,5 +3455,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_hideo_itokawa"
 		texturefile = "gfx/interface/ideas/idea_hideo_itokawa.dds"
-	}	
+	}
+	spriteType = {
+		name = "GFX_idea_ageing_population"
+		texturefile = "gfx/interface/ideas/idea_ageing_population.dds"
+	}		
 }
