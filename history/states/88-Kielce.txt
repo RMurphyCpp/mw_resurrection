@@ -12,7 +12,10 @@ state={
 		
 		victory_points = {
 			6464 2 
-		}		
+		}	
+		buildings = {
+			air_base = 1
+		}
 
 	}
 	provinces={
