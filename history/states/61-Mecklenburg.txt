@@ -9,12 +9,9 @@ state={
 			321 1
 		}
 		buildings = {
-			
-			
 			321 = {
-				
+				naval_base = 1
 			}
-			
 		}
 		add_core_of = GER
 	}
