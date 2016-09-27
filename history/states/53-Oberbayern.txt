@@ -10,6 +10,11 @@ state={
 			
 		}
 		add_core_of = GER
+		buildings = {
+		air_base = 5
+		}		
+		
+		
 	}
 	provinces={
 		532 571 586 3299 3541 3571 6725 9515 9681 11497 
