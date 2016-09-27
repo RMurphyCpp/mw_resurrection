@@ -7,10 +7,21 @@ state={
 	history={
 		owner = GER
 		add_core_of = GER
+<<<<<<< .mine
+		
+		buildings = {
+			241 = {
+				naval_base = 1
+			}
+		}
+	
+||||||| .r3
+=======
 		
 		buildings = {
 		air_base = 5
 		}
+>>>>>>> .r12
 	}
 	provinces={
 		241 247 309 336 3234 9281 11233 11264 11360 11388 
