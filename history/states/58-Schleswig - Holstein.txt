@@ -12,7 +12,6 @@ state= {
 		victory_points = {
 			9347 10 
 		}
-<<<<<<< .mine
 		victory_points = {
 			6389 10 
 		}
@@ -24,14 +23,8 @@ state= {
 			317 = {
 				naval_base = 1
 			}
-		}
-||||||| .r3
-=======
-		
-		buildings = {
 		air_base = 5
 		}
->>>>>>> .r12
 	}
 	provinces= {
 		317 3231 3368 6257 6389 9320 9347 11331 11366
