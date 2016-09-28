@@ -3466,6 +3466,6 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_laïcité"
-		texturefile = "gfx/interface/ideas/idea_laicite.dds"
+		texturefile = "gfx/interface/ideas/idea_french_laisite.dds"
 	}
 }
