@@ -2,19 +2,37 @@ ideas = {
 
 	ageing_population = {
 			
-			allowed = {
+		allowed = {
 				
-			}
+		}
 
-			allowed_civil_war = {
-				always = yes
-			}
+		allowed_civil_war = {
+			always = yes
+		}
 
-			removal_cost = -1
+		removal_cost = -1
 			
-			modifier = {
-				MONTHLY_POPULATION = -1.25
-				consumer_goods_factor = -0.05
-			}
-		}		
+		modifier = {
+			MONTHLY_POPULATION = -1.25
+			consumer_goods_factor = -0.05
+		}
+	}
+	
+	demographic_explosion = {
+			
+		allowed = {
+				
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+			
+		modifier = {
+			MONTHLY_POPULATION = 0.50
+			consumer_goods_factor = 0.05
+		}
+	}
 }
