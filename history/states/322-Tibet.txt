@@ -4,15 +4,18 @@ state={
 	manpower = 3722000
 	
 	state_category = town
-	
-	resources={
-		
-	}
+
 	history={
 		owner = CHC
 		add_core_of = CHC
 		add_claim_by = TWN
-		add_claim_by = TIB		
+		add_claim_by = TIB
+		
+		victory_points = {5033  5 }
+		
+		buildings = {
+		
+		}
 	}
 	provinces={
 		1961 1991 2010 2014 2093 2098 4900 4994 5011 5033 5094 7926 8029 8068 8121 10755 10802 10918 12784 12801 12807 
