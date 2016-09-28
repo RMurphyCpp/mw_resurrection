@@ -3464,4 +3464,8 @@ spriteTypes = {
 		name = "GFX_idea_demographic_explosion"
 		texturefile = "gfx/interface/ideas/idea_demographic_explosion.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_laïcité"
+		texturefile = "gfx/interface/ideas/idea_laïcité.dds"
+	}
 }
