@@ -26,6 +26,7 @@
     add_ideas = {
 	    the_ghandi_legacy
 		lecence_raj
+		demographic_explosion
     }
     #############LAST ENTRY IS USED FIRST#############
     create_country_leader = {
