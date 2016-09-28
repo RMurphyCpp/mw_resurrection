@@ -1,0 +1,153 @@
+ideas = {
+
+	immigration_laws  = { 
+		law = yes
+		mw_schengen_area_law = {
+		
+			available = {
+				has_country_flag = shengen_area
+			}
+			
+			removal_cost = -1
+			level = 7			
+		
+			modifier = {
+				unity_factor = -0.15
+				production_speed_buildings_factor = 0.5
+				democratic_nationalism_drift = 0.05
+				fascism_drift = 0.05
+			}		
+			
+			allowed_to_remove = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		mw_open_door_law = {
+		
+			available = {
+				NOT = { has_country_flag = shengen_area }
+			}
+			
+			removal_cost = -1
+			level = 6	
+			
+			modifier = {
+				unity_factor = -0.1
+				production_speed_buildings_factor = 0.5
+				democratic_nationalism_drift = 0.05
+				fascism_drift = 0.05				
+			}
+			
+			allowed_to_remove = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		mw_point_system_immigration_law = {
+			
+			available = {
+				NOT = { has_country_flag = shengen_area }
+			}
+			
+			removal_cost = -1
+			level = 5
+			
+			modifier = {
+				unity_factor = -0.05
+				production_speed_buildings_factor = 0.3
+				democratic_nationalism_drift = 0.03
+				fascism_drift = 0.03
+			}
+			
+			allowed_to_remove = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		mw_limited_immigration_law = {
+			
+			available = {
+				NOT = { has_country_flag = shengen_area }
+			}
+			
+			removal_cost = -1
+			level = 5
+			
+			modifier = {
+				unity_factor = -0.03
+				production_speed_buildings_factor = 0.1
+				democratic_nationalism_drift = 0.01
+				fascism_drift = 0.01
+			}
+			
+			allowed_to_remove = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		mw_strict_immigration_law = {
+			
+			available = {
+				NOT = { has_country_flag = shengen_area }
+			}
+			
+			removal_cost = -1
+			level = 4
+			
+			modifier = {
+				unity_factor = 0.01
+				production_speed_buildings_factor = -0.03
+			}
+			
+			allowed_to_remove = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		mw_religion_immigration_law = {
+			
+			available = {
+				NOT = { has_country_flag = shengen_area }
+			}
+			
+			removal_cost = -1
+			level = 3
+			
+			modifier = {
+				unity_factor = 0.01
+				production_speed_buildings_factor = -0.03
+			}
+			
+			allowed_to_remove = {
+			}
+			
+			cancel_if_invalid = no
+		}		
+		
+		mw_closed_borders_law = {
+			
+			available = {
+				NOT = { has_country_flag = shengen_area }
+			}
+			
+			removal_cost = -1
+			level = 2
+			
+			modifier = {
+				unity_factor = 0.03
+				production_speed_buildings_factor = -0.05
+			}
+			
+			allowed_to_remove = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}	
+}

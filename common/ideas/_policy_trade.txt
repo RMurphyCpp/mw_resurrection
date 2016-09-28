@@ -1,0 +1,147 @@
+ideas = {
+
+	trade_policy = {
+		law = yes
+		
+		eu_common_market = {
+		
+			available = {
+				has_country_flag = member_eu_common_market
+			}
+			
+			removal_cost = -1
+			level = 5
+			
+			modifier = {
+				min_export = 0.70
+			}
+
+			allowed_to_remove = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		free_trade = {
+		
+			available = {
+			}
+			
+			removal_cost = -1
+			level = 5
+			
+			modifier = {
+				min_export = 0.80
+			}
+
+			level = 7
+			
+			allowed_to_remove = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		open_market_policy = {
+		
+			available = {
+			}
+			
+			removal_cost = -1
+			level = 5
+			
+			modifier = {
+				min_export = 0.60
+			}
+
+			level = 6
+			
+			allowed_to_remove = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		heavy_export_policy = {
+			
+			available = {
+			}
+			
+			removal_cost = -1
+			level = 5
+			
+			modifier = {
+				min_export = 0.50
+			}
+
+			level = 5
+			
+			allowed_to_remove = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		moderate_exports = {
+			
+			available = {
+			}
+
+			default = yes
+			
+			removal_cost = -1
+			level = 5
+			
+			modifier = {
+				min_export = 0.35
+			}
+
+			level = 4
+			
+			allowed_to_remove = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		limited_exports = {
+			
+			available = {
+			}
+			
+			removal_cost = -1
+			level = 5
+			
+			modifier = {
+				min_export = 0.25
+			}
+
+			level = 3
+			
+			allowed_to_remove = {
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		closed_economy = {
+			
+			available = {
+			}
+			
+			removal_cost = -1
+			level = 5
+			
+			modifier = {
+				min_export = 0
+			}
+
+			level = 2
+			
+			allowed_to_remove = {
+			}
+			
+			cancel_if_invalid = no
+		}		
+	}
+}

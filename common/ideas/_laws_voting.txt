@@ -1,0 +1,202 @@
+ideas = {
+
+	political_parties_laws = { 
+		law = yes
+		mw_hereditery_rule = {
+			
+			available = {
+				OR = {			
+					has_government = sunni_islam
+					has_government = autocracy
+					AND = {
+					has_government = communism				
+					tag = PRK
+					}
+				}
+			}
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+				political_power_factor = 0.50
+				unity_factor = -0.10					
+				subversive_activites_upkeep = 0.10
+				foreign_subversive_activites = 0.25
+				enemy_partisan_effect = 0.25
+			}		
+			
+			allowed_to_remove = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		mw_single_party_rule = {
+			
+			available = {
+				OR = {			
+				has_government = communism
+				has_government = fascism
+				has_government = autocracy
+				has_government = military
+				has_government = sunni_islam
+				has_government = shia_islam
+				has_government = fundamentalist_islam
+				}			
+			}
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+				political_power_factor = 0.50
+				unity_factor = -0.10				
+				subversive_activites_upkeep = 0.10
+				foreign_subversive_activites = 0.25
+				enemy_partisan_effect = 0.25
+			}			
+			
+			allowed_to_remove = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		mw_fictional_oposition = {
+			
+			available = {
+				OR = {			
+				has_government = communism
+				has_government = new_nazism
+				has_government = fascism
+				has_government = autocracy
+				has_government = military
+				has_government = sunni_islam
+				has_government = shia_islam
+				has_government = fundamentalist_islam
+				}			
+			}
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+				political_power_factor = 0.35
+				unity_factor = -0.02				
+				subversive_activites_upkeep = 0.20
+				foreign_subversive_activites = 0.20
+				enemy_partisan_effect = 0.20
+			}			
+			
+			allowed_to_remove = {
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		mw_reppresed_opposition = {
+
+			available = {
+				OR = {
+				has_government = democratic_nationalism				
+				has_government = communism
+				has_government = new_nazism
+				has_government = fascism
+				has_government = autocracy
+				has_government = military
+				has_government = sunni_islam
+				has_government = shia_islam
+				has_government = fundamentalist_islam
+				}			
+			}
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+				political_power_factor = 0.25				
+				subversive_activites_upkeep = 0.15
+				foreign_subversive_activites = 0.15
+				enemy_partisan_effect = 0.15
+				opinion_gain_monthly_factor = -0.03
+			}			
+			
+			allowed_to_remove = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		mw_harrassment = {
+			
+			available = {
+				OR = {
+				has_government = democratic_nationalism				
+				has_government = democratic_conservative
+				has_government = democratic_center
+				has_government = democratic_liberal
+				has_government = democratic_green
+				has_government = democratic_socialism
+				has_government = moderate_islam
+				}			
+			}
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+				political_power_factor = 0.15				
+				subversive_activites_upkeep = 0.10
+				foreign_subversive_activites = 0.10
+				enemy_partisan_effect = 0.10
+				opinion_gain_monthly_factor = -0.03				
+			}			
+			
+			allowed_to_remove = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		mw_political_parties_allowed = {
+
+			available = {
+				OR = {
+				has_government = democratic_conservative
+				has_government = democratic_center
+				has_government = democratic_liberal
+				has_government = democratic_green
+				has_government = democratic_socialism
+				has_government = moderate_islam
+				}			
+			}
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+				political_power_factor = 0.10	
+				unity_factor = -0.05
+			}			
+			
+			allowed_to_remove = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	
+}
