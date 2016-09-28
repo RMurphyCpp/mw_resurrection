@@ -30,6 +30,7 @@
 		the_dragon_awakes
 		chinese_economic_reform
 		corporate_communism
+		demographic_explosion
     }
     #############LAST ENTRY IS USED FIRST#############
     create_country_leader = {
