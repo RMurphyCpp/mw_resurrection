@@ -8,9 +8,10 @@ state={
 		owner = ICL
 		add_core_of = ICL
 		
+		victory_points = {12674  5 }
+		
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 2
 			air_base = 2
 			12674 = { naval_base = 3 }
 		}		
