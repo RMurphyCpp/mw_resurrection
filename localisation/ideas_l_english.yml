@@ -380,6 +380,7 @@ minor_terrorism_attack:0 "Minor Terrorist Attack"
 illegal_war:0 "Illegal War"
 ################## Population Spirit ##################
 ageing_population:0 "Ageing Population"
+demographic_explosion:0 "Demographic Explosion"
  ######################################################
  generic_army_chief_offensive:0 "Offensive Army Chief"
  generic_army_chief_defensive:0 "Defensive Army Chief"
