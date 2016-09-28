@@ -3459,5 +3459,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_ageing_population"
 		texturefile = "gfx/interface/ideas/idea_ageing_population.dds"
-	}		
+	}
+	spriteType = {
+		name = "GFX_idea_demographic_explosion"
+		texturefile = "gfx/interface/ideas/idea_demographic_explosion.dds"
+	}
 }
