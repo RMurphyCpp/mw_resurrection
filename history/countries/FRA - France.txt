@@ -40,6 +40,7 @@
 		fra_foreign_legion		
 	    liberty_equality_fraternity
 		french_laisite
+		fra_aerospace_valley
     }
     #############LAST ENTRY IS USED FIRST#############
     create_country_leader = {
