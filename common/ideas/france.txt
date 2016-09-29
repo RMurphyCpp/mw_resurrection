@@ -49,6 +49,23 @@ ideas = {
 			modifier = {
 				political_power_factor = 0.1
 			}
-		}		
+		}
+
+		fra_aerospace_valley = {
+		
+			allowed = {
+				original_tag = FRA
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+		}
 	}
 }
