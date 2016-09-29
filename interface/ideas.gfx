@@ -3468,4 +3468,8 @@ spriteTypes = {
 		name = "GFX_idea_french_laisite"
 		texturefile = "gfx/interface/ideas/idea_french_laisite.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_fra_aerospace_valley"
+		texturefile = "gfx/interface/ideas/idea_fra_aerospace_valley.dds"
+	}
 }
