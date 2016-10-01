@@ -104,8 +104,7 @@ ideas = {
 						has_war = yes
 						enemies_strength_ratio > 0.5
 					}					
-				}			
-			}
+			}			
 			
 			cost = 150
 			removal_cost = -1
