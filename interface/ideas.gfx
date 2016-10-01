@@ -40,11 +40,6 @@ spriteTypes = {
 		name = "GFX_idea_a_dark_past"
 		texturefile = "gfx/interface/ideas/the_war_to_end_all_wars.dds"
 	}
-	
-	spriteType = {
-		name = "GFX_idea_liberty_equality_fraternity"
-		texturefile = "gfx/interface/ideas/generic_victors_of_ww1.dds"
-	}
 
 	spriteType = {
 		name = "GFX_idea_democratic_traditions"
@@ -3456,6 +3451,9 @@ spriteTypes = {
 		name = "GFX_idea_hideo_itokawa"
 		texturefile = "gfx/interface/ideas/idea_hideo_itokawa.dds"
 	}
+
+	### IDEAS BY ARNAUD
+
 	spriteType = {
 		name = "GFX_idea_ageing_population"
 		texturefile = "gfx/interface/ideas/idea_ageing_population.dds"
@@ -3471,5 +3469,17 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_fra_aerospace_valley"
 		texturefile = "gfx/interface/ideas/idea_fra_aerospace_valley.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mother_russia"
+		texturefile = "gfx/interface/ideas/generic_victors_of_ww1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_liberty_equality_fraternity"
+		texturefile = "gfx/interface/ideas/idea_liberty_equality_fraternity.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pacifism"
+		texturefile = "gfx/interface/ideas/idea_pacifism.dds"
 	}
 }
