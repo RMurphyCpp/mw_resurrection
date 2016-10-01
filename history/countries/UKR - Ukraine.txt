@@ -26,6 +26,7 @@
 		united_nations_non_permanent_member	
 	    fragile_democracy
 		post_soviet_trauma_ukr
+		ageing_population
     }
     #############LAST ENTRY IS USED FIRST#############
     create_country_leader = {

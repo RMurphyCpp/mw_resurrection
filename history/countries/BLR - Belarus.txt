@@ -38,7 +38,8 @@
     }
     add_ideas = {
 	    an_iron_fist
-		post_soviet_trauma_blr		
+		post_soviet_trauma_blr	
+		ageing_population		
     }
     #############LAST ENTRY IS USED FIRST#############	
     create_country_leader = {

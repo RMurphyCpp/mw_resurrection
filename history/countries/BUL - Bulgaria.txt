@@ -25,6 +25,7 @@
 	    elections_allowed = yes
     }
     add_ideas = {
+		ageing_population
     }
     #############LAST ENTRY IS USED FIRST#############
     create_country_leader = {

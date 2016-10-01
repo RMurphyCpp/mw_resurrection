@@ -30,6 +30,7 @@
 		industrial_powerhouse_jap
 		chrysanthemum_throne
 		democratic_traditions
+		ageing_population
     }
     #############LAST ENTRY IS USED FIRST#############
     create_country_leader = {

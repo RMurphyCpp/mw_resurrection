@@ -37,6 +37,7 @@
     }
     add_ideas = {
 		european_union_member
+		ageing_population
     }
     #############LAST ENTRY IS USED FIRST#############
     create_country_leader = {
