@@ -3482,4 +3482,12 @@ spriteTypes = {
 		name = "GFX_idea_pacifism"
 		texturefile = "gfx/interface/ideas/idea_pacifism.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_fra_foreign_legion"
+		texturefile = "gfx/interface/ideas/idea_french_foreign_legion.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_article_nine_jap"
+		texturefile = "gfx/interface/ideas/idea_article9.dds"
+	}
 }
