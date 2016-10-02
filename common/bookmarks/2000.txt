@@ -10,6 +10,7 @@ bookmarks = {
 			history = FRA_BLITZKRIEG_DESC
 			ideology = democratic_conservative
 			ideas={
+				un_permanent_member
 				european_union_member			
 				liberty_equality_fraternity
 				french_laisite			
@@ -29,6 +30,7 @@ bookmarks = {
 			history = ENG_BLITZKRIEG_DESC
 			ideology = democratic_conservative
 			ideas={
+				un_permanent_member
 				european_union_member			
 				city_of_london
 				magna_carta

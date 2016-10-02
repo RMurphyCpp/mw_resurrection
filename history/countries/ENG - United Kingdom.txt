@@ -30,8 +30,8 @@
 	    elections_allowed = yes
     }
     add_ideas = {
-		european_union_member
 		un_permanent_member
+		european_union_member
 	    city_of_london
 		magna_carta
 		the_union_jack
