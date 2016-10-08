@@ -1,0 +1,13 @@
+spriteTypes = {
+
+	##Example:
+	#	ENG = country_tag
+	#	rocket_artilery4 = equipment class name
+	#	_medium must be kept at the end. NO EXCEPTIONS!
+	#
+	#	spriteType = {
+	#		name = "GFX_ENG_rocket_artillery4_medium"
+	#		texturefile = "gfx/interface/technologies/Rocket_Art_2_allies.dds"
+	#	}
+
+}
