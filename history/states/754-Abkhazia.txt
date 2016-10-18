@@ -1,7 +1,7 @@
 state={
 	id=754
 	name="STATE_754"
-	
+	manpower=50000
 	state_category = city
 	
 	history={
@@ -11,6 +11,7 @@ state={
 		victory_points = {
 			11647 5 
 		}
+
 		buildings = {
 			
 		}
@@ -19,6 +20,5 @@ state={
 	provinces={
 		9663 11617 11647 
 	}
-	manpower=600
 	buildings_max_level_factor=1
 }
