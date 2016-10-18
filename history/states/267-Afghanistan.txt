@@ -2,7 +2,7 @@ state={
 	id=267
 	name="STATE_267"
 	history={
-		owner = AFG
+		owner = IEA
 		add_core_of = AFG
 		add_core_of = IEA
 		
