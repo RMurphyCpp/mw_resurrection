@@ -1,4 +1,7 @@
 ﻿capital = 206
+
+load_oob = "00_BLR"
+
 2000.1.1 = {
     set_research_slots = 3
     set_convoys = 10
