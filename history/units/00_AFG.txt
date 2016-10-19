@@ -159,7 +159,6 @@ units = { #place all units that appear on the map. You need at least 1 template.
 		location = 12314
 						
 		division_template = "Mujahideen Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
-		start_experience_factor = 0.1 
 	}
 
         division = {
@@ -167,7 +166,6 @@ units = { #place all units that appear on the map. You need at least 1 template.
 		location = 12314
 						
 		division_template = "Mujahideen Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
-		start_experience_factor = 0.1 
 	}
 
         division = {
@@ -175,7 +173,6 @@ units = { #place all units that appear on the map. You need at least 1 template.
 		location = 12314
 						
 		division_template = "Mujahideen Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
-		start_experience_factor = 0.1 
 	}
 
         division = {
@@ -183,7 +180,6 @@ units = { #place all units that appear on the map. You need at least 1 template.
 		location = 12314
 						
 		division_template = "Mujahideen Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
-		start_experience_factor = 0.1 
 	}
 
         division = {
@@ -191,7 +187,6 @@ units = { #place all units that appear on the map. You need at least 1 template.
 		location = 12314
 						
 		division_template = "Mujahideen Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
-		start_experience_factor = 0.1 
 	}
 
         division = {
@@ -199,7 +194,6 @@ units = { #place all units that appear on the map. You need at least 1 template.
 		location = 10781
 						
 		division_template = "Mujahideen Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
-		start_experience_factor = 0.1 
 	}
 
         division = {
@@ -207,7 +201,6 @@ units = { #place all units that appear on the map. You need at least 1 template.
 		location = 10781
 						
 		division_template = "Mujahideen Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
-		start_experience_factor = 0.1 
 	}
 
         division = {
@@ -215,7 +208,6 @@ units = { #place all units that appear on the map. You need at least 1 template.
 		location = 10781
 						
 		division_template = "Mujahideen Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
-		start_experience_factor = 0.1 
 	}
         
         division = {
@@ -223,7 +215,6 @@ units = { #place all units that appear on the map. You need at least 1 template.
 		location = 10781
 						
 		division_template = "Mujahideen Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
-		start_experience_factor = 0.1 
 	}       
 
         division = {
@@ -231,7 +222,6 @@ units = { #place all units that appear on the map. You need at least 1 template.
 		location = 10781
 						
 		division_template = "Mujahideen Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
-		start_experience_factor = 0.1 
 	}
 
         division = {
@@ -239,7 +229,6 @@ units = { #place all units that appear on the map. You need at least 1 template.
 		location = 10826
 						
 		division_template = "Mujahideen Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
-		start_experience_factor = 0.1 
 	}
 
         division = {
@@ -247,7 +236,6 @@ units = { #place all units that appear on the map. You need at least 1 template.
 		location = 10781
 						
 		division_template = "Mujahideen Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
-		start_experience_factor = 0.1 
 	}
 
         division = {
@@ -255,7 +243,6 @@ units = { #place all units that appear on the map. You need at least 1 template.
 		location = 10781
 						
 		division_template = "Mujahideen Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
-		start_experience_factor = 0.1 
 	}
 
         division = {
@@ -263,7 +250,6 @@ units = { #place all units that appear on the map. You need at least 1 template.
 		location = 10781
 						
 		division_template = "Mujahideen Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
-		start_experience_factor = 0.1 
 	}
 
         division = {
@@ -271,15 +257,13 @@ units = { #place all units that appear on the map. You need at least 1 template.
 		location = 10781
 						
 		division_template = "Mujahideen Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
-		start_experience_factor = 0.1 
 	}
 
         division = {
 		name = "16th Militia Brigade" 
 		location = 12653
 						
-		division_template = "Mujahideen Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
-		start_experience_factor = 0.1 
+		division_template = "Mujahideen Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD 
 	}
 
         division = {
@@ -287,7 +271,6 @@ units = { #place all units that appear on the map. You need at least 1 template.
 		location = 12653
 						
 		division_template = "Mujahideen Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
-		start_experience_factor = 0.1 
 	}
 
         division = {
@@ -295,7 +278,6 @@ units = { #place all units that appear on the map. You need at least 1 template.
 		location = 12653
 						
 		division_template = "Mujahideen Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
-		start_experience_factor = 0.1 
 	}
 
         division = {
@@ -303,7 +285,6 @@ units = { #place all units that appear on the map. You need at least 1 template.
 		location = 12653
 						
 		division_template = "Mujahideen Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
-		start_experience_factor = 0.1 
 	}
 
         division = {
@@ -311,7 +292,6 @@ units = { #place all units that appear on the map. You need at least 1 template.
 		location = 12653
 						
 		division_template = "Mujahideen Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
-		start_experience_factor = 0.1 
 	}
 
         division = {
