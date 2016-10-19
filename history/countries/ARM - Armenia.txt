@@ -1,4 +1,7 @@
 ﻿capital = 230
+
+load_oob = "00_ARM"
+
 2000.1.1 = {
     set_research_slots = 3
     set_convoys = 10
