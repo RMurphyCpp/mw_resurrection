@@ -1,0 +1,466 @@
+﻿division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Motor Rifle Regiment" #Name of the brigade that appears when you select it
+	
+	regiments = {
+		medium_armor = { x = 0 y = 0 } #regiments are the combat units NOT the support units
+		medium_armor = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
+		medium_armor = { x = 0 y = 2 }						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
+		mechanized = { x = 1 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+		mechanized = { x = 2 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 2 y = 1 }
+		mechanized = { x = 2 y = 2 }
+
+	}
+	support = {
+		anti_tank = { x = 0 y = 0}
+                anti_air = { x = 0 y = 1}
+                engineer = { x = 0 y = 2} 
+                artillery = { x = 0 y = 3 }
+	}
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Tank Battalion" #Name of the brigade that appears when you select it
+	
+	regiments = {
+		medium_armor = { x = 0 y = 0 } #regiments are the combat units NOT the support units
+		medium_armor = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
+		medium_armor = { x = 0 y = 2 }						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing 
+	}
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Reconnaisance Battalion" #Name of the brigade that appears when you select it
+	
+	regiments = {
+		ifv = { x = 0 y = 0 } #regiments are the combat units NOT the support units
+		ifv = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
+		ifv = { x = 0 y = 2 }						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing 
+	}
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Rifle Regiment" #Name of the brigade that appears when you select it
+	
+	regiments = {
+		infantry = { x = 0 y = 0 } #regiments are the combat units NOT the support units
+		infantry = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
+		infantry = { x = 0 y = 2 }						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
+		infantry = { x = 1 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+  
+	}
+	support = {
+		anti_tank = { x = 0 y = 0}
+                anti_air = { x = 0 y = 1}
+                engineer = { x = 0 y = 2} 
+                artillery = { x = 0 y = 3 }
+	}
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Artillery Battalion" #Name of the brigade that appears when you select it
+	
+	regiments = {
+		artillery = { x = 0 y = 0 } #regiments are the combat units NOT the support units
+		artillery = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
+		artillery = { x = 0 y = 2 }						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing 
+	}
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Rocket Artillery Battalion" #Name of the brigade that appears when you select it
+	
+	regiments = {
+		rocket_artillery = { x = 0 y = 0 } #regiments are the combat units NOT the support units
+		rocket_artillery = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
+		rocket_artillery = { x = 0 y = 2 }						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing 
+	}
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Self-propelled Artillery Battalion" #Name of the brigade that appears when you select it
+	
+	regiments = {
+		sp_artillery = { x = 0 y = 0 } #regiments are the combat units NOT the support units
+		sp_artillery = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
+		sp_artillery = { x = 0 y = 2 }						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing 
+	}
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Fortified Area" #Name of the brigade that appears when you select it
+	
+	regiments = {
+		artillery = { x = 0 y = 0 } #regiments are the combat units NOT the support units
+		artillery = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
+		artillery = { x = 0 y = 2 }
+                anti_tank = { x = 1 y = 0 }		
+                anti_tank = { x = 1 y = 1 }	
+		anti_tank = { x = 1 y = 2 }
+		sp_anti_air = { x = 2 y = 0 }	
+                sp_anti_air = { x = 2 y = 1 }	
+                sp_anti_air = { x = 2 y = 2 }	
+	}
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Artillery Brigade" #Name of the brigade that appears when you select it
+	
+	regiments = {
+		artillery = { x = 0 y = 0 } #regiments are the combat units NOT the support units
+		artillery = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
+		artillery = { x = 0 y = 2 }
+                artillery = { x = 1 y = 0 }		
+                artillery = { x = 1 y = 1 }	
+		artillery = { x = 1 y = 2 }
+		artillery = { x = 2 y = 0 }	
+                artillery = { x = 2 y = 1 }	
+                artillery = { x = 2 y = 2 }	
+	}
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Self-propelled Artillery Regiment" #Name of the brigade that appears when you select it
+	
+	regiments = {
+		sp_artillery = { x = 0 y = 0 } #regiments are the combat units NOT the support units
+		sp_artillery = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
+		sp_artillery = { x = 0 y = 2 }
+                sp_artillery = { x = 1 y = 0 }		
+                sp_artillery = { x = 1 y = 1 }	
+		sp_artillery = { x = 1 y = 2 }	
+	}
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Anti-tank Regiment" #Name of the brigade that appears when you select it
+	
+	regiments = {
+		anti_tank = { x = 0 y = 0 } #regiments are the combat units NOT the support units
+		anti_tank = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
+		anti_tank = { x = 0 y = 2 }
+                anti_tank = { x = 1 y = 0 }		
+                anti_tank = { x = 1 y = 1 }	
+		anti_tank = { x = 1 y = 2 }	
+	}
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Anti-air Brigade" #Name of the brigade that appears when you select it
+	
+	regiments = {
+		sp_anti_air = { x = 0 y = 0 } #regiments are the combat units NOT the support units
+		sp_anti_air = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
+		sp_anti_air = { x = 0 y = 2 }
+                sp_anti_air = { x = 1 y = 0 }		
+                sp_anti_air = { x = 1 y = 1 }	
+		sp_anti_air = { x = 1 y = 2 }	
+                sp_anti_air = { x = 2 y = 0 }		
+                sp_anti_air = { x = 2 y = 1 }	
+		sp_anti_air = { x = 2 y = 2 }
+	}
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Anti-air Regiment" #Name of the brigade that appears when you select it
+	
+	regiments = {
+		sp_anti_air = { x = 0 y = 0 } #regiments are the combat units NOT the support units
+		sp_anti_air = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
+		sp_anti_air = { x = 0 y = 2 }
+                sp_anti_air = { x = 1 y = 0 }		
+                sp_anti_air = { x = 1 y = 1 }	
+		sp_anti_air = { x = 1 y = 2 }	
+	}
+}
+
+units = { #place all units that appear on the map. You need at least 1 template.
+
+	division = {
+		name = "1st Motor Rifle Regiment" 
+		location = 6642
+						
+		division_template = "Motor Rifle Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 #starting experience. 0.1 is lvl 3 (highest) and 0.3 is lvl 1 (lowest)
+	}
+	
+	division = {
+		name = "2nd Motor Rifle Regiment" 
+		location = 6642
+						
+		division_template = "Motor Rifle Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+	
+        division = {
+		name = "1st Tank Battalion" 
+		location = 6642
+						
+		division_template = "Tank Battalion" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "1st Reconnaisance Battalion" 
+		location = 6642
+						
+		division_template = "Reconnaisance Battalion" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "3rd Motor Rifle Regiment" 
+		location = 12450
+						
+		division_template = "Motor Rifle Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "4th Motor Rifle Regiment" 
+		location = 12450
+						
+		division_template = "Motor Rifle Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "1st Rifle Regiment" 
+		location = 12450
+						
+		division_template = "Rifle Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "2nd Tank Battalion" 
+		location = 12450
+						
+		division_template = "Tank Battalion" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "2nd Reconnaisance Battalion" 
+		location = 12450
+						
+		division_template = "Reconnaisance Battalion" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "1st Artillery Battalion" 
+		location = 12450
+						
+		division_template = "Artillery Battalion" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+	division = {
+		name = "5th Motor Rifle Regiment" 
+		location = 11708
+						
+		division_template = "Motor Rifle Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+	division = {
+		name = "6th Motor Rifle Regiment" 
+		location = 11708
+						
+		division_template = "Motor Rifle Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+	division = {
+		name = "7th Motor Rifle Regiment" 
+		location = 11708
+						
+		division_template = "Motor Rifle Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+	division = {
+		name = "8th Motor Rifle Regiment" 
+		location = 11708
+						
+		division_template = "Motor Rifle Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "2nd Rifle Regiment" 
+		location = 11708
+						
+		division_template = "Rifle Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "3rd Tank Battalion" 
+		location = 11708
+						
+		division_template = "Tank Battalion" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "3rd Reconnaisance Battalion" 
+		location = 11708
+						
+		division_template = "Reconnaisance Battalion" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "2nd Artillery Battalion" 
+		location = 11708
+						
+		division_template = "Artillery Battalion" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "1st Rocket Artillery Battalion" 
+		location = 11708
+						
+		division_template = "Rocket Artillery Battalion" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+	division = {
+		name = "9th Motor Rifle Regiment" 
+		location = 6642
+						
+		division_template = "Motor Rifle Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+	
+	division = {
+		name = "10th Motor Rifle Regiment" 
+		location = 6642
+						
+		division_template = "Motor Rifle Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+	division = {
+		name = "11th Motor Rifle Regiment" 
+		location = 6642
+						
+		division_template = "Motor Rifle Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+	
+	division = {
+		name = "12th Motor Rifle Regiment" 
+		location = 6642
+						
+		division_template = "Motor Rifle Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "1st Self-propelled Artillery Battalion" 
+		location = 6642
+						
+		division_template = "Self-propelled Artillery Battalion" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+	division = {
+		name = "13th Motor Rifle Regiment" 
+		location = 12320
+						
+		division_template = "Motor Rifle Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "3rd Rifle Regiment" 
+		location = 12320
+						
+		division_template = "Rifle Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "1st Fortified Area" 
+		location = 12380
+						
+		division_template = "Fortified Area" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.3 
+	}
+
+        division = {
+		name = "2nd Fortified Area" 
+		location = 12320
+						
+		division_template = "Fortified Area" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.3 
+	}
+
+        division = {
+		name = "1st Artillery Brigade"
+		location = 12320
+						
+		division_template = "Artillery Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "1st Anti-tank Regiment" 
+		location = 12320
+						
+		division_template = "Anti-tank Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "1st Self-propelled Artillery Regiment" 
+		location = 12320
+						
+		division_template = "Self-propelled Artillery Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "1st Anti-air Brigade" 
+		location = 12320
+						
+		division_template = "Anti-air Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "1st Anti-air Regiment" 
+		location = 12320
+						
+		division_template = "Anti-air Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "2nd Anti-air Regiment" 
+		location = 12320
+						
+		division_template = "Anti-air Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "Special Forces Regiment" 
+		location = 12320
+						
+		division_template = "Rifle Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.3 
+	}
+
+}
