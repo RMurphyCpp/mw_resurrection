@@ -127,7 +127,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 		name = "625th Artillery Division" 
 		location = 10737
 						
-		division_template = "Regular Infantry Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		division_template = "Artillery Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 		start_experience_factor = 0.1 
 	}
 
