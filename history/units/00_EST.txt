@@ -154,6 +154,14 @@ units = { #place all units that appear on the map. You need at least 1 template.
 	}
 
         division = {
+		name = "Guard Battalion" 
+		location = 3152
+						
+		division_template = "Guard Battalion" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.3 
+	}
+
+        division = {
 		name = "Alutaguse Defence League Unit" 
 		location = 4640
 						
