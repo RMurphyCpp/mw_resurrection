@@ -196,14 +196,14 @@ units = { #place all units that appear on the map. You need at least 1 template.
 		location = 1599
 						
 		division_template = "Special Operations Group" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
-		start_experience_factor = 0.1 
+		start_experience_factor = 0.3 
 	}
 
         division = {
 		name = "Naval Special Warfare Group" 
 		location = 772
 						
-		division_template = "Engineer Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
-		start_experience_factor = 0.1 
+		division_template = "Naval Special Warfare Group" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.3 
 	}
 }
