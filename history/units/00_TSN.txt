@@ -89,10 +89,10 @@ units = { #place all units that appear on the map. You need at least 1 template.
 	}
 
         division = {
-		name = "Special Battalion «Delta»" 
+		name = "Special Battalion Â«DeltaÂ»" 
 		location = 6743
 						
-		division_template = "Special Forces Battalion" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		division_template = "Special Battalion" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 		start_experience_factor = 0.3 
 	}
 }
