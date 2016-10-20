@@ -1,0 +1,61 @@
+﻿division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Motor Rifle Battalion" #Name of the brigade that appears when you select it
+	
+	regiments = {
+                light_armor = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 0 y = 2 }
+		mechanized = { x = 0 y = 3 }  
+	}
+	support = {
+		anti_tank = { x = 0 y = 0}
+                anti_air = { x = 0 y = 1}
+                rocket_artillery = { x = 0 y = 2} 
+                sp_artillery = { x = 0 y = 3 }
+	}
+	
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Rifle Battalion" #Name of the brigade that appears when you select it
+	
+	regiments = {
+                infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }  
+	}
+	support = {
+		anti_tank = { x = 0 y = 0}
+                artillery = { x = 0 y = 1} 
+	}
+	
+}
+
+units = { #place all units that appear on the map. You need at least 1 template.
+
+	division = {
+		name = "1st Motor Rifle Battalion" 
+		location = 9626
+						
+		division_template = "Motor Rifle Battalion" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	        start_experience_factor = 0.1 
+        }
+	
+        division = {
+		name = "1st Rifle Battalion" 
+		location = 9626
+						
+		division_template = "Rifle Battalion" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	        start_experience_factor = 0.1 
+        }
+
+        division = {
+		name = "2nd Rifle Battalion" 
+		location = 9626
+						
+		division_template = "Rifle Battalion" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	        start_experience_factor = 0.1 
+        }
+
+}
