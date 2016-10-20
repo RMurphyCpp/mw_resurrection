@@ -1,0 +1,209 @@
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Infantry Brigade" #Name of the brigade that appears when you select it
+	
+	regiments = {
+		motorized = { x = 0 y = 0 } #regiments are the combat units NOT the support units
+		motorized = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
+		motorized = { x = 0 y = 2 }						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
+		motorized = { x = 1 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		mechanized = { x = 3 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 3 y = 1 }
+		medium_armor = { x = 3 y = 2 }  
+	}
+	support = {
+		anti_tank = { x = 0 y = 0}
+                anti_air = { x = 0 y = 1}
+                rocket_artillery = { x = 0 y = 2} 
+                artillery = { x = 0 y = 3 }
+	}
+	
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Mechanized Brigade" #Name of the brigade that appears when you select it
+	
+	regiments = {
+		medium_armor = { x = 0 y = 0 } #regiments are the combat units NOT the support units
+		medium_armor = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
+		medium_armor = { x = 0 y = 2 }						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
+		mechanized = { x = 1 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+		mechanized = { x = 2 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 2 y = 1 }
+		mechanized = { x = 2 y = 2 }
+		mechanized = { x = 3 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 3 y = 1 }
+		mechanized = { x = 3 y = 2 }  
+	}
+	support = {
+		anti_tank = { x = 0 y = 0}
+                anti_air = { x = 0 y = 1}
+                rocket_artillery = { x = 0 y = 2} 
+                artillery = { x = 0 y = 3 }
+	}
+	
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Artillery Brigade" #Name of the brigade that appears when you select it
+	
+	regiments = {
+		artillery = { x = 0 y = 0 } #regiments are the combat units NOT the support units
+		artillery = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
+		artillery = { x = 0 y = 2 }
+                artillery = { x = 1 y = 0 }		
+                artillery = { x = 1 y = 1 }	
+		artillery = { x = 1 y = 2 }
+		sp_artillery = { x = 2 y = 0 }	
+                sp_artillery = { x = 2 y = 1 }	
+                sp_artillery = { x = 2 y = 2 }	
+	}
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Anti-air Brigade" #Name of the brigade that appears when you select it
+	
+	regiments = {
+		sp_anti_air = { x = 0 y = 0 } #regiments are the combat units NOT the support units
+		sp_anti_air = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
+		sp_anti_air = { x = 0 y = 2 }
+                sp_anti_air = { x = 1 y = 0 }		
+                sp_anti_air = { x = 1 y = 1 }	
+		sp_anti_air = { x = 1 y = 2 }	
+                sp_anti_air = { x = 2 y = 0 }		
+                sp_anti_air = { x = 2 y = 1 }	
+		sp_anti_air = { x = 2 y = 2 }
+	}
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Engineer Brigade" #Name of the brigade that appears when you select it
+	
+	regiments = {
+		engineer = { x = 0 y = 0 } #regiments are the combat units NOT the support units
+		engineer = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
+		engineer = { x = 0 y = 2 }
+                engineer = { x = 1 y = 0 }		
+                engineer = { x = 1 y = 1 }	
+		engineer = { x = 1 y = 2 }	
+                engineer = { x = 2 y = 0 }		
+                engineer = { x = 2 y = 1 }	
+		engineer = { x = 2 y = 2 }
+	}
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Special Operations Group" #Name of the brigade that appears when you select it
+	
+	regiments = {
+		infantry = { x = 0 y = 0 } #regiments are the combat units NOT the support units
+		infantry = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
+		infantry = { x = 0 y = 2 }
+	}
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Naval Special Warfare Group" #Name of the brigade that appears when you select it
+	
+	regiments = {
+		marine = { x = 0 y = 0 } #regiments are the combat units NOT the support units
+		marine = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
+	}
+}
+
+units = { #place all units that appear on the map. You need at least 1 template.
+
+	division = {
+		name = "1st Infantry Brigade"
+		location = 1599
+						
+		division_template = "Infantry Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 #starting experience. 0.1 is lvl 3 (highest) and 0.3 is lvl 1 (lowest)
+	}
+	
+	division = {
+		name = "2nd Infantry Brigade"
+		location = 11599
+						
+		division_template = "Infantry Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+	
+        division = {
+		name = "3rd Infantry Brigade" 
+		location = 3658
+						
+		division_template = "Infantry Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "4th Mechanized Brigade" 
+		location = 9702
+						
+		division_template = "Mechanized Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "5th Infantry Brigade" 
+		location = 6671
+						
+		division_template = "Infantry Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "1st Artillery Brigade" 
+		location = 9702
+						
+		division_template = "Artillery Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "2nd Artillery Brigade" 
+		location = 654
+						
+		division_template = "Artillery Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "Anti-air Brigade" 
+		location = 3658
+						
+		division_template = "Anti-air Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "Engineer Brigade" 
+		location = 1599
+						
+		division_template = "Engineer Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "Special Operations Group" 
+		location = 1599
+						
+		division_template = "Special Operations Group" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "Naval Special Warfare Group" 
+		location = 772
+						
+		division_template = "Engineer Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+}
