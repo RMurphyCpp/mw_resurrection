@@ -366,7 +366,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 
         division = {
 		name = "128th Guards Mountain Brigade" 
-		location = 11619
+		location = 11691
 						
 		division_template = "Mechanized Brigade 2" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 		start_experience_factor = 0.1 
