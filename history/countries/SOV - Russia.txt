@@ -1,5 +1,6 @@
 ﻿capital = 219
 2000.1.1 = {
+    load_oob = "00_RUS"
     set_research_slots = 3
     set_convoys = 10
     set_national_unity = 0.7
