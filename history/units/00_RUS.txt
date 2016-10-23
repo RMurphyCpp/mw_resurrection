@@ -989,7 +989,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 		location = 11395
 						
 		division_template = "Airborne Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
-		start_experience_factor = 0.1 
+		start_experience_factor = 0.3 
 	}
 
         division = {
@@ -997,7 +997,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 		location = 9417
 						
 		division_template = "Spetsnaz Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
-		start_experience_factor = 0.1 
+		start_experience_factor = 0.3 
 	}
 
         division = {
@@ -1005,7 +1005,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 		location = 3734
 						
 		division_template = "Spetsnaz Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
-		start_experience_factor = 0.1 
+		start_experience_factor = 0.3 
 	}
 
         division = {
@@ -1013,7 +1013,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 		location = 3686
 						
 		division_template = "Marine Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
-		start_experience_factor = 0.1 
+		start_experience_factor = 0.3 
 	}
 
         division = {
@@ -1021,7 +1021,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 		location = 6741
 						
 		division_template = "Marine Battalion" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
-		start_experience_factor = 0.1 
+		start_experience_factor = 0.3 
 	}
 
         division = {
@@ -1029,7 +1029,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 		location = 11668
 						
 		division_template = "Rocket Artillery Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
-		start_experience_factor = 0.1 
+		start_experience_factor = 0.3
 	}
 
         division = {
