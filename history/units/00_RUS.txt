@@ -47,6 +47,103 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	
 }
 
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Military Base 1" #Name of the brigade that appears when you select it
+	
+	regiments = {				   
+		mechanized = { x = 0 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+                mechanized = { x = 0 y = 3 }
+		mechanized = { x = 0 y = 4 }
+		mechanized = { x = 1 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 } 
+                mechanized = { x = 1 y = 3 }
+		mechanized = { x = 1 y = 4 } 
+	}
+	support = {
+		maintenance_company = { x = 0 y = 0}
+                anti_air = { x = 0 y = 1}
+                anti_tank = { x = 0 y = 2} 
+                artillery = { x = 0 y = 3 }
+	}
+	
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Military Base 2" #Name of the brigade that appears when you select it
+	
+	regiments = {				   
+		mechanized = { x = 0 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+                mechanized = { x = 0 y = 3 }
+		mechanized = { x = 0 y = 4 }
+		mechanized = { x = 1 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 } 
+                mechanized = { x = 1 y = 3 }
+		mechanized = { x = 1 y = 4 } 
+		mechanized = { x = 2 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 2 y = 1 }
+		mechanized = { x = 2 y = 2 } 
+                mechanized = { x = 2 y = 3 }
+		mechanized = { x = 2 y = 4 } 
+	}
+	support = {
+		maintenance_company = { x = 0 y = 0}
+                anti_air = { x = 0 y = 1}
+                anti_tank = { x = 0 y = 2} 
+                artillery = { x = 0 y = 3 }
+	}
+	
+}
+
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Military Base 3" #Name of the brigade that appears when you select it
+	
+	regiments = {				   
+		mechanized = { x = 0 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+                mechanized = { x = 0 y = 3 }
+		mechanized = { x = 0 y = 4 }
+	}
+	support = {
+		maintenance_company = { x = 0 y = 0}
+                anti_air = { x = 0 y = 1}
+                anti_tank = { x = 0 y = 2} 
+                artillery = { x = 0 y = 3 }
+	}
+	
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Mountain Infantry Brigade" #Name of the brigade that appears when you select it
+	
+	regiments = {				   
+		mountaineers = { x = 0 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mountaineers = { x = 2 y = 1 }
+		mountaineers = { x = 2 y = 2 }  
+	}
+	support = {
+		maintenance_company = { x = 0 y = 0}
+                anti_air = { x = 0 y = 1 }
+                engineer = { x = 0 y = 2 } 
+                artillery = { x = 0 y = 3 }
+	}
+	
+}
+
 division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	name = "Motor Rifle Brigade 3" #Name of the brigade that appears when you select it
 	
@@ -72,6 +169,33 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	}
 	
 }
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Motor Rifle Brigade 4" #Name of the brigade that appears when you select it
+	
+	regiments = {
+		heavy_armor = { x = 0 y = 0 } #regiments are the combat units NOT the support units
+		heavy_armor = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
+		heavy_armor = { x = 0 y = 2 }						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
+		mechanized = { x = 1 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+		mechanized = { x = 2 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 2 y = 1 }
+		mechanized = { x = 2 y = 2 }
+		mechanized = { x = 3 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 3 y = 1 }
+		mechanized = { x = 3 y = 2 }  
+	}
+	support = {
+		maintenance_company = { x = 0 y = 0}
+                anti_air = { x = 0 y = 1}
+                rocket_artillery = { x = 0 y = 2} 
+                artillery = { x = 0 y = 3 }
+	}
+	
+}
+
 
 division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	name = "Tank Division 1" #Name of the brigade that appears when you select it
@@ -154,7 +278,7 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	
 }
 division_template = { #STRUCTURE OF BRIGADE TEMPLATE
-	name = "Motor Rifle Division" #Name of the brigade that appears when you select it
+	name = "Motor Rifle Division 1" #Name of the brigade that appears when you select it
 	
 	regiments = {
 		heavy_armor = { x = 0 y = 0 } #regiments are the combat units NOT the support units
@@ -167,6 +291,69 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 		mechanized = { x = 1 y = 2 }
                 mechanized = { x = 1 y = 3 }
                 mechanized = { x = 1 y = 4 }
+		mechanized = { x = 2 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 2 y = 1 }
+		mechanized = { x = 2 y = 2 }
+                mechanized = { x = 2 y = 3 }
+                mechanized = { x = 2 y = 4 }
+		mechanized = { x = 3 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 3 y = 1 }
+		mechanized = { x = 3 y = 2 }  
+                mechanized = { x = 3 y = 3 }  
+                mechanized = { x = 3 y = 4 }  
+	}
+	support = {
+		maintenance_company = { x = 0 y = 0}
+                anti_air = { x = 0 y = 1}
+                rocket_artillery = { x = 0 y = 2} 
+                artillery = { x = 0 y = 3 }
+	}
+	
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Motor Rifle Division 2" #Name of the brigade that appears when you select it
+	
+	regiments = {
+                mechanized = { x = 0 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+                mechanized = { x = 0 y = 3 }
+                mechanized = { x = 0 y = 4 }
+		mechanized = { x = 1 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+                mechanized = { x = 1 y = 3 }
+                mechanized = { x = 1 y = 4 }
+		mechanized = { x = 2 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 2 y = 1 }
+		mechanized = { x = 2 y = 2 }  
+                mechanized = { x = 2 y = 3 }  
+                mechanized = { x = 2 y = 4 }  
+	}
+	support = {
+		maintenance_company = { x = 0 y = 0}
+                anti_air = { x = 0 y = 1}
+                rocket_artillery = { x = 0 y = 2} 
+                artillery = { x = 0 y = 3 }
+	}
+	
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Motor Rifle Division 3" #Name of the brigade that appears when you select it
+	
+	regiments = {
+		heavy_armor = { x = 0 y = 0 } #regiments are the combat units NOT the support units
+		heavy_armor = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
+		heavy_armor = { x = 0 y = 2 }						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
+		heavy_armor = { x = 0 y = 3 }	
+                heavy_armor = { x = 0 y = 4 }	
+                paratrooper = { x = 1 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		paratrooper = { x = 1 y = 1 }
+		paratrooper = { x = 1 y = 2 }
+                paratrooper = { x = 1 y = 3 }
+                paratrooper = { x = 1 y = 4 }
 		mechanized = { x = 2 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 		mechanized = { x = 2 y = 1 }
 		mechanized = { x = 2 y = 2 }
@@ -249,6 +436,19 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 		rocket_artillery = { x = 2 y = 0 } 
 		rocket_artillery = { x = 2 y = 1 }						   
 		rocket_artillery = { x = 2 y = 2 }				     
+	}	
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Rocket Artillery Regiment"
+	
+	regiments = {
+		rocket_artillery = { x = 0 y = 0 } 
+		rocket_artillery = { x = 0 y = 1 }						   
+		rocket_artillery = { x = 0 y = 2 }	
+		rocket_artillery = { x = 1 y = 0 } 
+		rocket_artillery = { x = 1 y = 1 }						   
+		rocket_artillery = { x = 1 y = 2 }				     
 	}	
 }
 
@@ -350,6 +550,16 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 }
 
 division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Marine Battalion"
+	
+	regiments = {
+		marine = { x = 0 y = 0 } 
+		marine = { x = 0 y = 1 }						   
+		marine = { x = 0 y = 2 }					   				     
+	}	
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	name = "Engineer Regiment"
 	
 	regiments = {
@@ -384,7 +594,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 		name = "4th Guards «Tamanskaya» Motor Rifle Division" 
 		location = 6348
 						
-		division_template = "Motor Rifle Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		division_template = "Motor Rifle Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 		start_experience_factor = 0.3 
 	}
 
@@ -561,7 +771,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 		name = "1st Guards Motor Rifle Division" 
 		location = 6332
 						
-		division_template = "Motor Rifle Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		division_template = "Motor Rifle Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 		start_experience_factor = 0.1 
 	}
 
@@ -647,4 +857,266 @@ units = { #place all units that appear on the map. You need at least 1 template.
 		start_experience_factor = 0.1 
 	}
 
+        division = {
+		name = "42nd Guards Motor Rifle Division" 
+		location = 3682
+						
+		division_template = "Motor Rifle Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "19th Motor Rifle Division" 
+		location = 11614
+						
+		division_template = "Motor Rifle Division 2" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+        division = {
+		name = "20th Motor Rifle Division" 
+		location = 3529
+						
+		division_template = "Motor Rifle Division 3" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "136th Motor Rifle Brigade" 
+		location = 9645
+						
+		division_template = "Motor Rifle Brigade 4" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "205th Motor Rifle Brigade" 
+		location = 6750
+						
+		division_template = "Motor Rifle Brigade 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "291st Artillery Brigade" 
+		location = 6738
+						
+		division_template = "Artillery Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "943rd Rocket Artillery Regiment" 
+		location = 6738
+						
+		division_template = "Rocket Artillery Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "439th Rocket Artillery Brigade" 
+		location = 6516
+						
+		division_template = "Rocket Artillery Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "67th Anti-Aircraft Rocket Brigade" 
+		location = 6738
+						
+		division_template = "Air Defence Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "33rd Mountain Infantry Brigade" 
+		location = 7554
+						
+		division_template = "Mountain Infantry Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "34th Mountain Infantry Brigade" 
+		location = 9674
+						
+		division_template = "Mountain Infantry Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "131st Motor Rifle Division" 
+		location = 6738
+						
+		division_template = "Motor Rifle Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "12th Military Base" 
+		location = 3653
+						
+		division_template = "Military Base 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "62nd Military Base" 
+		location = 6669
+						
+		division_template = "Military Base 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "137th Military Base" 
+		location = 1599
+						
+		division_template = "Military Base 3" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "102nd Military Base" 
+		location = 12441
+						
+		division_template = "Military Base 2" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "7th Guards Airborne Division" 
+		location = 11395
+						
+		division_template = "Airborne Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "22nd Spetsnaz Brigade" 
+		location = 9417
+						
+		division_template = "Spetsnaz Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "10th Spetsnaz Brigade" 
+		location = 3734
+						
+		division_template = "Spetsnaz Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "810th Marine Brigade" 
+		location = 3686
+						
+		division_template = "Marine Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "382th Marine Battalion" 
+		location = 6741
+						
+		division_template = "Marine Battalion" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "11th Missile Artillery Brigade" 
+		location = 11668
+						
+		division_template = "Rocket Artillery Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "126th Coastal Defense Brigade" 
+		location = 6704
+						
+		division_template = "Artillery Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "1096th Anti-Aircraft Regiment" 
+		location = 3686
+						
+		division_template = "Air Defence Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "531st Anti-Aircraft Regiment" 
+		location = 3134
+						
+		division_template = "Air Defence Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "583rd Anti-Aircraft Regiment" 
+		location = 6157
+						
+		division_template = "Air Defence Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "1528th Anti-Aircraft Regiment" 
+		location = 3168
+						
+		division_template = "Air Defence Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "500th Guards Anti-Aircraft Regiment" 
+		location = 9097
+						
+		division_template = "Air Defence Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "1488th Anti-Aircraft Regiment" 
+		location = 3151
+						
+		division_template = "Air Defence Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "1489th Guards Anti-Aircraft Regiment" 
+		location = 149
+						
+		division_template = "Air Defence Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "1490th Guards Anti-Aircraft Regiment" 
+		location = 79
+						
+		division_template = "Air Defence Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "51st Anti-Aircraft Division" 
+		location = 9417
+						
+		division_template = "Air Defence Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "76th Anti-Aircraft Division" 
+		location = 11225
+						
+		division_template = "Air Defence Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
 }
