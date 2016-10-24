@@ -651,8 +651,8 @@ units = { #place all units that appear on the map. You need at least 1 template.
 	}
 	
 	division = {
-		name = "4th Guards «Kantemirovskaya» Tank Division" #mistake about number
-		location = 6348
+		name = "4th Guards «Kantemirovskaya» Tank Division"
+		location = 6702    #6348 
 						
 		division_template = "Tank Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 		start_experience_factor = 0.3 
@@ -660,7 +660,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 	
         division = {
 		name = "2nd Guards «Tamanskaya» Motor Rifle Division" 
-		location = 6348
+		location = 6702    #6348
 						
 		division_template = "Motor Rifle Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 		start_experience_factor = 0.3 
@@ -748,7 +748,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 
         division = {
 		name = "10th Guards Tank Division" 
-		location = 6591
+		location = 712             #6591
 						
 		division_template = "Tank Division 2" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 		start_experience_factor = 0.1 
@@ -789,7 +789,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 
         division = {
 		name = "45th Airborne Spetsnaz Regiment" 
-		location = 6380
+		location = 9647           #6380
 						
 		division_template = "Airborne Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 		start_experience_factor = 0.3 
@@ -797,7 +797,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 
         division = {
 		name = "76th Guards Airborne Division" 
-		location = 11202
+		location = 9647           #11202
 						
 		division_template = "Airborne Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 		start_experience_factor = 0.3 
@@ -805,7 +805,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 
         division = {
 		name = "98th Guards Airborne Division" 
-		location = 9257
+		location = 6730            #9257
 						
 		division_template = "Airborne Division 2" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 		start_experience_factor = 0.3 
@@ -813,7 +813,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 
         division = {
 		name = "106th Guards Airborne Division" 
-		location = 6262
+		location = 6730                #6262
 						
 		division_template = "Airborne Division 2" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 		start_experience_factor = 0.3 
@@ -911,7 +911,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 
         division = {
 		name = "200th Motor Rifle Brigade" 
-		location = 9140
+		location = 6702              #9140
 						
 		division_template = "Motor Rifle Brigade 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 		start_experience_factor = 0.1 
@@ -935,14 +935,14 @@ units = { #place all units that appear on the map. You need at least 1 template.
 
         division = {
 		name = "19th Motor Rifle Division" 
-		location = 11614
+		location = 9628               #11614
 						
 		division_template = "Motor Rifle Division 2" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 		start_experience_factor = 0.1 
 	}
         division = {
 		name = "20th Motor Rifle Division" 
-		location = 3529
+		location = 6730                 #3529
 						
 		division_template = "Motor Rifle Division 3" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 		start_experience_factor = 0.1 
@@ -1014,7 +1014,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 
         division = {
 		name = "131st Motor Rifle Division" 
-		location = 6738
+		location = 6702                  #6738
 						
 		division_template = "Motor Rifle Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 		start_experience_factor = 0.1 
@@ -1054,7 +1054,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 
         division = {
 		name = "7th Guards Airborne Division" 
-		location = 11395
+		location = 9647                    #11395
 						
 		division_template = "Airborne Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 		start_experience_factor = 0.3 
@@ -1062,7 +1062,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 
         division = {
 		name = "22nd Spetsnaz Brigade" 
-		location = 9417
+		location = 9647                       #9417
 						
 		division_template = "Spetsnaz Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 		start_experience_factor = 0.3 
@@ -1086,7 +1086,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 
         division = {
 		name = "382th Marine Battalion" 
-		location = 6741
+		location = 9647               #6741
 						
 		division_template = "Marine Battalion" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 		start_experience_factor = 0.3 
@@ -1206,7 +1206,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 
         division = {
 		name = "21th Guards Motor Rifle Brigade" 
-		location = 6379
+		location = 6730                        #6379
 						
 		division_template = "Motor Rifle Brigade 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 		start_experience_factor = 0.1 
@@ -1271,7 +1271,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 
         division = {
 		name = "74th Motor Rifle Brigade" 
-		location = 4789
+		location = 6730                  #4789
 						
 		division_template = "Motor Rifle Brigade 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 		start_experience_factor = 0.1 
@@ -1375,7 +1375,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 
         division = {
 		name = "31st Guards Air Assault Brigade" 
-		location = 9338
+		location = 712                       #9338
 						
 		division_template = "Airborne Division 2" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 		start_experience_factor = 0.3 
@@ -1383,7 +1383,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 
         division = {
 		name = "3rd Guards Spetsnaz Brigade" 
-		location = 9299
+		location = 712                          #9299
 						
 		division_template = "Spetsnaz Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 		start_experience_factor = 0.3 
@@ -1397,4 +1397,251 @@ units = { #place all units that appear on the map. You need at least 1 template.
 		start_experience_factor = 0.1 
 	}
 
+        division = {
+		name = "81st Guards Motor Rifle Division" 
+		location = 10466
+						
+		division_template = "Motor Rifle Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "121st Motor Rifle Division" 
+		location = 6838
+						
+		division_template = "Motor Rifle Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "33rd Motor Rifle Division" 
+		location = 12446
+						
+		division_template = "Motor Rifle Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "18th Machine Gun Artillery Division" 
+		location = 13037
+						
+		division_template = "Artillery Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "127th Machine Gun Artillery Division" 
+		location = 9926
+						
+		division_template = "Artillery Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "128th Machine Gun Artillery Division" 
+		location = 7672
+						
+		division_template = "Artillery Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "129th Machine Gun Artillery Division" 
+		location = 11879
+						
+		division_template = "Artillery Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "130th Machine Gun Artillery Division" 
+		location = 664
+						
+		division_template = "Artillery Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "31st Anti-Aircraft Brigade" 
+		location = 1322
+						
+		division_template = "Air Defence Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "20th Missile Brigade" 
+		location = 3977
+						
+		division_template = "Rocket Artillery Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1
+	}
+
+        division = {
+		name = "719th Rocket Artillery Regiment" 
+		location = 3977
+						
+		division_template = "Rocket Artillery Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1
+	}
+
+        division = {
+		name = "117th Machine Gun Artillery Division" 
+		location = 12543
+						
+		division_template = "Artillery Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "21st Guards Tank Division" 
+		location = 12657
+						
+		division_template = "Tank Division 3" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "40th Motor Rifle Brigade" 
+		location = 7878
+						
+		division_template = "Motor Rifle Brigade 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1
+	}
+
+        division = {
+		name = "140th Anti-Aircraft Brigade" 
+		location = 1672
+						
+		division_template = "Air Defence Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "1723rd Anti-Aircraft Regiment" 
+		location = 12507
+						
+		division_template = "Air Defence Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "338th Rocket Artillery Brigade" 
+		location = 9926
+						
+		division_template = "Rocket Artillery Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+        
+        division = {
+		name = "305th Artillery Brigade" 
+		location = 6989
+						
+		division_template = "Artillery Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "8th Anti-Aircraft Brigade" 
+		location = 957
+						
+		division_template = "Air Defence Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "107th Rocket Artillery Brigade" 
+		location = 4805
+						
+		division_template = "Rocket Artillery Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "165th Artillery Brigade" 
+		location = 12657
+						
+		division_template = "Artillery Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "71st Anti-Aircraft Brigade" 
+		location = 12657
+						
+		division_template = "Air Defence Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "11th Air Assault Brigade" 
+		location = 12657
+						
+		division_template = "Airborne Division 2" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.3 
+	}
+
+        division = {
+		name = "14th Spetsnaz Brigade" 
+		location = 12657
+						
+		division_template = "Spetsnaz Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.3 
+	}
+
+        division = {
+		name = "155th Marine Brigade" 
+		location = 957
+						
+		division_template = "Marine Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.3 
+	}
+
+        division = {
+		name = "72th Rocket Artillery Brigade" 
+		location = 6961
+						
+		division_template = "Rocket Artillery Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "520th Rocket Artillery Brigade" 
+		location = 7878
+						
+		division_template = "Rocket Artillery Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "1532th Anti-Aircraft Regiment" 
+		location = 7878
+						
+		division_template = "Air Defence Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "25th Anti-Aircraft Division" 
+		location = 1397
+						
+		division_template = "Air Defence Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "26th Anti-Aircraft Division" 
+		location = 1672
+						
+		division_template = "Air Defence Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "93rd Anti-Aircraft Division" 
+		location = 957
+						
+		division_template = "Air Defence Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
 }
