@@ -1,0 +1,434 @@
+@mbt_line = 4
+@ifv_line = 0
+@apc_line = -4
+
+
+technologies = {
+####################################################################### MBTs #######################################################################################	
+	
+## First Gen Tanks T-54,M48...	
+	first_gen_mbt = {
+		
+		enable_equipments = {
+			first_gen_mbt_equipment
+		}
+		
+		research_cost = 1
+		start_year = 1955
+		
+		folder = {
+			name = armour_folder
+			position = { x = @mbt_line y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			mbt
+		}
+		
+		path = {
+			leads_to_tech = second_gen_mbt
+			research_cost_coeff = 1
+		}
+				
+	}
+
+	
+## Second Gen Tanks T-62,M60                                       	
+	second_gen_mbt = {
+		
+		enable_equipments = {
+			second_gen_mbt_equipment
+		}
+		
+		research_cost = 1
+		start_year = 1955
+		
+		folder = {
+			name = armour_folder
+			position = { x = @mbt_line y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			mbt
+		}
+		
+		path = {
+			leads_to_tech = adv_second_gen_mbt
+			research_cost_coeff = 1
+		}
+				
+	}
+
+## Advanced Second Gen Tanks T-72 M60A2
+	adv_second_gen_mbt = {
+		
+		enable_equipments = {
+			adv_second_gen_mbt_equipment
+		}
+		
+		research_cost = 1
+		start_year = 1955
+		
+		folder = {
+			name = armour_folder
+			position = { x = @mbt_line y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			mbt
+		}
+		
+		path = {
+			leads_to_tech = third_gen_mbt
+			research_cost_coeff = 1
+		}
+				
+	}
+## Third Gen Tanks (it's getting really boring now)	T-90,M1 Abrams
+	third_gen_mbt = {
+		
+		enable_equipments = {
+			third_gen_mbt_equipment
+		}
+		
+		research_cost = 1
+		start_year = 1955
+		
+		folder = {
+			name = armour_folder
+			position = { x = @mbt_line y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			mbt
+		}
+		
+		path = {
+			leads_to_tech = adv_third_gen_mbt
+			research_cost_coeff = 1
+		}
+				
+	}
+
+## Advanced Third Gen Tanks T-90MS,M1A2 SEP v2
+	adv_third_gen_mbt = {
+		
+		enable_equipments = {
+			adv_third_gen_mbt_equipment
+		}
+		
+		research_cost = 1
+		start_year = 1955
+		
+		folder = {
+			name = armour_folder
+			position = { x = @mbt_line y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			mbt
+		}
+		
+		path = {
+			leads_to_tech = forth_gen_mbt
+			research_cost_coeff = 1
+		}
+				
+	}	
+
+## Forth Gen Gen Tanks T-14,M1A3
+	forth_gen_mbt = {
+		
+		enable_equipments = {
+			forth_gen_mbt_equipment
+		}
+		
+		research_cost = 1
+		start_year = 1955
+		
+		folder = {
+			name = armour_folder
+			position = { x = @mbt_line y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			mbt
+		}
+		
+		path = {
+			research_cost_coeff = 1
+		}
+				
+	}
+	
+	
+######################################################################### IFVs ######################################################################################
+	
+## First Gen IFVs M113, MTLB, BTR-60...	
+	first_gen_ifv = {
+		
+		enable_equipments = {
+			first_gen_ifv_equipment
+		}
+		
+		research_cost = 1
+		start_year = 1955
+		
+		folder = {
+			name = armour_folder
+			position = { x = @ifv_line y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			ifv
+		}
+		
+		path = {
+			leads_to_tech = second_gen_ifv
+			research_cost_coeff = 1
+		}
+				
+	}	
+
+## Second Gen IFVs BTR-80...	
+	second_gen_ifv = {
+		
+		enable_equipments = {
+			second_gen_ifv_equipment
+		}
+		
+		research_cost = 1
+		start_year = 1955
+		
+		folder = {
+			name = armour_folder
+			position = { x = @ifv_line y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			ifv
+		}
+		
+		path = {
+			leads_to_tech = third_gen_ifv
+			research_cost_coeff = 1
+		}
+				
+	}
+	
+## Third Gen IFVs BTR-90...	
+	third_gen_ifv = {
+		
+		enable_equipments = {
+			third_gen_ifv_equipment
+		}
+		
+		research_cost = 1
+		start_year = 1955
+		
+		folder = {
+			name = armour_folder
+			position = { x = @ifv_line y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			ifv
+		}
+		
+		path = {
+			leads_to_tech = forth_gen_ifv
+			research_cost_coeff = 1
+		}
+				
+	}	
+
+	
+## forth Gen IFVs Bumerang...	
+	forth_gen_ifv = {
+		
+		enable_equipments = {
+			fourth_gen_ifv_equipment
+		}
+		
+		research_cost = 1
+		start_year = 1955
+		
+		folder = {
+			name = armour_folder
+			position = { x = @ifv_line y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			ifv
+		}
+		
+		path = {
+			research_cost_coeff = 1
+		}
+				
+	}
+
+######################################################################### APCs ######################################################################################
+	
+## First Gen IFVs M113, MTLB, BTR-60...	
+	first_gen_apc = {
+		
+		enable_equipments = {
+			first_gen_apc_equipment
+		}
+		
+		research_cost = 1
+		start_year = 1955
+		
+		folder = {
+			name = armour_folder
+			position = { x = @apc_line y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			apc
+		}
+		
+		path = {
+			leads_to_tech = second_gen_apc
+			research_cost_coeff = 1
+		}
+				
+	}	
+
+## Second Gen IFVs BTR-80...	
+	second_gen_apc = {
+		
+		enable_equipments = {
+			second_gen_apc_equipment
+		}
+		
+		research_cost = 1
+		start_year = 1955
+		
+		folder = {
+			name = armour_folder
+			position = { x = @apc_line y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			apc
+		}
+		
+		path = {
+			leads_to_tech = third_gen_apc
+			research_cost_coeff = 1
+		}
+				
+	}
+	
+## Third Gen IFVs BTR-90...	
+	third_gen_apc = {
+		
+		enable_equipments = {
+			third_gen_apc_equipment
+		}
+		
+		research_cost = 1
+		start_year = 1955
+		
+		folder = {
+			name = armour_folder
+			position = { x = @apc_line y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			apc
+		}
+		
+		path = {
+			leads_to_tech = forth_gen_apc
+			research_cost_coeff = 1
+		}
+				
+	}	
+
+	
+## forth Gen IFVs Bumerang...	
+	forth_gen_apc = {
+		
+		enable_equipments = {
+			fourth_gen_apc_equipment
+		}
+		
+		research_cost = 1
+		start_year = 1955
+		
+		folder = {
+			name = armour_folder
+			position = { x = @apc_line y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			apc
+		}
+		
+		path = {
+			research_cost_coeff = 1
+		}
+				
+	}
+
+	
+}

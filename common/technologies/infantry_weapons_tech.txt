@@ -1,0 +1,702 @@
+technologies = {
+	
+	
+	#Infantry tech by Rory. 
+	
+	
+	infantry_small_arms = {
+	
+		enable_equipments = {
+			infantry_small_arms_0
+		}
+		
+		enable_subunits = {
+			militia
+			infantry
+		}
+		
+		path = {
+			leads_to_tech = infantry_small_arms_1
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1955 #fal, m14, mass-production of the ak47
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 0 } #Paradox mixed up X and Y. UGH..... (at least when using format = "UP" in the gridBoxType)
+		}
+		
+		categories = {
+			infantry_small_arms
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	
+	infantry_small_arms_1 = {
+	
+		enable_equipments = {
+			infantry_small_arms_1
+		}
+		
+		path = {
+			leads_to_tech = infantry_small_arms_2
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1
+		start_year = 1965 #m16a1, AKM, no brit version yet
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 4 } #go down by 2 everytime
+			
+		}
+		
+		categories = {
+			infantry_small_arms
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	
+	infantry_small_arms_2 = {
+	
+		enable_equipments = {
+			infantry_small_arms_2
+		}
+		
+		path = {
+			leads_to_tech = infantry_small_arms_3
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1
+		start_year = 1980 #l85a1, m16a2, ak74
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 8 } #go down by 2 everytime
+			
+		}
+		
+		categories = {
+			infantry_small_arms
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	
+	infantry_small_arms_3 = {
+	
+		enable_equipments = {
+			infantry_small_arms_3
+		}
+		
+		path = {
+			leads_to_tech = infantry_small_arms_4
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1
+		start_year = 1995 #m4, l22a1, ak74m
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 12 } #go down by 2 everytime
+			
+		}
+		
+		categories = {
+			infantry_small_arms
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	
+	infantry_small_arms_4 = {
+	
+		enable_equipments = {
+			infantry_small_arms_4
+		}
+		
+		path = {
+			leads_to_tech = infantry_small_arms_5
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1
+		start_year = 2002 #l85a2, m16a4, ak105
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 16 } #go down by 2 everytime
+			
+		}
+		
+		categories = {
+			infantry_small_arms
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	
+	infantry_small_arms_5 = {
+	
+		enable_equipments = {
+			infantry_small_arms_5
+		}		
+
+		research_cost = 1
+		start_year = 2020 #speculative
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 20 } #go down by 2 everytime
+			
+		}
+		
+		categories = {
+			infantry_small_arms
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	
+	###Infantry lmg####
+	
+	infantry_lmg = { 
+	
+		enable_equipments = {
+			infantry_lmg_0
+		}
+		
+		path = {
+			leads_to_tech = infantry_lmg_1
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1960 #
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			infantry_lmg
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	
+	infantry_lmg_1 = {
+	
+		enable_equipments = {
+			infantry_lmg_1
+		}
+		
+		path = {
+			leads_to_tech = infantry_lmg_2
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1
+		start_year = 1975 #m16a1, AKM, no brit version yet
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 4 } #go down by 2 everytime
+			
+		}
+		
+		categories = {
+			infantry_lmg
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	
+	infantry_lmg_2 = {
+	
+		enable_equipments = {
+			infantry_lmg_2
+		}
+		
+		path = {
+			leads_to_tech = infantry_small_arms_3
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1
+		start_year = 1995 #l85a1, m16a2, ak74
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 8 } #go down by 2 everytime
+			
+		}
+		
+		categories = {
+			infantry_lmg
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	
+	infantry_lmg_3 = {
+	
+		enable_equipments = {
+			infantry_lmg_3
+		}
+
+		research_cost = 1
+		start_year = 2013 #minimi mk3
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 12 } #go down by 2 everytime
+			
+		}
+		
+		categories = {
+			infantry_lmg
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	
+	#Infantry GPMG
+	
+	
+	infantry_gpmg = { 
+	
+		enable_equipments = {
+			infantry_gpmg_0
+		}
+		
+		path = {
+			leads_to_tech = infantry_gpmg_1
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1960 #M60, FN MAG, PK
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			infantry_gpmg
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	
+	
+	infantry_gpmg_1 = { 
+	
+		enable_equipments = {
+			infantry_gpmg_1
+		}
+		
+		path = {
+			leads_to_tech = infantry_gpmg_2
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1995 #M240B, other upgrades still need to be researched
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		categories = {
+			infantry_gpmg
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	
+	infantry_gpmg_2 = { 
+	
+		enable_equipments = {
+			infantry_gpmg_2
+		}
+		
+		path = {
+			leads_to_tech = infantry_gpmg_2
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1995 #M240B, other upgrades still need to be researched
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		categories = {
+			infantry_gpmg
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	
+	
+	#Infantry AT
+	
+	
+	infantry_at = {
+	
+		enable_equipments = {
+			infantry_at_0
+		}
+		
+		path = {
+			leads_to_tech = infantry_at_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1962 #M72, RPG7
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 0 } #go right by 4 everytime on y
+			
+		}
+		
+		categories = {
+			infantry_at
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	
+	infantry_at_1 = {
+	
+		enable_equipments = {
+			infantry_at_1
+		}
+		
+		path = {
+			leads_to_tech = infantry_at_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1987 #AT4, LAW 80, no date for RPG7v2 so just assume it's that
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 4 } #go right by 4 everytime on y
+			
+		}
+		
+		categories = {
+			infantry_at
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	
+	infantry_at_2 = {
+	
+		enable_equipments = {
+			infantry_at_2
+		}
+		
+		path = {
+			leads_to_tech = infantry_at_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2000 #SMAW-D, MATADOR, no russian variant
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 8 } #go right by 4 everytime on y
+			
+		}
+		
+		categories = {
+			infantry_at
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	
+	infantry_at_3 = {
+	
+		enable_equipments = {
+			infantry_at_3
+		}
+
+		research_cost = 1
+		start_year = 2010 #MBT LAW, MATADOR-AS
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 12 } #go right by 4 everytime on y
+			
+		}
+		
+		categories = {
+			infantry_at
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	
+	
+	####################ATGM #####################
+	
+	infantry_atgm = {
+	
+		enable_equipments = {
+			infantry_atgm_0
+		}
+		
+		path = {
+			leads_to_tech = infantry_atgm_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1975 #M47 Dragon, MILAN, 9k11 Fagot
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 0 } #go right by 4 everytime on y
+			
+		}
+		
+		categories = {
+			infantry_atgm
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	
+	infantry_atgm_1 = {
+	
+		enable_equipments = {
+			infantry_atgm_1
+		}
+
+		research_cost = 1
+		start_year = 1995 #Javelin, 9k155 Kornet
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 4 } #go right by 4 everytime on y
+			
+		}
+		
+		categories = {
+			infantry_atgm
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	
+	######### ATGM missile ###########
+	
+	
+	#Possibly in future
+	
+	
+	########## MANPADs ###########
+	
+	infantry_manpad = {
+	
+		enable_equipments = {
+			infantry_manpad_0
+		}
+		
+		path = {
+			leads_to_tech = infantry_manpad_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1968 #FIM 43, Strela 2
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 0 } #go right by 4 everytime on y
+			
+		}
+		
+		categories = {
+			infantry_manpad
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	
+	infantry_manpad_1 = {
+	
+		enable_equipments = {
+			infantry_manpad_1
+		}
+		
+		path = {
+			leads_to_tech = infantry_manpad_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1981 #FIM 92 Stinger, igla
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 4 } #go right by 4 everytime on y
+			
+		}
+		
+		categories = {
+			infantry_manpad
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	
+	
+	infantry_manpad_2 = {
+	
+		enable_equipments = {
+			infantry_manpad_2
+		}
+		
+		path = {
+			leads_to_tech = infantry_manpad_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1990 #Stinger RMP, Mistral, Javelin MANPAD
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 8 } #go right by 4 everytime on y
+			
+		}
+		
+		categories = {
+			infantry_manpad
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	
+	
+	infantry_manpad_3 = {
+	
+		enable_equipments = {
+			infantry_manpad_3
+		}
+		
+		path = {
+			leads_to_tech = infantry_manpad_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 2000 #Starstreak, FIM-92J, Igla-S
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 12 } #go right by 4 everytime on y
+			
+		}
+		
+		categories = {
+			infantry_manpad
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	
+	
+	infantry_manpad_4 = {
+	
+		enable_equipments = {
+			infantry_manpad_4
+		}
+
+		research_cost = 1
+		start_year = 2020 #Speculation
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 16 } #go right by 4 everytime on y
+			
+		}
+		
+		categories = {
+			infantry_manpad
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+
+}
