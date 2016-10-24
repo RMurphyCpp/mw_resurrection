@@ -48,254 +48,113 @@ guiTypes = {
 				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 
-			containerWindowType = {
-				name = "techtree_stripes"
-				position = { x= 0 y= 0 }
-				size = { 
-					width = 1400 height = 1275
-					min = { width = 100%% height = 100%% }
-				}
-				clipping = no
 
-				iconType = {
-					name ="infantry_techtree_bg"
-					spriteType = "GFX_infantry_techtree_bg"
-					position = { x=0 y=0 }
-					allwaystransparent = yes
-				}
-				
-				instantTextBoxType = {
-					name = "infantry_subtitle_weapons"
-					position = { x = 30 y = 100 }
-					textureFile = ""
-					font = "hoi_33"
-					borderSize = { x = 0 y = 0}
-					text = "INFANTRY_TITLE_WEAPONS"
-					maxWidth = 600
-					maxHeight = 62
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-				
-				instantTextBoxType = {
-					name = "infantry_subtitle_specialists"
-					position = { x = 30 y = 740 }
-					textureFile = ""
-					font = "hoi_33"
-					borderSize = { x = 0 y = 0}
-					text = "INFANTRY_TITLE_SPECIAL"
-					maxWidth = 600
-					maxHeight = 62
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-
-				instantTextBoxType = {
-					name = "infantry_subtitle_motorized"
-					position = { x = 30 y = 510 }
-					textureFile = ""
-					font = "hoi_33"
-					borderSize = { x = 0 y = 0}
-					text = "INFANTRY_TITLE_MOTORISED"
-					maxWidth = 600
-					maxHeight = 62
-					format = left
-					Orientation = "UPPER_LEFT"
-				}								
-				
-				instantTextBoxType = {
-					name = "infantry_year2"
-					position = { x = 130 y = 50 }
-					textureFile = ""
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "1918"
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-
-				instantTextBoxType = {
-					name = "infantry_year3"
-					position = { x = 270 y = 50 }
-					textureFile = ""
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "1936"
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-
-				instantTextBoxType = {
-					name = "infantry_year5"
-					position = { x = 410 y = 50 }
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "1938"
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-
-				instantTextBoxType = {
-					name = "infantry_year6"
-					position = { x = 550 y = 50 }
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "1939"
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-
-				instantTextBoxType = {
-					name = "infantry_year7"
-					position = { x = 690 y = 50 }
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "1940"
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-
-				instantTextBoxType = {
-					name = "infantry_year8"
-					position = { x = 830 y = 50 }
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "1941"
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}				
-
-				instantTextBoxType = {
-					name = "infantry_year9"
-					position = { x = 970 y = 50 }
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "1942"
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-
-				instantTextBoxType = {
-					name = "infantry_year10"
-					position = { x = 1110 y = 50 }
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "1943"
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}		
-				
-				instantTextBoxType = {
-					name = "infantry_year11"
-					position = { x = 1250 y = 50 }
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "1944"
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}						
-				instantTextBoxType = {
-					name = "infantry_year12"
-					position = { x = 1390 y = 50 }
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "1945"
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-				instantTextBoxType = {
-					name = "infantry_year13"
-					position = { x = 1530 y = 50 }
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "1946"
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}			
-
+			#iconType = {
+			#	name ="infantry_techtree_bg"
+			#	spriteType = "GFX_infantry_techtree_bg"
+			#	position = { x=0 y=0 }
+			#	allwaystransparent = yes
+			#}
+			
+			iconType = {
+				name ="title_small_arms_logo" #logos are 80px +x+50
+				spriteType = "GFX_title_small_arms_logo"
+				position = { x=90 y=75 }
 			}
-
-				
+			
+			#small arms ##Tech icons have height of 84. give logos and techs a distance of  50px between them
 			gridboxtype = {
-				name = "support_weapons_tree"
-				position = { x = 140 y = 210 }
+				name = "infantry_small_arms_tree"
+				position = { x = 180 y = 205 } 
 				#size = { width = 420 height = 500 }
 				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}	
-
+				format = "LEFT" #LEFT for horizontal, UP for vertical
+			}
+			
 			iconType = {
+				name ="title_lmg_logo"
+				spriteType = "GFX_title_lmg_logo"
+				position = { x=90 y=339 }
+			}
+			
+			#lmg 
+			gridboxtype = {
+				name = "infantry_lmg_tree"
+				position = { x = 180 y = 469 }
+				#size = { width = 420 height = 500 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT" #LEFT for horizontal, UP for vertical
+			}
+			
+			iconType = {
+				name ="title_gpmg_logo"
+				spriteType = "GFX_title_gpmg_logo"
+				position = { x=90 y=603 }
+			}
+			
+			#gpmg 
+			gridboxtype = {
+				name = "infantry_gpmg_tree"
+				position = { x = 180 y = 733 }
+				#size = { width = 420 height = 500 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT" #LEFT for horizontal, UP for vertical
+			}
+			
+			iconType = {
+				name ="title_at_logo"
+				spriteType = "GFX_title_at_logo"
+				position = { x=90 y=867 }
+			}
+			
+			#Anti-tank tree
+			gridboxtype = {
+				name = "infantry_at_tree"
+				position = { x = 180 y = 997 }
+				#size = { width = 420 height = 500 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT" #LEFT for horizontal, UP for vertical
+			}
+			
+			iconType = {
+				name ="title_atgm_logo"
+				spriteType = "GFX_title_atgm_logo"
+				position = { x=90 y=1131 }
+			}
+			
+			#Anti-tank guided missile tree
+			gridboxtype = {
+				name = "infantry_atgm_tree"
+				position = { x = 180 y = 1261 }
+				#size = { width = 420 height = 500 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT" #LEFT for horizontal, UP for vertical
+			}
+			
+			iconType = {
+				name ="title_manpad_logo"
+				spriteType = "GFX_title_manpad_logo"
+				position = { x=90 y=1395 }
+			}
+			
+			#MANPAD
+			gridboxtype = {
+				name = "infantry_manpad_tree"
+				position = { x = 180 y = 1525 }
+				#size = { width = 420 height = 500 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT" #LEFT for horizontal, UP for vertical
+			}
+			
+			iconType = { #Game searches for this so must be here
 				name = "highlight_infantry_1"
 				spriteType = "GFX_tutorial_research_small_item_icon_glow"
 				position = { x=135 y=170}
 				hide = yes
 				alwaystransparent = yes
 			}
-			
-			gridboxtype = {
-				name = "night_vision_tree"
-				position = { x = 140 y = 210 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}		
-	
-			gridboxtype = {
-				name = "infantry_weapons_tree"
-				position = { x = 140 y = 325 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-	
-			}			
 
-			gridboxtype = {
-				name = "motorised_infantry_tree"
-				position = { x = 140 y = 620 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-
-			gridboxtype = {
-				name = "marines_tree"
-				position = { x = 140 y = 825 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-
-			gridboxtype = {
-				name = "tech_mountaineers_tree"
-				position = { x = 140 y = 930 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-
-			gridboxtype = {
-				name = "paratroopers_tree"
-				position = { x = 140 y = 1035 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
+				
 		}
 
 		containerWindowType = {
@@ -777,13 +636,27 @@ guiTypes = {
 			}	
 
 				
-			gridboxtype = {
-				name = "gwtank_tree"
+		   gridboxtype = {
+				name = "first_gen_mbt_tree"
 				position = { x = 10% y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
-			}
+		   }
+		   gridboxtype = {
+				name = "first_gen_ifv_tree"
+				position = { x = 10% y = 172 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+		   }   
+		   gridboxtype = {
+				name = "first_gen_apc_tree"
+				position = { x = 10% y = 172 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+		   }
 		}
 
 		containerWindowType = {
@@ -3310,7 +3183,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "techtree_infantry_folder_item"
 		position = { x=-56 y=-7 }
-		size = { width = 183 height = 84 }
+		size = { width = 189 height = 90 } #changed from 183,84 to 189,90
 		clipping = no
 
 		background = {
@@ -3320,7 +3193,7 @@ guiTypes = {
 
 		iconType = {
 			name = "Icon"
-			position = { x=91 y=50 }
+			position = { x=50 y=50 } #changed from 91,50 to 50,50
 			spriteType = "GFX_technology_medium"
 			centerposition = yes
 			alwaystransparent = yes
@@ -3329,7 +3202,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "Name"
-			position = { x = 3 y = -3 }
+			position = { x = 3 y = -3 } 
 			textureFile = ""
 			font = "hoi_20bs"
 			borderSize = {x = 4 y = 4}

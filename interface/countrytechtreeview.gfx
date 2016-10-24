@@ -221,7 +221,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}	
 	
-	corneredTileSpriteType = {
+	corneredTileSpriteType = { #TODO all done just for reference this is the tech bg
 		name = "GFX_tiled_window_2b_border"
 		size= { x=192 y=192 }
 		textureFile = "gfx//interface//tiled_window_2b_border.dds"
@@ -1224,5 +1224,42 @@ spriteTypes = {
 		name = "GFX_tech_bonus"
 		textureFile = "gfx/interface/tech_bonus.dds"
 		noOfFrames = 3
+	}
+	
+	#Infantry Small Arms Category BGs
+	
+	spriteType = {
+		name = "GFX_infantry_small_arms_techtree_cat_bg"
+		textureFile = "gfx/interface/infantry_small_arms_techtree_cat_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_title_small_arms_logo"
+		textureFile = "gfx/interface/title_infantry_small_arms_logo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_title_lmg_logo"
+		textureFile = "gfx/interface/title_infantry_lmg_logo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_title_gpmg_logo"
+		textureFile = "gfx/interface/title_infantry_gpmg_logo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_title_at_logo"
+		textureFile = "gfx/interface/title_infantry_at_logo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_title_atgm_logo"
+		textureFile = "gfx/interface/title_infantry_atgm_logo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_title_manpad_logo"
+		textureFile = "gfx/interface/title_infantry_manpad_logo.dds"
 	}
 }
