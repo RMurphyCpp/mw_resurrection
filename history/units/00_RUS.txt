@@ -1644,4 +1644,12 @@ units = { #place all units that appear on the map. You need at least 1 template.
 		division_template = "Air Defence Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 		start_experience_factor = 0.1 
 	}
+
+        division = {
+		name = "201st Motor Rifle Division" 
+		location = 4542
+						
+		division_template = "Motor Rifle Division 2" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
 }
