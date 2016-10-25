@@ -107,13 +107,6 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	}	
 }
 
-division_template = { #STRUCTURE OF BRIGADE TEMPLATE
-	name = "Airborne Battalion"
-	
-	regiments = {
-		paratrooper = { x = 0 y = 0 } 	 			     
-	}	
-}
 
 division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	name = "Spetsnaz Brigade"
@@ -285,7 +278,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 		location = 7706
 						
 		division_template = "Spetsnaz Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
-		start_experience_factor = 0.1 
+		start_experience_factor = 0.3 
 	}
 
 }
