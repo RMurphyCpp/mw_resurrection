@@ -410,6 +410,15 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 }
 
 division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Spetsnaz Regiment"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }  							   				   				     
+	}	
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	name = "Marine Brigade"
 	
 	regiments = {
@@ -1447,5 +1456,45 @@ units = { #place all units that appear on the map. You need at least 1 template.
 						
 		division_template = "Motor Rifle Division 2" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "Separate Spetsnaz Division" 
+		location = 6380
+						
+		division_template = "Motor Rifle Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.3 
+	}
+
+        division = {
+		name = "7th Spetsnaz Regiment «Rosich»" 
+		location = 11434
+						
+		division_template = "Spetsnaz Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.3 
+	}
+
+        division = {
+		name = "15th Spetsnaz Regiment «Vyatich»" 
+		location = 735
+						
+		division_template = "Spetsnaz Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.3 
+	}
+
+        division = {
+		name = "17th Spetsnaz Regiment «Edelweiss»" 
+		location = 11690
+						
+		division_template = "Spetsnaz Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.3 
+	}
+
+        division = {
+		name = "21st Spetsnaz Regiment «Typhoon»" 
+		location = 12189
+						
+		division_template = "Spetsnaz Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.3 
 	}
 }
