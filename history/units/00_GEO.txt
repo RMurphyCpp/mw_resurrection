@@ -2,18 +2,11 @@
 	name = "Infantry Brigade" #Name of the brigade that appears when you select it
 	
 	regiments = {
-		motorized = { x = 0 y = 0 } #regiments are the combat units NOT the support units
-		motorized = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
-		motorized = { x = 0 y = 2 }						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
+		motorized = { x = 0 y = 0 } #regiments are the combat units NOT the support units						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
 		motorized = { x = 1 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-		motorized = { x = 1 y = 1 }
-		motorized = { x = 1 y = 2 }
 		motorized = { x = 2 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-		motorized = { x = 2 y = 1 }
-		motorized = { x = 2 y = 2 }
 		mechanized = { x = 3 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-		mechanized = { x = 3 y = 1 }
-		medium_armor = { x = 3 y = 2 }  
+		medium_armor = { x = 4 y = 0 }  
 	}
 	support = {
 		anti_tank = { x = 0 y = 0}
@@ -28,18 +21,10 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	name = "Mechanized Brigade" #Name of the brigade that appears when you select it
 	
 	regiments = {
-		medium_armor = { x = 0 y = 0 } #regiments are the combat units NOT the support units
-		medium_armor = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
-		medium_armor = { x = 0 y = 2 }						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
+		medium_armor = { x = 0 y = 0 } #regiments are the combat units NOT the support units					   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
 		mechanized = { x = 1 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-		mechanized = { x = 1 y = 1 }
-		mechanized = { x = 1 y = 2 }
 		mechanized = { x = 2 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-		mechanized = { x = 2 y = 1 }
-		mechanized = { x = 2 y = 2 }
-		mechanized = { x = 3 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-		mechanized = { x = 3 y = 1 }
-		mechanized = { x = 3 y = 2 }  
+		mechanized = { x = 3 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4  
 	}
 	support = {
 		anti_tank = { x = 0 y = 0}
@@ -55,14 +40,8 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	
 	regiments = {
 		artillery = { x = 0 y = 0 } #regiments are the combat units NOT the support units
-		artillery = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
-		artillery = { x = 0 y = 2 }
                 artillery = { x = 1 y = 0 }		
-                artillery = { x = 1 y = 1 }	
-		artillery = { x = 1 y = 2 }
-		sp_artillery = { x = 2 y = 0 }	
-                sp_artillery = { x = 2 y = 1 }	
-                sp_artillery = { x = 2 y = 2 }	
+		sp_artillery = { x = 2 y = 0 }		
 	}
 }
 
@@ -71,14 +50,8 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	
 	regiments = {
 		sp_anti_air = { x = 0 y = 0 } #regiments are the combat units NOT the support units
-		sp_anti_air = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
-		sp_anti_air = { x = 0 y = 2 }
-                sp_anti_air = { x = 1 y = 0 }		
-                sp_anti_air = { x = 1 y = 1 }	
-		sp_anti_air = { x = 1 y = 2 }	
+                sp_anti_air = { x = 1 y = 0 }			
                 sp_anti_air = { x = 2 y = 0 }		
-                sp_anti_air = { x = 2 y = 1 }	
-		sp_anti_air = { x = 2 y = 2 }
 	}
 }
 
@@ -87,14 +60,8 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	
 	regiments = {
 		engineer = { x = 0 y = 0 } #regiments are the combat units NOT the support units
-		engineer = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
-		engineer = { x = 0 y = 2 }
-                engineer = { x = 1 y = 0 }		
-                engineer = { x = 1 y = 1 }	
-		engineer = { x = 1 y = 2 }	
+                engineer = { x = 1 y = 0 }			
                 engineer = { x = 2 y = 0 }		
-                engineer = { x = 2 y = 1 }	
-		engineer = { x = 2 y = 2 }
 	}
 }
 
@@ -103,8 +70,6 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	
 	regiments = {
 		infantry = { x = 0 y = 0 } #regiments are the combat units NOT the support units
-		infantry = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
-		infantry = { x = 0 y = 2 }
 	}
 }
 
@@ -112,8 +77,7 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	name = "Naval Special Warfare Group" #Name of the brigade that appears when you select it
 	
 	regiments = {
-		marine = { x = 0 y = 0 } #regiments are the combat units NOT the support units
-		marine = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
+		marine = { x = 0 y = 0 } #regiments are the combat units NOT the support units						   #infantry is the class name for infantry (obviously) but make sure
 	}
 }
 

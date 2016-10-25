@@ -2,18 +2,10 @@
 	name = "Motor Rifle Brigade" #Name of the brigade that appears when you select it
 	
 	regiments = {
-		medium_armor = { x = 0 y = 0 } #regiments are the combat units NOT the support units
-		medium_armor = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
-		medium_armor = { x = 0 y = 2 }						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
+		medium_armor = { x = 0 y = 0 } #regiments are the combat units NOT the support units					   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
 		mechanized = { x = 1 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-		mechanized = { x = 1 y = 1 }
-		mechanized = { x = 1 y = 2 }
 		mechanized = { x = 2 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-		mechanized = { x = 2 y = 1 }
-		mechanized = { x = 2 y = 2 }
-		mechanized = { x = 3 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-		mechanized = { x = 3 y = 1 }
-		mechanized = { x = 3 y = 2 }  
+		mechanized = { x = 3 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4  
 	}
 	support = {
 		maintenance_company = { x = 0 y = 0}
@@ -28,21 +20,11 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	name = "Motor Rifle Brigade 2" #Name of the brigade that appears when you select it
 	
 	regiments = {
-		medium_armor = { x = 0 y = 0 } #regiments are the combat units NOT the support units
-		medium_armor = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
-		medium_armor = { x = 0 y = 2 }						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
+		medium_armor = { x = 0 y = 0 } #regiments are the combat units NOT the support units					   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
 		medium_armor = { x = 1 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-		medium_armor = { x = 1 y = 1 }
-		medium_armor = { x = 1 y = 2 }
 		mechanized = { x = 2 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-		mechanized = { x = 2 y = 1 }
-		mechanized = { x = 2 y = 2 }
-		mechanized = { x = 3 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-		mechanized = { x = 3 y = 1 }
-		mechanized = { x = 3 y = 2 }  
-		mechanized = { x = 4 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-		mechanized = { x = 4 y = 1 }
-		mechanized = { x = 4 y = 2 }  
+		mechanized = { x = 3 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4  
+		mechanized = { x = 4 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4  
 	}
 	support = {
 		maintenance_company = { x = 0 y = 0}
@@ -58,20 +40,11 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	
 	regiments = {
 		medium_armor = { x = 0 y = 0 } #regiments are the combat units NOT the support units
-		medium_armor = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
-		medium_armor = { x = 0 y = 2 }						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
-		medium_armor = { x = 0 y = 3 }	
-                medium_armor = { x = 0 y = 4 }	
+		medium_armor = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure	
                 medium_armor = { x = 1 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 		medium_armor = { x = 1 y = 1 }
-		medium_armor = { x = 1 y = 2 }
-                medium_armor = { x = 1 y = 3 }
-                medium_armor = { x = 1 y = 4 }
 		medium_armor = { x = 2 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 		medium_armor = { x = 2 y = 1 }
-		medium_armor = { x = 2 y = 2 }
-                medium_armor = { x = 2 y = 3 }
-                medium_armor = { x = 2 y = 4 } 
 	}
 	support = {
 		maintenance_company = { x = 0 y = 0}
@@ -86,15 +59,9 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	name = "Artillery Brigade"
 	
 	regiments = {
-		artillery = { x = 0 y = 0 } 
-		artillery = { x = 0 y = 1 }						   
-		artillery = { x = 0 y = 2 }	
+		artillery = { x = 0 y = 0 } 	
 		artillery = { x = 1 y = 0 } 
-		artillery = { x = 1 y = 1 }						   
-		artillery = { x = 1 y = 2 }
-		artillery = { x = 2 y = 0 } 
-		artillery = { x = 2 y = 1 }						   
-		artillery = { x = 2 y = 2 }				     
+		artillery = { x = 2 y = 0 } 				     
 	}	
 }
 
@@ -103,14 +70,8 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	
 	regiments = {
 		anti_tank = { x = 0 y = 0 } 
-		anti_tank = { x = 0 y = 1 }						   
-		anti_tank = { x = 0 y = 2 }
 		anti_tank = { x = 1 y = 0 } 
-		anti_tank = { x = 1 y = 1 }						   
-		anti_tank = { x = 1 y = 2 }
 		anti_tank = { x = 2 y = 0 } 
-		anti_tank = { x = 2 y = 1 }						   
-		anti_tank = { x = 2 y = 2 }
         }
 }
 
@@ -118,15 +79,9 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	name = "Rocket Artillery Brigade"
 	
 	regiments = {
-		rocket_artillery = { x = 0 y = 0 } 
-		rocket_artillery = { x = 0 y = 1 }						   
-		rocket_artillery = { x = 0 y = 2 }	
+		rocket_artillery = { x = 0 y = 0 } 	
 		rocket_artillery = { x = 1 y = 0 } 
-		rocket_artillery = { x = 1 y = 1 }						   
-		rocket_artillery = { x = 1 y = 2 }
-		rocket_artillery = { x = 2 y = 0 } 
-		rocket_artillery = { x = 2 y = 1 }						   
-		rocket_artillery = { x = 2 y = 2 }				     
+		rocket_artillery = { x = 2 y = 0 } 				     
 	}	
 }
 
@@ -135,14 +90,8 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	
 	regiments = {
 		sp_anti_air = { x = 0 y = 0 } 
-		sp_anti_air = { x = 0 y = 1 }						   
-		sp_anti_air = { x = 0 y = 2 }
-		sp_anti_air = { x = 1 y = 0 } 
-		sp_anti_air = { x = 1 y = 1 }						   
-		sp_anti_air = { x = 1 y = 2 }	
-		sp_anti_air = { x = 2 y = 0 } 
-		sp_anti_air = { x = 2 y = 1 }						   
-		sp_anti_air = { x = 2 y = 2 }						     
+		sp_anti_air = { x = 1 y = 0 } 	
+		sp_anti_air = { x = 2 y = 0 } 					     
 	}	
 }
 
@@ -150,15 +99,9 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	name = "Marine Brigade"
 	
 	regiments = {
-		marine = { x = 0 y = 0 } 
-		marine = { x = 0 y = 1 }						   
-		marine = { x = 0 y = 2 }	
+		marine = { x = 0 y = 0 } 	
 		marine = { x = 1 y = 0 } 
-		marine = { x = 1 y = 1 }
-		marine = { x = 1 y = 2 } 
-		marine = { x = 2 y = 0 }						   
-		marine = { x = 2 y = 1 }	
-		marine = { x = 2 y = 2 } 				   				     
+		marine = { x = 2 y = 0 }						   				   				     
 	}	
 }
 
@@ -167,8 +110,6 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	
 	regiments = {				   
 		mountaineers = { x = 0 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-		mountaineers = { x = 0 y = 1 }
-		mountaineers = { x = 0 y = 2 }
 	}
 	
 }
@@ -177,15 +118,9 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	name = "Airborne Brigade"
 	
 	regiments = {
-		paratrooper = { x = 0 y = 0 } 
-		paratrooper = { x = 0 y = 1 }						   
-		paratrooper = { x = 0 y = 2 }	
+		paratrooper = { x = 0 y = 0 } 	
 		paratrooper = { x = 1 y = 0 } 
-		paratrooper = { x = 1 y = 1 }
-		paratrooper = { x = 1 y = 2 } 
-		paratrooper = { x = 2 y = 0 }						   
-		paratrooper = { x = 2 y = 1 }	
-		paratrooper = { x = 2 y = 2 } 				   				     
+		paratrooper = { x = 2 y = 0 }						   				   				     
 	}	
 	support = {
 		maintenance_company = { x = 0 y = 0}
@@ -199,12 +134,8 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	name = "Republican Guard Regiment"
 	
 	regiments = {
-		infantry = { x = 0 y = 0 } 
-		infantry = { x = 0 y = 1 }						   
-		infantry = { x = 0 y = 2 }	
-		infantry = { x = 1 y = 0 } 
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 } 			   				     
+		infantry = { x = 0 y = 0 } 	
+		infantry = { x = 1 y = 0 } 			   				     
 	}	
 }
 
