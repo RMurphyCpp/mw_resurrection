@@ -2,9 +2,7 @@
 	name = "Mechanized Battalion" #Name of the brigade that appears when you select it
 	
 	regiments = {
-		mechanized = { x = 0 y = 0 } #regiments are the combat units NOT the support units
-		mechanized = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
-		mechanized = { x = 0 y = 2 }						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
+		mechanized = { x = 0 y = 0 } #regiments are the combat units NOT the support units					   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
 	}
 	
         support = {
@@ -19,9 +17,7 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	name = "Infantry Battalion" #Name of the brigade that appears when you select it
 	
 	regiments = {
-		infantry = { x = 0 y = 0 } #regiments are the combat units NOT the support units
-		infantry = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
-		infantry = { x = 0 y = 2 }						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
+		infantry = { x = 0 y = 0 } #regiments are the combat units NOT the support units						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
 	}
 	
         support = {
@@ -36,9 +32,7 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	name = "Guard Battalion" #Name of the brigade that appears when you select it
 	
 	regiments = {
-		infantry = { x = 0 y = 0 } #regiments are the combat units NOT the support units
-		infantry = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
-		infantry = { x = 0 y = 2 }						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
+		infantry = { x = 0 y = 0 } #regiments are the combat units NOT the support units						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
 	}
 	
         support = {
@@ -53,8 +47,7 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	name = "Artillery Battalion" #Name of the brigade that appears when you select it
 	
 	regiments = {
-		artillery = { x = 0 y = 0 } #regiments are the combat units NOT the support units
-		artillery = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
+		artillery = { x = 0 y = 0 } #regiments are the combat units NOT the support units						   #infantry is the class name for infantry (obviously) but make sure						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
 	}
 
 }
@@ -63,9 +56,7 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	name = "Engineer Battalion" #Name of the brigade that appears when you select it
 	
 	regiments = {
-		engineer = { x = 0 y = 0 } #regiments are the combat units NOT the support units
-		engineer = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
-		engineer = { x = 0 y = 2 }						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
+		engineer = { x = 0 y = 0 } #regiments are the combat units NOT the support units						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
 	}
 
 }
@@ -74,9 +65,8 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	name = "Air Defence Battalion" #Name of the brigade that appears when you select it
 	
 	regiments = {
-		sp_anti_air = { x = 0 y = 0 } #regiments are the combat units NOT the support units
-		sp_anti_air= { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
-		anti_air = { x = 0 y = 2 }						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
+		sp_anti_air = { x = 0 y = 0 } #regiments are the combat units NOT the support units						   #infantry is the class name for infantry (obviously) but make sure
+		anti_air = { x = 0 y = 1 }						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
 	}
 
 }
@@ -86,11 +76,7 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	
 	regiments = {
 		infantry = { x = 0 y = 0 } #regiments are the combat units NOT the support units
-		infantry = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
-		infantry = { x = 0 y = 2 }
-                infantry = { x = 1 y = 0 } #regiments are the combat units NOT the support units
-		infantry = { x = 1 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
-		infantry = { x = 1 y = 2 }						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
+                infantry = { x = 1 y = 0 } #regiments are the combat units NOT the support units					   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
 	}
 
 }
