@@ -2,18 +2,10 @@
 	name = "Mechanized Brigade" #Name of the brigade that appears when you select it
 	
 	regiments = {
-		mechanized = { x = 0 y = 0 } #regiments are the combat units NOT the support units
-		mechanized = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
-		mechanized = { x = 0 y = 2 }						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
+		mechanized = { x = 0 y = 0 } #regiments are the combat units NOT the support units						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
 		mechanized = { x = 1 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-		mechanized = { x = 1 y = 1 }
-		mechanized = { x = 1 y = 2 }
 		mechanized = { x = 2 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-		mechanized = { x = 2 y = 1 }
-		mechanized = { x = 2 y = 2 }
-		mechanized = { x = 3 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-		mechanized = { x = 3 y = 1 }
-		mechanized = { x = 3 y = 2 }  
+		mechanized = { x = 3 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4 
 	}
 	support = {
 		anti_tank = { x = 0 y = 0}
@@ -28,9 +20,7 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	name = "Tank Battalion" #Name of the brigade that appears when you select it
 	
 	regiments = {
-		medium_armor = { x = 0 y = 0 } #regiments are the combat units NOT the support units
-		medium_armor = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
-		medium_armor = { x = 0 y = 2 }						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing  
+		medium_armor = { x = 0 y = 0 } #regiments are the combat units NOT the support units				   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing  
 	}
 	
 }
@@ -39,9 +29,7 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	name = "Special Battalion" #Name of the brigade that appears when you select it
 	
 	regiments = {
-		infantry = { x = 0 y = 0 } #regiments are the combat units NOT the support units
-		infantry = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
-		infantry = { x = 0 y = 2 }						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing  
+		infantry = { x = 0 y = 0 } #regiments are the combat units NOT the support units					   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing  
 	}
 	
 }
