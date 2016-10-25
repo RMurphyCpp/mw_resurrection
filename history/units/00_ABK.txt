@@ -3,17 +3,9 @@
 	
 	regiments = {
 		light_armor = { x = 0 y = 0 } #regiments are the combat units NOT the support units
-		light_armor = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
-		light_armor = { x = 0 y = 2 }						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
 		mechanized = { x = 1 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-		mechanized = { x = 1 y = 1 }
-		mechanized = { x = 1 y = 2 }
 		mechanized = { x = 2 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-		mechanized = { x = 2 y = 1 }
-		mechanized = { x = 2 y = 2 }
-		mechanized = { x = 3 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-		mechanized = { x = 3 y = 1 }
-		mechanized = { x = 3 y = 2 }  
+		mechanized = { x = 3 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4 
 	}
 	support = {
 		anti_tank = { x = 0 y = 0}
@@ -28,12 +20,8 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	name = "Joint Arms Training Regiment"
 	
 	regiments = {
-		infantry = { x = 0 y = 0 } 
-		infantry = { x = 0 y = 1 }						   
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }					     
+		infantry = { x = 0 y = 0 } 						   
+		infantry = { x = 1 y = 0 }					     
 	}	
 }
 
@@ -42,8 +30,6 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	
 	regiments = {
 		ifv = { x = 0 y = 0 } 
-		ifv = { x = 0 y = 1 }						   
-		ifv = { x = 0 y = 2 }					     
 	}	
 }
 
@@ -51,9 +37,7 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	name = "Mountain Infantry Battalion"
 	
 	regiments = {
-		mountaineers = { x = 0 y = 0 } 
-		mountaineers = { x = 0 y = 1 }						   
-		mountaineers = { x = 0 y = 2 }					     
+		mountaineers = { x = 0 y = 0 } 				     
 	}	
 }
 
@@ -62,9 +46,7 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	name = "Air Defence Battalion"
 	
 	regiments = {
-		sp_anti_air = { x = 0 y = 0 } 
-		sp_anti_air = { x = 0 y = 1 }						   
-		sp_anti_air = { x = 0 y = 2 }					     
+		sp_anti_air = { x = 0 y = 0 } 					     
 	}	
 }
 
@@ -72,9 +54,7 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	name = "Engineer Battalion"
 	
 	regiments = {
-		engineer = { x = 0 y = 0 } 
-		engineer = { x = 0 y = 1 }						   
-		engineer = { x = 0 y = 2 }					     
+		engineer = { x = 0 y = 0 } 				     
 	}	
 }
 
@@ -82,9 +62,7 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	name = "Marine Infantry Battalion"
 	
 	regiments = {
-		marine = { x = 0 y = 0 } 
-		marine = { x = 0 y = 1 }						   
-		marine = { x = 0 y = 2 }					     
+		marine = { x = 0 y = 0 } 					     
 	}	
 }
 

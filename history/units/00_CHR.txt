@@ -2,9 +2,7 @@
 	name = "Motor Rifle Battalion" #Name of the brigade that appears when you select it
 	
 	regiments = {
-		mechanized = { x = 0 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-		mechanized = { x = 0 y = 1 }
-		mechanized = { x = 0 y = 2 }  
+		mechanized = { x = 0 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4 
 	}
 	support = {
 		anti_tank = { x = 0 y = 0}
@@ -19,9 +17,7 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	name = "Tank Regiment" #Name of the brigade that appears when you select it
 	
 	regiments = {
-		medium_armor = { x = 0 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-		medium_armor = { x = 0 y = 1 }
-		medium_armor = { x = 0 y = 2 }  
+		medium_armor = { x = 0 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4  
 	}
 	
 }
@@ -41,9 +37,7 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	name = "Anti-Aircraft Battalion" #Name of the brigade that appears when you select it
 	
 	regiments = {
-		sp_anti_air = { x = 0 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-		sp_anti_air = { x = 0 y = 1 }
-		sp_anti_air = { x = 0 y = 2 }  
+		sp_anti_air = { x = 0 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4  
 	}
 	
 }
@@ -52,9 +46,7 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	name = "Engineer Battalion" #Name of the brigade that appears when you select it
 	
 	regiments = {
-		engineer = { x = 0 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-		engineer = { x = 0 y = 1 }
-		engineer = { x = 0 y = 2 }  
+		engineer = { x = 0 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4  
 	}
 	
 }
@@ -63,9 +55,7 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	name = "Spetsnaz Regiment" #Name of the brigade that appears when you select it
 	
 	regiments = {
-		infantry = { x = 0 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }  
+		infantry = { x = 0 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4 
 	}
 	support = {
 		anti_tank = { x = 0 y = 0}
@@ -78,9 +68,7 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	
 	regiments = {
 		infantry = { x = 0 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 1 y = 0 }
-                infantry = { x = 1 y = 1 }  
+		infantry = { x = 1 y = 0 } 
 	}
 	support = {
 		military_police = { x = 0 y = 0}
@@ -105,18 +93,10 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	name = "Mujahideen Brigade" #Name of the brigade that appears when you select it
 	
 	regiments = {
-		militia = { x = 0 y = 0 } #regiments are the combat units NOT the support units
-		militia = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
-		militia = { x = 0 y = 2 }						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
+		militia = { x = 0 y = 0 } #regiments are the combat units NOT the support units						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
 		militia = { x = 1 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-		militia = { x = 1 y = 1 }
-		militia = { x = 1 y = 2 }
 		militia = { x = 2 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-		militia = { x = 2 y = 1 }
-		militia = { x = 2 y = 2 }
 		militia = { x = 3 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-		militia = { x = 3 y = 1 }
-		militia = { x = 3 y = 2 }  
 	}
 	support = {
 		anti_tank = { x = 0 y = 0}
@@ -132,8 +112,6 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 		militia = { x = 0 y = 0 } #regiments are the combat units NOT the support units
 		militia = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
 		militia = { x = 0 y = 2 }						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
-		militia = { x = 1 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-		militia = { x = 1 y = 1 }
 	}
 	
 }
@@ -142,12 +120,8 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	name = "General Dudayev Army Regiment" #Name of the brigade that appears when you select it
 	
 	regiments = {
-		militia = { x = 0 y = 0 } #regiments are the combat units NOT the support units
-		militia = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
-		militia = { x = 0 y = 2 }						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
+		militia = { x = 0 y = 0 } #regiments are the combat units NOT the support units						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
 		militia = { x = 1 y = 0 } #regiments are the combat units NOT the support units
-		militia = { x = 1 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
-		militia = { x = 1 y = 2 }
 	}
 	support = {
 		anti_tank = { x = 0 y = 0}
@@ -159,12 +133,8 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	name = "Self-Defence Unit" #Name of the brigade that appears when you select it
 	
 	regiments = {
-		militia = { x = 0 y = 0 } #regiments are the combat units NOT the support units
-		militia = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
-		militia = { x = 0 y = 2 }						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
+		militia = { x = 0 y = 0 } #regiments are the combat units NOT the support units					   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
 		militia = { x = 1 y = 0 } #regiments are the combat units NOT the support units
-		militia = { x = 1 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
-		militia = { x = 1 y = 2 }
 	}
 }
 

@@ -3,8 +3,6 @@
 	
 	regiments = {
 		mechanized = { x = 0 y = 0 } #regiments are the combat units NOT the support units
-		mechanized = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
-		mechanized = { x = 0 y = 2 }						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
 	}
 	
         support = {
@@ -19,9 +17,6 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	
 	regiments = {
 		motorized = { x = 0 y = 0 } #regiments are the combat units NOT the support units
-		motorized = { x = 0 y = 1 }						   #infantry is the class name for infantry (obviously) but make sure
-		motorized = { x = 0 y = 2 }						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
-                motorized = { x = 0 y = 3 }
 	}
 	        
         support = {
