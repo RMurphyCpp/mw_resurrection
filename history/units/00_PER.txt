@@ -1,0 +1,1060 @@
+﻿division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Tank Division 1" #Name of the brigade that appears when you select it
+	
+	regiments = {
+		heavy_armor = { x = 0 y = 0 } #regiments are the combat units NOT the support units
+		heavy_armor = { x = 0 y = 1 }
+		heavy_armor = { x = 0 y = 2 }
+                heavy_armor = { x = 0 y = 3 }						   #infantry is the class name for infantry (obviously) but make sure	
+                heavy_armor = { x = 1 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		heavy_armor = { x = 1 y = 1 }
+		heavy_armor = { x = 1 y = 2 }
+		heavy_armor = { x = 1 y = 3 }
+		heavy_armor = { x = 2 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		heavy_armor = { x = 2 y = 1 }
+		heavy_armor = { x = 2 y = 2 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		heavy_armor = { x = 2 y = 3 } 
+	}
+	support = {
+		maintenance_company = { x = 0 y = 0}
+                anti_air = { x = 0 y = 1}
+                rocket_artillery = { x = 0 y = 2} 
+                artillery = { x = 0 y = 3 }
+	}
+	
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Tank Division 2" #Name of the brigade that appears when you select it
+	
+	regiments = {
+		medium_armor = { x = 0 y = 0 } #regiments are the combat units NOT the support units
+		medium_armor = { x = 0 y = 1 }
+		medium_armor = { x = 0 y = 2 }
+		medium_armor = { x = 0 y = 3 }						   #infantry is the class name for infantry (obviously) but make sure	
+                medium_armor = { x = 1 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		medium_armor = { x = 1 y = 1 }
+		medium_armor = { x = 1 y = 2 }
+		medium_armor = { x = 1 y = 3 }
+		medium_armor = { x = 2 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		medium_armor = { x = 2 y = 1 }
+		medium_armor = { x = 2 y = 2 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		medium_armor = { x = 2 y = 3 }
+	}
+	support = {
+		maintenance_company = { x = 0 y = 0}
+                anti_air = { x = 0 y = 1}
+                rocket_artillery = { x = 0 y = 2} 
+                artillery = { x = 0 y = 3 }
+	}
+	
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Mechanized Division" #Name of the brigade that appears when you select it
+	
+	regiments = {
+		heavy_armor = { x = 0 y = 0 } #regiments are the combat units NOT the support units
+		heavy_armor = { x = 0 y = 1 }
+		heavy_armor = { x = 0 y = 2 }
+		heavy_armor = { x = 0 y = 3 }				   #infantry is the class name for infantry (obviously) but make sure
+                mechanized = { x = 1 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+		mechanized = { x = 1 y = 2 }
+		mechanized = { x = 2 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 2 y = 1 }
+		mechanized = { x = 2 y = 2 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 2 y = 3 }
+	}
+	support = {
+		maintenance_company = { x = 0 y = 0}
+                anti_air = { x = 0 y = 1}
+                rocket_artillery = { x = 0 y = 2} 
+                artillery = { x = 0 y = 3 }
+	}
+	
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Infantry Division" #Name of the brigade that appears when you select it
+	
+	regiments = {
+                mechanized = { x = 0 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 0 y = 3 }
+		mechanized = { x = 1 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 1 y = 1 }
+                mechanized = { x = 1 y = 2 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 1 y = 3 }
+		mechanized = { x = 2 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 2 y = 1 }
+		mechanized = { x = 2 y = 2 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 2 y = 3 }
+	}
+	support = {
+		maintenance_company = { x = 0 y = 0}
+                anti_air = { x = 0 y = 1}
+                rocket_artillery = { x = 0 y = 2} 
+                artillery = { x = 0 y = 3 }
+	}
+	
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Airborne Brigade"
+	
+	regiments = {
+		paratrooper = { x = 0 y = 0 } 
+		paratrooper = { x = 0 y = 1 }						   
+		paratrooper = { x = 1 y = 0 } 
+		paratrooper = { x = 1 y = 1 }						   				   				     
+	}	
+	support = {
+		maintenance_company = { x = 0 y = 0}
+                anti_air = { x = 0 y = 1}
+                engineer = { x = 0 y = 2} 
+                artillery = { x = 0 y = 3 }
+	}
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Rocket Artillery Brigade"
+	
+	regiments = {
+		rocket_artillery = { x = 0 y = 0 } 	
+		rocket_artillery = { x = 1 y = 0 } 
+		rocket_artillery = { x = 2 y = 0 } 				     
+	}	
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Artillery Division"
+	
+	regiments = {
+		artillery = { x = 0 y = 0 } 	
+		artillery = { x = 1 y = 0 } 
+		artillery = { x = 2 y = 0 } 	
+		anti_tank = { x = 3 y = 0 } 			     
+	}	
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Takavar Division"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+                infantry = { x = 0 y = 1 }
+                infantry = { x = 0 y = 2 }
+                infantry = { x = 0 y = 3 }
+ 		infantry = { x = 1 y = 0 }
+  		infantry = { x = 1 y = 1 }
+ 		infantry = { x = 1 y = 2 }
+ 		infantry = { x = 1 y = 3 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+                infantry = { x = 2 y = 3 }				   				   				     
+	}	
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Takavar Brigade"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 } 	
+		infantry = { x = 1 y = 0 } 
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 0 }						   				   				     
+	}	
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Quds Force"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 } 	
+		infantry = { x = 1 y = 0 } 
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 0 }						   				   				     
+	}	
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Takavar Battalion"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 } 							   				   				     
+	}	
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Marine Brigade"
+	
+	regiments = {
+		marine = { x = 0 y = 0 } 	
+		marine = { x = 1 y = 0 } 
+		marine = { x = 2 y = 0 }						   				   				     
+	}	
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Air Defence Brigade"
+	
+	regiments = {
+		sp_anti_air = { x = 0 y = 0 } 
+		sp_anti_air = { x = 1 y = 0 } 	
+		sp_anti_air = { x = 2 y = 0 } 						     
+	}	
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "IRGC Division" #Name of the brigade that appears when you select it
+	
+	regiments = {
+                mechanized = { x = 0 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 1 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 2 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 2 y = 1 }
+	}
+	support = {
+		maintenance_company = { x = 0 y = 0}
+                anti_air = { x = 0 y = 1}
+                rocket_artillery = { x = 0 y = 2} 
+                artillery = { x = 0 y = 3 }
+	}
+	
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Basij Unit" #Name of the brigade that appears when you select it
+	
+	regiments = {
+                militia = { x = 0 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		militia = { x = 1 y = 1 }
+		militia = { x = 2 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		militia = { x = 2 y = 1 }
+	}
+	
+}
+
+units = { #place all units that appear on the map. You need at least 1 template.
+
+	division = {
+		name = "28th Mechanized Division" 
+		location = 11249
+						
+		division_template = "Mechanized Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 #starting experience. 0.1 is lvl 3 (highest) and 0.3 is lvl 1 (lowest)
+	}
+	
+	division = {
+		name = "35th Mechanized Division"
+		location = 5050 
+						
+		division_template = "Mechanized Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+	
+        division = {
+		name = "84th Mechanized Division" 
+		location = 8117
+						
+		division_template = "Mechanized Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "2nd Armored Division" 
+		location = 1922
+						
+		division_template = "Tank Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "16th Armored Division" 
+		location = 7969
+						
+		division_template = "Tank Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "18th Armored Division" 
+		location = 10837
+						
+		division_template = "Tank Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "81st Armored Division" 
+		location = 2070
+						
+		division_template = "Tank Division 2" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "88th Armored Division" 
+		location = 7953
+						
+		division_template = "Tank Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "92nd Armored Division" 
+		location = 5005
+						
+		division_template = "Tank Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "21st «Hamzeh» Infantry Division" 
+		location = 1896
+						
+		division_template = "Infantry Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "30th Infantry Division" 
+		location = 10837
+						
+		division_template = "Infantry Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "40th Infantry Division" 
+		location = 8040
+						
+		division_template = "Infantry Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "58th Infantry Division" 
+		location = 7953
+						
+		division_template = "Infantry Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "64th Infantry Division" 
+		location = 7604
+						
+		division_template = "Infantry Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "77th «Pirooz-e Samen-ol-A'emeh» Infantry Division" 
+		location = 5029
+						
+		division_template = "Infantry Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "79th Infantry Division" 
+		location = 1896
+						
+		division_template = "Infantry Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "84th Infantry Division" 
+		location = 5050
+						
+		division_template = "Infantry Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+
+        division = {
+		name = "65th Airborne Special Forces Brigade" 
+		location = 10837
+					
+		division_template = "Airborne Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.3 
+	}
+
+        division = {
+		name = "55th Airborne Brigade" 
+		location = 8117
+						
+		division_template = "Airborne Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.3 
+	}
+
+        division = {
+		name = "351st SSM Brigade" 
+		location = 10837
+						
+		division_template = "Rocket Artillery Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "22nd Artillery Division" 
+		location = 1896
+						
+		division_template = "Artillery Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1
+	}
+
+        division = {
+		name = "23rd Artillery Division" 
+		location = 7953
+						
+		division_template = "Artillery Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "44th Artillery Division" 
+		location = 10837
+						
+		division_template = "Artillery Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "55th Artillery Division" 
+		location = 8117
+						
+		division_template = "Spetsnaz Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.3 
+	}
+
+        division = {
+		name = "23rd Takavar Division" 
+		location = 10837
+						
+		division_template = "Takavar Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.3 
+	}
+
+        division = {
+		name = "58th «Zolfaghar» Takavar Division" 
+		location = 11671
+						
+		division_template = "Takavar Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.3 
+	}
+
+        division = {
+		name = "25th Takavar Brigade" 
+		location = 1822
+						
+		division_template = "Takavar Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.3 
+	}
+
+        division = {
+		name = "35th Takavar Brigade" 
+		location = 12773
+						
+		division_template = "Takavar Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.3 
+	}
+
+
+        division = {
+		name = "45th Takavar Brigade" 
+		location = 1922
+						
+		division_template = "Takavar Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.3 
+	}
+
+        division = {
+		name = "1st Marine «Imam Hossein» Brigade" 
+		location = 7982
+						
+		division_template = "Marine Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.3 
+	}
+
+        division = {
+		name = "2nd Marine «Hazrat Rasul-i-Akram» Brigade" 
+		location = 1889
+						
+		division_template = "Marine Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.3 
+	}
+
+        division = {
+		name = "3rd Marine «Hamza Sayyid-ush-Shuhda» Brigade" 
+		location = 4891
+						
+		division_template = "Marine Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.3 
+	}
+
+        division = {
+		name = "4th Marine «Imam Reza» Brigade" 
+		location = 4609
+						
+		division_template = "Marine Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.3 
+	}
+
+        division = {
+		name = "1st Air Defence Brigade" 
+		location = 1896              
+						
+		division_template = "Air Defence Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "2nd Air Defence Brigade" 
+		location = 7969
+						
+		division_template = "Air Defence Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "3rd Air Defence Brigade" 
+		location = 10837
+						
+		division_template = "Air Defence Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "4th Air Defence Brigade" 
+		location = 5050              
+						
+		division_template = "Air Defence Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "6th Air Defence Brigade" 
+		location = 12773              
+						
+		division_template = "Air Defence Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "7th Air Defence Brigade" 
+		location = 7953             
+						
+		division_template = "Air Defence Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "8th Air Defence Brigade" 
+		location = 5029              
+						
+		division_template = "Air Defence Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "9th Air Defence Brigade" 
+		location = 8117              
+						
+		division_template = "Air Defence Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "10th Air Defence Brigade" 
+		location = 7982            
+						
+		division_template = "Air Defence Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.1 
+	}
+
+        division = {
+		name = "«Hazrat Abbas» Pasdaran Division" 
+		location = 10454
+						
+		division_template = "IRGC Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.2 
+	}
+
+        division = {
+		name = "«Ashura» Pasdaran Division" 
+		location = 1896
+						
+		division_template = "IRGC Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.2 
+	}
+
+        division = {
+		name = "«Shohada» Pasdaran Division" 
+		location = 1822
+						
+		division_template = "IRGC Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.2 
+	}
+
+        division = {
+		name = "«Imam Sadiq» Pasdaran Division" 
+		location = 10797
+						
+		division_template = "IRGC Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.2 
+	}
+
+        division = {
+		name = "«Qamar Bani Hashim» Pasdaran Division" 
+		location = 12756
+						
+		division_template = "IRGC Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.2 
+	}
+
+        division = {
+		name = "«Fajr» Pasdaran Division" 
+		location = 8117
+						
+		division_template = "IRGC Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.2
+	}
+
+        division = {
+		name = "«Quds» Pasdaran Division" 
+		location = 4609
+						
+		division_template = "IRGC Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.2
+	}
+
+        division = {
+		name = "«Neynava» Pasdaran Division" 
+		location = 7602
+						
+		division_template = "IRGC Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.2 
+	}
+
+        division = {
+		name = "«Ansar al-Hussain» Pasdaran Division" 
+		location = 8040
+						
+		division_template = "IRGC Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.2 
+	}
+
+        division = {
+		name = "«Imam Sajjad» Pasdaran Division" 
+		location = 7982                    
+						
+		division_template = "IRGC Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.2 
+	}
+
+        division = {
+		name = "«Amir al-Muminin» Pasdaran Division" 
+		location = 829                       
+						
+		division_template = "IRGC Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.2 
+	}
+
+        division = {
+		name = "«Sahib-az-Zaman» Pasdaran Division" 
+		location = 2026
+						
+		division_template = "IRGC Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.2 
+	}
+
+        division = {
+		name = "«Sarallah» Pasdaran Division" 
+		location = 10913
+						
+		division_template = "IRGC Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.2 
+	}
+
+        division = {
+		name = "«Nabi Akram» Pasdaran Division" 
+		location = 12773            
+						
+		division_template = "IRGC Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.2
+	}
+
+        division = {
+		name = "«Valieasr» Pasdaran Division" 
+		location = 7953
+						
+		division_template = "IRGC Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.2
+	}
+
+        division = {
+		name = "«Fath» Pasdaran Division" 
+		location = 5089
+						
+		division_template = "IRGC Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.2 
+	}
+
+        division = {
+		name = "«Beit ol-Moqaddas» Pasdaran Division" 
+		location = 9816
+						
+		division_template = "IRGC Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.2 
+	}
+
+        division = {
+		name = "«Ansar al-Ridha» Pasdaran Division" 
+		location = 7990
+						
+		division_template = "IRGC Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.2
+	}
+
+        division = {
+		name = "«Imam Reza» Pasdaran Division" 
+		location = 5029
+						
+		division_template = "IRGC Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.2
+	}
+
+        division = {
+		name = "«Jawad al-Aemmah» Pasdaran Division" 
+		location = 5029
+						
+		division_template = "IRGC Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.2
+	}
+
+        division = {
+		name = "«Hazrat Abalfazl» Pasdaran Division" 
+		location = 5050
+						
+		division_template = "IRGC Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.2 
+	}
+
+        division = {
+		name = "«Karbala» Pasdaran Division" 
+		location = 10385
+						
+		division_template = "IRGC Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.2 
+	}
+
+        division = {
+		name = "«Ruhollah» Pasdaran Division" 
+		location = 1982
+						
+		division_template = "IRGC Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.2
+	}
+
+        division = {
+		name = "«Muhammad Rasoul-Allah» Pasdaran Division" 
+		location = 10837
+						
+		division_template = "IRGC Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.2 
+	}
+
+        division = {
+		name = "«Sayid al-Shohada» Pasdaran Division" 
+		location = 10837
+						
+		division_template = "IRGC Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.2 
+	}
+
+        division = {
+		name = "«Sahib al-Amr» Pasdaran Division" 
+		location = 7969
+						
+		division_template = "IRGC Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.2 
+	}
+
+        division = {
+		name = "«Ali ibn Abi-Talib» Pasdaran Division" 
+		location = 10922
+						
+		division_template = "IRGC Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.2 
+	}
+
+        division = {
+		name = "«Qaim Aale-Muhammad» Pasdaran Division" 
+		location = 8093
+						
+		division_template = "IRGC Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.2 
+	}
+
+        division = {
+		name = "«Salman» Pasdaran Division" 
+		location = 12895                        
+						
+		division_template = "IRGC Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.2 
+	}
+
+        division = {
+		name = "«Al-Ghadir» Pasdaran Division" 
+		location = 10828
+						
+		division_template = "IRGC Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.2
+	}
+
+        division = {
+		name = "«Ansar al-Mahdi» Pasdaran Division" 
+		location = 4553
+						
+		division_template = "IRGC Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.2 
+	}
+
+        division = {
+		name = "«Saberin» Pasdaran Takavar Battalion" 
+		location = 10837
+						
+		division_template = "Takavar Battalion" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.3 
+	}
+
+        division = {
+		name = "Quds Force" 
+		location = 10837
+						
+		division_template = "Quds Force" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		start_experience_factor = 0.3 
+	}
+
+        division = {
+		name = "Ardabil Basij Unit" 
+		location = 10454
+						
+		division_template = "Basij Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "East Azerbaijan Basij Unit" 
+		location = 1896
+						
+		division_template = "Basij Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "West Azerbaijan Basij Unit" 
+		location = 1822
+						
+		division_template = "Basij Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Bushehr Basij Unit" 
+		location = 10797
+						
+		division_template = "Basij Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Chaharmahal and Bakhtiari Basij Unit" 
+		location = 12756
+						
+		division_template = "Basij Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Fars Basij Unit" 
+		location = 8117
+						
+		division_template = "Basij Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Gilan Basij Unit" 
+		location = 4609
+						
+		division_template = "Basij Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Golestan Basij Unit" 
+		location = 7602
+						
+		division_template = "Basij Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Hamadan Basij Unit" 
+		location = 8040
+						
+		division_template = "Basij Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Hormozgan Basij Unit" 
+		location = 7982                    
+						
+		division_template = "Basij Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Ilam Basij Unit" 
+		location = 829                       
+						
+		division_template = "Basij Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Esfahan Basij Unit" 
+		location = 2026
+						
+		division_template = "Basij Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Kerman Basij Unit" 
+		location = 10913
+						
+		division_template = "Basij Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Kermanshah Basij Unit" 
+		location = 12773            
+						
+		division_template = "Basij Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Khuzestan Basij Unit" 
+		location = 7953
+						
+		division_template = "Basij Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Kohgiluyeh and Boyer-Ahmad Basij Unit" 
+		location = 5089
+						
+		division_template = "Basij Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Kurdistan Basij Unit" 
+		location = 9816
+						
+		division_template = "Basij Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "South Khorasan Basij Unit" 
+		location = 7990
+						
+		division_template = "Basij Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Razavi Khorasan Basij Unit" 
+		location = 5029
+						
+		division_template = "Basij Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORDBasij Unit
+	}
+
+        division = {
+		name = "Lorestan Basij Unit" 
+		location = 5050
+						
+		division_template = "Basij Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Mazandaran Basij Unit" 
+		location = 10385
+						
+		division_template = "Basij Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Markazi Basij Unit" 
+		location = 1982
+						
+		division_template = "Basij Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "1st Tehran Basij Unit" 
+		location = 10837
+						
+		division_template = "Basij Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "2nd Tehran Basij Unit" 
+		location = 10837
+						
+		division_template = "Basij Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Qazvin Basij Unit" 
+		location = 7969
+						
+		division_template = "Basij Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Qom Basij Unit" 
+		location = 10922
+						
+		division_template = "Basij Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Semnan Basij Unit" 
+		location = 8093
+						
+		division_template = "Basij Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Sistan and Baluchestan Basij Unit" 
+		location = 12895                        
+						
+		division_template = "Basij Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Yazd Basij Unit" 
+		location = 10828
+						
+		division_template = "Basij Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Zanjan Basij Unit" 
+		location = 4553
+						
+		division_template = "Basij Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+}
