@@ -364,7 +364,7 @@ technologies = {
 		start_year = 1995 #M240B, other upgrades still need to be researched
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = 4 }
+			position = { x = 0 y = 8 }
 		}
 		
 		categories = {
