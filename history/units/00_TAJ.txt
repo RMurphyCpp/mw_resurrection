@@ -31,14 +31,14 @@ units = { #place all units that appear on the map. You need at least 1 template.
 
 	division = {
 		name = "12th Motor Rifle Brigade" 
-		location = 1459
+		location = 1384
 						
 		division_template = "Motor Rifle Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 	}
 
 	division = {
 		name = "Presidential National Guard" 
-		location = 1459
+		location = 1384
 						
 		division_template = "Spetsnaz Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
                 start_experience_factor = 0.1 
