@@ -1,0 +1,46 @@
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Motor Rifle Brigade" #Name of the brigade that appears when you select it
+	
+	regiments = {
+		medium_armor = { x = 0 y = 0 } #regiments are the combat units NOT the support units						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
+		mechanized = { x = 1 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 2 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 3 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4  
+	}
+	support = {
+		maintenance_company = { x = 0 y = 0}
+                anti_air = { x = 0 y = 1}
+                rocket_artillery = { x = 0 y = 2} 
+                artillery = { x = 0 y = 3 }
+	}
+	
+}	
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Spetsnaz Brigade"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 } 	
+		infantry = { x = 1 y = 0 } 
+		infantry = { x = 2 y = 0 }						   				   				     
+	}	
+}
+
+
+units = { #place all units that appear on the map. You need at least 1 template.
+
+	division = {
+		name = "12th Motor Rifle Brigade" 
+		location = 1459
+						
+		division_template = "Motor Rifle Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+	division = {
+		name = "Presidential National Guard" 
+		location = 1459
+						
+		division_template = "Spetsnaz Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+                start_experience_factor = 0.1 
+	}
+}
