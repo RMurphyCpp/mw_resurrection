@@ -5,12 +5,6 @@
 		motorized = { x = 0 y = 0 } #regiments are the combat units NOT the support units					   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
 	}
 	
-        support = {
-        engineer = { x = 0 y = 0 }
-        anti_tank = { x = 0 y = 1 }
-        artillery = { x = 0 y = 2}
-        }
-
 }
 
 division_template = { #STRUCTURE OF BRIGADE TEMPLATE
