@@ -10,8 +10,8 @@
                 anti_air = { x = 0 y = 2 }		   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 	}
 	support = {
-		maintenance_company = { x = 0 y = 0}
-                engineer = { x = 0 y = 1}
+		maintenance_company = { x = 0 y = 0 }
+                engineer = { x = 0 y = 1 }
                 recon = { x = 0 y = 2 } 
                 signal_company = { x = 0 y = 3 }
 	}
@@ -30,8 +30,8 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
                 anti_air = { x = 0 y = 2 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 	}
 	support = {
-		maintenance_company = { x = 0 y = 0}
-                engineer = { x = 0 y = 1}
+		maintenance_company = { x = 0 y = 0 }
+                engineer = { x = 0 y = 1 }
                 recon = { x = 0 y = 2 } 
                 signal_company = { x = 0 y = 3 }
 	}
@@ -50,8 +50,8 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
                 anti_air = { x = 0 y = 2 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 	}
 	support = {
-		maintenance_company = { x = 0 y = 0}
-                engineer = { x = 0 y = 1}
+		maintenance_company = { x = 0 y = 0 }
+                engineer = { x = 0 y = 1 }
                 recon = { x = 0 y = 2 } 
                 signal_company = { x = 0 y = 3 }
 	}
@@ -70,8 +70,8 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
                 anti_air = { x = 0 y = 2 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 	}
 	support = {
-		maintenance_company = { x = 0 y = 0}
-                engineer = { x = 0 y = 1}
+		maintenance_company = { x = 0 y = 0 }
+                engineer = { x = 0 y = 1 }
                 recon = { x = 0 y = 2 } 
                 signal_company = { x = 0 y = 3 }
 	}
@@ -90,8 +90,8 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
                 anti_air = { x = 0 y = 2 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 	}
 	support = {
-		maintenance_company = { x = 0 y = 0}
-                engineer = { x = 0 y = 1}
+		maintenance_company = { x = 0 y = 0 }
+                engineer = { x = 0 y = 1 }
                 recon = { x = 0 y = 2 } 
                 signal_company = { x = 0 y = 3 }
 	}
@@ -110,8 +110,8 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
                 anti_air = { x = 0 y = 2 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 	}
 	support = {
-		maintenance_company = { x = 0 y = 0}
-                engineer = { x = 0 y = 1}
+		maintenance_company = { x = 0 y = 0 }
+                engineer = { x = 0 y = 1 }
                 recon = { x = 0 y = 2 } 
                 signal_company = { x = 0 y = 3 }
 	}
@@ -129,8 +129,8 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
                 anti_air = { x = 0 y = 2 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 	}
 	support = {
-		maintenance_company = { x = 0 y = 0}
-                engineer = { x = 0 y = 1}
+		maintenance_company = { x = 0 y = 0 }
+                engineer = { x = 0 y = 1 }
                 recon = { x = 0 y = 2 } 
                 signal_company = { x = 0 y = 3 }
 	}
@@ -147,8 +147,8 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
                 anti_air = { x = 0 y = 2 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 	}
 	support = {
-		maintenance_company = { x = 0 y = 0}
-                engineer = { x = 0 y = 1}
+		maintenance_company = { x = 0 y = 0 }
+                engineer = { x = 0 y = 1 }
                 recon = { x = 0 y = 2 } 
                 signal_company = { x = 0 y = 3 }
 	}
@@ -164,8 +164,8 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
                 anti_air = { x = 0 y = 2 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 	}
 	support = {
-		maintenance_company = { x = 0 y = 0}
-                engineer = { x = 0 y = 1}
+		maintenance_company = { x = 0 y = 0 }
+                engineer = { x = 0 y = 1 }
                 recon = { x = 0 y = 2 } 
                 signal_company = { x = 0 y = 3 }
 	}
@@ -184,8 +184,8 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
                 anti_air = { x = 0 y = 2 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 	}
 	support = {
-		maintenance_company = { x = 0 y = 0}
-                engineer = { x = 0 y = 1}
+		maintenance_company = { x = 0 y = 0 }
+                engineer = { x = 0 y = 1 }
                 recon = { x = 0 y = 2 } 
                 signal_company = { x = 0 y = 3 }
 	}
