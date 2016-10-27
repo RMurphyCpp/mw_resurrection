@@ -1,4 +1,5 @@
 ﻿l_english:
+#custom tooltips
  member_eu_common_market:0 "Member of the 'EU Common Market'"
  shengen_area:0 "Member in the 'Shengen Area' agreement"
  muslim_country:0 "Muslim majority country"
@@ -51,7 +52,7 @@
  canadaian_mounted_police:0 "Royal Canadian Mounted Police"
  canadaian_mounted_police_desc:0 "Our mounted police is a symbol of pride both in Canada and in the world, with a high standard of police officers our country will enjoy calm for the decades to come."
  #China
- the_dragon_awakes:0 "The Dragon Awakes"
+ the_dragon_awakes:0 "The Dragon Awakens"
  the_dragon_awakes_desc:0 "China, an ancient superpower is finally back on its feet after decades of bloody conflicts and instability, it is time to assert our position as a super power on the world stage."
  chinese_economic_reform:0 "Reforms & Opening Up"
  chinese_economic_reform_desc:0 "The Chinese Economic Reform  refers to the program of economic reforms termed "Socialism with Chinese characteristics" in the People's Republic of China (PRC) that was started in December 1978 by reformists within the Communist Party of China, led by Deng Xiaoping."
@@ -280,7 +281,7 @@
  mw_tight_media_control:0 "Tight Media Control"
  mw_loose_media_control:0 "Loose Media Control"
  mw_harrased_media:0 "Harrased Media" 
- mw_cencored_media:0 "Cencored Media"
+ mw_cencored_media:0 "Censcored Media"
  mw_fully_granted_liberties:0 "Fully Granted Liberties" 
  mw_free_media:0 "Free Media"
  #######################################
@@ -315,7 +316,7 @@
  mw_dove_policy:0 "Dove Policy"
  mw_detente:0 "Détente" 
  mw_containment:0 "Containment"
- mw_hardline:0 "Harline"
+ mw_hardline:0 "Hardline"
  mw_interventionsm:0 "Interventionsm"  
  ####################### POLICIES #######################
  idea_group_military_budget_policy:0 "Military Budget Policies"
