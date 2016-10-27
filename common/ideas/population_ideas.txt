@@ -1,0 +1,29 @@
+ideas = {
+	
+	country = {
+
+		ageing_population = {
+		
+			allowed = {
+			}
+			removal_cost = -1
+			
+			modifier = {
+				MONTHLY_POPULATION = -1.25
+				consumer_goods_factor = -0.05
+			}
+		}
+	
+		demographic_explosion = {
+		
+			allowed = {
+			}
+			removal_cost = -1
+			
+			modifier = {
+				MONTHLY_POPULATION = 0.50
+				consumer_goods_factor = 0.05
+			}
+		}
+	}
+}
