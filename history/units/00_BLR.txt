@@ -35,11 +35,12 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 		medium_armor = { x = 0 y = 0 } #regiments are the combat units NOT the support units						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
 		medium_armor = { x = 1 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 		mechanized = { x = 2 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-		mechanized = { x = 3 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4 
+		mechanized = { x = 3 y = 0 }
+                artillery = { x = 0 y = 1 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4 
 	}
 	support = {
-		artillery = { x = 0 y = 0 }
-                anti_air = { x = 0 y = 1 } 
+		maintenance_company = { x = 0 y = 0 } 
+                signal_company = { x = 0 y = 1 } 
                 engineer = { x = 0 y = 2 }
 	}
 	
