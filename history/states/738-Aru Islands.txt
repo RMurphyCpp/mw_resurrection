@@ -1,14 +1,13 @@
-state={
-	id=738
-	name="STATE_738"
+state = {
+	id = 738
+	name = "STATE_738"
+	buildings_max_level_factor = 1	
+	state_category = "small_island"
+	manpower = 83977
+	
 	history= {
 		owner = INO
 		add_core_of = INO			
 	}
-	provinces={
-		4579 
-	}
-	manpower=36146
-	buildings_max_level_factor=1	
-	state_category="small_island"
+	provinces = { 4579 }
 }

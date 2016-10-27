@@ -1,25 +1,20 @@
-state={
-	id=335
+state = {
+	id = 335
 	name="STATE_335" # Java
-	manpower = 41718200
 	state_category = metropolis
+	manpower = 136563142
 	
 	history= {
 		owner = INO
-		add_core_of = INO       
+		add_core_of = INO 
+		
+		buildings = {
+			
+		}	
 		
 		victory_points = {
 			7381 12 
 		}
-		buildings = {
-			infrastructure = 4
-			industrial_complex = 5
-			arms_factory = 2
-			air_base = 3
-			7381 = { naval_base = 3	 }
-		}		
 	}
-	provinces={
-		1209 1386 1398 1413 1425 4306 4390 4406 4434 4608 4621 7223 7381 7421 7642 7654 10135 10279 10307 10479 10491 12249 12277 12293 12472 
-	}
+	provinces = { 1209 1386 1398 1413 1425 4306 4390 4406 4434 4608 4621 7223 7381 7421 7642 7654 10135 10279 10307 10479 10491 12249 12277 12293 12472 }
 }
