@@ -482,7 +482,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 
         division = {
 		name = "Western Army Infantry Regiment" 
-		location = 491
+		location = 1158
 						
 		division_template = "Special Boarding Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 		start_experience_factor = 0.3
