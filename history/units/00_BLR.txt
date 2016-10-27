@@ -5,13 +5,14 @@
 		paratrooper = { x = 0 y = 0 } #regiments are the combat units NOT the support units						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
 		paratrooper = { x = 1 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 		paratrooper = { x = 2 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-  
+		artillery = { x = 0 y = 1 }
+                anti_air = { x = 0 y = 2 }
+                anti_tank = { x = 0 y = 3 } 
 	}
 	support = {
-		artillery = { x = 0 y = 0}
-                anti_air = { x = 0 y = 1}
-                anti_tank = { x = 0 y = 2} 
-                engineer = { x = 0 y = 3}
+		maintenance_company = { x = 0 y = 0 } 
+                signal_company = { x = 0 y = 1 } 
+                engineer = { x = 0 y = 2 }
 	}
 	
 }
