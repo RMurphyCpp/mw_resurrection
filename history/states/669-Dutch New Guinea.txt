@@ -3,7 +3,7 @@ state = {
 	id = 669
 	name = "STATE_669"
 	state_category = pastoral
-	manpower = 643012
+	manpower = 4363869
 	
 	history= {
 		owner = INO
