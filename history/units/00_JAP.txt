@@ -5,13 +5,15 @@
 		heavy_armor = { x = 0 y = 0 } #regiments are the combat units NOT the support units
                 mechanized = { x = 1 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 		mechanized = { x = 2 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-		mechanized = { x = 3 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 3 y = 0 }
+		artillery = { x = 0 y = 1 }
+                anti_air = { x = 0 y = 2 }		   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 	}
 	support = {
 		maintenance_company = { x = 0 y = 0}
-                anti_air = { x = 0 y = 1}
-                rocket_artillery = { x = 0 y = 2} 
-                artillery = { x = 0 y = 3 }
+                engineer = { x = 0 y = 1}
+                recon = { x = 0 y = 2 } 
+                signal_company = { x = 0 y = 3 }
 	}
 	
 }
@@ -23,13 +25,15 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 		medium_armor = { x = 0 y = 0 } #regiments are the combat units NOT the support units
                 mechanized = { x = 1 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 		mechanized = { x = 2 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-		mechanized = { x = 3 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 3 y = 0 }		
+                artillery = { x = 0 y = 1 }
+                anti_air = { x = 0 y = 2 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 	}
 	support = {
 		maintenance_company = { x = 0 y = 0}
-                anti_air = { x = 0 y = 1}
-                rocket_artillery = { x = 0 y = 2} 
-                artillery = { x = 0 y = 3 }
+                engineer = { x = 0 y = 1}
+                recon = { x = 0 y = 2 } 
+                signal_company = { x = 0 y = 3 }
 	}
 	
 }
@@ -42,12 +46,14 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 2 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 		infantry = { x = 3 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+                artillery = { x = 0 y = 1 }
+                anti_air = { x = 0 y = 2 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 	}
 	support = {
 		maintenance_company = { x = 0 y = 0}
-                anti_air = { x = 0 y = 1}
-                rocket_artillery = { x = 0 y = 2} 
-                artillery = { x = 0 y = 3 }
+                engineer = { x = 0 y = 1}
+                recon = { x = 0 y = 2 } 
+                signal_company = { x = 0 y = 3 }
 	}
 	
 }
@@ -60,12 +66,14 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
                 mechanized = { x = 1 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 		infantry = { x = 2 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 		mechanized = { x = 3 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+                artillery = { x = 0 y = 1 }
+                anti_air = { x = 0 y = 2 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 	}
 	support = {
 		maintenance_company = { x = 0 y = 0}
-                anti_air = { x = 0 y = 1}
-                rocket_artillery = { x = 0 y = 2} 
-                artillery = { x = 0 y = 3 }
+                engineer = { x = 0 y = 1}
+                recon = { x = 0 y = 2 } 
+                signal_company = { x = 0 y = 3 }
 	}
 	
 }
@@ -78,12 +86,14 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
                 infantry = { x = 1 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 		infantry = { x = 2 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 		infantry = { x = 3 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+                artillery = { x = 0 y = 1 }
+                anti_air = { x = 0 y = 2 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 	}
 	support = {
 		maintenance_company = { x = 0 y = 0}
-                anti_air = { x = 0 y = 1}
-                rocket_artillery = { x = 0 y = 2} 
-                artillery = { x = 0 y = 3 }
+                engineer = { x = 0 y = 1}
+                recon = { x = 0 y = 2 } 
+                signal_company = { x = 0 y = 3 }
 	}
 	
 }
@@ -96,12 +106,14 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
                 mechanized = { x = 1 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 		infantry = { x = 2 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 		infantry = { x = 3 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+                artillery = { x = 0 y = 1 }
+                anti_air = { x = 0 y = 2 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 	}
 	support = {
 		maintenance_company = { x = 0 y = 0}
-                anti_air = { x = 0 y = 1}
-                rocket_artillery = { x = 0 y = 2} 
-                artillery = { x = 0 y = 3 }
+                engineer = { x = 0 y = 1}
+                recon = { x = 0 y = 2 } 
+                signal_company = { x = 0 y = 3 }
 	}
 	
 }
@@ -113,12 +125,14 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
                 infantry = { x = 0 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 		infantry = { x = 1 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 		infantry = { x = 2 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+                artillery = { x = 0 y = 1 }
+                anti_air = { x = 0 y = 2 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 	}
 	support = {
 		maintenance_company = { x = 0 y = 0}
-                anti_air = { x = 0 y = 1}
-                rocket_artillery = { x = 0 y = 2} 
-                artillery = { x = 0 y = 3 }
+                engineer = { x = 0 y = 1}
+                recon = { x = 0 y = 2 } 
+                signal_company = { x = 0 y = 3 }
 	}
 	
 }
@@ -129,12 +143,14 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	regiments = {
                 mechanized = { x = 0 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 		infantry = { x = 1 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+                artillery = { x = 0 y = 1 }
+                anti_air = { x = 0 y = 2 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 	}
 	support = {
 		maintenance_company = { x = 0 y = 0}
-                anti_air = { x = 0 y = 1}
-                rocket_artillery = { x = 0 y = 2} 
-                artillery = { x = 0 y = 3 }
+                engineer = { x = 0 y = 1}
+                recon = { x = 0 y = 2 } 
+                signal_company = { x = 0 y = 3 }
 	}
 	
 }
@@ -144,12 +160,14 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	
 	regiments = {
 		infantry = { x = 0 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+                artillery = { x = 0 y = 1 }
+                anti_air = { x = 0 y = 2 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 	}
 	support = {
 		maintenance_company = { x = 0 y = 0}
-                anti_air = { x = 0 y = 1}
-                rocket_artillery = { x = 0 y = 2} 
-                artillery = { x = 0 y = 3 }
+                engineer = { x = 0 y = 1}
+                recon = { x = 0 y = 2 } 
+                signal_company = { x = 0 y = 3 }
 	}
 	
 }
@@ -162,12 +180,14 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
                 heavy_armor = { x = 1 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 		heavy_armor = { x = 2 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 		mechanized = { x = 3 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+                artillery = { x = 0 y = 1 }
+                anti_air = { x = 0 y = 2 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 	}
 	support = {
 		maintenance_company = { x = 0 y = 0}
-                anti_air = { x = 0 y = 1}
-                rocket_artillery = { x = 0 y = 2} 
-                artillery = { x = 0 y = 3 }
+                engineer = { x = 0 y = 1}
+                recon = { x = 0 y = 2 } 
+                signal_company = { x = 0 y = 3 }
 	}
 	
 }
