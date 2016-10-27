@@ -315,7 +315,6 @@ ideas = {
 				moderate_islam_drift = -0.05
 				communism_drift = -0.05
 				new_nazism_drift = -0.05
-				fascism_drift = -0.05
 				autocracy_drift = -0.05
 				military_drift = -0.05
 				sunni_islam_drift = -0.05
