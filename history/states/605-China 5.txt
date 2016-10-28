@@ -15,7 +15,7 @@ state=
 		add_claim_by = TWN
 		
 		victory_points = {
-			6999 27 	#Shanghai 
+			6999 27 	#Chongqing 
 		}
 		victory_points = {
 			4925 26 	#Chengdu 
