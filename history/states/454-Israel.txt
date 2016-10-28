@@ -1,7 +1,7 @@
 state={
 	id=454
 	name="STATE_454" #Palestine
-	manpower = 6000289
+	manpower = 6300000
 	
 	state_category = large_city
 	history={

@@ -1,7 +1,7 @@
 state={
 	id=513
 	name="STATE_513" # Tlmecen
-	manpower = 811486
+	manpower = 7400000
 	
 	state_category = wasteland
 	history={

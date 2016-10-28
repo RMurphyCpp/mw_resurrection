@@ -1,7 +1,7 @@
 state={
 	id=117
 	name="STATE_117" # Campania
-	manpower = 5333611
+	manpower = 6333585 
 	
 	state_category = city
 
