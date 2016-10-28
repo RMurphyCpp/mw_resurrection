@@ -16,7 +16,7 @@ state=
 		add_claim_by = TWN
 		
 		victory_points = {
-			7406 19 	#Hangzhou 
+			7406 19 	#Xian 
 		}		
 	}
 	provinces={
