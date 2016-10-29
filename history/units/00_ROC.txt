@@ -296,7 +296,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 
 	division = {
 		name = "108th Infantry Brigade" 
-		location = 11194
+		location = 11914
 						
 		division_template = "Infantry Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 		start_experience_factor = 0.1 #starting experience. 0.1 is lvl 3 (highest) and 0.3 is lvl 1 (lowest)
