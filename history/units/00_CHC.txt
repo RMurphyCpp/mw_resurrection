@@ -509,38 +509,6 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	}
 }
 
-division_template = { #STRUCTURE OF BRIGADE TEMPLATE
-	name = "Militia Unit" #Name of the brigade that appears when you select it
-	
-	regiments = {
-		militia = { x = 0 y = 0 }
-                militia = { x = 0 y = 1 }
-                militia = { x = 0 y = 2 }
-                militia = { x = 0 y = 3 }
-                militia = { x = 0 y = 4 }                                              #regiments are the combat units NOT the support units						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
-		militia = { x = 1 y = 0 }
-		militia = { x = 1 y = 1 }
-                militia = { x = 1 y = 2 }
-                militia = { x = 1 y = 3 }
-                militia = { x = 1 y = 4 }				   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-		militia = { x = 2 y = 0 }
-                militia = { x = 2 y = 1 }
-                militia = { x = 2 y = 2 }
-                militia = { x = 2 y = 3 }
-                militia = { x = 2 y = 4 }
-		militia = { x = 3 y = 0 }
-                militia = { x = 3 y = 1 }
-                militia = { x = 3 y = 2 }
-                militia = { x = 3 y = 3 }
-                militia = { x = 3 y = 4 }
-		militia = { x = 4 y = 0 }
-                militia = { x = 4 y = 1 }
-                militia = { x = 4 y = 2 }
-                militia = { x = 4 y = 3 }
-                militia = { x = 4 y = 4 }				   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4 
-	}
-}
-
 units = { #place all units that appear on the map. You need at least 1 template.
 
 	division = {
