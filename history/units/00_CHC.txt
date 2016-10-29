@@ -477,6 +477,37 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	
 }
 
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Armed Police Division 1" #Name of the brigade that appears when you select it
+	
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+                mechanized = { x = 0 y = 1 }                                            #regiments are the combat units NOT the support units						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }				   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 2 y = 0 }
+                mechanized = { x = 2 y = 1 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 3 y = 0 }
+		mechanized = { x = 3 y = 1 }
+                mechanized = { x = 4 y = 0 }
+                mechanized = { x = 4 y = 1 } 
+	}
+}
+
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Armed Police Division 2" #Name of the brigade that appears when you select it
+	
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+                mechanized = { x = 0 y = 1 }                                            #regiments are the combat units NOT the support units						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }				   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 2 y = 0 }
+                mechanized = { x = 2 y = 1 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		mechanized = { x = 3 y = 0 }
+		mechanized = { x = 3 y = 1 } 
+	}
+}    
 
 units = { #place all units that appear on the map. You need at least 1 template.
 
@@ -1688,4 +1719,341 @@ units = { #place all units that appear on the map. You need at least 1 template.
 		start_experience_factor = 0.1 #starting experience. 0.1 is lvl 3 (highest) and 0.3 is lvl 1 (lowest)
 	}
 
+        division = {
+		name = "1st Beijing Armed Police Division" 
+		location = 9843
+						
+		division_template = "Armed Police Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "2nd Beijing Armed Police Division" 
+		location = 9843
+						
+		division_template = "Armed Police Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "3rd Beijing Armed Police Division" 
+		location = 9843
+						
+		division_template = "Armed Police Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Tianjin Armed Police Division" 
+		location = 10068
+						
+		division_template = "Armed Police Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Hebei Armed Police Division" 
+		location = 1134
+						
+		division_template = "Armed Police Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Shanxi Armed Police Division" 
+		location = 12344
+						
+		division_template = "Armed Police Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Shaanxi Armed Police Division" 
+		location = 7406
+						
+		division_template = "Armed Police Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Inner Mongolia Armed Police Division" 
+		location = 4986
+						
+		division_template = "Armed Police Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Liaoning Armed Police Division" 
+		location = 987
+						
+		division_template = "Armed Police Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Jilin Armed Police Division" 
+		location = 7663
+						
+		division_template = "Armed Police Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Heilongjiang Armed Police Division" 
+		location = 10443
+						
+		division_template = "Armed Police Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Shanghai Armed Police Division" 
+		location = 7014
+						
+		division_template = "Armed Police Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Jiangsu Armed Police Division" 
+		location = 11913
+						
+		division_template = "Armed Police Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Anhui Armed Police Division" 
+		location = 10017
+						
+		division_template = "Armed Police Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Zhejiang Armed Police Division" 
+		location = 7191
+						
+		division_template = "Armed Police Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Fujian Armed Police Division" 
+		location = 4196
+						
+		division_template = "Armed Police Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Jiangxi Armed Police Division" 
+		location = 3992
+						
+		division_template = "Armed Police Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Shangdong Armed Police Division" 
+		location = 7160
+						
+		division_template = "Armed Police Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Henan Armed Police Division" 
+		location = 9958
+						
+		division_template = "Armed Police Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Hubei Armed Police Division" 
+		location = 4619
+						
+		division_template = "Armed Police Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Hunan Armed Police Division" 
+		location = 12483
+						
+		division_template = "Armed Police Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Guangdong Armed Police Division" 
+		location = 1047
+						
+		division_template = "Armed Police Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Guangxi Armed Police Division" 
+		location = 7137
+						
+		division_template = "Armed Police Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Hainan Armed Police Division" 
+		location = 1070
+						
+		division_template = "Armed Police Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Chongqing Armed Police Division" 
+		location = 6999
+						
+		division_template = "Armed Police Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Sichuan Armed Police Division" 
+		location = 4925
+						
+		division_template = "Armed Police Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Guizhou Armed Police Division" 
+		location = 10616
+						
+		division_template = "Armed Police Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Yunnan Armed Police Division" 
+		location = 7446
+						
+		division_template = "Armed Police Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Tibet Armed Police Division" 
+		location = 5033
+						
+		division_template = "Armed Police Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Gansu Armed Police Division" 
+		location = 12776
+						
+		division_template = "Armed Police Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Qinghai Armed Police Division" 
+		location = 10490
+						
+		division_template = "Armed Police Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Ningxia Armed Police Division" 
+		location = 10724
+						
+		division_template = "Armed Police Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Xinjiang Armed Police Division" 
+		location = 10674
+						
+		division_template = "Armed Police Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "2nd Armed Police Division" 
+		location = 7120
+						
+		division_template = "Armed Police Division 2" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "7th Armed Police Division" 
+		location = 12601
+						
+		division_template = "Armed Police Division 2" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "38th Armed Police Division" 
+		location = 2030
+						
+		division_template = "Armed Police Division 2" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "41st Armed Police Division" 
+		location = 4501
+						
+		division_template = "Armed Police Division 2" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "63rd Armed Police Division" 
+		location = 8127
+						
+		division_template = "Armed Police Division 2" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "81st Armed Police Division" 
+		location = 10068
+						
+		division_template = "Armed Police Division 2" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "114th Armed Police Division" 
+		location = 11761
+						
+		division_template = "Armed Police Division 2" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "117th Armed Police Division" 
+		location = 11764
+						
+		division_template = "Armed Police Division 2" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "120th Armed Police Division" 
+		location = 6837
+						
+		division_template = "Armed Police Division 2" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "126th Armed Police Division" 
+		location = 1047
+						
+		division_template = "Armed Police Division 2" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "128th Armed Police Division" 
+		location = 9958
+						
+		division_template = "Armed Police Division 2" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "181st Armed Police Division" 
+		location = 4606
+						
+		division_template = "Armed Police Division 2" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "187th Armed Police Division" 
+		location = 12078
+						
+		division_template = "Armed Police Division 2" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "«Snow Leopard» Commando Unit" 
+		location = 9843
+						
+		division_template = "Infantry Battalion" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+                start_experience_factor = 0.3
+	}
+
+        division = {
+		name = "Special Police Unit" 
+		location = 9843
+						
+		division_template = "Infantry Battalion" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+                start_experience_factor = 0.3
+	}
 }
