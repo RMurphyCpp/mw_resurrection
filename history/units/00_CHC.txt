@@ -1,6 +1,4 @@
-﻿#People's Militia 3000000 
-
-division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+﻿division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	name = "Motorized Division 1" #Name of the brigade that appears when you select it
 	
 	regiments = {
@@ -380,12 +378,12 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
                 heavy_armor = { x = 2 y = 1 }				   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 		heavy_armor = { x = 2 y = 2 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 		heavy_armor = { x = 2 y = 3 }
-		artillery= { x = 3 y = 0 }				   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-		artillery= = { x = 3 y = 1 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-		artillery= = { x = 3 y = 2 }
-		anti_air= { x = 3 y = 3 }				   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-		anti_air= = { x = 4 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-		anti_air= = { x = 4 y = 1 }		   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4  
+		artillery = { x = 3 y = 0 }				   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		artillery = { x = 3 y = 1 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		artillery = { x = 3 y = 2 }
+		anti_air = { x = 3 y = 3 }				   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		anti_air = { x = 4 y = 0 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		anti_air = { x = 4 y = 1 }		   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4  
 	}
 }
 
