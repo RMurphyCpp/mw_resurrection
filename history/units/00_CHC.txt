@@ -117,9 +117,9 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 		mechanized = { x = 2 y = 0 }
                 mechanized = { x = 2 y = 1 }
                 mechanized = { x = 2 y = 2 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-                anti_air = { x = 4 y = 0 }
-                rocket_artillery = { x = 4 y = 1 } 
-                sp_artillery = { x = 4 y = 2 }
+                anti_air = { x = 3 y = 0 }
+                rocket_artillery = { x = 3 y = 1 } 
+                sp_artillery = { x = 3 y = 2 }
 	}
 	support = {
 		maintenance_company = { x = 0 y = 0 }                
@@ -143,9 +143,9 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 		mechanized = { x = 2 y = 0 }
                 mechanized = { x = 2 y = 1 }
                 mechanized = { x = 2 y = 2 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
-                anti_air = { x = 4 y = 0 }
-                rocket_artillery = { x = 4 y = 1 } 
-                sp_artillery = { x = 4 y = 2 }
+                anti_air = { x = 3 y = 0 }
+                rocket_artillery = { x = 3 y = 1 } 
+                sp_artillery = { x = 3 y = 2 }
 	}
 	support = {
 		maintenance_company = { x = 0 y = 0 }                
@@ -452,7 +452,7 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	
 	regiments = {
 		infantry = { x = 0 y = 0 }
-	
+	}
 }
 
 
@@ -1789,7 +1789,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 
         division = {
 		name = "Heilongjiang Armed Police Division" 
-		location = 10443
+		location = 10433
 						
 		division_template = "Armed Police Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 	}
