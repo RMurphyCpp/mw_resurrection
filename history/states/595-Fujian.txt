@@ -6,7 +6,7 @@ state= {
 	history={
 		owner = CHC
 		add_core_of = CHC
-		add_claim_by = TWN
+		add_claim_by = ROC
 
 		victory_points = {
 			4196 12 	#Wenzhou 

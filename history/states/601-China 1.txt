@@ -10,7 +10,7 @@ state={
 	history={
 		owner = CHC
 		add_core_of = CHC
-		add_claim_by = TWN
+		add_claim_by = ROC
 	}
 	provinces={
 		1918 1999 2067 4407 4999 5018 5080 5102 7294 7988 8041 8059 8104 10726 10741 10841 10856 12724 12837 

@@ -8,7 +8,7 @@ state={
 		owner = HNK
 		add_core_of = HNK
 		add_claim_by = CHC
-		add_claim_by = TWN	
+		add_claim_by = ROC	
 		
 		victory_points = { 10062 10 }
 

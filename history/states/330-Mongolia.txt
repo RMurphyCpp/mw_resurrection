@@ -7,7 +7,7 @@ state={
 	history={
 		owner = MON
 		add_core_of = MON
-        add_claim_by = TWN		
+        add_claim_by = ROC		
 		
 		victory_points = {
 			4801 10 

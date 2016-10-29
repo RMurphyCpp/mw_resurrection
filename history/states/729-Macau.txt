@@ -9,7 +9,7 @@ state={
 		owner = MCU
 		add_core_of = MCU
 		add_claim_by = CHC
-		add_claim_by = TWN
+		add_claim_by = ROC
 		buildings = {
 			4189 = {
 				

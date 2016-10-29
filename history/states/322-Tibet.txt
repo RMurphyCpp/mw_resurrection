@@ -8,7 +8,7 @@ state={
 	history={
 		owner = CHC
 		add_core_of = CHC
-		add_claim_by = TWN
+		add_claim_by = ROC
 		add_claim_by = TIB
 		
 		victory_points = {5033  5 }

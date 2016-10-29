@@ -5,8 +5,8 @@ state={
 	state_category = megalopolis
 	
 	history={
-		owner = TWN
-		add_core_of = TWN
+		owner = ROC
+		add_core_of = ROC
 		add_claim_by = CHC
 
 		victory_points = {
