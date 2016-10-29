@@ -1839,7 +1839,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 	}
 
         division = {
-		name = "Shangdong Armed Police Division" 
+		name = "Shandong Armed Police Division" 
 		location = 7160
 						
 		division_template = "Armed Police Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
