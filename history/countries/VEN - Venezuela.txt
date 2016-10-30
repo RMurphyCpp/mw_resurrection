@@ -3,7 +3,16 @@
     set_research_slots = 3
     set_convoys = 10
     set_national_unity = 0.7
-    set_technology = {}
+    set_technology = {
+		#placeholder techs.
+		infantry_small_arms = 1
+		infantry_lmg = 1
+		infantry_gpmg = 1
+		infantry_at = 1
+		infantry_atgm = 1
+		infantry_manpad = 1
+		infantry_equipment = 1
+	}
 
 	add_opinion_modifier = { target = USA modifier = historical_riverly }	
 	
