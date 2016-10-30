@@ -468,7 +468,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 
 	division = {
 		name = "100th Infantry Division" 
-		location = 9980
+		location = 9981
 						
 		division_template = "Infantry Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 		start_experience_factor = 0.1 #starting experience. 0.1 is lvl 3 (highest) and 0.3 is lvl 1 (lowest)
@@ -484,7 +484,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 
 	division = {
 		name = "101st Infantry Division" 
-		location = 1065
+		location = 10065
 						
 		division_template = "Infantry Division" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 		start_experience_factor = 0.1 #starting experience. 0.1 is lvl 3 (highest) and 0.3 is lvl 1 (lowest)
