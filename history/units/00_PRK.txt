@@ -64,8 +64,8 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
                 light_armor = { x = 1 y = 0 }				   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
 		artillery = { x = 2 y = 0 }
                 artillery = { x = 2 y = 1 }
-                anti_air = { x = 3 y = 2 } 
-                anti_tank = { x = 3 y = 3 }
+                anti_air = { x = 2 y = 2 } 
+                anti_tank = { x = 2 y = 3 }
 	}
 	support = {
 		maintenance_company = { x = 0 y = 0 }                
@@ -220,9 +220,9 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	name = "Air Defence Brigade" #Name of the brigade that appears when you select it
 	
 	regiments = {
-		sp_anti_air= { x = 0 y = 0 }						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
-		sp_anti_air= = { x = 0 y = 1 }
-		sp_anti_air= = { x = 0 y = 2 }
+		sp_anti_air = { x = 0 y = 0 }						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
+		sp_anti_air = { x = 0 y = 1 }
+		sp_anti_air = { x = 0 y = 2 }
 	}
 }
 
@@ -231,8 +231,8 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	name = "Air Defence Regiment" #Name of the brigade that appears when you select it
 	
 	regiments = {
-		sp_anti_air= { x = 0 y = 0 }						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
-		sp_anti_air= = { x = 0 y = 1 }
+		sp_anti_air = { x = 0 y = 0 }						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
+		sp_anti_air = { x = 0 y = 1 }
 	}
 }
 
