@@ -507,6 +507,38 @@ division_template = { #STRUCTURE OF BRIGADE TEMPLATE
 	}
 }    
 
+division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "PLA Militia Unit" #Name of the brigade that appears when you select it
+	
+	regiments = {
+		militia = { x = 0 y = 0 } 
+                militia = { x = 0 y = 1 }
+                militia = { x = 0 y = 2 }
+                militia = { x = 0 y = 3 }
+                militia = { x = 0 y = 4 }                           #regiments are the combat units NOT the support units						   #you refer to the syntax sheet here: https://drive.google.com/file/d/0BwIfSew9b95pLTdaWm9LV2RtY1U/view?usp=sharing
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+                militia = { x = 1 y = 2 }
+                militia = { x = 1 y = 3 }
+		militia = { x = 1 y = 4 }		   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		militia = { x = 2 y = 0 }
+                militia = { x = 2 y = 1 }
+                militia = { x = 2 y = 2 }
+                militia = { x = 2 y = 3 }
+		militia = { x = 2 y = 4 }						   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4
+		militia = { x = 3 y = 0 }
+		militia = { x = 3 y = 1 }
+                militia = { x = 3 y = 2 }
+                militia = { x = 3 y = 3 }
+		militia = { x = 3 y = 4 }				   # x = 0 y = 0 is the first row of the first column. 5 rows so 0->1->2->3->4  
+                militia = { x = 4 y = 0 }
+                militia = { x = 4 y = 1 } 
+                militia = { x = 4 y = 2 }
+                militia = { x = 4 y = 3 }
+		militia = { x = 4 y = 4 }
+	}
+}
+
 units = { #place all units that appear on the map. You need at least 1 template.
 
 	division = {
@@ -2053,5 +2085,208 @@ units = { #place all units that appear on the map. You need at least 1 template.
 						
 		division_template = "Infantry Battalion" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
                 start_experience_factor = 0.3
+	}
+
+        division = {
+		name = "Beijing Militia Unit" 
+		location = 9843
+						
+		division_template = "PLA Militia Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Tianjin Militia Unit" 
+		location = 10068
+						
+		division_template = "PLA Militia Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Hebei Militia Unit" 
+		location = 1134
+						
+		division_template = "PLA Militia Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Shanxi Militia Unit" 
+		location = 12344
+						
+		division_template = "PLA Militia Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Shaanxi Militia Unit" 
+		location = 7406
+						
+		division_template = "PLA Militia Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Inner Mongolia Militia Unit" 
+		location = 4986
+						
+		division_template = "PLA Militia Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Liaoning Militia Unit" 
+		location = 987
+						
+		division_template = "PLA Militia Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Jilin Militia Unit" 
+		location = 7663
+						
+		division_template = "PLA Militia Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Heilongjiang Militia Unit" 
+		location = 10433
+						
+		division_template = "PLA Militia Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Shanghai Militia Unit" 
+		location = 7014
+						
+		division_template = "PLA Militia Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Jiangsu Militia Unit" 
+		location = 11913
+						
+		division_template = "PLA Militia Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Anhui Militia Unit" 
+		location = 10017
+						
+		division_template = "PLA Militia Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Zhejiang Militia Unit" 
+		location = 7191
+						
+		division_template = "PLA Militia Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Fujian Militia Unit" 
+		location = 4196
+						
+		division_template = "PLA Militia Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Jiangxi Militia Unit" 
+		location = 3992
+						
+		division_template = "PLA Militia Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Shandong Militia Unit" 
+		location = 7160
+						
+		division_template = "PLA Militia Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Henan Militia Unit" 
+		location = 9958
+						
+		division_template = "PLA Militia Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Hubei Militia Unit" 
+		location = 4619
+						
+		division_template = "PLA Militia Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Hunan Militia Unit" 
+		location = 12483
+						
+		division_template = "PLA Militia Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Guangdong Militia Unit" 
+		location = 1047
+						
+		division_template = "PLA Militia Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Guangxi Militia Unit" 
+		location = 7137
+						
+		division_template = "PLA Militia Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Hainan Militia Unit" 
+		location = 1070
+						
+		division_template = "PLA Militia Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Chongqing Militia Unit" 
+		location = 6999
+						
+		division_template = "PLA Militia Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Sichuan Militia Unit" 
+		location = 4925
+						
+		division_template = "PLA Militia Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Guizhou Militia Unit" 
+		location = 10616
+						
+		division_template = "PLA Militia Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Yunnan Militia Unit" 
+		location = 7446
+						
+		division_template = "PLA Militia Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Gansu Militia Unit" 
+		location = 12776
+						
+		division_template = "PLA Militia Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Qinghai Militia Unit" 
+		location = 10490
+						
+		division_template = "PLA Militia Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+
+        division = {
+		name = "Ningxia Militia Unit" 
+		location = 10724
+						
+		division_template = "PLA Militia Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 	}
 }
