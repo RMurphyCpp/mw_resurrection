@@ -1,0 +1,544 @@
+technologies = {
+
+		@as_fighter_line = 0
+		@mr_fighter_line = 2
+		@interceptor_line = -2
+		@attacker_line = 4
+		@CAS_line = 6
+
+############################################################################################################
+#   AS Fighters
+# 3G	Mig-21s , F-4s	
+	third_gen_mr_fighter = {
+
+		enable_equipments = {
+			third_gen_mr_fighter
+		}
+	
+		path = {
+			leads_to_tech = forth_gen_mr_fighter
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1955
+		folder = {
+			name = air_techs_folder
+			position = { x = @mr_fighter_line y = 0 }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+# 4G Mig-29s F-16s	
+	forth_gen_mr_fighter = {
+
+		enable_equipments = {
+			forth_gen_mr_fighter
+		}
+	
+		path = {
+			leads_to_tech = forth_gen_mr_fighter
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1955
+		folder = {
+			name = air_techs_folder
+			position = { x = @mr_fighter_line y = 2 }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+# 4.5G Mig-35 F/A-18E Super Hornet
+	adv_forth_gen_mr_fighter = {
+
+		enable_equipments = {
+			adv_forth_gen_mr_fighter
+		}
+	
+		path = {
+			leads_to_tech = fifth_gen_mr_fighter
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1955
+		folder = {
+			name = air_techs_folder
+			position = { x = @mr_fighter_line y = 4 }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	# F-22
+	fifth_gen_mr_fighter = {
+
+		enable_equipments = {
+			fifth_gen_mr_fighter
+		}
+			
+		research_cost = 2
+		start_year = 1955
+		folder = {
+			name = air_techs_folder
+			position = { x = @mr_fighter_line y = 6 }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+############################################################################################################
+
+
+#   AS Fighters
+# 3G	Mig-21s , F-4s	
+	third_gen_mr_fighter = {
+
+		enable_equipments = {
+			third_gen_as_fighter
+		}
+	
+		path = {
+			leads_to_tech = forth_gen_AS_fighter
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1955
+		folder = {
+			name = air_techs_folder
+			position = { x = @as_fighter_line y = 0 }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+# 4G Mig-29s F-16s	
+	forth_gen_as_fighter = {
+
+		enable_equipments = {
+			forth_gen_as_fighter
+		}
+	
+		path = {
+			leads_to_tech = forth_gen_as_fighter
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1955
+		folder = {
+			name = air_techs_folder
+			position = { x = @as_fighter_line y = 2 }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+# 4.5G Mig-35 F/A-18E Super Hornet
+	adv_forth_gen_as_fighter = {
+
+		enable_equipments = {
+			adv_forth_gen_as_fighter
+		}
+	
+		path = {
+			leads_to_tech = fifth_gen_as_fighter
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1955
+		folder = {
+			name = air_techs_folder
+			position = { x = @as_fighter_line y = 4 }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	# F-22
+	fifth_gen_as_fighter = {
+
+		enable_equipments = {
+			fifth_gen_as_fighter
+		}
+			
+		research_cost = 2
+		start_year = 1955
+		folder = {
+			name = air_techs_folder
+			position = { x = @as_fighter_line y = 6 }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	############################################################################################################
+#   Interceptors
+# 3G	Mig-25
+	third_gen_interceptor = {
+
+		enable_equipments = {
+			third_gen_interceptor
+		}
+	
+		path = {
+			leads_to_tech = forth_gen_interceptor
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1955
+		folder = {
+			name = air_techs_folder
+			position = { x = @interceptor_line y = 0 }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+# 4G Mig-31	
+	forth_gen_interceptor = {
+
+		enable_equipments = {
+			forth_gen_interceptor
+		}
+	
+		path = {
+			leads_to_tech = fifth_gen_interceptor
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1955
+		folder = {
+			name = air_techs_folder
+			position = { x = @interceptor_line y = 2 }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	
+# 5G Mig-41
+	fifth_gen_interceptor = {
+
+		enable_equipments = {
+			fifth_gen_interceptor
+		}
+			
+		research_cost = 2
+		start_year = 1955
+		folder = {
+			name = air_techs_folder
+			position = { x = @interceptor_line y = 6 }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+		############################################################################################################
+#   CAS
+# 3G	
+	third_gen_cas = {
+
+		enable_equipments = {
+			third_gen_cas
+		}
+	
+		path = {
+			leads_to_tech = forth_gen_cas
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1955
+		folder = {
+			name = air_techs_folder
+			position = { x = @cas_line y = 0 }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+# 4G Su-25,A-10C
+	forth_gen_cas = {
+
+		enable_equipments = {
+			forth_gen_cas
+		}
+	
+		path = {
+			leads_to_tech = fifth_gen_cas
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1955
+		folder = {
+			name = air_techs_folder
+			position = { x = @cas_line y = 2 }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	
+# 5G Su-XX,Pak sha...
+	fifth_gen_cas = {
+
+		enable_equipments = {
+			fifth_gen_cas
+		}
+			
+		research_cost = 2
+		start_year = 1955
+		folder = {
+			name = air_techs_folder
+			position = { x = @cas_line y = 6 }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+######################################################################################
+#   Attack aircraft
+# 3G	
+	third_gen_attacker = {
+
+		enable_equipments = {
+			third_gen_attacker
+		}
+	
+		path = {
+			leads_to_tech = forth_gen_attacker
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1955
+		folder = {
+			name = air_techs_folder
+			position = { x = @attacker_line y = 0 }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+# 4G 
+	forth_gen_attacker = {
+
+		enable_equipments = {
+			forth_gen_attacker
+		}
+	
+		path = {
+			leads_to_tech = adv_forth_gen_attacker
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1955
+		folder = {
+			name = air_techs_folder
+			position = { x = @attacker_line y = 2 }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+# 4.5G Su-34
+	adv_forth_gen_attacker = {
+
+		enable_equipments = {
+			adv_forth_gen_attacker
+		}
+	
+		path = {
+			leads_to_tech = fifth_gen_attacker
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1955
+		folder = {
+			name = air_techs_folder
+			position = { x = @attacker_line y = 4 }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+# 5G Su-XX,Pak sha...
+	fifth_gen_attacker = {
+
+		enable_equipments = {
+			fifth_gen_attacker
+		}
+			
+		research_cost = 2
+		start_year = 1955
+		folder = {
+			name = air_techs_folder
+			position = { x = @attacker_line y = 6 }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+##################################################################	
+
+}
