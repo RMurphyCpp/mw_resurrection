@@ -1,0 +1,85 @@
+﻿l_english:
+#tanks
+    first_gen_mbt:0 "1G Main Battle tank"
+    second_gen_mbt:0 "2G Main Battle tank"
+    adv_second_gen_mbt:0 "2G adv. Main Battle tank"
+    third_gen_mbt:0 "3G Main Battle tank"
+    ad_third_gen_mbt:0 "3G adv Main Battle tank"
+    forth_gen_mbt:0 "4G Main Battle tank"
+    
+    USA_first_gen_mbt:0 "M48 Patton"
+    USA_second_gen_mbt:0 "M60 Patton"
+    USA_adv_second_gen_mbt:0 "M60A2 Patton"
+    USA_third_gen_mbt:0 "M1 Abrams"
+    USA_ad_third_gen_mbt:0 "M1A2 Abrams"
+    USA_forth_gen_mbt:0 "M1A3 Abrams"
+        
+    SOV_first_gen_mbt:0 "T-55"
+    SOV_second_gen_mbt:0 "T-62"
+    SOV_adv_second_gen_mbt:0 "T-72"
+    SOV_third_gen_mbt:0 "T-80"
+    SOV_adv_third_gen_mbt:0 "T-90"
+    SOV_forth_gen_mbt:0 "T-14"
+
+#IFVs    
+    first_gen_ifv:0 "1G Infantry Fighting vehicle"
+    second_gen_ifv:0 "2G Infantry Fighting vehicle"
+    third_gen_ifv:0 "3G Infantry Fighting vehicle"
+    forth_gen_ifv:0 "4G Infantry Fighting vehicle"
+    
+    USA_first_gen_ifv:0 "AIFV"
+    USA_second_gen_ifv:0 "M2 Bradley"
+    USA_third_gen_ifv:0 "M2A2 Bradley"
+    USA_forth_gen_ifv:0 "M2A3 ERA Bradley"
+        
+    SOV_first_gen_ifv:0 "BMP-1"
+    SOV_second_gen_ifv:0 "BMP-2"
+    SOV_third_gen_ifv:0 "BMP-3"
+    SOV_forth_gen_ifv:0 "T-15"    
+
+#APCs    
+    first_gen_apc:0 "1G Armored Personal Carrier"
+    second_gen_apc:0 "2G Armored Personal Carrier"
+    third_gen_apc:0 "3G Armored Personal Carrier"
+    forth_gen_apc:0 "4G Armored Personal Carrier"
+    
+    USA_first_gen_apc:0 "M113"
+    USA_second_gen_apc:0 "M113A3"
+    USA_third_gen_apc:0 "M113A3 RISE"
+    USA_forth_gen_apc:0 "Turrentless Bradley"
+        
+    SOV_first_gen_apc:0 "MTLB"
+    SOV_second_gen_apc:0 "Btr-80"
+    SOV_third_gen_apc:0 "Btr-90"
+    SOV_forth_gen_apc:0 "Bumerang"
+    
+#small arms
+    infantry_small_arms_0:0 "Small arms I"
+    infantry_small_arms_1:0 "Small arms II"
+    infantry_small_arms_2:0 "Small arms III"
+    infantry_small_arms_3:0 "Small arms IV"
+    infantry_small_arms_4:0 "Small arms V"
+    infantry_small_arms_5:0 "Small arms VI"
+    
+    USA_infantry_small_arms_0:0 "M14"
+    USA_infantry_small_arms_1:0 "M16A1"
+    USA_infantry_small_arms_2:0 "M16A2"
+    USA_infantry_small_arms_3:0 "M4"
+    USA_infantry_small_arms_4:0 "M16A4"
+    USA_infantry_small_arms_5:0 "M16A6"   
+
+    SOV_infantry_small_arms_0:0 "AK-47"
+    SOV_infantry_small_arms_1:0 "AKM"
+    SOV_infantry_small_arms_2:0 "AK-74"
+    SOV_infantry_small_arms_3:0 "AK-74M"
+    SOV_infantry_small_arms_4:0 "AK-103"
+    SOV_infantry_small_arms_5:0 "AK-12"       
+    
+    
+    
+    
+    
+    
+    
+    
+    
