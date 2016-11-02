@@ -9,7 +9,7 @@ sub_units = {
 			mechanized
 		}
 		
-		group = mobile
+		group = mobile #support for support hierarchy, infantry for inf. hierarchy
 		
 		categories = {
 			category_front_line
@@ -21,7 +21,9 @@ sub_units = {
 		combat_width = 2
 
 		need = {
-			mechanized_equipment = 60
+			infantry_small_arms = 10
+			infantry_equipment = 20
+			#mechanized_equipment = 60
 		}
 		manpower = 500
 		max_organisation = 15
