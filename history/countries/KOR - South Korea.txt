@@ -1,18 +1,31 @@
 ﻿capital = 525
 2000.1.1 = {
+    load_oob = "00_KOR"
     set_research_slots = 3
     set_convoys = 10
     set_national_unity = 0.7
-    set_technology = {
-		#placeholder techs.
-		infantry_small_arms = 1
-		infantry_lmg = 1
-		infantry_gpmg = 1
-		infantry_at = 1
-		infantry_atgm = 1
-		infantry_manpad = 1
-		infantry_equipment = 1
-	}
+    set_technology = {infantry_small_arms = 1
+  infantry_small_arms_1 = 1
+  infantry_small_arms_2 = 1
+  infantry_small_arms_3 = 1
+  
+  infantry_lmg = 1
+  infantry_lmg_1 = 1
+  infantry_lmg_2 = 1
+  
+  infantry_gpmg = 1
+  infantry_gpmg_1 = 1
+  
+  infantry_at = 1
+  infantry_at_1 = 1
+  
+  infantry_atgm = 1
+  infantry_atgm_1 = 1
+  
+  infantry_manpad = 1
+  infantry_manpad_1 = 1
+  infantry_manpad_2 = 1
+  infantry_manpad_3 = 1}
 
     set_politics = {
 
