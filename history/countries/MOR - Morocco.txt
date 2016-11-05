@@ -36,7 +36,7 @@
 		    }
 	    }
 	
-	    ruling_party = fascism
+	    ruling_party = autocracy
 	    last_election = "1996.3.5"
 	    election_frequency = 48
 	    elections_allowed = no
@@ -45,12 +45,26 @@
             religious_monarchy
     }
     #############LAST ENTRY IS USED FIRST#############	
+
+
+   create_country_leader = {
+    	name = "Jean-Marie Le Pen"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "FRANHFAS1.dds"
+    	expire = "2011.1.15"
+    	ideology = monarchism_autocratic
+    	traits = {
+    		#
+    	}
+    }
+
+
     create_country_leader = {
     	name = "Mohammed VI"
     	desc = "POLITICS_KING_ZOG_DESC"
     	picture = "MORH1.dds"
     	expire = "2030.1.1"
-    	ideology = dictatorship
+    	ideology = monarchism_autocratic
     	traits = {
     		#
     	}

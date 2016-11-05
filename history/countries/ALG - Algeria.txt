@@ -20,7 +20,7 @@
     set_politics = {
 
 	    parties = {
-		    democratic_conservative = { 
+		    democratic_center = { 
 			    popularity = 15
 			    banned = no					
 			
@@ -39,23 +39,36 @@
 		    }
 	    }
 	
-	    ruling_party = fascism
-	    last_election = "1996.3.5"
+	    ruling_party = democratic_center
+	    last_election = "1999.3.5"
 	    election_frequency = 48
-	    elections_allowed = no
+	    elections_allowed = yes
     }
     add_ideas = {
 	    an_iron_fist
     }
     #############LAST ENTRY IS USED FIRST#############	
-    create_country_leader = {
-    	name = "Abdelaziz Bouteflika"
+
+   create_country_leader = {
+    	name = "Jean-Marie Le Pen"
     	desc = "POLITICS_KING_ZOG_DESC"
-    	picture = "ALG1.dds"
-    	expire = "2018.1.1"
-    	ideology = dictatorship
+    	picture = "FRANHFAS1.dds"
+    	expire = "2011.1.15"
+    	ideology = centrer_left
     	traits = {
     		#
     	}
     }
+
+    create_country_leader = {
+    	name = "Abdelaziz Bouteflika"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ALGH1.dds"
+    	expire = "2018.1.1"
+    	ideology = centrer_left
+    	traits = {
+    		#
+    	}
+    }
+	
 }
