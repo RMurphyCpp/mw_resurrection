@@ -1,10 +1,10 @@
 technologies = {
 
 		@as_fighter_line = 0
-		@mr_fighter_line = 2
-		@interceptor_line = -2
+		@mr_fighter_line = -2
+		@interceptor_line = 2
 		@attacker_line = 4
-		@CAS_line = 6
+		@cas_line = 6
 
 ############################################################################################################
 #   AS Fighters
@@ -47,7 +47,7 @@ technologies = {
 		}
 	
 		path = {
-			leads_to_tech = forth_gen_mr_fighter
+			leads_to_tech = adv_forth_gen_mr_fighter
 			research_cost_coeff = 1
 		}
 		
@@ -55,7 +55,7 @@ technologies = {
 		start_year = 1955
 		folder = {
 			name = air_techs_folder
-			position = { x = @mr_fighter_line y = 2 }
+			position = { x = @mr_fighter_line y = 4 }
 		}
 		
 		categories = {
@@ -85,7 +85,7 @@ technologies = {
 		start_year = 1955
 		folder = {
 			name = air_techs_folder
-			position = { x = @mr_fighter_line y = 4 }
+			position = { x = @mr_fighter_line y = 8 }
 		}
 		
 		categories = {
@@ -110,7 +110,7 @@ technologies = {
 		start_year = 1955
 		folder = {
 			name = air_techs_folder
-			position = { x = @mr_fighter_line y = 6 }
+			position = { x = @mr_fighter_line y = 12 }
 		}
 		
 		categories = {
@@ -129,14 +129,14 @@ technologies = {
 
 #   AS Fighters
 # 3G	Mig-21s , F-4s	
-	third_gen_mr_fighter = {
+	third_gen_as_fighter = {
 
 		enable_equipments = {
 			third_gen_as_fighter
 		}
 	
 		path = {
-			leads_to_tech = forth_gen_AS_fighter
+			leads_to_tech = forth_gen_as_fighter
 			research_cost_coeff = 1
 		}
 		
@@ -167,7 +167,7 @@ technologies = {
 		}
 	
 		path = {
-			leads_to_tech = forth_gen_as_fighter
+			leads_to_tech = adv_forth_gen_as_fighter
 			research_cost_coeff = 1
 		}
 		
@@ -175,7 +175,7 @@ technologies = {
 		start_year = 1955
 		folder = {
 			name = air_techs_folder
-			position = { x = @as_fighter_line y = 2 }
+			position = { x = @as_fighter_line y = 4 }
 		}
 		
 		categories = {
@@ -205,7 +205,7 @@ technologies = {
 		start_year = 1955
 		folder = {
 			name = air_techs_folder
-			position = { x = @as_fighter_line y = 4 }
+			position = { x = @as_fighter_line y = 8 }
 		}
 		
 		categories = {
@@ -230,7 +230,7 @@ technologies = {
 		start_year = 1955
 		folder = {
 			name = air_techs_folder
-			position = { x = @as_fighter_line y = 6 }
+			position = { x = @as_fighter_line y = 12 }
 		}
 		
 		categories = {
@@ -293,7 +293,7 @@ technologies = {
 		start_year = 1955
 		folder = {
 			name = air_techs_folder
-			position = { x = @interceptor_line y = 2 }
+			position = { x = @interceptor_line y = 4 }
 		}
 		
 		categories = {
@@ -319,7 +319,7 @@ technologies = {
 		start_year = 1955
 		folder = {
 			name = air_techs_folder
-			position = { x = @interceptor_line y = 6 }
+			position = { x = @interceptor_line y = 12 }
 		}
 		
 		categories = {
@@ -382,7 +382,7 @@ technologies = {
 		start_year = 1955
 		folder = {
 			name = air_techs_folder
-			position = { x = @cas_line y = 2 }
+			position = { x = @cas_line y = 4 }
 		}
 		
 		categories = {
@@ -408,7 +408,7 @@ technologies = {
 		start_year = 1955
 		folder = {
 			name = air_techs_folder
-			position = { x = @cas_line y = 6 }
+			position = { x = @cas_line y = 12 }
 		}
 		
 		categories = {
@@ -470,7 +470,7 @@ technologies = {
 		start_year = 1955
 		folder = {
 			name = air_techs_folder
-			position = { x = @attacker_line y = 2 }
+			position = { x = @attacker_line y = 4 }
 		}
 		
 		categories = {
@@ -500,7 +500,7 @@ technologies = {
 		start_year = 1955
 		folder = {
 			name = air_techs_folder
-			position = { x = @attacker_line y = 4 }
+			position = { x = @attacker_line y = 8 }
 		}
 		
 		categories = {
@@ -525,7 +525,7 @@ technologies = {
 		start_year = 1955
 		folder = {
 			name = air_techs_folder
-			position = { x = @attacker_line y = 6 }
+			position = { x = @attacker_line y = 12 }
 		}
 		
 		categories = {
