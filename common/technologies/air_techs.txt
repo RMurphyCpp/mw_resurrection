@@ -1,9 +1,9 @@
 technologies = {
 
-		@as_fighter_line = 0
-		@mr_fighter_line = -2
-		@interceptor_line = 2
-		@attacker_line = 4
+		@as_fighter_line = -3
+		@mr_fighter_line = -3
+		@interceptor_line = 0
+		@attacker_line = 3
 		@cas_line = 6
 
 ############################################################################################################
