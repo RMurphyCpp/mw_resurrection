@@ -1203,7 +1203,7 @@ guiTypes = {
 				position = { x = 150 y = 60}
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
+				format = "UP"
 			}
 
 			gridboxtype = {
@@ -1211,7 +1211,7 @@ guiTypes = {
 				position = { x = 150 y = 260 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
+				format = "UP"
 			}
 
 			gridboxtype = {
@@ -1219,7 +1219,7 @@ guiTypes = {
 				position = { x = 150 y = 260 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
+				format = "UP"
 			}
 
 			gridboxtype = {
@@ -1227,7 +1227,7 @@ guiTypes = {
 				position = { x = 150 y = 1180 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
+				format = "UP"
 			}
 
 			gridboxtype = {
@@ -1235,7 +1235,7 @@ guiTypes = {
 				position = { x = 150 y = 540 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
+				format = "UP"
 			}
 
 			gridboxtype = {
@@ -1243,7 +1243,7 @@ guiTypes = {
 				position = { x = 150 y = 540 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
+				format = "UP"
 			}
 
 			gridboxtype = {
@@ -1251,7 +1251,7 @@ guiTypes = {
 				position = { x = 150 y = 900 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
+				format = "UP"
 			}
 
 			gridboxtype = {
@@ -1259,11 +1259,12 @@ guiTypes = {
 				position = { x = 150 y = 1040 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
+				format = "UP"
 			}
 
 		}
 
+################################################################################################
 		containerWindowType = {
 			name = "air_techs_folder"
 			position = { x=0 y=47 }
@@ -1273,189 +1274,81 @@ guiTypes = {
 			verticalScrollbar = "right_vertical_slider"
 			horizontalScrollbar = "bottom_horizontal_slider"
 
+
 			background = {
 				name = "Background"
 				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 
-			containerWindowType = {
-				name = "size_filler"
-				position = { x=0 y=0 }
-				size = { width = 500 height = 0 }
-			}
 
-			iconType = {
-				name ="fourth_fighter_bg"
-				spriteType = "GFX_fleet_in_being_bg"
-				position = { x=85 y=140 }
-			}			
+			#iconType = {
+			#	name ="infantry_techtree_bg"
+			#	spriteType = "GFX_infantry_techtree_bg"
+			#	position = { x=0 y=0 }
+			#	allwaystransparent = yes
+			#}
 			
-			instantTextBoxType = {
-				name = "fourth_generation_fighters_title"
-				position = { x = 120 y = 35 }
-				textureFile = ""
-				font = "hoi_22tech"
-				borderSize = {x = 0 y = 4}
-				text = "TITLE_4G_FIGTERS"
-				maxWidth = 400
-				maxHeight = 122
-				format = center
-				Orientation = "UPPER_LEFT"
-			}
-
-			instantTextBoxType = {
-				name = "fourth_generation_fighters_desc"
-				position = { x = 130 y = 70 }
-				textureFile = ""
-				font = "hoi_20b"
-				borderSize = {x = 0 y = 4}
-				text = "4G_FIGTERS_DESC"
-				maxWidth = 380
-				maxHeight = 122
-				format = center
-				Orientation = "UPPER_LEFT"
-			}
 			
+			#small arms ##Tech icons have height of 84. give logos and techs a distance of  50px between them
 			gridboxtype = {
-				name = "fourth_generation_interceptor_tree"
-				position = { x=80 y=120 }
-				size = { width = 478 height = 800 }
-				slotsize = { width=60 height= 60 }
+				name = "third_gen_mr_fighter_tree"
+				position = { x = 10% y = 172 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
 				format = "UP"
-				
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_fullborder_tiled"
-					position = { x=0 y=20 }					
-				}					
-				
-			}
-
-			gridboxtype = {
-				name = "fourth_generation_air_superiority_tree"
-				position = { x=80 y=140 }
-				size = { width = 478 height = 1000 }
-				slotsize = { width=60 height= 60 }
-				format = "UP"		
-			}
-
-			gridboxtype = {
-				name = "fourth_generation_multirole_tree"
-				position = { x=80 y=170 }
-				size = { width = 478 height = 1000 }
-				slotsize = { width=60 height= 60 }
-				format = "UP"	
-			}
-
-			iconType = {
-				name ="fifth_fighter_bg"
-				spriteType = "GFX_fleet_in_being_bg"
-				position = { x=700 y=140 }
-			}			
+		   }
+		   
 			
-			instantTextBoxType = {
-				name = "fifth_generation_fighters_title"
-				position = { x = 730 y = 35 }
-				textureFile = ""
-				font = "hoi_22tech"
-				borderSize = {x = 0 y = 4}
-				text = "TITLE_5G_FIGTERS"
-				maxWidth = 400
-				maxHeight = 122
-				format = center
-				Orientation = "UPPER_LEFT"
-			}
-
-			instantTextBoxType = {
-				name = "fifth_generation_fighters_desc"
-				position = { x = 730 y = 70 }
-				textureFile = ""
-				font = "hoi_20b"
-				borderSize = {x = 0 y = 4}
-				text = "5G_FIGTERS_DESC"
-				maxWidth = 380
-				maxHeight = 122
-				format = center
-				Orientation = "UPPER_LEFT"
-			}
-			
+			#lmg 
 			gridboxtype = {
-				name = "fifth_generation_air_superiority_tree"
-				position = { x=693 y=-30 }
-				size = { width = 478 height = 800 }
-				slotsize = { width=60 height= 60 }
+				name = "third_gen_as_fighter_tree"
+				position = { x = 10% y = 172 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
 				format = "UP"
-
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_fullborder_tiled"
-					position = { x=0 y=170 }					
-				}				
-			}
-
-			gridboxtype = {
-				name = "fifth_generation_multirole_tree"
-				position = { x=670 y=60 }
-				size = { width = 500 height = 1000 }
-				slotsize = { width=60 height= 60 }
-				format = "UP"	
-			}
-
-			iconType = {
-				name ="sixth_fighter_bg"
-				spriteType = "GFX_fleet_in_being_bg"
-				position = { x=1350 y=140 }
-			}			
+		   }
 			
-			instantTextBoxType = {
-				name = "sixth_generation_fighters_title"
-				position = { x = 1385 y = 35 }
-				textureFile = ""
-				font = "hoi_22tech"
-				borderSize = {x = 0 y = 4}
-				text = "TITLE_6G_FIGTERS"
-				maxWidth = 400
-				maxHeight = 122
-				format = center
-				Orientation = "UPPER_LEFT"
-			}
 
-			instantTextBoxType = {
-				name = "sixth_generation_fighters_desc"
-				position = { x = 1385 y = 70 }
-				textureFile = ""
-				font = "hoi_20b"
-				borderSize = {x = 0 y = 4}
-				text = "6G_FIGTERS_DESC"
-				maxWidth = 380
-				maxHeight = 122
-				format = center
-				Orientation = "UPPER_LEFT"
-			}
-			
+			#gpmg 
 			gridboxtype = {
-				name = "sixth_generation_air_superiority_tree"
-				position = { x=1340 y=-30 }
-				size = { width = 478 height = 800 }
-				slotsize = { width=60 height= 60 }
+				name = "third_gen_interceptor_tree"
+				position = { x = 10% y = 172 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
 				format = "UP"
+		   }
 
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_fullborder_tiled"
-					position = { x=0 y=170 }			
-				}				
-			}
-
+			#Anti-tank tree
 			gridboxtype = {
-				name = "sixth_generation_multirole_tree"
-				position = { x=1340 y=60 }
-				size = { width = 478 height = 1000 }
-				slotsize = { width=60 height= 60 }
-				format = "UP"	
-			}			
+				name = "third_gen_cas_tree"
+				position = { x = 10% y = 172 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+		   }
+			
+
+			
+			#Anti-tank guided missile tree
+			gridboxtype = {
+				name = "third_gen_attacker_tree"
+				position = { x = 10% y = 172 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+		   }
+
+			
+			iconType = { #Game searches for this so must be here
+				name = "highlight_infantry_1"
+				spriteType = "GFX_tutorial_research_small_item_icon_glow"
+				position = { x=135 y=170}
+				hide = yes
+				alwaystransparent = yes
+
+			}
 		}
-
+#####################################################################################
 		containerWindowType = {
 			name = "industry_folder"
 			position = { x=0 y=47 }
