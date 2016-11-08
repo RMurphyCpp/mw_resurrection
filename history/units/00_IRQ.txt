@@ -495,7 +495,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 
 	division = {
 		name = "3rd Special Forces Brigade" 
-		location = 12046
+		location = 2097
 						
 		division_template = "Special Forces Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 		start_experience_factor = 0.3 #starting experience. 0.1 is lvl 3 (highest) and 0.3 is lvl 1 (lowest)
@@ -511,7 +511,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 
 	division = {
 		name = "2nd «Al Medina» RG Armored Division" 
-		location = 12046
+		location = 2097
 						
 		division_template = "Republican Guard Armored Division 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 		start_experience_factor = 0.3 #starting experience. 0.1 is lvl 3 (highest) and 0.3 is lvl 1 (lowest)
@@ -583,7 +583,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 
 	division = {
 		name = "1st SRG Brigade" 
-		location = 12046
+		location = 2097
 						
 		division_template = "Special Republican Guard Brigade 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 		start_experience_factor = 0.3 #starting experience. 0.1 is lvl 3 (highest) and 0.3 is lvl 1 (lowest)
@@ -591,7 +591,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 
 	division = {
 		name = "2nd SRG Brigade" 
-		location = 12046
+		location = 2097
 						
 		division_template = "Special Republican Guard Brigade 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 		start_experience_factor = 0.3 #starting experience. 0.1 is lvl 3 (highest) and 0.3 is lvl 1 (lowest)
@@ -599,7 +599,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 
 	division = {
 		name = "3rd SRG Brigade" 
-		location = 12046
+		location = 2097
 						
 		division_template = "Special Republican Guard Brigade 2" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 		start_experience_factor = 0.3 #starting experience. 0.1 is lvl 3 (highest) and 0.3 is lvl 1 (lowest)
@@ -607,7 +607,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 
 	division = {
 		name = "SRG Air Defence Brigade" 
-		location = 12046
+		location = 2097
 						
 		division_template = "Special Republican Guard Air Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 		start_experience_factor = 0.3 #starting experience. 0.1 is lvl 3 (highest) and 0.3 is lvl 1 (lowest)
@@ -615,7 +615,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 
 	division = {
 		name = "SRG Armored Brigade" 
-		location = 12046
+		location = 2097
 						
 		division_template = "Special Republican Guard Armored Brigade" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 		start_experience_factor = 0.3 #starting experience. 0.1 is lvl 3 (highest) and 0.3 is lvl 1 (lowest)
@@ -630,7 +630,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 
 	division = {
 		name = "Kadhimiya Fedayeen Saddam Unit" 
-		location = 12046
+		location = 2097
 						
 		division_template = "Fedayeen Saddam Unit" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 	}
@@ -672,7 +672,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 
 	division = {
 		name = "Baghdad Ba'ath Militia Unit" 
-		location = 12046
+		location = 2097
 						
 		division_template = "Ba'ath Militia Unit"" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 	}
