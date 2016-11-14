@@ -528,7 +528,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 
         division = {
 		name = "1039th Air Defence Regiment" 
-		location = 11542
+		location = 11514
 						
 		division_template = "Air Defence Regiment" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 		start_experience_factor = 0.1 
