@@ -1,0 +1,18 @@
+﻿division_template = { #STRUCTURE OF BRIGADE TEMPLATE
+	name = "Infantry Battalion" #Name of the brigade that appears when you select it
+	
+	regiments = {
+		motorized = { x = 0 y = 0 } #regiments are the combat units NOT the support units
+	}
+
+}
+
+units = { #place all units that appear on the map. You need at least 1 template.
+
+	division = {
+		name = "Luxembourg Army" 
+		location = 6583
+						
+		division_template = "Infantry Battalion" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+	}
+}
