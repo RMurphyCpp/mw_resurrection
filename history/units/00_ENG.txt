@@ -209,14 +209,14 @@ units = {
 		name = "16 Air Assault Brigade"
 		location = 11374 #Colchester garrison
 		division_template = "Air Assault Brigade"
-		start_experience_factor = 0.1
+		start_experience_factor = 0.3
 	}
 
 	division = {
 		name = "3 commando Brigade"
 		location = 540 #Plymouth 
 		division_template = "Commando Brigade"
-		start_experience_factor = 0.1
+		start_experience_factor = 0.3
 	}
 	
 	division = {
