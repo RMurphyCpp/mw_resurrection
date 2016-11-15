@@ -80,7 +80,7 @@ units = { #place all units that appear on the map. You need at least 1 template.
 		name = "7th Mechanized Brigade" 
 		location = 6590
 						
-		division_template = "Brigade 1" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
+		division_template = "Brigade 2" #name of the template. MUST BE THE EXACT SAME WORD TO WORD
 		start_experience_factor = 0.1 #starting experience. 0.1 is lvl 3 (highest) and 0.3 is lvl 1 (lowest)
 	}
 
