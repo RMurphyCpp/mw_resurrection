@@ -1,7 +1,7 @@
 state={
 	id=127
 	name="STATE_127" # Sussex
-	manpower = 3193383
+	manpower = 5000000
 	state_category = large_city
 	history={
 	

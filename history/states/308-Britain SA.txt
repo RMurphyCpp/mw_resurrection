@@ -1,7 +1,7 @@
 state={
 	id=308
 	name="STATE_308"
-	manpower=	25678
+	manpower=	30000
 	state_category = tiny_island
 	history={
 		owner = ENG
