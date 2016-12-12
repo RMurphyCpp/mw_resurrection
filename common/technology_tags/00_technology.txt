@@ -70,19 +70,6 @@ technology_categories = {
 	mot_rockets
 	support_tech
 	para_tech
-	#Can't move these to another file unfortunately
-	#Inf Weapons Techs
-	infantry_small_arms
-	infantry_lmg
-	infantry_gpmg
-	infantry_at
-	infantry_atgm
-	infantry_manpad
-	
-	#armour
-	mbt
-	ifv
-	apc
 }
 
 technology_folders = {

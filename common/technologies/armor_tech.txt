@@ -10,7 +10,7 @@ technologies = {
 	first_gen_mbt = {
 		
 		enable_equipments = {
-			first_gen_mbt_equipment
+			mbt_0
 		}
 		
 		research_cost = 1
@@ -35,13 +35,12 @@ technologies = {
 		}
 				
 	}
-
 	
 ## Second Gen Tanks T-62,M60                                       	
 	second_gen_mbt = {
 		
 		enable_equipments = {
-			second_gen_mbt_equipment
+			mbt_1
 		}
 		
 		research_cost = 1
@@ -71,7 +70,7 @@ technologies = {
 	adv_second_gen_mbt = {
 		
 		enable_equipments = {
-			adv_second_gen_mbt_equipment
+			mbt_2
 		}
 		
 		research_cost = 1
@@ -96,11 +95,11 @@ technologies = {
 		}
 				
 	}
-## Third Gen Tanks (it's getting really boring now)	T-90,M1 Abrams
+## Third Gen Tanks T-80,M1 Abrams
 	third_gen_mbt = {
 		
 		enable_equipments = {
-			third_gen_mbt_equipment
+			mbt_3
 		}
 		
 		research_cost = 1
@@ -126,11 +125,11 @@ technologies = {
 				
 	}
 
-## Advanced Third Gen Tanks T-90MS,M1A2 SEP v2
+## Advanced Third Gen Tanks T-90,M1A1
 	adv_third_gen_mbt = {
 		
 		enable_equipments = {
-			adv_third_gen_mbt_equipment
+			mbt_4
 		}
 		
 		research_cost = 1
@@ -150,17 +149,17 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = forth_gen_mbt
+			leads_to_tech = mod_third_gen_mbt
 			research_cost_coeff = 1
 		}
 				
 	}	
-
-## Forth Gen Gen Tanks T-14,M1A3
-	forth_gen_mbt = {
+	
+## Advanced Third Gen Tanks T-90,M1A1
+	mod_third_gen_mbt = {
 		
 		enable_equipments = {
-			forth_gen_mbt_equipment
+			mbt_5
 		}
 		
 		research_cost = 1
@@ -169,6 +168,36 @@ technologies = {
 		folder = {
 			name = armour_folder
 			position = { x = @mbt_line y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			mbt
+		}
+		
+		path = {
+			leads_to_tech = forth_gen_mbt
+			research_cost_coeff = 1
+		}
+				
+	}
+	
+## Forth Gen Gen Tanks T-14,M1A3
+	forth_gen_mbt = {
+		
+		enable_equipments = {
+			mbt_6
+		}
+		
+		research_cost = 1
+		start_year = 1955
+		
+		folder = {
+			name = armour_folder
+			position = { x = @mbt_line y = 12 }
 		}
 		
 		ai_will_do = {
@@ -192,7 +221,7 @@ technologies = {
 	first_gen_ifv = {
 		
 		enable_equipments = {
-			first_gen_ifv_equipment
+			ifv_1
 		}
 		
 		research_cost = 1
@@ -222,7 +251,7 @@ technologies = {
 	second_gen_ifv = {
 		
 		enable_equipments = {
-			second_gen_ifv_equipment
+			ifv_2
 		}
 		
 		research_cost = 1
@@ -252,7 +281,7 @@ technologies = {
 	third_gen_ifv = {
 		
 		enable_equipments = {
-			third_gen_ifv_equipment
+			ifv_3
 		}
 		
 		research_cost = 1
@@ -283,7 +312,7 @@ technologies = {
 	forth_gen_ifv = {
 		
 		enable_equipments = {
-			fourth_gen_ifv_equipment
+			ifv_4
 		}
 		
 		research_cost = 1
@@ -314,7 +343,7 @@ technologies = {
 	first_gen_apc = {
 		
 		enable_equipments = {
-			first_gen_apc_equipment
+			apc_1
 		}
 		
 		research_cost = 1
@@ -344,7 +373,7 @@ technologies = {
 	second_gen_apc = {
 		
 		enable_equipments = {
-			second_gen_apc_equipment
+			apc_2
 		}
 		
 		research_cost = 1
@@ -374,7 +403,7 @@ technologies = {
 	third_gen_apc = {
 		
 		enable_equipments = {
-			third_gen_apc_equipment
+			apc_3
 		}
 		
 		research_cost = 1
@@ -405,7 +434,7 @@ technologies = {
 	forth_gen_apc = {
 		
 		enable_equipments = {
-			fourth_gen_apc_equipment
+			apc_4
 		}
 		
 		research_cost = 1
