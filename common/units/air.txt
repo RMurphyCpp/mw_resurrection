@@ -1,0 +1,67 @@
+sub_units = {
+#Fighters
+	fighter = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = { fighter }
+		need = { fighter = 1 }
+		categories = { category_fighter }
+	}
+
+	cv_fighter = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = { fighter }
+		need = { cv_fighter = 1 }
+		categories = { category_fighter }
+	}
+
+	heavy_fighter = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = { fighter }
+		need = { heavy_fighter = 1 }
+		categories = { category_fighter }
+	}
+	
+	cv_heavy_fighter = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = { fighter }
+		need = { cv_heavy_fighter = 1 }
+		categories = { category_fighter }
+	}
+	
+	cas = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = { cas }
+		need = { CAS = 1 }
+		categories = { category_cas }
+	}
+
+	strike_fighter = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = { tactical_bomber }
+		need = { strike_fighter = 1 }
+		categories = { category_cas }
+	}
+
+	interceptor = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = { interceptor }
+		need = { interceptor = 1 }
+	}
+
+
+	
+}
