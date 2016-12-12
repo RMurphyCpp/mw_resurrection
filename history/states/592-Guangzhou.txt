@@ -12,6 +12,13 @@ state={
 		add_core_of = CHC
 		add_claim_by = ROC
 
+		buildings = {
+
+			1047 = {
+				naval_base = 5
+			}
+
+		}
 		victory_points = {
 			1047 28 	#Guangzhou 
 		}
