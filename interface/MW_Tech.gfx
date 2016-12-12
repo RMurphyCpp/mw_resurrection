@@ -1,0 +1,774 @@
+###Event pics index for modern warfare mod. File made by Murphy
+##news frame (major = yes)  pic size 397x153
+##others 210x176 (I think)
+
+spriteTypes = {
+	
+##############################################################################################################################################	
+##############################################################################################################################################
+##############################################################################################################################################
+##############################################################################################################################################
+##############################################################################################################################################
+##############################################################################################################################################
+
+
+
+
+
+
+##### Generic tech ######
+
+
+	SpriteType = {
+		name = "GFX_first_gen_mbt_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/mbt_0.dds"
+		alwaystransparent = yes
+	}
+
+##### US tech ######################################################################################################	
+#MBTs
+	SpriteType = {
+		name = "GFX_USA_first_gen_mbt_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/M48.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_second_gen_mbt_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/M60.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_adv_second_gen_mbt_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/M60A2.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_third_gen_mbt_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/M1.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_adv_third_gen_mbt_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/M1A1.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_mod_third_gen_mbt_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/M1A2.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_forth_gen_mbt_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/M1A3.dds"
+		alwaystransparent = yes
+	}	
+	
+# Aircrafts
+
+
+	SpriteType = {
+		name = "GFX_USA_fifth_gen_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/F-35.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_fifth_gen_heavy_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/F-22.dds"
+		alwaystransparent = yes
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_third_gen_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/F-4.dds"
+		alwaystransparent = yes
+	}	
+	
+	
+	SpriteType = {
+		name = "GFX_USA_forth_gen_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/F-16.dds"
+		alwaystransparent = yes
+	}	
+	
+	
+	SpriteType = {
+		name = "GFX_USA_forth_gen_heavy_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/F-15C.dds"
+		alwaystransparent = yes
+	}		
+	
+
+	SpriteType = {
+		name = "GFX_USA_adv_third_gen_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/F-14.dds"
+		alwaystransparent = yes
+	}		
+
+		
+	SpriteType = {
+		name = "GFX_USA_forth_gen_cas_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/A-10.dds"
+		alwaystransparent = yes
+	}	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_USA_third_gen_attacker_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/F-111.dds"
+		alwaystransparent = yes
+	}
+
+#Carrier based  fighters	
+	
+	SpriteType = {
+		name = "GFX_USA_cv_third_gen_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/F-4A.dds"
+		alwaystransparent = yes
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_cv_third_gen_adv_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/F-14A.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_cv_fifth_gen_light_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/F-35.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_cv_forth_gen_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/FA18.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_cv_adv_forth_gen_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/FA18.dds"
+		alwaystransparent = yes
+	}
+	
+# SSNs
+
+	SpriteType = {
+		name = "GFX_USA_early_nuclear_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/strugeon.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_basic_nuclear_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/strugeon.dds"
+		alwaystransparent = yes
+	}
+	
+
+	SpriteType = {
+		name = "GFX_USA_improved_nuclear_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/seawolf.dds"
+		alwaystransparent = yes
+	}
+
+
+	SpriteType = {
+		name = "GFX_USA_advanced_nuclear_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/virginia.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_modern_nuclear_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/virginia.dds"
+		alwaystransparent = yes
+	}
+
+# SSBN/SSGNs
+
+	SpriteType = {
+		name = "GFX_USA_early_nuclear_missile_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Benjamin Franklin-class.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_basic_nuclear_missile_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Ohio-class.dds"
+		alwaystransparent = yes
+	}
+	
+
+	SpriteType = {
+		name = "GFX_USA_improved_nuclear_missile_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Ohio-class.dds"
+		alwaystransparent = yes
+	}
+
+
+	SpriteType = {
+		name = "GFX_USA_advanced_nuclear_missile_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Ohio-class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_modern_nuclear_missile_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Ohio-class.dds"
+		alwaystransparent = yes
+	}
+	
+#CCGs
+
+	SpriteType = {
+		name = "GFX_USA_early_cruiser_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Belknap-class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_basic_cruiser_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Ticonderoga-class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_improved_cruiser_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Ticonderoga-class.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_advanced_cruiser_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Ticonderoga-class II.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_modern_cruiser_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/CGX.dds"
+		alwaystransparent = yes
+	}
+
+	#DDGs
+
+	SpriteType = {
+		name = "GFX_USA_early_destroyer_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Spruance-class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_basic_destroyer_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Kidd-class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_improved_destroyer_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Arleigh Burke-Class.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_advanced_destroyer_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Arleigh Burke-Class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_modern_destroyer_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/DDX.dds"
+		alwaystransparent = yes
+	}
+
+	#FFGs
+
+	SpriteType = {
+		name = "GFX_USA_early_frigate_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Brooke class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_basic_frigate_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/OHP-class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_improved_frigate_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/OHP-Class.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_advanced_frigate_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/freedom-class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_modern_frigate_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Independence-class.dds"
+		alwaystransparent = yes
+	}
+	
+#Carriers
+
+	SpriteType = {
+		name = "GFX_USA_early_carrier_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Forrestal-class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_basic_carrier_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Kitty Hawk-class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_improved_carrier_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Enterprise-Class.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_advanced_carrier_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Nimitz-Class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_modern_carrier_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Nimitz-Class.dds"
+		alwaystransparent = yes
+	}
+
+	
+# Small arms 
+
+
+
+	SpriteType = {
+		name = "GFX_USA_infantry_small_arms_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/weapons/M14.dds"
+		alwaystransparent = yes
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_infantry_small_arms_1_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/weapons/M16A1.dds"
+		alwaystransparent = yes
+	}	
+############# Ruskie Tech ####################################################################################################################
+
+#MBTs	
+	SpriteType = {
+		name = "GFX_SOV_first_gen_mbt_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/T-55.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_second_gen_mbt_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/T-62.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_adv_second_gen_mbt_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/T-72.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_third_gen_mbt_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/T-80.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_adv_third_gen_mbt_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/T-90.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_mod_third_gen_mbt_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/T-90MS.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_forth_gen_mbt_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/T-14.dds"
+		alwaystransparent = yes
+	}
+
+#IFVs
+
+	SpriteType = {
+		name = "GFX_SOV_first_gen_ifv_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/BMP-1.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_second_gen_ifv_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/BMP-2.dds"
+		alwaystransparent = yes
+	}
+	
+		SpriteType = {
+		name = "GFX_SOV_third_gen_ifv_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/BMP-3.dds"
+		alwaystransparent = yes
+	}
+	
+		SpriteType = {
+		name = "GFX_SOV_forth_gen_ifv_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/T-15.dds"
+		alwaystransparent = yes
+	}
+
+#APCs
+	
+	SpriteType = {
+		name = "GFX_SOV_first_gen_apc_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/T-14.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_second_gen_apc_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/T-14.dds"
+		alwaystransparent = yes
+	}
+	
+		SpriteType = {
+		name = "GFX_SOV_third_gen_apc_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/T-14.dds"
+		alwaystransparent = yes
+	}
+	
+		SpriteType = {
+		name = "GFX_SOV_forth_gen_apc_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/T-14.dds"
+		alwaystransparent = yes
+	}
+
+
+	
+
+# Aircrafts
+
+	SpriteType = {
+		name = "GFX_SOV_third_gen_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/MIG-21.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_adv_third_gen_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/MIG-23.dds"
+		alwaystransparent = yes
+	}		
+	
+
+	SpriteType = {
+		name = "GFX_SOV_fifth_gen_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/MIG LMFS.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_fifth_gen_heavy_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/PAK FA.dds"
+		alwaystransparent = yes
+	}	
+	
+	
+	SpriteType = {
+		name = "GFX_SOV_forth_gen_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Mig-29.dds"
+		alwaystransparent = yes
+	}	
+	
+	
+	SpriteType = {
+		name = "GFX_SOV_forth_gen_heavy_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Su-27.dds"
+		alwaystransparent = yes
+	}		
+	
+	SpriteType = {
+		name = "GFX_SOV_adv_forth_gen_heavy_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Su-35.dds"
+		alwaystransparent = yes
+	}
+	
+	
+
+	SpriteType = {
+		name = "GFX_SOV_third_gen_interceptor_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/MiG-25.dds"
+		alwaystransparent = yes
+	}
+	
+		SpriteType = {
+		name = "GFX_SOV_forth_gen_interceptor_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/MiG-31.dds"
+		alwaystransparent = yes
+	}
+	
+	
+		SpriteType = {
+		name = "GFX_SOV_adv_forth_gen_attacker_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Su-34.dds"
+		alwaystransparent = yes
+		
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_forth_gen_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Mig-29.dds"
+		alwaystransparent = yes
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_adv_forth_gen_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Mig-35.dds"
+		alwaystransparent = yes
+	}	
+	
+	
+	SpriteType = {
+		name = "GFX_SOV_forth_gen_heavy_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Su-27.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_forth_gen_attacker_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Su-24.dds"
+		alwaystransparent = yes
+	}	
+	
+	
+	## Carrier based fighters
+
+	SpriteType = {
+		name = "GFX_SOV_cv_forth_gen_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Su-33.dds"
+		alwaystransparent = yes
+	}	
+
+# SSKs
+
+	SpriteType = {
+		name = "GFX_SOV_early_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Tango class.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_basic_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Kilo class.dds"
+		alwaystransparent = yes
+	}
+	
+
+	SpriteType = {
+		name = "GFX_SOV_improved_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Kilo class.dds"
+		alwaystransparent = yes
+	}
+
+
+	SpriteType = {
+		name = "GFX_SOV_advanced_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Kilo class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_modern_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Lada class.dds"
+		alwaystransparent = yes
+	}
+	
+# SSNs
+
+	SpriteType = {
+		name = "GFX_SOV_early_nuclear_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Victor class.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_basic_nuclear_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Alfa class.dds"
+		alwaystransparent = yes
+	}
+	
+
+	SpriteType = {
+		name = "GFX_SOV_improved_nuclear_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Akula class.dds"
+		alwaystransparent = yes
+	}
+
+
+	SpriteType = {
+		name = "GFX_SOV_advanced_nuclear_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Akula class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_modern_nuclear_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Yasen class.dds"
+		alwaystransparent = yes
+	}
+
+# SSBN/SSGNs
+
+	SpriteType = {
+		name = "GFX_SOV_early_nuclear_missile_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/delta I class.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_basic_nuclear_missile_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Oscar class.dds"
+		alwaystransparent = yes
+	}
+	
+
+	SpriteType = {
+		name = "GFX_SOV_improved_nuclear_missile_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/typhoon class.dds"
+		alwaystransparent = yes
+	}
+
+
+	SpriteType = {
+		name = "GFX_SOV_advanced_nuclear_missile_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Delta IV class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_modern_nuclear_missile_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Borei class.dds"
+		alwaystransparent = yes
+	}
+	
+#CCGs
+
+	SpriteType = {
+		name = "GFX_SOV_early_cruiser_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Kresta class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_basic_cruiser_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Kara class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_improved_cruiser_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Slava class.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_advanced_cruiser_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Slava class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_modern_cruiser_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Lider class.dds"
+		alwaystransparent = yes
+	}
+
+	#DDGs
+
+	SpriteType = {
+		name = "GFX_SOV_early_destroyer_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Kashin class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_basic_destroyer_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Sovremenny class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_improved_destroyer_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Udaloy II class.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_advanced_destroyer_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Chabanenko class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_modern_destroyer_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Lider class.dds"
+		alwaystransparent = yes
+	}
+
+#Carriers
+
+	SpriteType = {
+		name = "GFX_SOV_early_carrier_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Kiev class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_basic_carrier_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Baku class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_improved_carrier_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Adm Kuznetsov class.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_advanced_carrier_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Ulyanovsk class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_modern_carrier_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/shtorm class.dds"
+		alwaystransparent = yes
+	}
+	
+}
