@@ -1,0 +1,216 @@
+﻿l_english:
+ naval_equipment:0 "Ships"
+
+ 
+ 
+ ### Generics ###################################################################################################################
+
+  
+ submarine_1:0 "Attack Submarine I"
+ submarine_2:0 "Attack Submarine II"
+ submarine_3:0 "Attack Submarine III"
+ submarine_4:0 "Attack Submarine IV"
+ submarine_5:0 "Attack Submarine V"
+ 
+ nuclear_submarine_1:0 "Nuclear Attack Submarine I"
+ nuclear_submarine_2:0 "Nuclear Attack Submarine II"
+ nuclear_submarine_3:0 "Nuclear Attack  Submarine III"
+ nuclear_submarine_4:0 "Nuclear Attack Submarine IV"
+ nuclear_submarine_5:0 "Nuclear Attack Submarine V"
+ 
+ nuclear_missile_submarine_1:0 "Nuclear Missile Submarine I"
+ nuclear_missile_submarine_2:0 "Nuclear Missile Submarine II"
+ nuclear_missile_submarine_3:0 "Nuclear Missile  Submarine III"
+ nuclear_missile_submarine_4:0 "Nuclear Missile Submarine IV"
+ nuclear_missile_submarine_5:0 "Nuclear Missile Submarine V"
+ 
+ destroyer_1:0 "Destroyer I"
+ destroyer_2:0 "Destroyer II"
+ destroyer_3:0 "Destroyer III"
+ destroyer_4:0 "Destroyer IV"
+ destroyer_5:0 "Destroyer V"
+ 
+ frigate_1:0 "Frigate I"
+ frigate_2:0 "Frigate II"
+ frigate_3:0 "Frigate III"
+ frigate_4:0 "Frigate IV"
+ frigate_5:0 "Frigate V"
+ 
+ cruiser_1:0 "Guided Missile Cruiser I"
+ cruiser_2:0 "Guided Missile Cruiser II"
+ cruiser_3:0 "Guided Missile Cruiser III"
+ cruiser_4:0 "Guided Missile Cruiser IV"
+ cruiser_5:0 "Guided Missile Cruiser V" 
+ 
+ corvette_1:0 "Corvette I"
+ corvette_2:0 "Corvette II"
+ corvette_3:0 "Corvette III"
+ corvette_4:0 "Corvette IV"
+ corvette_5:0 "Corvette V" 
+ 
+ missile_boat_1:0 "Fast Attack Craft I"
+ missile_boat_2:0 "Fast Attack Craft II"
+ missile_boat_3:0 "Fast Attack Craft III"
+ missile_boat_4:0 "Fast Attack Craft IV"
+ missile_boat_5:0 "Fast Attack Craft V" 
+ 
+ carrier_1:0 "Carrier I"
+ carrier_2:0 "Carrier II"
+ carrier_3:0 "Carrier III"
+ carrier_4:0 "Carrier IV"
+ carrier_5:0 "Carrier V"
+ 
+ aas_1:0 "Amphibious assault Ship I"
+ aas_2:0 "Amphibious assault Ship II"
+ aas_3:0 "Amphibious assault Ship III"
+ aas_4:0 "Amphibious assault Ship IV"
+ aas_5:0 "Amphibious assault Ship V"
+ 
+ ### USA  ###################################################################################################################
+
+ 
+ #DDGs
+ USA_destroyer_1:0 "Spruance-class destroyer"
+ USA_destroyer_2: "Kidd-class destroyer"
+ USA_destroyer_2_desc:0 "The Kidd-class guided missile destroyers (DDGs) were a series of warships based on the Spruance class destroyers. The Kidds were designed as more advanced multipurpose ships, in contrast to their predecessor's focus on anti-submarine warfare, adding considerably enhanced anti-aircraft capabilities."
+ USA_destroyer_3:0 "Arleigh Burke-Class Flight I"
+ USA_destroyer_3_desc:0 "The Arleigh Burke class of multi-mission, guided missile destroyers (DDGs) is the United States Navy's first class of destroyer built around the Aegis Combat System and the SPY-1D multi-function passive electronically scanned array radar. The class is named for Admiral Arleigh Burke, the most famous American destroyer officer of World War II, and later Chief of Naval Operations."
+ USA_destroyer_4:0 "Arleigh Burke-Class Flight IIA"
+ USA_destroyer_4_desc:0 "Further improvement on the Arleigh Burke-class DDGs."
+ USA_destroyer_5:0 "Zumwalt-class"
+ USA_destroyer_5_desc:0 "Zumwalt-class destroyer is a class of United States Navy guided missile destroyers designed as multi-mission stealth ships with a focus on land attack."
+ 
+ #CCGs
+ USA_cruiser_1:0 "Belknap-class"
+ USA_cruiser_1_desc:0 "The Belknap class cruiser is designed to accompany aircraft carriers in a carrier battle group."
+ USA_cruiser_2:0 "Ticonderoga-class M26"
+ USA_cruiser_2_desc:0 "The Ticonderoga-class cruiser's design was based on that of the Spruance-class destroyer.[2] The Ticonderoga class introduced a new generation of guided missile warships based on the Aegis phased array radar that is capable of simultaneously scanning for threats, tracking targets, and guiding missiles to interception. When they were designed, they had the most powerful electronic warfare equipment in the U.S. Navy, as well as the most advanced underwater surveillance system."
+ USA_cruiser_3:0 "Ticonderoga-class Mark-41 VLS"
+ USA_cruiser_3_desc:0 "In addition to the added radar capability, the Ticonderoga-class ships built after USS Thomas S. Gates included two Mark 41 Vertical Launching Systems (VLS). The two VLS allow the ship to have 122 missile storage and launching tubes that can carry a wide variety of missiles, including the Tomahawk cruise missile, Standard surface-to-air missile, Evolved Sea Sparrow surface-to-air missile, and ASROC antisubmarine warfare (ASW) guided rockets. More importantly, the VLS enables all missiles to be on full stand-by at any given time, shortening the warship's response time before firing."
+ USA_cruiser_4:0 "Ticonderoga-class HM&E Upgrade"
+ USA_cruiser_4_desc:0 "In addition to the added radar capability, the Ticonderoga-class ships built after USS Thomas S. Gates included two Mark 41 Vertical Launching Systems (VLS). The two VLS allow the ship to have 122 missile storage and launching tubes that can carry a wide variety of missiles, including the Tomahawk cruise missile, Standard surface-to-air missile, Evolved Sea Sparrow surface-to-air missile, and ASROC antisubmarine warfare (ASW) guided rockets. More importantly, the VLS enables all missiles to be on full stand-by at any given time, shortening the warship's response time before firing." 
+ USA_cruiser_5:0 "CG(X)"
+ USA_cruiser_5_desc:0 "The CG(X) program, also known as the Next Generation Cruiser program, was a United States Navy research program to develop a replacement vessel for its 22 Ticonderoga-class cruisers after 2017"
+
+ #FFGs
+ USA_frigate_1:0 "Brooke-class frigate"
+ USA_frigate_2: "Oliver Hazard Perry-class frigate"
+ USA_frigate_2_desc:0 "The Oliver Hazard Perry class is a class of guided missile frigates named after the American Commodore Oliver Hazard Perry,the warships were designed in the United States as general-purpose escort vessels inexpensive enough to be bought in large quantities"
+ USA_frigate_3:0 "Oliver Hazard Perry-class Flight II"
+ USA_frigate_3_desc:0 "Further improvement on the Oliver Hazard Perry-class FFGs."
+ USA_frigate_4:0 "Freedom-class littoral combat ship"
+ USA_frigate_4_desc:0 "The Freedom class was proposed by Lockheed Martin as a contender for a fleet of small, multipurpose warships to operate in the littoral zone."
+ USA_frigate_5:0 "Independence-class littoral combat ship"
+ USA_frigate_5_desc:0 "The Independence class is a class of littoral combat ships built for the United States Navy as small, multipurpose warships to operate in the littoral zones." 
+ 
+ #Carriers
+ USA_carrier_1:0 "Forrestal-class"
+ USA_carrier_1_desc:0 "The Lexington Class carrier was born from the converted hulls of two Lexington Class battlecruisers in order to conform to the limitations imposed by the Washington Naval Treaty. The class was the first operational carrier class in the US Navy and spent several years improving carrier operations."
+ USA_carrier_2:0 "Kitty Hawk-class"
+ USA_carrier_2_desc:0 "The Kitty Hawk-class supercarriers of the United States Navy were an incremental improvement on the Forrestal-class vessels."
+ USA_carrier_3: "Enterprise-Class"
+ USA_carrier_4:0 "Nimitz-Class"
+ USA_carrier_4_desc:0 "The Nimitz-class supercarriers are a class of nuclear-powered aircraft carriers in service with the United States Navy. The lead ship of the class is named for World War II United States Pacific Fleet commander Fleet Admiral Chester W. Nimitz, the U.S. Navy's last fleet admiral. With an overall length of 1,092 ft (333 m) and full-load displacement of over 100,000 long tons,[1] they have been the largest warships built and in service."
+ USA_carrier_5:0 "Gerald R. Ford-class"
+ USA_carrier_5_desc:0 "is a class of supercarriers being built to replace some of the United States Navy's existing Nimitz-class carriers from 2016 with the delivery of CVN-78, USS Gerald R. Ford. The new vessels have a hull similar to the Nimitz carriers, but introduce technologies since developed such as the Electromagnetic Aircraft Launch System"
+
+ #SSKs
+ USA_submarine_1:0 "Sturgeon-class"
+ USA_submarine_1_desc:0 "The Sturgeon class (known colloquially in naval circles as the 637 class) was a class of nuclear-powered fast attack submarines (SSN) in service with the United States Navy from the 1960s until 2004. They were the "workhorses" of the Navy's attack submarine fleet throughout much of the Cold War."
+ USA_submarine_2:0 "Los Angeles-class"
+ USA_submarine_2_desc:0 "The Porpoise Class submarine was the US Navy's first modern submarine designed and built following a series of experimental "V Boats" built in the late 20s and early 30s. Despite initial issues with the all-electric propulsion, the class held promise and was being considered as future designs. The class was armed with 6 torpedo tubes and a 3" deck gun."
+ USA_submarine_3:0 "Seawolf-class"
+ USA_submarine_3_desc:0 "The Seawolf class is a class of nuclear-powered fast attack submarines (SSN) in service with the United States Navy. The class was the intended successor to the Los Angeles class."
+ USA_submarine_4:0 "Virginia-class"
+ USA_submarine_4_desc:0 "The Virginia class, also known as the SSN-774 class, is a class of nuclear-powered fast attack submarines in service with the United States Navy. The submarines are designed for a broad spectrum of open-ocean and littoral missions. This is the high tier U.S Navy Hunter-Killer"
+ USA_submarine_5: "Virginia-class Block IV"
+ 
+ #SSNs
+ USA_nuclear_submarine_1:0 "Sturgeon-class"
+ USA_nuclear_submarine_2:0 "Los Angeles-class"
+ USA_nuclear_submarine_3:0 "Seawolf-class"
+ USA_nuclear_submarine_4:0 "Virginia-class"
+ USA_nuclear_submarine_5:0 "Virginia-class Block IV"
+ 
+ #SSBNs/SSGNs
+ USA_nuclear_missile_submarine_1:0 "Benjamin Franklin-class"
+ USA_nuclear_missile_submarine_2:0 "Ohio-class"
+ USA_nuclear_missile_submarine_3:0 "Wyoming Ohio-class"
+ USA_nuclear_missile_submarine_4:0 "Louisiana Ohio-class"
+ USA_nuclear_missile_submarine_5:0 "Columbia-class"
+ 
+#Amphibious Assault Ships 
+ USA_aas_1:0 "Iwo Jima-class"
+ USA_aas_2:0 "Tarawa-class"
+ USA_aas_3:0 "Wasp-class"
+ USA_aas_4:0 "Makin Island Wasp-class"
+ USA_aas_5:0 "America-class"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+### Russia  ###################################################################################################################
+
+ 
+ #DDGs
+ SOV_destroyer_1:0 "Kashin class"
+ SOV_destroyer_2: "Sovremenny class"
+ SOV_destroyer_3:0 "Udaloy II"
+ SOV_destroyer_4:0 "Chabanenko-class"
+ SOV_destroyer_5:0 "Lider-class"
+ 
+ #CCGs
+ SOV_cruiser_1:0 "Kresta II-class"
+ SOV_cruiser_2:0 "Kara-class"
+ SOV_cruiser_3:0 "Slava-class"
+ SOV_cruiser_4:0 "Slava-class overhaul"
+ SOV_cruiser_5:0 "Lider-class"
+
+ #FFGs
+ SOV_frigate_1:0 "Brooke-class frigate"
+ SOV_frigate_2: "Oliver Hazard Perry-class frigate"
+ SOV_frigate_3:0 "Oliver Hazard Perry-class Flight II"
+ SOV_frigate_4:0 "Freedom-class littoral combat ship"
+ SOV_frigate_5:0 "Independence-class littoral combat ship"
+ 
+ #Carriers
+ SOV_carrier_1:0 "Kiev-class"
+ SOV_carrier_2:0 "Baku-class"
+ SOV_carrier_3: "Admiral Kuznetsov-class"
+ SOV_carrier_4:0 "Ulyanovsk-class"
+ SOV_carrier_5:0 "Shtorm-class"
+
+ #SSKs
+ SOV_submarine_1:0 "Tango class"
+ SOV_submarine_2:0 "877 Kilo-class"
+ SOV_submarine_3:0 "636 Gen Kilo-class"
+ SOV_submarine_4:0 "636M Gen Kilo-class"
+ SOV_submarine_5: "Lada-class"
+ 
+ #SSNs
+ SOV_nuclear_submarine_1:0 "Victor-class"
+ SOV_nuclear_submarine_2:0 "Alfa-class"
+ SOV_nuclear_submarine_3:0 "Akula I class"
+ SOV_nuclear_submarine_4:0 "Akula II class"
+ SOV_nuclear_submarine_5:0 "Yasen-class"
+ 
+ #SSBNs/SSGNs
+ SOV_nuclear_missile_submarine_1:0 "Delta I class"
+ SOV_nuclear_missile_submarine_2:0 "Oscar-class"
+ SOV_nuclear_missile_submarine_3:0 "Typhoon-class"
+ SOV_nuclear_missile_submarine_4:0 "Delta IV class"
+ SOV_nuclear_missile_submarine_5:0 "Borey-class"
+ 
+#Amphibious Assault Ships 
+ SOV_aas_1:0 "Iwo Jima-class"
+ SOV_aas_2:0 "Tarawa-class"
+ SOV_aas_3:0 "Wasp-class"
+ SOV_aas_4:0 "Makin Island Wasp-class"
+ SOV_aas_5:0 "America-class"
+ 
+ 

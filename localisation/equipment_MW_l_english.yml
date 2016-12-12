@@ -1,58 +1,153 @@
 ﻿l_english:
-#tanks
-    first_gen_mbt:0 "1G Main Battle tank"
-    second_gen_mbt:0 "2G Main Battle tank"
-    adv_second_gen_mbt:0 "2G adv. Main Battle tank"
-    third_gen_mbt:0 "3G Main Battle tank"
-    ad_third_gen_mbt:0 "3G adv Main Battle tank"
-    forth_gen_mbt:0 "4G Main Battle tank"
-    
-    USA_first_gen_mbt:0 "M48 Patton"
-    USA_second_gen_mbt:0 "M60 Patton"
-    USA_adv_second_gen_mbt:0 "M60A2 Patton"
-    USA_third_gen_mbt:0 "M1 Abrams"
-    USA_ad_third_gen_mbt:0 "M1A2 Abrams"
-    USA_forth_gen_mbt:0 "M1A3 Abrams"
-        
-    SOV_first_gen_mbt:0 "T-55"
-    SOV_second_gen_mbt:0 "T-62"
-    SOV_adv_second_gen_mbt:0 "T-72"
-    SOV_third_gen_mbt:0 "T-80"
-    SOV_adv_third_gen_mbt:0 "T-90"
-    SOV_forth_gen_mbt:0 "T-14"
+#####################################################                   Land Vehicles               ###################################################################################
 
-#IFVs    
-    first_gen_ifv:0 "1G Infantry Fighting vehicle"
-    second_gen_ifv:0 "2G Infantry Fighting vehicle"
-    third_gen_ifv:0 "3G Infantry Fighting vehicle"
-    forth_gen_ifv:0 "4G Infantry Fighting vehicle"
+#tanks
+
+    mbt_0:0 "1G Main Battle tank"
+    mbt_1:0 "2G Main Battle tank"
+    mbt_2:0 "2G adv. Main Battle tank"
+    mbt_3:0 "3G Main Battle tank"
+    mbt_4:0 "3G adv. Main Battle tank"
+    mbt_5:0 "3G mod. Main Battle tank"
+    mbt_6:0 "4G Main Battle tank"
+
     
-    USA_first_gen_ifv:0 "AIFV"
-    USA_second_gen_ifv:0 "M2 Bradley"
-    USA_third_gen_ifv:0 "M2A2 Bradley"
-    USA_forth_gen_ifv:0 "M2A3 ERA Bradley"
-        
+    USA_mbt_0:0 "M48 Patton"
+    USA_mbt_1:0 "M60 Patton"
+    USA_mbt_2:0 "M60A2 Patton"
+    USA_mbt_3:0 "M1 Abrams"
+    USA_mbt_4:0 "M1A1 Abrams"
+    USA_mbt_5:0 "M1A2 Abrams"
+    USA_mbt_6:0 "M1A3 Abrams"
+
+    
+    SOV_mbt_0:0 "T-55"
+    SOV_mbt_1:0 "T-62"
+    SOV_mbt_2:0 "T-72"
+    SOV_mbt_3:0 "T-80"
+    SOV_mbt_4:0 "T-90"
+    SOV_mbt_5:0 "T-90MS"
+    SOV_mbt_6:0 "T-14"
+    
+#IFVs    
+    ifv_1:0 "1G Infantry Fighting vehicle"
+    ifv_2:0 "2G Infantry Fighting vehicle"
+    ifv_3:0 "3G Infantry Fighting vehicle"
+    ifv_4:0 "4G Infantry Fighting vehicle"
+ 
+    USA_ifv_1:0 "AIFV"
+    USA_ifv_2:0 "M2 Bradley"
+    USA_ifv_3:0 "M2A2 Bradley"
+    USA_ifv_4:0 "M2A3 ERA Bradley"
+
+    
     SOV_first_gen_ifv:0 "BMP-1"
     SOV_second_gen_ifv:0 "BMP-2"
     SOV_third_gen_ifv:0 "BMP-3"
     SOV_forth_gen_ifv:0 "T-15"    
 
-#APCs    
-    first_gen_apc:0 "1G Armored Personal Carrier"
-    second_gen_apc:0 "2G Armored Personal Carrier"
-    third_gen_apc:0 "3G Armored Personal Carrier"
-    forth_gen_apc:0 "4G Armored Personal Carrier"
+
+#APC   
+    apc_1:0 "1G Armored Personal Carrier"
+    apc_2:0 "2G Armored Personal Carrier"
+    apc_3:0 "3G Armored Personal Carrier"
+    apc_4:0 "4G Armored Personal Carrier"
+ 
+    USA_apc_1:0 "M113"
+    USA_apc_2:0 "M113A3"
+    USA_apc_3:0 "M113A3 RISE"
+    USA_apc_4:0 "Turrentless Bradley"
+
     
-    USA_first_gen_apc:0 "M113"
-    USA_second_gen_apc:0 "M113A3"
-    USA_third_gen_apc:0 "M113A3 RISE"
-    USA_forth_gen_apc:0 "Turrentless Bradley"
-        
     SOV_first_gen_apc:0 "MTLB"
     SOV_second_gen_apc:0 "Btr-80"
     SOV_third_gen_apc:0 "Btr-90"
-    SOV_forth_gen_apc:0 "Bumerang"
+    SOV_forth_gen_apc:0 "Bumerang"  
+#####################################################                   Aircrafts               ###################################################################################
+#Fighters
+    fighter_0:0 "3rd Gen Fighter"
+    fighter_1:0 "3rd Gen Adv. Fighter"
+    fighter_2:0 "4th Gen Multirole Fighter"
+    fighter_3:0 "4.5th Gen Multirole Fighter"
+    fighter_4:0 "5th Gen Light Fighter"
     
+    heavy_fighter_0:0 "4th Gen Air Supperiority Fighter"
+    heavy_fighter_1:0 "4.5th Gen Air Supperiority Fighter"
+    heavy_fighter_2:0 "5th Gen Fighter"
+
+
+    USA_fighter_0:0 "F-4 Phantom "
+    USA_fighter_1:0 "F-14 Tomcat"
+    USA_fighter_2:0 "F-16 Fighting Falcon"
+    USA_fighter_3:0 "F-16V Viper"
+    USA_fighter_4:0 "F-35 Lightning II"
+
+    
+    USA_heavy_fighter_0:0 "F-15C Eagle"
+    USA_heavy_fighter_1:0 "F-15-2040C Silent Eagle"
+    USA_heavy_fighter_2:0 "F-22 Raptor"
+
+
+    USA_cv_fighter_0:0 "F-4A Phantom "
+    USA_cv_fighter_1:0 "F-14A Tomcat"
+    USA_cv_fighter_2:0 "AV-8B"
+    USA_cv_fighter_3:0 "AV-8C"
+    USA_cv_fighter_4:0 "F/A-35C"
+
+    USA_cv_heavy_fighter_0:0 "F/A-18C"
+    USA_cv_heavy_fighter_1:0 "F/A-18D"
+    USA_cv_heavy_fighter_2:0 "F-22N Sea Raptor"
+
+    
+    SOV_fighter_0:0 "MiG-21 Fishbed"
+    SOV_fighter_1:0 "MiG-23 Flogger"
+    SOV_fighter_2:0 "MiG-29 Fulcrum"
+    SOV_fighter_3:0 "MiG-35 Fulcrum"
+    SOV_fighter_4:0 "MiG LMFS"   
+    
+    SOV_heavy_fighter_0:0 "Su-27 Flanker"
+    SOV_heavy_fighter_1:0 "Su-35 Flanker-E"
+    SOV_heavy_fighter_2:0 "T-50 PAK FA"
+ 
+ 
+#Close Air Support
+    third_gen_cas:0 "3rd Gen CAS Fighter"
+    forth_gen_cas:0 "4th Gen CAS Fighter"
+    fifth_gen_cas:0 "5th Gen CAS Fighter"   
+
+    USA_third_gen_cas:0 "A-10A Warthog"
+    USA_forth_gen_cas:0 "A-10C Thunderbolt II"
+    USA_fifth_gen_cas:0 "A-X"
+ 
+    SOV_third_gen_cas:0 "Su-25 Frogfoot"
+    SOV_forth_gen_cas:0 "Su-39 Frogfoot"
+    SOV_fifth_gen_cas:0 "Pak Sha"
+
+# Strike Fighters    
+    third_gen_attacker:0 "3rd Gen Strike Fighter"
+    forth_gen_attacker:0 "4th Gen Fighter"
+    fifth_gen_attacker:0 "5th Gen Fighter"
+
+    USA_third_gen_attacker:0 "F-111 Aardvack"
+    USA_forth_gen_attacker:0 "F-15E Strike Eagle"
+    USA_fifth_gen_attacker:0 "F-15SE Silent Eagle"
+
+    SOV_third_gen_attacker:0 "Su-24 Fencer"
+    SOV_forth_gen_attacker:0 "Su-24M2 Fencer-D"
+    SOV_fifth_gen_attacker:0 "Su-34 Fullback"
+
+#Interceptors
+
+    third_gen_interceptor:0 "3rd Gen Interceptor"
+    forth_gen_interceptor:0 "4th Gen Interceptor"
+    fifth_gen_interceptor:0 "5th Gen Interceptor"
+    
+    SOV_third_gen_interceptor:0 "Mig-25 Foxbat"
+    SOV_forth_gen_interceptor:0 "Mig-31 Foxhound"
+    SOV_fifth_gen_interceptor:0 "Mig-41 Foxglove"   
+    
+    
+#####################################################                  Inf Equipment               ###################################################################################
 #small arms
     infantry_small_arms_0:0 "Small arms I"
     infantry_small_arms_1:0 "Small arms II"

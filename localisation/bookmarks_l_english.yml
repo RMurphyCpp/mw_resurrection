@@ -22,3 +22,7 @@
  SOV_BLITZKRIEG_DESC:0 "Supporting Manuel Azaña and the 'Second Spanish Republic' during the Spanish Civil War has clearly shown where the Soviet Union stands in relation to Italy and Germany. Victorious over the Japanese army in several recent border conflicts, the Soviet Union currently seems a power too major for any single country to oppose. \n\nThe promise made by Germany to partition the Baltic States and Poland is welcome at this time."
  USA_BLITZKRIEG_DESC:0 "After the collapse of the Soviet Union in 1991, the United States of America has become the only super power in the world. American exports and the American Dollar have given the United States unprecedent economic power. \n \nIn order for the United States to remain the leading power in the world it's economy and military have to be strong as well, can the United States face the challanges waiting in the new millenium or will it decline like all previous empires before it."
  OTHER_BLITZKRIEG_DESC:0 "The nations of the world, great and small, are not all content to hold their breath awaiting the outbreak of another global conflict. From major powers on the brink of civil war to the many nations formed and transformed by the Great War, all will have to make difficult decisions and balance ideals with pragmatism to have an impact on the future of the world."
+#MW bookmarks
+ Y2K_NAME:0 "Millennium Bug"
+ Y2K_DESC:0 "The start of a new age have started..."
+ SOV_Y2K_DESC:0 "Russia wakes up with a war."
