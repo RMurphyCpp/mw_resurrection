@@ -7,6 +7,14 @@ state={
 	history={
 		owner = IND
 		add_core_of = IND
+		buildings = {
+
+			12251 = {
+				naval_base = 2
+
+			}
+		}
+
 	}
 	provinces={
 		10321 12251 

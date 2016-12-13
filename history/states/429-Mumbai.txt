@@ -7,7 +7,12 @@ state={
 	history={
 		owner = IND
 		add_core_of = IND
-		
+		buildings = {
+
+			1349 = {
+				naval_base = 6
+			}
+		}		
 		victory_points = {
 			7315 29 	#Mumbai
 		}

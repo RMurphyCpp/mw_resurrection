@@ -9,6 +9,10 @@ state={
 		owner = IND
 		add_core_of = IND
 		
+		buildings = {
+			10255 = { naval_base = 3
+}
+		}
 		victory_points = {
 			10255 13 	#Visakhapatnam
 		}
