@@ -19,6 +19,7 @@ state = {
 			993 2 
 		}
 
+
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 9
