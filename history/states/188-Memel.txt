@@ -9,6 +9,11 @@ state=
 	
 	history = {
 		owner = LIT
+		buildings = {
+			3288 = {
+				naval_base = 1
+			}
+		}
 	}
 	provinces={
 		3288 	
