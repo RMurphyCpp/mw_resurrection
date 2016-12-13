@@ -16,6 +16,10 @@ state={
 			arms_factory = 6
 			air_base = 4
 			7125 = { naval_base = 3 }
+			7021 = { naval_base = 3 }
+			7204 = { naval_base = 3 }
+			10110 = { naval_base = 3 }
+
 		}		
 	}
 	provinces={
