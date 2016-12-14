@@ -1,0 +1,581 @@
+@mlrs = -8
+@sph = -4
+@howitzer = 0
+@short_range_sam = 4
+@long_range_sam = 8
+
+
+technologies = {
+	
+## 	1st Gen MLRS
+	mlrs = {
+		
+		enable_equipments = {
+			
+		}
+		
+		research_cost = 1
+		start_year = 1950
+		
+		folder = {
+			name = artillery_folder
+			position = { x = @mlrs y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			mlrs
+		}
+		
+		path = {
+			leads_to_tech = mlrs1
+			research_cost_coeff = 1
+		}	
+	}
+	
+##  2nd Gen MLRS	
+	mlrs1 = {
+		
+		enable_equipments = {
+			
+		}
+		
+		research_cost = 1
+		start_year = 1960
+		
+		folder = {
+			name = artillery_folder
+			position = { x = @mlrs y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			mlrs
+		}
+		
+		path = {
+			leads_to_tech = mlrs2
+			research_cost_coeff = 1
+		}	
+	}
+	
+##  3rd Gen MLRS	
+	mlrs2 = {
+		
+		enable_equipments = {
+			
+		}
+		
+		research_cost = 1
+		start_year = 1970
+		
+		folder = {
+			name = artillery_folder
+			position = { x = @mlrs y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			mlrs
+		}
+		
+		path = {
+			leads_to_tech = mlrs3
+			research_cost_coeff = 1
+		}	
+	}
+	
+##  4th Gen MLRS	
+	mlrs3 = {
+		
+		enable_equipments = {
+			
+		}
+		
+		research_cost = 1
+		start_year = 1980
+		
+		folder = {
+			name = artillery_folder
+			position = { x = @mlrs y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			mlrs
+		}
+	}
+	
+## 1st Gen Howitzer
+	howitzer = {
+		
+		enable_equipments = {
+			
+		}
+		
+		research_cost = 1
+		start_year = 1950
+		
+		folder = {
+			name = artillery_folder
+			position = { x = @howitzer y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			howitzer
+		}
+		
+		path = {
+			leads_to_tech = howitzer1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = sph 
+			research_cost_coeff = 0.9
+		}
+	}
+	
+## 2nd Gen Howitzer
+	howitzer1 = {
+		
+		enable_equipments = {
+			
+		}
+		
+		research_cost = 1
+		start_year = 1960
+		
+		folder = {
+			name = artillery_folder
+			position = { x = @howitzer y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			howitzer
+		}
+		
+		path = {
+			leads_to_tech = howitzer2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = sph1 
+			research_cost_coeff = 0.9
+		}
+	}
+	
+## 3rd Gen Howitzer
+	howitzer2 = {
+		
+		enable_equipments = {
+			
+		}
+		
+		research_cost = 1
+		start_year = 1970
+		
+		folder = {
+			name = artillery_folder
+			position = { x = @howitzer y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			howitzer
+		}
+		
+		path = {
+			leads_to_tech = howitzer3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = sph2
+			research_cost_coeff = 0.9
+		}
+	}
+	
+## 4th Gen Howitzer
+	howitzer3 = {
+		
+		enable_equipments = {
+			
+		}
+		
+		research_cost = 1
+		start_year = 1980
+		
+		folder = {
+			name = artillery_folder
+			position = { x = @howitzer y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			howitzer
+		}
+		
+		path = {
+			leads_to_tech = sph3
+			research_cost_coeff = 0.9
+		}
+	}
+	
+##  1st Gen SPH
+	sph = {
+	
+		enable_equipments = {
+			
+		}
+		
+		research_cost = 1
+		start_year = 1950
+		
+		folder = {
+			name = artillery_folder
+			position = { x = @sph y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			sph
+		}
+		
+		path = {
+			leads_to_tech = sph1
+			research_cost_coeff = 1
+		}
+	}
+	
+##  2nd Gen SPH
+	sph1 = {
+	
+		enable_equipments = {
+			
+		}
+		
+		research_cost = 1
+		start_year = 1960
+		
+		folder = {
+			name = artillery_folder
+			position = { x = @sph y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			sph
+		}
+		
+		path = {
+			leads_to_tech = sph2
+			research_cost_coeff = 1
+		}
+	}
+	
+##  3rd Gen SPH
+	sph2 = {
+	
+		enable_equipments = {
+			
+		}
+		
+		research_cost = 1
+		start_year = 1970
+		
+		folder = {
+			name = artillery_folder
+			position = { x = @sph y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			sph
+		}
+		
+		path = {
+			leads_to_tech = sph3
+			research_cost_coeff = 1
+		}
+	}
+	
+##  4th Gen SPH
+	sph3 = {
+	
+		enable_equipments = {
+			
+		}
+		
+		research_cost = 1
+		start_year = 1980
+		
+		folder = {
+			name = artillery_folder
+			position = { x = @sph y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			sph
+		}
+	}
+
+##  1st Gen Short Range SAM	
+	short_range_sam = {
+		
+		enable_equipments = {
+			
+		}
+		
+		research_cost = 1
+		start_year = 1950
+		
+		folder = {
+			name = artillery_folder
+			position = { x = @short_range_sam y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			short_range_sam
+		}
+		
+		path = {
+			leads_to_tech = short_range_sam1
+			research_cost_coeff = 1
+		}
+	}
+	
+##  2nd Gen Short Range SAM	
+	short_range_sam1 = {
+		
+		enable_equipments = {
+			
+		}
+		
+		research_cost = 1
+		start_year = 1960
+		
+		folder = {
+			name = artillery_folder
+			position = { x = @short_range_sam y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			short_range_sam
+		}
+		
+		path = {
+			leads_to_tech = short_range_sam2
+			research_cost_coeff = 1
+		}
+	}
+	
+##  3rd Gen Short Range SAM	
+	short_range_sam2 = {
+		
+		enable_equipments = {
+			
+		}
+		
+		research_cost = 1
+		start_year = 1970
+		
+		folder = {
+			name = artillery_folder
+			position = { x = @short_range_sam y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			short_range_sam
+		}
+		
+		path = {
+			leads_to_tech = short_range_sam3
+			research_cost_coeff = 1
+		}
+	}
+	
+##  4th Gen Short Range SAM	
+	short_range_sam3 = {
+		
+		enable_equipments = {
+			
+		}
+		
+		research_cost = 1
+		start_year = 1980
+		
+		folder = {
+			name = artillery_folder
+			position = { x = @short_range_sam y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			short_range_sam
+		}
+	}
+	
+##  1st Gen Long Range SAM
+	long_range_sam = {
+		
+		enable_equipments = {
+			
+		}
+		
+		research_cost = 1
+		start_year = 1950
+		
+		folder = {
+			name = artillery_folder
+			position = { x = @long_range_sam y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			long_range_sam
+		}
+		
+		path = {
+			leads_to_tech = long_range_sam1
+			research_cost_coeff = 1
+		}
+	}
+	
+##  2nd Gen Long Range SAM
+	long_range_sam1 = {
+		
+		enable_equipments = {
+			
+		}
+		
+		research_cost = 1
+		start_year = 1960
+		
+		folder = {
+			name = artillery_folder
+			position = { x = @long_range_sam y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			long_range_sam
+		}
+		
+		path = {
+			leads_to_tech = long_range_sam2
+			research_cost_coeff = 1
+		}
+	}
+	
+##  3rd Gen Long Range SAM
+	long_range_sam2 = {
+		
+		enable_equipments = {
+			
+		}
+		
+		research_cost = 1
+		start_year = 1970
+		
+		folder = {
+			name = artillery_folder
+			position = { x = @long_range_sam y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			long_range_sam
+		}
+		
+		path = {
+			leads_to_tech = long_range_sam3
+			research_cost_coeff = 1
+		}
+	}
+	
+##  4th Gen Long Range SAM
+	long_range_sam3 = {
+		
+		enable_equipments = {
+			
+		}
+		
+		research_cost = 1
+		start_year = 1980
+		
+		folder = {
+			name = artillery_folder
+			position = { x = @long_range_sam y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			long_range_sam
+		}
+	}
+}
