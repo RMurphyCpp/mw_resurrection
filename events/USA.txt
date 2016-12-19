@@ -397,7 +397,68 @@ country_event = {
 		name = usa.4.a
 		remove_ideas = illegal_war
 	}
-	
-	
-	
+}	
+#########################################
+# September Eleven Event #
+#########################################
+
+country_event = {
+	id = usa.9
+	title = usa.9.t 
+	desc = usa.9.d
+	picture = GFX_mwm_event_usa_3	
+	fire_only_once = yes
+    major = yes
+
+	trigger = {
+		tag = USA
+		date < 2000.1.5
+		NOT = { 
+		date > 2000.1.15 }
+	}
+
+
+
+	option = {
+		name = news.10.a
+		ai_chance = { factor = 100 }		
+
+		hidden_effect = {
+		news_event = { hours = 6 id = news.10 }
+
+		
+		}
+	}
+				
 }
+	
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
