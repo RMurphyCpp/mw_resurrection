@@ -1,6 +1,11 @@
 @mbt_line = 4
 @ifv_line = 0
 @apc_line = -4
+@imv_line = -8
+
+
+
+
 
 
 technologies = {
@@ -428,7 +433,6 @@ technologies = {
 		}
 				
 	}	
-
 	
 ## forth Gen IFVs Bumerang...	
 	forth_gen_apc = {
@@ -459,5 +463,125 @@ technologies = {
 				
 	}
 
+######################################################################### APCs ######################################################################################
+	
+## First Gen IFVs M113, MTLB, BTR-60...	
+	first_gen_imv = {
+		
+		enable_equipments = {
+			imv_1
+		}
+		
+		research_cost = 1
+		start_year = 1955
+		
+		folder = {
+			name = armour_folder
+			position = { x = @imv_line y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			imv
+		}
+		
+		path = {
+			leads_to_tech = second_gen_imv
+			research_cost_coeff = 1
+		}
+				
+	}	
+
+## Second Gen IFVs BTR-80...	
+	second_gen_imv = {
+		
+		enable_equipments = {
+			imv_2
+		}
+		
+		research_cost = 1
+		start_year = 1955
+		
+		folder = {
+			name = armour_folder
+			position = { x = @imv_line y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			imv
+		}
+		
+		path = {
+			leads_to_tech = third_gen_imv
+			research_cost_coeff = 1
+		}
+				
+	}
+	
+## Third Gen IFVs BTR-90...	
+	third_gen_imv = {
+		
+		enable_equipments = {
+			imv_3
+		}
+		
+		research_cost = 1
+		start_year = 1955
+		
+		folder = {
+			name = armour_folder
+			position = { x = @imv_line y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			imv
+		}
+		
+		path = {
+			leads_to_tech = forth_gen_imv
+			research_cost_coeff = 1
+		}
+				
+	}	
+	
+## forth Gen IFVs Bumerang...	
+	forth_gen_imv = {
+		
+		enable_equipments = {
+			imv_4
+		}
+		
+		research_cost = 1
+		start_year = 1955
+		
+		folder = {
+			name = armour_folder
+			position = { x = @imv_line y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			imv
+		}
+		
+		path = {
+			research_cost_coeff = 1
+		}
+				
+	}
 	
 }

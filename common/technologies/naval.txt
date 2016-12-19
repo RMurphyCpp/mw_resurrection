@@ -649,7 +649,7 @@ technologies = {
 	early_missile_boat = {
 
 		enable_equipments = {
-			corvette_1
+			missile_boat_1
 		}
 		
 		path = {
@@ -1101,7 +1101,7 @@ technologies = {
 
 		start_year = 1944
 		
-		folder = {0
+		folder = {
 			name = naval_folder
 			position = { x = @nuclear_submarine_line y = @2010s_line }
 		}

@@ -2,10 +2,10 @@ technologies = {
 
 	@as_fighter_line = -6
 	@mr_fighter_line = -3
-	@interceptor_line = 0
-	@attacker_line = 6
-	@cas_line = 3
-
+	@interceptor_line = -9
+	@attacker_line = 3
+	@cas_line = 0
+	@uav_line = 6
 
 ######################################### Carrier based fighters ###########################################################################
 
@@ -632,7 +632,7 @@ technologies = {
 	third_gen_attacker = {
 
 		enable_equipments = {
-			strike_sighter_0
+			strike_fighter_0
 		}
 	
 		path = {
@@ -662,7 +662,7 @@ technologies = {
 	adv_third_gen_attacker = {
 
 		enable_equipments = {
-			strike_sighter_1
+			strike_fighter_1
 		}
 	
 		path = {
@@ -742,6 +742,125 @@ technologies = {
 			factor = 1
 		}
 	}
+
+################################################                UAVs/UCAVs                  #####################################################
+
+# MQ-1 Predator A
+	third_gen_uav = {
+
+		enable_equipments = {
+			strike_fighter_0
+		}
+	
+		path = {
+			leads_to_tech = adv_third_gen_uav
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1970
+		folder = {
+			name = air_techs_folder
+			position = { x = @uav_line y = -1 }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+# MQ-9 Predator B
+	adv_third_gen_uav = {
+
+		enable_equipments = {
+			strike_fighter_1
+		}
+	
+		path = {
+			leads_to_tech = forth_gen_uav
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1970
+		folder = {
+			name = air_techs_folder
+			position = { x = @uav_line y = -1 }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+# RQ-4
+	forth_gen_uav = {
+
+		enable_equipments = {
+			strike_fighter_2
+		}
+	
+		path = {
+			leads_to_tech = fifth_gen_uav
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1985
+		folder = {
+			name = air_techs_folder
+			position = { x = @uav_line y = 3 }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+# X-47
+	fifth_gen_uav = {
+
+		enable_equipments = {
+			strike_fighter_3
+		}
+			
+		research_cost = 2
+		start_year = 2018
+		folder = {
+			name = air_techs_folder
+			position = { x = @uav_line y = 7 }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+
 	
 ##################################################################	
 
