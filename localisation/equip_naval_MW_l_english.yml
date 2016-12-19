@@ -188,8 +188,8 @@
  #SSKs
  SOV_submarine_1:0 "Tango class"
  SOV_submarine_2:0 "877 Kilo-class"
- SOV_submarine_3:0 "636 Gen Kilo-class"
- SOV_submarine_4:0 "636M Gen Kilo-class"
+ SOV_submarine_3:0 "877EKM Gen Kilo-class"
+ SOV_submarine_4:0 "636 Gen Kilo-class"
  SOV_submarine_5: "Lada-class"
  
  #SSNs

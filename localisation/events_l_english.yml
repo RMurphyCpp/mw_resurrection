@@ -24,3 +24,48 @@
  country_capitulated.0.b:0 "These are dark times"
  country_capitulated.0.c:0 "Uncertain times"
  GAME_OVER_TT:0 "§RThe game will end for you.§!"
+ 
+ #MW Spicy events...
+ 
+ news.0.t:0 "The Longplayer begins!"
+ news.0.d:0 "Longplayer is a one thousand year long musical composition. It began playing at midnight on the 31st of December 1999, and will continue to play without repetition until the last moment of 2999, at which point it will complete its cycle and begin again."
+ news.4.a:0 "Interesting."
+  
+ news.1.t:0 "The Pyrenean ibex becomes extinct"
+ news.1.d:0 "One of the four subspecies of the Spanish ibex or Iberian wild goat, a species endemic to the Iberian Peninsula. Pyrenean ibex were most common in the Cantabrian Mountains, Southern France, and the northern Pyrenees.The last natural Pyrenean ibex is found dead, apparently killed by a falling tree."
+ news.1.a:0 "Oh."
+ 
+ news.2.t:0 "Kenya Airways Flight 431 crash"
+ news.2.d:0 "Kenya Airways Flight 431 was an international scheduled Abidjan–Lagos–Nairobi passenger service, operated with an Airbus A310-300,yesterday we recieved news that it crashed into the sea off the coast of Côte d'Ivoire on 30 January 2000, shortly after takeoff from Félix Houphouët-Boigny International Airport, Abidjan.There were 179 people on board, of whom 169 were passengers. Only ten people survived the accident, this remains the first fatal one for Kenya Airways.."
+ news.2.a:0 "Send our condolences."
+ 
+ news.3.t:0 "Kenya Airways Flight 431 crash"
+ news.3.d:0 "Kenya Airways Flight 431 was an international scheduled Abidjan–Lagos–Nairobi passenger service, operated with an Airbus A310-300,yesterday we recieved news that it crashed into the sea off the coast of Côte d'Ivoire on 30 January 2000, shortly after takeoff from Félix Houphouët-Boigny International Airport, Abidjan.There were 179 people on board, of whom 169 were passengers. Only ten people survived the accident, this remains the first fatal one for Kenya Airways.."
+ news.3.a:0 "Send our condolences."
+ 
+ news.4.t:0 "PS2 released"
+ news.4.d:0 "Kenya Airways Flight 431 was an international scheduled Abidjan–Lagos–Nairobi passenger service, operated with an Airbus A310-300,yesterday we recieved news that it crashed into the sea off the coast of Côte d'Ivoire on 30 January 2000, shortly after takeoff from Félix Houphouët-Boigny International Airport, Abidjan.There were 179 people on board, of whom 169 were passengers. Only ten people survived the accident, this remains the first fatal one for Kenya Airways.."
+ news.4.a:0 "Interesting."
+
+ news.5.t:0 "Øresund Bridge opens"
+ news.5.d:0 "Kenya Airways Flight 431 was an international scheduled Abidjan–Lagos–Nairobi passenger service, operated with an Airbus A310-300,yesterday we recieved news that it crashed into the sea off the coast of Côte d'Ivoire on 30 January 2000, shortly after takeoff from Félix Houphouët-Boigny International Airport, Abidjan.There were 179 people on board, of whom 169 were passengers. Only ten people survived the accident, this remains the first fatal one for Kenya Airways.."
+ news.5.a:0 "Good for them."
+
+ news.6.t:0 "Air France Flight 4590 crash"
+ news.6.d:0 "Kenya Airways Flight 431 was an international scheduled Abidjan–Lagos–Nairobi passenger service, operated with an Airbus A310-300,yesterday we recieved news that it crashed into the sea off the coast of Côte d'Ivoire on 30 January 2000, shortly after takeoff from Félix Houphouët-Boigny International Airport, Abidjan.There were 179 people on board, of whom 169 were passengers. Only ten people survived the accident, this remains the first fatal one for Kenya Airways.."
+ news.6.a:0 "Send our condolences."
+ 
+ news.7.t:0 "USS Cole bombing"
+ news.7.d:0 "Kenya Airways Flight 431 was an international scheduled Abidjan–Lagos–Nairobi passenger service, operated with an Airbus A310-300,yesterday we recieved news that it crashed into the sea off the coast of Côte d'Ivoire on 30 January 2000, shortly after takeoff from Félix Houphouët-Boigny International Airport, Abidjan.There were 179 people on board, of whom 169 were passengers. Only ten people survived the accident, this remains the first fatal one for Kenya Airways.."
+ news.7.a:0 "Terrorism should be fought on all fronts!"
+
+ news.8.t:0 " ISS officially operational"
+ news.8.d:0 "Kenya Airways Flight 431 was an international scheduled Abidjan–Lagos–Nairobi passenger service, operated with an Airbus A310-300,yesterday we recieved news that it crashed into the sea off the coast of Côte d'Ivoire on 30 January 2000, shortly after takeoff from Félix Houphouët-Boigny International Airport, Abidjan.There were 179 people on board, of whom 169 were passengers. Only ten people survived the accident, this remains the first fatal one for Kenya Airways.."
+ news.8.a:0 "This shall bring hulanity together."
+
+ 
+ news.10.t:0 "11th of September attacks!"
+ news.10.d:0 "Terrorists win."
+ news.10.a:0 "Oops!"
+ 
+ # USA
