@@ -296,6 +296,13 @@ LPR	= "countries/Luhansk Peoples Republic.txt"
 NRS	= "countries/Novorossiya.txt"
 
 
-##1.2 BUG##
+##1.2 BUG Fix##
 MEN	= "countries/MENBUGFIX.txt"
 CHI	= "countries/CHIBUGFIX.txt"
+
+##1.3 BUG Fix##
+RAJ	= "countries/RAJBUGFIX.txt"
+COG = "countries/COGBUGFIX.txt"
+MZB = "countries/MZBBUGFIX.txt"
+
+
