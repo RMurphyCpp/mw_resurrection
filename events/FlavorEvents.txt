@@ -1,0 +1,283 @@
+﻿
+add_namespace = news
+add_namespace = uk
+
+
+###########################
+#  "Longplayer begins" event
+###########################
+news_event = {
+	id = news.0
+	title = news.0.t
+	desc = news.0.d
+	picture = GFX_news_event_nuke
+
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	trigger = {
+		date < 2001.1.2
+	}
+
+	option = {
+		name = news.0.a
+	}
+	
+
+}
+
+###########################
+#  "Longplayer begins" event test
+###########################
+country_event = {
+	id = uk.9
+	title = uk.9.t 
+	desc = uk.9.d
+	picture = GFX_news_event_nuke	
+	fire_only_once = yes
+    major = yes
+
+	trigger = {
+		tag = UNN
+		date < 2000.1.5
+		NOT = { 
+		date > 2000.1.15 }
+	}
+
+
+
+ option = {
+  name = un.1.a
+		hidden_effect = {
+		country_event = { hours = 6 id = news.0 }
+		}
+	}
+				
+}
+
+
+###########################
+#  "The Pyrenean ibex becomes extinct" event
+###########################
+news_event = {
+	id = news.1
+	title = news.1.t
+	desc = news.1.d
+	picture = GFX_news_event_nuke
+
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	trigger = {
+		date > 2000.1.6
+	}
+
+	option = {
+		name = news.1.a
+	}
+	
+}
+
+###########################
+#Kenya Airways Flight 431 Crash
+###########################
+news_event = {
+	id = news.2
+	title = news.2.t
+	desc = news.2.d
+	picture = GFX_news_event_nuke
+
+
+	fire_only_once = yes
+
+	trigger = {
+		date > 2000.1.30
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}	
+	option = {
+		name = news.3.a
+	}
+	
+}
+
+###########################
+#floodings in Mozambique
+###########################
+news_event = {
+	id = news.3
+	title = news.3.t
+	desc = news.3.d
+	picture = GFX_news_event_nuke
+
+
+	fire_only_once = yes
+
+	trigger = {
+		date > 2000.2.9
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}	
+	option = {
+		name = news.3.a
+	}
+	
+}
+
+###########################
+#PS2 released
+###########################
+news_event = {
+	id = news.4
+	title = news.4.t
+	desc = news.4.d
+	picture = GFX_news_event_nuke
+
+
+	fire_only_once = yes
+
+	trigger = {
+		date > 2000.3.4
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}	
+	option = {
+		name = news.4.a
+	}
+	
+}
+
+###########################
+#Øresund Bridge opens
+###########################
+news_event = {
+	id = news.5
+	title = news.5.t
+	desc = news.5.d
+	picture = GFX_news_event_nuke
+
+
+	fire_only_once = yes
+
+	trigger = {
+		date > 2000.3.4
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}	
+	option = {
+		name = news.5.a
+	}
+	
+}
+
+###########################
+# Air France Flight 4590 crash (Concord)
+###########################
+news_event = {
+	id = news.6
+	title = news.6.t
+	desc = news.6.d
+	picture = GFX_news_event_nuke
+
+
+	fire_only_once = yes
+
+	trigger = {
+		date > 2000.6.25
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}	
+	option = {
+		name > news.6.a
+	}
+	
+}
+
+###########################
+# USS Cole bombing
+###########################
+news_event = {
+	id = news.7
+	title = news.7.t
+	desc = news.7.d
+	picture = GFX_news_event_nuke
+
+
+	fire_only_once = yes
+
+	trigger = {
+		date > 2000.10.12
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}	
+	option = {
+		name = news.7.a
+	}
+}
+
+###########################
+# ISS officially operational
+###########################
+news_event = {
+	id = news.8
+	title = news.8.t
+	desc = news.8.d
+	picture = GFX_news_event_nuke
+
+
+	fire_only_once = yes
+
+	trigger = {
+		date > 2000.10.30
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}	
+	option = {
+		name = news.8.a
+	}
+}
+
+
+###########################
+#9/11
+###########################
+news_event = {
+	id = news.10
+	title = news.10.t
+	desc = news.10.d
+	picture = GFX_news_event_nuke
+
+
+	fire_only_once = no
+	is_triggered_only = yes
+	
+	trigger = {
+		date < 2001.1.1
+	}
+
+	option = {
+		name = news.10.a
+	}
+	
+}
+
+
