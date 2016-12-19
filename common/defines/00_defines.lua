@@ -8,6 +8,7 @@ NGame = {
 	LAG_DAYS_FOR_LOWER_SPEED = 10,		-- Days of client lag for decrease of gamespeed
 	LAG_DAYS_FOR_PAUSE = 25,				-- Days of client lag for pause of gamespeed.
 	MAJOR_PARTICIPANTS_FOR_MAJOR_WAR = 3,	-- Minimum number of major countries involved in a war to consider it major enough to not end the game even though the enddate has been reached.
+	COMBAT_LOG_MAX_MONTHS = 12	
 },
 
 NDiplomacy = {
@@ -101,6 +102,26 @@ NDiplomacy = {
 	TAKE_STATES_PUPPET_COST_MULT = 0.5,				-- Cost multiplier for feeding states to a puppet that you have created, assuming the puppet currently owns the states
 	TAKE_STATES_LIBERATE_COST_MULT = 0.5,			-- Cost multiplier for feeding states to a country that has been liberated, assuming the country has cores on the states
 	TAKE_STATES_CHANGE_GOV_COST_MULT = 0.5,			-- Cost multiplier for feeding states to a country you are changing government on, assuming they currently own the states
+	
+	RESOURCE_SENT_AUTONOMY_DAILY_BASE = 0.0,		-- If puppet provides resources to its master they increasy their autonomy by at least this amount
+	RESOURCE_SENT_AUTONOMY_DAILY_FACTOR = 0.005,	-- If puppet provides resources to its master they increasy their autonomy by the resources factored by this
+	WAR_SCORE_AUTONOMY_BASE = 0.0,					-- Value added if any war score is contributed by puppet
+	WAR_SCORE_AUTONOMY_FACTOR = 0.6,				-- If puppet generates war score it get a boost to independence 
+	LL_TO_OVERLORD_AUTONOMY_DAILY_BASE = 0.0,		-- If puppet lend leases equipment to overlord of at least same tech level as they have, they gain autonomy
+	LL_TO_OVERLORD_AUTONOMY_DAILY_FACTOR = 0.05,	-- If puppet lend leases equipment to overlord of at least same tech level as they have, they gain autonomy
+	LL_TO_PUPPET_AUTONOMY_DAILY_BASE = 0.0,			-- If overlord lend leases equipment to puppet of higher tech level as they have, puppet losses autonomy
+	LL_TO_PUPPET_AUTONOMY_DAILY_FACTOR = -0.01,		-- If overlord lend leases equipment to puppet of higher tech level as they have, puppet losses autonomy
+	AUTONOMY_FREEDOM_FROM_CAPITULATE = 0.5,         -- if overlord capitulate you get this
+	
+	AUTONOMY_LEVEL_CHANGE_PP_COST_BASE = 50.0,		-- Base cost of changing level of autonomy
+	AUTONOMY_LEVEL_CHANGE_PP_ANNEX = 300,			-- Annexation cost
+	AUTONOMY_LEVEL_CHANGE_PP_FREE = 300,			-- Break free cost
+	MAX_SCORE_DIFF_TO_CHANGE_AUTONOMY = 10,			-- The max diff between current freedom score and the cap for next or previous level allowed for changing
+	MASTER_BUILD_AUTONOMY_FACTOR = -0.7,            -- scales autonomy gain from construction by this
+	VICTORY_POINT_WORTH_FACTOR = 10,				-- multiplier when calcualting proince worth (surrender)
+	VICTORY_POINT_WORTH_FACTOR_WARSCORE = 0.2,		-- multiplier when calcualting province worth with autonomy/warscore	
+	
+	
 },
 
 NCountry = {
@@ -179,6 +200,14 @@ NCountry = {
 	STATE_OCCUPATION_COST_MULTIPLIER = 0.01,		-- Multiplier for state value to PP cost for occupation
 	STATE_VALUE_NON_CORE_STATE_FRACTION = 0.5,		-- If a state is not a core we assume we will get 50% of the factory slots
 	INVASION_REPORT_EXPERATION_DAYS = 30,			-- Invasion experation days
+	
+	MAJOR_MIN_FACTORIES = 35,						-- need at least these many factories to become a major
+
+	MIN_FOCUSES_FOR_CONTINUOUS = 10,				-- Focuses needed to unlock continuous focuses
+	AUTONOMOUS_TOTAL_SCORE = 4000,					-- Total score for autonomous scale
+	AUTONOMOUS_SPILLOVER = 0.025,					-- Total score that can be saved to reach next level
+	CIVIL_WAR_INVOLVEMENT_MIN_TENSION = 0.5			-- base value of world tension to involve other sides to the civil war	
+	
 },
 
 NProduction = {
@@ -208,10 +237,11 @@ NProduction = {
 },
 
 NTechnology = {
-	MAX_SUBTECHS = 3,					    -- Max number of sub technologies a technology can have.
+	MAX_SUBTECHS = 3,						-- Max number of sub technologies a technology can have.
 	BASE_RESEARCH_POINTS_SAVED = 30.0,		-- Base amount of research points a country can save per slot.
-	BASE_YEAR_AHEAD_PENALTY_FACTOR = 2,	-- Base year ahead penalty
-	BASE_TECH_COST = 100,				-- base cost for a tech. multiplied with tech cost and ahead of time penalties
+	BASE_YEAR_AHEAD_PENALTY_FACTOR = 2,		-- Base year ahead penalty
+	BASE_TECH_COST = 100,					-- Base cost for a tech. multiplied with tech cost and ahead of time penalties
+	MAX_TECH_SHARING_BONUS = 0.5 			-- Max technology sharing bonus that can be applied instantly
 },
 
 NPolitics = {
@@ -484,6 +514,30 @@ NMilitary = {
 	
 	FRONT_MIN_PATH_TO_REDEPLOY = 8,					-- If a units path is at least this long to reach its front location, it will strategically redeploy.
 	ARMY_INITIATIVE_REINFORCE_FACTOR = 0.25,		-- scales initiative for reinforce chance
+	
+	
+	
+	WARSCORE_WINNER_FACTOR = 1,						-- Warscore effect on winners
+	WARSCORE_DEFENDER_FACTOR = 0.3,					-- Warscore effect on defender
+	WARSCORE_LOSS_FACTOR = 0.2,						-- Warscore effect on losing
+	WARSCORE_TOTAL_FACTOR = 3,						-- Warscore balancing value
+	WARSCORE_PROVINCE_FACTOR = 0.2,					-- Warscore effect from province
+	WARSCORE_MIN_HOURS = 48,						-- minimum hours	
+	
+	ENEMY_AIR_SUPERIORITY_DEFENSE = 0.70,	       -- more AA attack will approach this amount of help (diminishing returns)
+	ENEMY_AIR_SUPERIORITY_DEFENSE_STEEPNESS = 112, -- how quickly defense approaches the max impact diminishing returns curve	
+	
+	PLAN_BLITZ_OPTIMISM = 0.2,						-- Additional combat balance value in favor of blitzing side when considering targets (not a combat bonus, just offsets planning)	
+	
+	FIELD_MARSHALL_CAP = 0,			-- how many a marshall is limited to. 0 = inf	
+	
+	
+	
+	
+	
+	
+	
+	
 },
 
 
@@ -572,6 +626,17 @@ NAir = {
 	PORT_STRIKE_ENEMY_SUPERIORITY_LIMIT = 0.3,			-- Min air superiority for performing of naval strike
 	NAVAL_STRIKE_BASE_STR_TO_PLANES_RATIO = 0.1,		-- Max airbombers to do port strike comparing to strength
 	NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO = 0.05,		-- Max planes that can join a combat comparing to the total strength of the ships
+	
+	ACCIDENT_CHANCE_BALANCE_MULT = 2.0,					-- Multiplier for balancing how often the air accident really happens. The higher mult, the more often.	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 },
 
 NNavy = {
@@ -866,6 +931,8 @@ NAI = {
 	
 	BASE_DISTANCE_TO_CARE = 600.0,				-- Countries that are too far away are less interesting in diplomacy
 	MIN_FORCE_RATIO_TO_PROTECT = 0.5,			-- Tiny countries should not feel protective or really large ones
+
+	MAX_AHEAD_RESEARCH_PENALTY = 2,             -- max ahead of tiem penalty ai will pick ever
 	
 	ORG_UNIT_STRONG = 0.9,						-- Organization % for unit to be considered strong
 	ORG_UNIT_WEAK = 0.15,						-- Organization % for unit to be considered weak
@@ -883,6 +950,8 @@ NAI = {
 	
 	SUPPLY_CRISIS_LIMIT = 0.9,					-- If a unit is standing in an area with 
 
+	EASY_TARGET_FRONT_IMPORTANCE = 7.5,			-- How much extra focus the AI should put on who it considers to be the easiest target.
+		
 	FASCISTS_BEFRIEND_FASCISTS = 10,
 	FASCISTS_BEFRIEND_DEMOCRACIES = -25,
 	FASCISTS_BEFRIEND_COMMUNISTS = -25,
@@ -927,6 +996,8 @@ NAI = {
 	AIR_WING_REINFORCEMENT_LIMIT = 300,
 	AIR_BASE_DANGER_ZONE_WEIGHT = 100,					-- Score used per province taken by enemy in a state to determine how dangerous it is to use an air base
 
+	
+	
 	MANPOWER_FREE_USAGE_THRESHOLD = 500000,			-- If AI has this much manpower he doesn't care about the percentage
 	MANPOWER_RESERVED_THRESHOLD = 0.25,					-- The AI will not deploy more units if he goes below this percentage
 	START_TRAINING_EQUIPMENT_LEVEL = 0.95,               -- ai will not start to train if equipment drops below this level
@@ -1068,6 +1139,33 @@ NAI = {
 	MIN_MANPOWER_TO_BUILD_UNITS = 0.7,					-- Cancel unit production if below this to get resources out to units in the field
 	
 	AVERAGE_SUPPLY_USE_PESSIMISM = 1.5,					-- Multiplier for when AI calculates average supply use of entire army.
+	
+	AIR_SUPERIORITY_MISSION_FACTOR = 1.0,				-- AI air superiority mission factor
+	CAS_MISSION_FACTOR = 1.2,							-- AI cas mission factor
+	INTERCEPTION_MISSION_FACTOR = 0.5,					-- AI interception mission factor
+	STREATEGIC_BOMBER_MISSION_FACTOR = 1.2,				-- AI strategic bombing mission factor
+	NAVAL_BOMBER_MISSION_FACTOR = 0.5,					-- AI naval bombing mission factor
+	NUKE_MISSION_FACTOR = 1.0,							-- AI nuke mission factor
+	PARADROP_MISSION_FACTOR = 1.0,						-- AI paradrop mission factor
+	KAMIKAZE_MISSION_FACTOR = 1.0,						-- AI naval kamikaze mission factor
+	PORT_STRIKE_MISSION_FACTOR = 1.0,					-- AI port strike mission factor	
+	
+	FRONT_BULGE_RATIO_UPPER_CUTOFF = 1.5,				-- If total bulginess is lower than this, the front is ignored.
+	FRONT_BULGE_RATIO_LOWER_CUTOFF = 0.95,				-- If local bulginess drops below this, a point of interest is found
+	FRONT_CUTOFF_MIN_EDGE_PROXIMITY = 2,				-- Minimum number of provinces to the front edge to determine for cutoff oportunity.
+	INVASION_DISTANCE_RANDOMNESS = 300,					-- This higher the value, the more unpredictable the invasions. Compares to actual map distance in pixels.
+
+	REQUEST_LEND_LEASE_PROTECT_VALUE = 75,				-- Limit for protect enemy desire for reducing lend lease desire
+	REQUEST_LEND_LEASE_CONTAINS_VALUE = 100,			-- Limit of contain enemy desire for boosting friendly help
+	REQUEST_LEND_LEASE_STOCKPILE_RATIO_LAND = 0.1,		-- Ratio to send stockpile from equipment
+	REQUEST_LEND_LEASE_PRODUCTION_DAYS_LAND = 28,		-- Count of daily production amount of equipment to send
+	REQUEST_LEND_LEASE_STOCKPILE_RATIO_AIR = 0.03,		-- Ratio to send stockpile from equipment
+	REQUEST_LEND_LEASE_PRODUCTION_DAYS_AIR = 10,		-- Count of daily production amount of equipment to send
+	REQUEST_LEND_LEASE_STOCKPILE_RATIO_NAVAL = 0.1,		-- Ratio to send stockpile from equipment
+	REQUEST_LEND_LEASE_PRODUCTION_DAYS_NAVAL = 28,		-- Count of daily production amount of equipment to send
+
+	STATE_CONTROL_FOR_AREA_DEFENSE = 0.4,				-- To avoid AI sending area defense to area with very little foothold
+	
 },
 
 NFocus = {
