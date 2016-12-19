@@ -11,7 +11,7 @@
 		infantry_at = 1
 		infantry_atgm = 1
 		infantry_manpad = 1
-		infantry_equipment = 1
+		
 	}
 
     set_politics = {

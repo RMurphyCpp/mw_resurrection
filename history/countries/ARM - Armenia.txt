@@ -14,7 +14,7 @@ load_oob = "00_ARM"
 		infantry_at = 1
 		infantry_atgm = 1
 		infantry_manpad = 1
-		infantry_equipment = 1
+		
 	}
 	
 	add_opinion_modifier = { target = AZB modifier = historical_riverly }
