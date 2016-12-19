@@ -1,0 +1,28 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new technology, make sure they are uniquely named.
+
+technology_categories = {
+	#armour
+	mbt
+	ifv
+	apc
+	imv
+	
+	#Inf Weapons Techs
+	infantry_small_arms
+	infantry_lmg
+	infantry_gpmg
+	infantry_at
+	infantry_atgm
+	infantry_manpad
+	
+	#artillery
+	short_range_sam
+	long_range_sam
+	mlrs
+	sph
+	howitzer	
+}
+
+
+ 
