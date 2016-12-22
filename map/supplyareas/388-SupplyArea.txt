@@ -1,6 +1,6 @@
 supply_area={
-	id=387
-	name="SUPPLYAREA_387"
+	id=388
+	name="SUPPLYAREA_388"
 	value=1
 	states={
 		784 #Brunei
