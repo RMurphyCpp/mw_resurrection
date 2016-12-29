@@ -1,7 +1,7 @@
 NDefines_Graphics = {
 	
 NWiki = {
-	BASE_URL = "http://www.hoi4wiki.com/",
+	BASE_URL = "http://www.google.com/",
 	FORUM_URL = "http://forum.paradoxplaza.com/forum/index.php?link-forums/hearts-of-iron-iv.847/"
 },
 
@@ -730,7 +730,7 @@ NGraphics = {
 	MOVE_ORDERS_MOUSE_INTERSECT_DISTANCE_MULT = 0.5, 	-- For balancing the collision distance with painted arrows and fronts.
 	TRADE_ROUTE_INTERSECT_DISTANCE_MULT = 10.0,
 
-	MINIMUM_PROVINCE_SIZE_IN_PIXELS = 0,			-- Provinces that are smaller than that are just making the game unplayable. It doesn't affect the game, just informs in the error.log
+	MINIMUM_PROVINCE_SIZE_IN_PIXELS = 1,			-- Provinces that are smaller than that are just making the game unplayable. It doesn't affect the game, just informs in the error.log
 	
 	NATIONAL_FOCUS_SHINE_DISTANCE_SCALE = 0.03,
 	NATIONAL_FOCUS_PULSE_BASE =	10.0,
