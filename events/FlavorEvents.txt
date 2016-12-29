@@ -40,20 +40,22 @@ country_event = {
 
 	trigger = {
 		tag = UNN
-		date < 2000.1.5
+		date > 2000.1.1
 		NOT = { 
-		date > 2000.1.15 }
+		date < 2000.1.15 }
 	}
 
 
 
- option = {
-  name = un.1.a
-		hidden_effect = {
-		country_event = { hours = 6 id = news.0 }
+	option = {
+		name = uk.9.a
+		news_event = {
+			hours = 6
+			id = news.0
 		}
+		add_national_unity = -1
 	}
-				
+	
 }
 
 

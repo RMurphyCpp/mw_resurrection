@@ -5,6 +5,7 @@ add_namespace = usa_iran
 add_namespace = usa_cuba
 add_namespace = usa_nk
 add_namespace = usa
+add_namespace = news_usa
 
 country_event = {
 	id = usa_iraq.1		#State union address: https://www.youtube.com/watch?v=MHA-0EmkoC8
@@ -398,53 +399,217 @@ country_event = {
 		remove_ideas = illegal_war
 	}
 }	
+
+
 #########################################
 # September Eleven Event #
+#########################################
+country_event = {
+	id = usa.5
+	title = usa.5.t
+	desc = usa.5.d
+	picture = GFX_report_event_USA_nine_eleven
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = USA
+		NOT = { has_country_flag = usa_9_11 }
+		date > 2001.9.7
+		date < 2002.1.1
+	}
+	
+	immediate = {
+		set_country_flag = usa_9_11
+	}
+	
+	option = {
+		name = usa.5.a
+		news_event = {
+			hours = 6
+			id = news_usa.1
+		}
+		add_national_unity = 0.1
+	}
+}
+
+#9/11 News Event
+news_event = {
+	id = news_usa.1
+	title = news_usa.1.t
+	desc = news_usa.1.d
+	picture = GFX_news_event_USA_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_usa.1.a
+	}
+	
+}
+
+
+	
+#########################################
+# Anthrax attacks Event #
+#########################################
+
+country_event = {
+	id = usa.6
+	title = usa.6.t
+	desc = usa.6.d
+	picture = GFX_report_event_USA_nine_eleven
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = USA
+		has_country_flag = usa_9_11 
+		date > 2001.9.7
+		date < 2002.1.1
+	}
+	
+	
+	option = {
+		name = usa.6.a
+		news_event = {
+			hours = 6
+			id = news_usa.2
+		}
+		add_national_unity = 0.1
+	}
+}
+
+#Anthrax attacks News Event
+news_event = {
+	id = news_usa.2
+	title = news_usa.2.t
+	desc = news_usa.2.d
+	picture = GFX_news_event_USA_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_usa.2.a
+	}
+	
+}
+
+#########################################
+# USS Cole attacks Event #
+#########################################
+
+country_event = {
+	id = usa.7
+	title = usa.7.t
+	desc = usa.7.d
+	picture = GFX_report_event_USA_nine_eleven
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = USA
+		NOT = { has_country_flag = usa_uss_cole_attack }
+		date > 2000.10.10
+		date < 2001.1.1
+	}
+	
+	immediate = {
+		set_country_flag = usa_uss_cole_attack
+	}
+
+#USS Cole get's repairs	
+	option = {
+		name = usa.7.a
+		news_event = {
+			hours = 6
+			id = news_usa.3
+		}
+		add_political_power = -10		
+	}
+
+#USS Cole get's scrapped	
+	option = {
+		name = usa.7.b
+		news_event = {
+			hours = 6
+			id = news_usa.3
+		}
+		add_political_power = -10			
+	}
+	
+}
+
+#USS Cole News Event
+news_event = {
+	id = news_usa.3
+	title = news_usa.3.t
+	desc = news_usa.3.d
+	picture = GFX_news_event_USA_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_usa.3.a
+	}
+	
+}
+
+
+#########################################
+# Taliban Refuse to Deliver Bin Laden
+#########################################
+
+country_event = {
+	id = usa.8
+	title = usa.8.t
+	desc = usa.8.d
+	picture = GFX_report_event_USA_nine_eleven
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+
+
+#Prepare the invasion plans
+	option = {
+		name = usa.8.a
+		add_political_power = -10		
+	}
+	
+}
+
+
+#########################################
+# War on Terror - Operation Enduring Freedom
 #########################################
 
 country_event = {
 	id = usa.9
-	title = usa.9.t 
+	title = usa.9.t
 	desc = usa.9.d
-	picture = GFX_mwm_event_usa_3	
+	picture = GFX_report_event_USA_nine_eleven
+	
 	fire_only_once = yes
-    major = yes
-
-	trigger = {
-		tag = USA
-		date < 2000.1.5
-		NOT = { 
-		date > 2000.1.15 }
-	}
+	
+	is_triggered_only = yes
+	
 
 
-
+#Goodluck
 	option = {
-		name = news.10.a
-		ai_chance = { factor = 100 }		
-
-		hidden_effect = {
-		news_event = { hours = 6 id = news.10 }
-
-		
-		}
+		name = usa.9.a
+		add_political_power = -10		
 	}
-				
+	
 }
-	
-
-
-
-	
-
-
-
-
-
-
-
-
-
 
 
 
