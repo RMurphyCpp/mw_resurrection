@@ -1,6 +1,6 @@
 ideas = {
 	country = {
-		tpotp = {
+		tpotr = {
 			
 			allowed = {
 				original_tag = TWN
