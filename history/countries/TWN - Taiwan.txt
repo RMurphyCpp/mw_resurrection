@@ -35,7 +35,7 @@
 	    elections_allowed = yes
     }
     add_ideas = {
-		tpotp
+		tpotr
 	    asian_tiger
     }
     #############LAST ENTRY IS USED FIRST#############
