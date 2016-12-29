@@ -1,1 +1,38 @@
 ﻿l_english:
+
+#nk placeholder
+kursk.1.t:0 "Summer-X naval exercises"
+kursk.1.d:0 "Placeholder"
+kursk.1.a:0 "Let the exercises starts"
+
+#nk placeholder
+kursk.2.t:0 "K-141 disappears!"
+kursk.2.d:0 "Placeholder"
+kursk.2.a:0 "Tell the public there is no reason to worry"
+
+#nk placeholder
+kursk.3.t:0 "Foreign Assistance For Kursk Rescue"
+kursk.3.d:0 "Placeholder"
+kursk.3.a:0 "Allow foreign aid to rescue the Kursk"
+kursk.3.b:0 "We will rescue the Kursk by ourselves"
+
+#nk placeholder
+kursk.4.t:0 "Recovery attempt failed"
+kursk.4.d:0 "Placeholder"
+kursk.4.a:0 "It seems we have no choice"
+
+#nk placeholder
+kursk.5.t:0 "Recovery attempt was a sucess"
+kursk.5.d:0 "Placeholder"
+kursk.5.a:0 "Job well done!"
+
+#nk placeholder
+kursk.6.t:0 "Kursk Crew dead"
+kursk.6.d:0 "Placeholder"
+kursk.6.a:0 "Keep the Kursk at sea (ahistorical)"
+kursk.6.b:0 "We will recover the Kursk"
+
+#nk placeholder
+news_kursk.2.t:0 "Russian sub gone"
+news_kursk.2.d:0 "Placeholder"
+news_kursk.2.a:0 "RIP"

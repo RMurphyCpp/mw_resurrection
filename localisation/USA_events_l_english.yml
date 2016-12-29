@@ -72,3 +72,54 @@ usa.3.a:0 "Finally"
 usa.4.t:0 "War Protests Cease"
 usa.4.d:0 "The number of protests has gradually gone down since its peak, during the height of the war with Cuba. With troops coming home, and the primary case against the government gone, protests should become fewer and farther between. Let's hope this is a new start for America."
 usa.4.a:0 "This Is A New Start For America"
+################################
+# 9/11
+usa.5.t:0 "September 11 Terrorist attacks"
+usa.5.d:0 "The September 11 attacks were a series of four coordinated suicide attacks upon the United States in New York City and the Washington, D.C. areas on September 11, 2001. On that Tuesday morning, 19 terrorists from the Islamist militant group al-Qaeda hijacked four passenger jets. The hijackers intentionally crashed two planes, American Airlines Flight 11 and United Airlines Flight 175 into the Twin Towers of the World Trade Center in New York City, both towers collapsed within two hours.The September 11 attacks were a series of four coordinated suicide attacks upon the United States in New York City and the Washington, D.C. areas on September 11, 2001. On that Tuesday morning, 19 terrorists from the Islamist militant group al-Qaeda hijacked four passenger jets. The hijackers intentionally crashed two planes, American Airlines Flight 11 and United Airlines Flight 175 into the Twin Towers of the World Trade Center in New York City, both towers collapsed within two hours."
+usa.5.a:0 "Ground all planes!"
+
+news_usa.1.t:0 "September 11 Terrorist attacks"
+news_usa.1.d:0 "The September 11 attacks were a series of four coordinated suicide attacks upon the United States in New York City and the Washington, D.C. areas on September 11, 2001. On that Tuesday morning, 19 terrorists from the Islamist militant group al-Qaeda hijacked four passenger jets. The hijackers intentionally crashed two planes, American Airlines Flight 11 and United Airlines Flight 175 into the Twin Towers of the World Trade Center in New York City, both towers collapsed within two hours.The September 11 attacks were a series of four coordinated suicide attacks upon the United States in New York City and the Washington, D.C. areas on September 11, 2001. On that Tuesday morning, 19 terrorists from the Islamist militant group al-Qaeda hijacked four passenger jets. The hijackers intentionally crashed two planes, American Airlines Flight 11 and United Airlines Flight 175 into the Twin Towers of the World Trade Center in New York City, both towers collapsed within two hours."
+news_usa.1.a:0 "Send our condolences"
+
+
+###############################
+#Amerithrax
+usa.6.t:0 "Anthrax attacks"
+usa.6.d:0 "The 2001 anthrax attacks in the United States occurred over the course of several weeks beginning on Tuesday, September 18, 2001. Letters containing anthrax spores were mailed to several news media offices and two Democratic U.S. Senators, killing five people and infecting 17 others. According to the FBI, the ensuing investigation became "one of the largest and most complex in the history of law enforcement." The anthrax attacks came in two waves. The first set of anthrax letters had a Trenton, New Jersey postmark dated September 18, 2001. Five letters are believed to have been mailed at this time to: ABC News, CBS News, NBC News and the New York Post, all located in New York City and to the National Enquirer at American Media, Inc. Robert Stevens, the first person who died from the mailings, worked at a tabloid called Sun. Two more anthrax letters, bearing the same Trenton postmark, were dated October 9, three weeks after the first mailing"
+usa.6.a:0 "Find out who is responsible for this!"
+
+news_usa.2.t:0 "Amerithrax attacks"
+news_usa.2.d:0 "The 2001 anthrax attacks in the United States occurred over the course of several weeks beginning on Tuesday, September 18, 2001. Letters containing anthrax spores were mailed to several news media offices and two Democratic U.S. Senators, killing five people and infecting 17 others. According to the FBI, the ensuing investigation became "one of the largest and most complex in the history of law enforcement." The anthrax attacks came in two waves. The first set of anthrax letters had a Trenton, New Jersey postmark dated September 18, 2001. Five letters are believed to have been mailed at this time to: ABC News, CBS News, NBC News and the New York Post, all located in New York City and to the National Enquirer at American Media, Inc. Robert Stevens, the first person who died from the mailings, worked at a tabloid called Sun. Two more anthrax letters, bearing the same Trenton postmark, were dated October 9, three weeks after the first mailing"
+news_usa.2.a:0 "Whoever is behind this should be punished"
+
+
+###############################
+# USS Cole Bombing
+usa.7.t:0 "USS Cole bombed and heavily damaged"
+usa.7.d:0 "The USS Cole bombing was a suicide attack against the United States Navy guided-missile destroyer USS Cole (DDG-67) on 12 October 2000 while it was harbored and being refueled in the Yemeni port of Aden. 17 sailors were killed and 39 were injured in the blast. The injured sailors were taken to the United States Army's Landstuhl Regional Medical Center near Ramstein and later.back to the United States.The attack was the deadliest against a U.S. naval vessel since the Iraqi attack on the USS Stark on 17 May 1987. The terrorist organization al-Qaeda claimed responsibility for the attack. The American Navy has reconsidered their rules of engagement in response to this attack. We can either repair the USS Cole or we can scrap it to save the resources and money required for the repairs"
+usa.7.a:0 "Scrap the USS Cole"
+usa.7.b:0 "Repair the USS Cole"
+
+news_usa.3.t:0 "USS Cole bombed!"
+news_usa.3.d:0 "The USS Cole bombing was a suicide attack against the United States Navy guided-missile destroyer USS Cole (DDG-67) on 12 October 2000 while it was harbored and being refueled in the Yemeni port of Aden. 17 sailors were killed and 39 were injured in the blast. The injured sailors were taken to the United States Army's Landstuhl Regional Medical Center near Ramstein and later.back to the United States.The attack was the deadliest against a U.S. naval vessel since the Iraqi attack on the USS Stark on 17 May 1987. The terrorist organization al-Qaeda claimed responsibility for the attack. The American Navy has reconsidered their rules of engagement in response to this attack."
+news_usa.3.a:0 "These barbarians should be stopped"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
