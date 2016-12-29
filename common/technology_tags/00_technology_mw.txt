@@ -16,19 +16,12 @@ technology_categories = {
 	infantry_atgm
 	infantry_manpad
 	
-	#Inf Equipment
-	infantry_equipment
-	specialist_equipment
-	
 	#artillery
 	short_range_sam
 	long_range_sam
 	mlrs
 	sph
-	howitzer
-	
-	#TEMP BUG FIX
-	mountaineers_tech
+	howitzer	
 }
 
 
