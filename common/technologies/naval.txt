@@ -1,18 +1,18 @@
 technologies = {
 
-	@destroyer_line = 0
-	@cruiser_line = 2
-	@frigate_line = 4
-	@corvette_line = 6
-	@missile_boat_line = 8
-	@submarine_line = 10
-	@nuclear_submarine_line = 12
-	@nuclear_missile_submarine_line = 14
-	@carrier_line = 16		
-	@aas_line = 18
+	@destroyer_line = -4
+	@cruiser_line = -2
+	@frigate_line = 0
+	@corvette_line = 2
+	@missile_boat_line = 4
+	@submarine_line = 6
+	@nuclear_submarine_line = 8
+	@nuclear_missile_submarine_line = 10
+	@carrier_line = 12		
+	@aas_line = 14
 
 	
-	@70s_line = -0
+	@70s_line = 0
 	@80s_line = 5
 	@90s_line = 10
 	@2000s_line = 15
