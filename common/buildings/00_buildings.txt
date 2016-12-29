@@ -24,12 +24,12 @@ buildings = {
 		value = 8
 	}
 
-	industrial_complex = {
+	industrial_complex = { #Civilian Factory
 		show_on_map = 6
 		base_cost = 7200
 		base_cost_conversion = 6000
 		general_production = 1
-		icon_frame = 1
+		icon_frame = 1	
 		max_level = 20
 		shares_slots = yes
 		value = 5
@@ -40,7 +40,7 @@ buildings = {
 		base_cost = 1250
 		icon_frame = 5
 		air_base = yes
-		max_level = 10
+		max_level = 20
 		value = 1
 	}
 
@@ -60,8 +60,7 @@ buildings = {
 	bunker = {
 		show_on_map = 1
 		has_destroyed_mesh = yes
-		base_cost = 500
-		per_level_extra_cost = 500
+		base_cost = 1375
 		provincial = yes
 		disabled_in_dmz = yes
 		icon_frame = 7
@@ -73,8 +72,7 @@ buildings = {
 	coastal_bunker = {
 		show_on_map = 1
 		has_destroyed_mesh = yes
-		base_cost = 500
-		per_level_extra_cost = 500
+		base_cost = 1375
 		provincial = yes
 		disabled_in_dmz = yes
 		only_costal = yes
